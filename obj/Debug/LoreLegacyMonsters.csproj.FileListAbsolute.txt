@@ -1,0 +1,2 @@
+C:\LLMRPG\LoreLegacyMonsters\obj\Debug\LoreLegacyMonsters.csproj.AssemblyReference.cache
+C:\LLMRPG\LoreLegacyMonsters\obj\Debug\LoreLegacyMonsters.csproj.CoreCompileInputs.cache

@@ -1,0 +1,29 @@
+# Lore, Legacy, and Monsters Project Requirements
+
+## Core Requirements
+- Unity 2022.3 LTS or newer
+- SQLite for Unity (Asset Store package)
+- C# 9.0 or newer
+- .NET Framework 4.7 or newer
+
+## Recommended Development Tools
+- Visual Studio 2019 or newer
+- JetBrains Rider (alternative IDE)
+- Git for version control
+
+## Asset Requirements
+- Pixel art sprites (character, item, monster sprites)
+- Environment tilesets
+- UI elements
+- SFX and music
+
+## Optional Tools
+- Aseprite (for pixel art creation/editing)
+- Tiled (for tilemap creation)
+- Audacity (for sound editing)
+
+## Installation Instructions
+1. Clone this repository
+2. Open the project in Unity 2022.3 LTS or newer
+3. Install SQLite for Unity from the Asset Store
+4. Configure project settings according to documentation 
