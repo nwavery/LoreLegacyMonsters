@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbc8d28d3dbd5c846b1d584579f23090, type: 3}
+  m_Name: monster_lanternmoth
+  m_EditorClassIdentifier: 
+  monsterId: monster_lanternmoth
+  displayName: Lantern Moth
+  baseHp: 21
+  baseAttack: 5
+  baseDefense: 3
+  baseSpeed: 9
+  role: 3
+  primaryElement: 7
+  secondaryElement: 5
+  growthBias: 4
+  catchRate: 0.42
+  rarity: 2
+  defaultMoveId: move_lantern_flash
+  signatureMoveId: move_shadow_pounce
+  moveLearnset:
+  - moveId: move_lantern_flash
+    unlockLevel: 1
+  - moveId: move_shadow_pounce
+    unlockLevel: 3
+  - moveId: move_thunder_peck
+    unlockLevel: 5
+  evolution:
+    method: 1
+    targetMonsterId: monster_lanternoracle
+    requiredLevel: 6
+    requiredItemId: 

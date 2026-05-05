@@ -1,0 +1,13 @@
+{
+  "steamAppId": "REPLACE_ME",
+  "steamDepotMainId": "REPLACE_ME",
+  "steamDepotLlmId": "REPLACE_ME",
+  "steamDepotSymbolsId": "OPTIONAL_REPLACE_ME",
+  "defaultBranch": "default",
+  "betaBranch": "beta-internal",
+  "rcBranch": "rc-candidate",
+  "companyLegalName": "REPLACE_ME",
+  "supportEmail": "support@example.com",
+  "privacyPolicyUrl": "https://example.com/privacy",
+  "eulaUrl": "https://example.com/eula"
+}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a1d9d84902b4e34a1b6101da66f1c10, type: 3}
+  m_Name: move_storm_spear
+  m_EditorClassIdentifier: 
+  moveId: move_storm_spear
+  displayName: Storm Spear
+  element: 5
+  effectType: 0
+  power: 10
+  accuracy: 0.93
+  critChance: 0.12
+  healAmount: 0
+  guardBonus: 0
+  inflictedStatus: 3
+  statusChance: 0.3
+  priority: 0

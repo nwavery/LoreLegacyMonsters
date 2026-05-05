@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbc8d28d3dbd5c846b1d584579f23090, type: 3}
+  m_Name: monster_emberfox
+  m_EditorClassIdentifier: 
+  monsterId: monster_emberfox
+  displayName: Ember Fox
+  baseHp: 22
+  baseAttack: 6
+  baseDefense: 3
+  baseSpeed: 7
+  role: 0
+  primaryElement: 2
+  secondaryElement: 0
+  growthBias: 2
+  catchRate: 0.46
+  rarity: 2
+  defaultMoveId: move_strike
+  signatureMoveId: move_flame_bite
+  moveLearnset:
+  - moveId: move_strike
+    unlockLevel: 1
+  - moveId: move_flame_bite
+    unlockLevel: 2
+  - moveId: move_cinder_guard
+    unlockLevel: 4
+  evolution:
+    method: 1
+    targetMonsterId: monster_blazelynx
+    requiredLevel: 6
+    requiredItemId: 

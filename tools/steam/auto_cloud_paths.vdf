@@ -1,0 +1,9 @@
+"AutoCloud"
+{
+    "1"
+    {
+        "Root"      "WinAppDataLocalLow"
+        "Path"      "LoreLegacyStudios/LoreLegacyMonsters/Saves"
+        "Pattern"   "*.json"
+    }
+}

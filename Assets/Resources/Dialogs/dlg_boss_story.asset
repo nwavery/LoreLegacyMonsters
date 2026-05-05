@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eea72197f9ddb048b389f04df87d858, type: 3}
+  m_Name: dlg_boss_story
+  m_EditorClassIdentifier: 
+  dialogId: dlg_boss_story
+  entries:
+  - speaker: Iona, Briar Warden
+    line: The grove bows only to proven strength.
+    choiceNextIds: []
+  - speaker: Iona, Briar Warden
+    line: Stand your ground, trainer, and let your monsters answer for you.
+    choiceNextIds: []

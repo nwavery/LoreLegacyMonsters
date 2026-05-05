@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbc8d28d3dbd5c846b1d584579f23090, type: 3}
+  m_Name: monster_thornbeast
+  m_EditorClassIdentifier: 
+  monsterId: monster_thornbeast
+  displayName: Thorn Beast
+  baseHp: 28
+  baseAttack: 7
+  baseDefense: 5
+  baseSpeed: 4
+  role: 1
+  primaryElement: 4
+  secondaryElement: 6
+  growthBias: 3
+  catchRate: 0.24
+  rarity: 4
+  defaultMoveId: move_vine_whip
+  signatureMoveId: move_briar_crush
+  moveLearnset:
+  - moveId: move_vine_whip
+    unlockLevel: 1
+  - moveId: move_rock_shell
+    unlockLevel: 2
+  - moveId: move_briar_crush
+    unlockLevel: 4
+  evolution:
+    method: 0
+    targetMonsterId: 
+    requiredLevel: 1
+    requiredItemId: 

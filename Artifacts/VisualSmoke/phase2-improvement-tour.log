@@ -1,0 +1,936 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to the License Client on channel: "LicenseClient-nwave" at "2026-05-02T15:08:49.1689124Z"
+[Licensing::Client] Error: Code 10 while verifying Licensing Client signature (process Id: 16600, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] Error: LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              53365addd4534cda88d867dc0faf32f9
+  Correlation Id:          fab13649f50c5e3b0b28d6cedd0eefce
+  External correlation Id: 5833478912581694653
+  Machine Id:              /CIpopPksGM8b2yzT8FVLTRdRDA=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-nwave" (connect: 0.00s, validation: 0.02s, handshake: 0.06s)
+[Licensing::IpcConnector] Successfully connected to the License Notification on channel: "LicenseClient-nwave-notifications" at "2026-05-02T15:08:49.2436575Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully updated license
+Built from '6000.0/staging' branch; Version is '6000.0.41f1 (46e447368a18) revision 4645959'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'en' Physical Memory: 32414 MB
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Serial number assigned to: "20067242488518-UnityPersXXXX"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+[Licensing::Client] Successfully resolved entitlement details
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Unity.exe
+-batchmode
+-nographics
+-projectPath
+C:\LLMRPG\LoreLegacyMonsters
+-executeMethod
+LoreLegacyMonsters.Editor.VisualSmokeCapture.CaptureOverworldTourBatch
+-logFile
+C:\LLMRPG\LoreLegacyMonsters\Artifacts\VisualSmoke\phase2-improvement-tour.log
+Successfully changed project path to: C:\LLMRPG\LoreLegacyMonsters
+C:/LLMRPG/LoreLegacyMonsters
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [31964]  Target information:
+
+Player connection [31964]  * "[IP] 192.168.1.228 [Port] 55504 [Flags] 2 [Guid] 3802383962 [EditorId] 3802383962 [Version] 1048832 [Id] WindowsEditor(7,NatesRazer) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [31964] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [31964] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-10708" after 0.2 seconds.
+Library Redirect Path: Library/
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 72 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.2d.animation@10.1.4 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.2d.animation@494a3b4e73a9)
+    com.unity.2d.pixel-perfect@5.0.3 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.2d.pixel-perfect@e3ae982b672d)
+    com.unity.2d.psdimporter@9.0.3 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.2d.psdimporter@676bae148e11)
+    com.unity.2d.spriteshape@10.0.7 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.2d.spriteshape@9e35352ae135)
+    com.unity.2d.tilemap.extras@4.1.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.2d.tilemap.extras@13634da7dbe0)
+    com.unity.ads@4.12.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.ads@3bb3d269d51b)
+    com.unity.ai.navigation@2.0.6 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.ai.navigation@c74b2724ed42)
+    com.unity.analytics@3.8.1 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.analytics@6cc66d58ac08)
+    com.unity.collab-proxy@2.7.1 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.collab-proxy@50ac96531b63)
+    com.unity.ide.rider@3.0.34 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.ide.rider@ecbf706690e5)
+    com.unity.ide.visualstudio@2.0.22 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.ide.visualstudio@8140e851d83e)
+    com.unity.inputsystem@1.13.1 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.inputsystem@e2c83221d2dc)
+    com.unity.purchasing@4.12.2 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.purchasing@649c6c7b3b1b)
+    com.unity.test-framework@1.4.6 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.test-framework@5ac417e07314)
+    com.unity.timeline@1.8.8 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.timeline@fa3a0bab2b90)
+    com.unity.visualscripting@1.9.6 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.visualscripting@7dcdc439b230)
+    com.unity.xr.legacyinputhelpers@2.1.12 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.xr.legacyinputhelpers@b7579e86f3b4)
+    com.unity.ext.nunit@2.0.5 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.ext.nunit@60ef35ffd3cd)
+    com.unity.services.core@1.14.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.services.core@9e81a5e38245)
+    com.unity.services.analytics@6.0.1 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.services.analytics@f7e249983920)
+    com.unity.2d.common@9.0.7 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.2d.common@bb1fc9b3d81b)
+    com.unity.mathematics@1.3.2 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.mathematics@8017b507cc74)
+    com.unity.collections@2.5.1 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.collections@56bff8827a7e)
+    com.unity.searcher@4.9.3 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.searcher@1e17ce91558d)
+    com.unity.burst@1.8.19 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.burst@7a907cf5a459)
+    com.unity.nuget.newtonsoft-json@3.2.1 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.nuget.newtonsoft-json@74deb55db2a0)
+    com.unity.nuget.mono-cecil@1.11.4 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.nuget.mono-cecil@d6f9955a5d5f)
+    com.unity.test-framework.performance@3.0.3 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.test-framework.performance@fb0dc592af8b)
+  Built-in packages:
+    com.unity.2d.sprite@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.2d.sprite@072d7bd355e5)
+    com.unity.2d.tilemap@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.2d.tilemap@91afae292a4e)
+    com.unity.multiplayer.center@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546)
+    com.unity.render-pipelines.universal@17.0.4 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.render-pipelines.universal@506b3deb0041)
+    com.unity.textmeshpro@5.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.textmeshpro@53f43edfd2e0)
+    com.unity.ugui@2.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.ugui@22ebcc83720a)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.accessibility)
+    com.unity.modules.ai@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video)
+    com.unity.modules.vr@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr)
+    com.unity.modules.wind@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.hierarchycore)
+    com.unity.render-pipelines.core@17.0.4 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.render-pipelines.core@e13fb214c240)
+    com.unity.shadergraph@17.0.4 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.shadergraph@cdef3258c742)
+    com.unity.render-pipelines.universal-config@17.0.3 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.render-pipelines.universal-config@fa63c96d3e1a)
+    com.unity.rendering.light-transport@1.0.1 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.rendering.light-transport@307bc27a498f)
+[Package Manager] com.unity.textmeshpro is deprecated: This package is no longer supported. TextMeshPro functionalities are now included in the com.unity.ugui package. To continue using them, consider adding it to your project dependencies.
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Subsystems] No new subsystems found in resolved package list.
+Package Manager log level set to [2]
+[Package Manager] Done registering packages in 0.67 seconds
+Refreshing native plugins compatible for Editor in 9.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.41f1 (46e447368a18)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/LLMRPG/LoreLegacyMonsters/Assets
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+[Licensing::Client] Successfully resolved entitlement details
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002823 seconds.
+- Loaded All Assemblies, in  0.363 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.290 seconds
+Domain Reload Profiling: 652ms
+	BeginReloadAssembly (131ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (138ms)
+		LoadAssemblies (129ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (135ms)
+			TypeCache.Refresh (133ms)
+				TypeCache.ScanAssembly (122ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (291ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (262ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (140ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+Starting: C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Data\bee_backend.exe --dont-print-to-structured-log --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/LLMRPG/LoreLegacyMonsters
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 0s418ms
+[1077/1426  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (0.36 seconds), 1 items updated, 1426 evaluated
+AssetDatabase: script compilation time: 1.083102s
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.058 seconds
+'Assets/Scripts/InventoryManager.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Scripts/InventorySystem.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Scripts/Inventory/InventorySystem.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Scripts/World/WeatherSystem.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Scripts/Inventory/InventoryManager.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Scripts/WeatherSystem.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Scripts/Quests/QuestManager.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Scripts/Quest/QuestManager.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 8.06 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 9.88 ms, found 4 plugins.
+Loaded VersionHandlerImpl
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Google.Logger:Log (string,Google.LogLevel)
+Google.VersionHandlerImpl:Log (string,bool,Google.LogLevel)
+Google.VersionHandlerImpl:.cctor ()
+Google.VersionHandlerImpl/DotNetVersionUpdater:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Assets\MobileDependencyResolver\Editor\Google.IOSResolver.dll metadata will be checked
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Google.Logger:Log (string,Google.LogLevel)
+Google.VersionHandlerImpl:Log (string,bool,Google.LogLevel)
+Google.VersionHandlerImpl/FileMetadataSet:FindWithPendingUpdates (Google.VersionHandlerImpl/FileMetadataSet)
+Google.VersionHandlerImpl:UpdateVersionedAssets (bool,System.Action)
+Google.VersionHandlerImpl:UpdateVersionedAssets (bool)
+Google.VersionHandlerImpl:UpdateVersionedAssets ()
+Google.VersionHandlerImpl:UpdateVersionedAssetsOnUpdate ()
+Google.VersionHandlerImpl:<VersionHandlerImpl>m__B ()
+Google.RunOnMainThread:ExecuteNext ()
+Google.RunOnMainThread:<ExecuteAll>m__A ()
+Google.RunOnMainThread:RunAction (System.Action)
+Google.RunOnMainThread:ExecuteAll ()
+Google.RunOnMainThread:Run (System.Action,bool)
+Google.VersionHandlerImpl:.cctor ()
+Google.VersionHandlerImpl/DotNetVersionUpdater:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Assets\MobileDependencyResolver\Editor\Google.JarResolver.dll metadata will be checked
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Google.Logger:Log (string,Google.LogLevel)
+Google.VersionHandlerImpl:Log (string,bool,Google.LogLevel)
+Google.VersionHandlerImpl/FileMetadataSet:FindWithPendingUpdates (Google.VersionHandlerImpl/FileMetadataSet)
+Google.VersionHandlerImpl:UpdateVersionedAssets (bool,System.Action)
+Google.VersionHandlerImpl:UpdateVersionedAssets (bool)
+Google.VersionHandlerImpl:UpdateVersionedAssets ()
+Google.VersionHandlerImpl:UpdateVersionedAssetsOnUpdate ()
+Google.VersionHandlerImpl:<VersionHandlerImpl>m__B ()
+Google.RunOnMainThread:ExecuteNext ()
+Google.RunOnMainThread:<ExecuteAll>m__A ()
+Google.RunOnMainThread:RunAction (System.Action)
+Google.RunOnMainThread:ExecuteAll ()
+Google.RunOnMainThread:Run (System.Action,bool)
+Google.VersionHandlerImpl:.cctor ()
+Google.VersionHandlerImpl/DotNetVersionUpdater:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Assets\MobileDependencyResolver\Editor\Google.VersionHandler.dll metadata will be checked
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Google.Logger:Log (string,Google.LogLevel)
+Google.VersionHandlerImpl:Log (string,bool,Google.LogLevel)
+Google.VersionHandlerImpl/FileMetadataSet:FindWithPendingUpdates (Google.VersionHandlerImpl/FileMetadataSet)
+Google.VersionHandlerImpl:UpdateVersionedAssets (bool,System.Action)
+Google.VersionHandlerImpl:UpdateVersionedAssets (bool)
+Google.VersionHandlerImpl:UpdateVersionedAssets ()
+Google.VersionHandlerImpl:UpdateVersionedAssetsOnUpdate ()
+Google.VersionHandlerImpl:<VersionHandlerImpl>m__B ()
+Google.RunOnMainThread:ExecuteNext ()
+Google.RunOnMainThread:<ExecuteAll>m__A ()
+Google.RunOnMainThread:RunAction (System.Action)
+Google.RunOnMainThread:ExecuteAll ()
+Google.RunOnMainThread:Run (System.Action,bool)
+Google.VersionHandlerImpl:.cctor ()
+Google.VersionHandlerImpl/DotNetVersionUpdater:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Assets\MobileDependencyResolver\Editor\Google.VersionHandlerImpl.dll metadata will be checked
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Google.Logger:Log (string,Google.LogLevel)
+Google.VersionHandlerImpl:Log (string,bool,Google.LogLevel)
+Google.VersionHandlerImpl/FileMetadataSet:FindWithPendingUpdates (Google.VersionHandlerImpl/FileMetadataSet)
+Google.VersionHandlerImpl:UpdateVersionedAssets (bool,System.Action)
+Google.VersionHandlerImpl:UpdateVersionedAssets (bool)
+Google.VersionHandlerImpl:UpdateVersionedAssets ()
+Google.VersionHandlerImpl:UpdateVersionedAssetsOnUpdate ()
+Google.VersionHandlerImpl:<VersionHandlerImpl>m__B ()
+Google.RunOnMainThread:ExecuteNext ()
+Google.RunOnMainThread:<ExecuteAll>m__A ()
+Google.RunOnMainThread:RunAction (System.Action)
+Google.RunOnMainThread:ExecuteAll ()
+Google.RunOnMainThread:Run (System.Action,bool)
+Google.VersionHandlerImpl:.cctor ()
+Google.VersionHandlerImpl/DotNetVersionUpdater:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Assets\MobileDependencyResolver\Editor\mobile-dependency-resolver.txt metadata will be checked
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Google.Logger:Log (string,Google.LogLevel)
+Google.VersionHandlerImpl:Log (string,bool,Google.LogLevel)
+Google.VersionHandlerImpl/FileMetadataSet:FindWithPendingUpdates (Google.VersionHandlerImpl/FileMetadataSet)
+Google.VersionHandlerImpl:UpdateVersionedAssets (bool,System.Action)
+Google.VersionHandlerImpl:UpdateVersionedAssets (bool)
+Google.VersionHandlerImpl:UpdateVersionedAssets ()
+Google.VersionHandlerImpl:UpdateVersionedAssetsOnUpdate ()
+Google.VersionHandlerImpl:<VersionHandlerImpl>m__B ()
+Google.RunOnMainThread:ExecuteNext ()
+Google.RunOnMainThread:<ExecuteAll>m__A ()
+Google.RunOnMainThread:RunAction (System.Action)
+Google.RunOnMainThread:ExecuteAll ()
+Google.RunOnMainThread:Run (System.Action,bool)
+Google.VersionHandlerImpl:.cctor ()
+Google.VersionHandlerImpl/DotNetVersionUpdater:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Detected .NET version 4.5
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Google.Logger:Log (string,Google.LogLevel)
+Google.VersionHandlerImpl:Log (string,bool,Google.LogLevel)
+Google.VersionHandlerImpl/DotNetVersionUpdater:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.603 seconds
+Domain Reload Profiling: 4655ms
+	BeginReloadAssembly (307ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (31ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (140ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (668ms)
+		LoadAssemblies (480ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (294ms)
+			TypeCache.Refresh (210ms)
+				TypeCache.ScanAssembly (190ms)
+			BuildScriptInfoCaches (69ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (3604ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3469ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (151ms)
+			ProcessInitializeOnLoadAttributes (3122ms)
+			ProcessInitializeOnLoadMethodAttributes (175ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Asset Pipeline Refresh (id=763db157b3ce8e1499581a3cd40179dc): Total: 6.674 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=4399 ms
+		Asset DB Callback time: managed=66 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=1058 ms, compile time=1085 ms, other=63 ms
+		Project Asset Count: scripts=1743, non-scripts=3120
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 5.519ms
+	ApplyChangesToAssetFolders: 0.577ms
+	Scan: 346.565ms
+	OnSourceAssetsModified: 0.002ms
+	CategorizeAssetsWithTransientArtifact: 70.316ms
+	ProcessAssetsWithTransientArtifactChanges: 90.452ms
+	CategorizeAssets: 70.679ms
+	ImportOutOfDateAssets: 3629.234ms (2542.298ms without children)
+		CompileScripts: 1085.055ms
+		ReloadNativeAssets: 0.000ms
+		UnloadImportedAssets: 0.450ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.766ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 0.663ms
+	PostProcessAllAssets: 66.170ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.000ms
+	UnloadStreamsBegin: 1.415ms
+	PersistCurrentRevisions: 0.157ms
+	UnloadStreamsEnd: 0.001ms
+	GenerateScriptTypeHashes: 3.635ms
+	Untracked: 2392.795ms
+
+Application.AssetDatabase Initial Refresh End
+Scanning for USB devices : 3.303ms
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-LoreLegacyMonsters
+Unloading 59 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7800 unused Assets / (2.8 MB). Loaded Objects now: 8416.
+Memory consumption went from 206.8 MB to 204.0 MB.
+Total: 14.894500 ms (FindLiveObjects: 0.520500 ms CreateObjectMapping: 0.354700 ms MarkObjects: 11.189400 ms  DeleteObjects: 2.828700 ms)
+
+Opening scene 'Assets/Scenes/Game.unity'
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Game.unity'
+	Deserialize:            1.604 ms
+	Integration:            206.138 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.867 ms
+	Total Operation Time:   208.611 ms
+Unloading 5 unused Assets / (6.4 KB). Loaded Objects now: 8434.
+Memory consumption went from 193.4 MB to 193.4 MB.
+Total: 11.957100 ms (FindLiveObjects: 0.361600 ms CreateObjectMapping: 0.141200 ms MarkObjects: 11.395200 ms  DeleteObjects: 0.058100 ms)
+
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
+[Project] Loading completed in 10.880 seconds
+	Project init time: 				9.450 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.230 seconds
+		Asset Database init time: 		0.814 seconds
+		Global illumination init time: 	0.006 seconds
+		Assemblies load time: 			0.667 seconds
+		Unity extensions init time: 	0.009 seconds
+		Asset Database refresh time: 	6.674 seconds
+	Scene opening time: 			0.802 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1777734540035,"processId":10708,"projectLoad":10.8804683,"projectInit":9.4504322,"templateInit":0.0,"packageManagerInit":0.2302041,"assetDatabaseInit":0.8136407,"globalIlluminationInit":0.0056836,"assembliesLoad":0.6672691,"unityExtensionsInit":0.0087789,"assetDatabaseRefresh":6.6740374,"sceneOpening":0.8020659}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1777734540035,"processId":10708,"editorVersion":"6000.0.41f1 (46e447368a18)","branch":"6000.0/staging","buildType":"Release","platform":"Windows"}
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.119 seconds
+Refreshing native plugins compatible for Editor in 10.99 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Loaded VersionHandlerImpl
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Google.Logger:Log (string,Google.LogLevel)
+Google.VersionHandlerImpl:Log (string,bool,Google.LogLevel)
+Google.VersionHandlerImpl:.cctor ()
+Google.VersionHandlerImpl/DotNetVersionUpdater:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Assets\MobileDependencyResolver\Editor\Google.IOSResolver.dll metadata will be checked
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Google.Logger:Log (string,Google.LogLevel)
+Google.VersionHandlerImpl:Log (string,bool,Google.LogLevel)
+Google.VersionHandlerImpl/FileMetadataSet:FindWithPendingUpdates (Google.VersionHandlerImpl/FileMetadataSet)
+Google.VersionHandlerImpl:UpdateVersionedAssets (bool,System.Action)
+Google.VersionHandlerImpl:UpdateVersionedAssets (bool)
+Google.VersionHandlerImpl:UpdateVersionedAssets ()
+Google.VersionHandlerImpl:UpdateVersionedAssetsOnUpdate ()
+Google.VersionHandlerImpl:<VersionHandlerImpl>m__B ()
+Google.RunOnMainThread:ExecuteNext ()
+Google.RunOnMainThread:<ExecuteAll>m__A ()
+Google.RunOnMainThread:RunAction (System.Action)
+Google.RunOnMainThread:ExecuteAll ()
+Google.RunOnMainThread:Run (System.Action,bool)
+Google.VersionHandlerImpl:.cctor ()
+Google.VersionHandlerImpl/DotNetVersionUpdater:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Assets\MobileDependencyResolver\Editor\Google.JarResolver.dll metadata will be checked
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Google.Logger:Log (string,Google.LogLevel)
+Google.VersionHandlerImpl:Log (string,bool,Google.LogLevel)
+Google.VersionHandlerImpl/FileMetadataSet:FindWithPendingUpdates (Google.VersionHandlerImpl/FileMetadataSet)
+Google.VersionHandlerImpl:UpdateVersionedAssets (bool,System.Action)
+Google.VersionHandlerImpl:UpdateVersionedAssets (bool)
+Google.VersionHandlerImpl:UpdateVersionedAssets ()
+Google.VersionHandlerImpl:UpdateVersionedAssetsOnUpdate ()
+Google.VersionHandlerImpl:<VersionHandlerImpl>m__B ()
+Google.RunOnMainThread:ExecuteNext ()
+Google.RunOnMainThread:<ExecuteAll>m__A ()
+Google.RunOnMainThread:RunAction (System.Action)
+Google.RunOnMainThread:ExecuteAll ()
+Google.RunOnMainThread:Run (System.Action,bool)
+Google.VersionHandlerImpl:.cctor ()
+Google.VersionHandlerImpl/DotNetVersionUpdater:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Assets\MobileDependencyResolver\Editor\Google.VersionHandler.dll metadata will be checked
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Google.Logger:Log (string,Google.LogLevel)
+Google.VersionHandlerImpl:Log (string,bool,Google.LogLevel)
+Google.VersionHandlerImpl/FileMetadataSet:FindWithPendingUpdates (Google.VersionHandlerImpl/FileMetadataSet)
+Google.VersionHandlerImpl:UpdateVersionedAssets (bool,System.Action)
+Google.VersionHandlerImpl:UpdateVersionedAssets (bool)
+Google.VersionHandlerImpl:UpdateVersionedAssets ()
+Google.VersionHandlerImpl:UpdateVersionedAssetsOnUpdate ()
+Google.VersionHandlerImpl:<VersionHandlerImpl>m__B ()
+Google.RunOnMainThread:ExecuteNext ()
+Google.RunOnMainThread:<ExecuteAll>m__A ()
+Google.RunOnMainThread:RunAction (System.Action)
+Google.RunOnMainThread:ExecuteAll ()
+Google.RunOnMainThread:Run (System.Action,bool)
+Google.VersionHandlerImpl:.cctor ()
+Google.VersionHandlerImpl/DotNetVersionUpdater:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Assets\MobileDependencyResolver\Editor\Google.VersionHandlerImpl.dll metadata will be checked
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Google.Logger:Log (string,Google.LogLevel)
+Google.VersionHandlerImpl:Log (string,bool,Google.LogLevel)
+Google.VersionHandlerImpl/FileMetadataSet:FindWithPendingUpdates (Google.VersionHandlerImpl/FileMetadataSet)
+Google.VersionHandlerImpl:UpdateVersionedAssets (bool,System.Action)
+Google.VersionHandlerImpl:UpdateVersionedAssets (bool)
+Google.VersionHandlerImpl:UpdateVersionedAssets ()
+Google.VersionHandlerImpl:UpdateVersionedAssetsOnUpdate ()
+Google.VersionHandlerImpl:<VersionHandlerImpl>m__B ()
+Google.RunOnMainThread:ExecuteNext ()
+Google.RunOnMainThread:<ExecuteAll>m__A ()
+Google.RunOnMainThread:RunAction (System.Action)
+Google.RunOnMainThread:ExecuteAll ()
+Google.RunOnMainThread:Run (System.Action,bool)
+Google.VersionHandlerImpl:.cctor ()
+Google.VersionHandlerImpl/DotNetVersionUpdater:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Assets\MobileDependencyResolver\Editor\mobile-dependency-resolver.txt metadata will be checked
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Google.Logger:Log (string,Google.LogLevel)
+Google.VersionHandlerImpl:Log (string,bool,Google.LogLevel)
+Google.VersionHandlerImpl/FileMetadataSet:FindWithPendingUpdates (Google.VersionHandlerImpl/FileMetadataSet)
+Google.VersionHandlerImpl:UpdateVersionedAssets (bool,System.Action)
+Google.VersionHandlerImpl:UpdateVersionedAssets (bool)
+Google.VersionHandlerImpl:UpdateVersionedAssets ()
+Google.VersionHandlerImpl:UpdateVersionedAssetsOnUpdate ()
+Google.VersionHandlerImpl:<VersionHandlerImpl>m__B ()
+Google.RunOnMainThread:ExecuteNext ()
+Google.RunOnMainThread:<ExecuteAll>m__A ()
+Google.RunOnMainThread:RunAction (System.Action)
+Google.RunOnMainThread:ExecuteAll ()
+Google.RunOnMainThread:Run (System.Action,bool)
+Google.VersionHandlerImpl:.cctor ()
+Google.VersionHandlerImpl/DotNetVersionUpdater:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Detected .NET version 4.5
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Google.Logger:Log (string,Google.LogLevel)
+Google.VersionHandlerImpl:Log (string,bool,Google.LogLevel)
+Google.VersionHandlerImpl/DotNetVersionUpdater:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.532 seconds
+Domain Reload Profiling: 3638ms
+	BeginReloadAssembly (500ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (51ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (254ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (466ms)
+		LoadAssemblies (270ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (352ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (301ms)
+			ResolveRequiredComponents (31ms)
+	FinalizeReload (2533ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1936ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (671ms)
+			ProcessInitializeOnLoadAttributes (899ms)
+			ProcessInitializeOnLoadMethodAttributes (328ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (34ms)
+Asset Pipeline Refresh (id=2209fc041dcf04a4598df18c24863169): Total: 3.944 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=2763 ms
+		Asset DB Callback time: managed=30 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=1146 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=1743, non-scripts=3120
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 7.441ms
+	ApplyChangesToAssetFolders: 1.106ms
+	Scan: 0.001ms
+	OnSourceAssetsModified: 0.001ms
+	CategorizeAssetsWithTransientArtifact: 0.003ms
+	ProcessAssetsWithTransientArtifactChanges: 4.906ms
+	CategorizeAssets: 56.085ms
+	ImportOutOfDateAssets: 2577.193ms (2568.682ms without children)
+		CompileScripts: 1.947ms
+		CollectScriptTypesHashes: 2.397ms
+		ReloadNativeAssets: 0.700ms
+		UnloadImportedAssets: 0.112ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.957ms
+		InitializingProgressBar: 0.001ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 2.397ms
+	PostProcessAllAssets: 30.836ms
+	GatherAllCurrentPrimaryArtifactRevisions: 1.806ms
+	UnloadStreamsBegin: 0.087ms
+	PersistCurrentRevisions: 0.202ms
+	UnloadStreamsEnd: 0.002ms
+	GenerateScriptTypeHashes: 4.941ms
+	Untracked: 1263.854ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.621 ms
+	Integration:            570.901 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.123 ms
+	Total Operation Time:   572.647 ms
+Asset Pipeline Refresh (id=d10b9abdc171eea48a322ab9d931d4a3): Total: 0.087 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Crash!!!
+SymInit: Symbol-SearchPath: 'C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/Mono;.;C:\LLMRPG\LoreLegacyMonsters;C:\LLMRPG\LoreLegacyMonsters\Library\BurstCache\JIT;C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor;C:\WINDOWS;C:\WINDOWS\system32;', symOptions: 534, UserName: 'nwave'
+OS-Version: 10.0.0
+C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Unity.exe:Unity.exe (00007FF637DA0000), size: 299008 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6000.0.41.58439
+C:\WINDOWS\SYSTEM32\ntdll.dll:ntdll.dll (00007FF9B0220000), size: 2519040 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\KERNEL32.DLL:KERNEL32.DLL (00007FF9AE2C0000), size: 823296 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\KERNELBASE.dll:KERNELBASE.dll (00007FF9ACDA0000), size: 4157440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\USER32.dll:USER32.dll (00007FF9AE060000), size: 1859584 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\win32u.dll:win32u.dll (00007FF9AD500000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\GDI32.dll:GDI32.dll (00007FF9AF9D0000), size: 176128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\gdi32full.dll:gdi32full.dll (00007FF9AD3D0000), size: 1228800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\msvcp_win.dll:msvcp_win.dll (00007FF9AD1A0000), size: 667648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\ucrtbase.dll:ucrtbase.dll (00007FF9ACC50000), size: 1355776 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\IMM32.DLL:IMM32.DLL (00007FF9AE790000), size: 204800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Unity.dll:Unity.dll (00007FF8D59F0000), size: 87097344 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6000.0.41.58439
+C:\WINDOWS\System32\CRYPT32.dll:CRYPT32.dll (00007FF9AD250000), size: 1540096 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\ADVAPI32.dll:ADVAPI32.dll (00007FF9ADFA0000), size: 745472 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\s3tcompress.dll:s3tcompress.dll (00007FF9697C0000), size: 180224 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\msvcrt.dll:msvcrt.dll (00007FF9AE390000), size: 692224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.26100.8246
+C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\libfbxsdk.dll:libfbxsdk.dll (00007FF8E6700000), size: 8019968 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.3.7.0
+C:\WINDOWS\System32\sechost.dll:sechost.dll (00007FF9AE5C0000), size: 684032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\etccompress.dll:etccompress.dll (00007FF911C60000), size: 5070848 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\ispc_texcomp.dll:ispc_texcomp.dll (00007FF913D50000), size: 1826816 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\RPCRT4.dll:RPCRT4.dll (00007FF9AE670000), size: 1146880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\compress_bc7e.dll:compress_bc7e.dll (00007FF912A50000), size: 1433600 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\FreeImage.dll:FreeImage.dll (0000000180000000), size: 5783552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.18.0.0
+C:\WINDOWS\System32\ole32.dll:ole32.dll (00007FF9AFA80000), size: 1667072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\umbraoptimizer64.dll:umbraoptimizer64.dll (00007FF913C20000), size: 1187840 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\combase.dll:combase.dll (00007FF9AF640000), size: 3682304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\WS2_32.dll:WS2_32.dll (00007FF9AE230000), size: 524288 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\WinPixEventRuntime.dll:WinPixEventRuntime.dll (00007FF96A1C0000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.0.2201.24001
+C:\WINDOWS\System32\SETUPAPI.dll:SETUPAPI.dll (00007FF9AFCC0000), size: 4747264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\MSVCP140.dll:MSVCP140.dll (00007FF9941B0000), size: 557056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.50.35719.0
+C:\WINDOWS\System32\SHELL32.dll:SHELL32.dll (00007FF9AE8B0000), size: 7790592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FF9947C0000), size: 122880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.50.35719.0
+C:\WINDOWS\System32\SHLWAPI.dll:SHLWAPI.dll (00007FF9AE440000), size: 417792 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\VCRUNTIME140_1.dll:VCRUNTIME140_1.dll (00007FF9947B0000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.50.35719.0
+C:\WINDOWS\SYSTEM32\bcrypt.dll:bcrypt.dll (00007FF9ACB40000), size: 172032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8246
+C:\WINDOWS\System32\Windows.Storage.dll:Windows.Storage.dll (00007FF9AD5E0000), size: 8830976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\d3d11.dll:d3d11.dll (00007FF9A6820000), size: 2498560 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\OLEAUT32.dll:OLEAUT32.dll (00007FF9AE7D0000), size: 888832 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\d3d12.dll:d3d12.dll (00007FF91FA90000), size: 151552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\dwmapi.dll:dwmapi.dll (00007FF9A7840000), size: 192512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\WINTRUST.dll:WINTRUST.dll (00007FF9ADE50000), size: 532480 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\HID.DLL:HID.DLL (00007FF9AB080000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+C:\WINDOWS\SYSTEM32\dxgi.dll:dxgi.dll (00007FF9A76D0000), size: 1302528 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FF9AB3E0000), size: 204800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FF912930000), size: 1110016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FF9A3CC0000), size: 1216512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\WINMM.dll:WINMM.dll (00007FF996DE0000), size: 221184 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\GLU32.dll:GLU32.dll (00007FF969790000), size: 184320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\SketchUpAPI.dll:SketchUpAPI.dll (00007FF8D5150000), size: 8990720 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 23.0.0.0
+C:\WINDOWS\SYSTEM32\WSOCK32.dll:WSOCK32.dll (00007FF9825F0000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1
+C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\NativeProxyHelper.dll:NativeProxyHelper.dll (00007FF912480000), size: 1789952 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\SYSTEM32\powrprof.dll:powrprof.dll (00007FF9AB820000), size: 385024 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3912
+C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\SketchUpCommonPreferences.dll:SketchUpCommonPreferences.dll (00007FF9691C0000), size: 499712 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 23.0.0.0
+C:\WINDOWS\SYSTEM32\VERSION.dll:VERSION.dll (00007FF9A2A50000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+C:\WINDOWS\SYSTEM32\Secur32.dll:Secur32.dll (00007FF9A73D0000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7705
+C:\WINDOWS\SYSTEM32\SSPICLI.DLL:SSPICLI.DLL (00007FF9ABD80000), size: 299008 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\dxcore.dll:dxcore.dll (00007FF9AA4C0000), size: 282624 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\OpenRL.dll:OpenRL.dll (000002470D9F0000), size: 12779520 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.5.0.2907
+C:\WINDOWS\SYSTEM32\cfgmgr32.DLL:cfgmgr32.DLL (00007FF9AC900000), size: 331776 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8115
+C:\WINDOWS\SYSTEM32\MSVCP100.dll:MSVCP100.dll (000000005A660000), size: 622592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.325
+C:\WINDOWS\SYSTEM32\MSVCR100.dll:MSVCR100.dll (000000005A580000), size: 860160 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.325
+C:\WINDOWS\SYSTEM32\MSWSOCK.DLL:MSWSOCK.DLL (00007FF9AC070000), size: 442368 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\embree.dll:embree.dll (00007FF8D4160000), size: 16711680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.14.0.0
+C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\tbb.dll:tbb.dll (00007FF964A70000), size: 303104 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.3.2022.1111
+C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\OpenRL_pthread.dll:OpenRL_pthread.dll (000002470C3F0000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.9.0.0
+C:\WINDOWS\SYSTEM32\UMPDC.dll:UMPDC.dll (00007FF9AB800000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8115
+C:\WINDOWS\SYSTEM32\MSASN1.dll:MSASN1.dll (00007FF9AC480000), size: 77824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8246
+C:\WINDOWS\System32\bcryptprimitives.dll:bcryptprimitives.dll (00007FF9AD530000), size: 688128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FF9ABAD0000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\system32\uxtheme.dll:uxtheme.dll (00007FF9A7530000), size: 696320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\SHCORE.dll:SHCORE.dll (00007FF9AE4B0000), size: 1007616 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\profapi.dll:profapi.dll (00007FF9ACB70000), size: 167936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\CRYPTSP.dll:CRYPTSP.dll (00007FF9AC350000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\system32\rsaenh.dll:rsaenh.dll (00007FF9ABA30000), size: 233472 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7705
+C:\WINDOWS\SYSTEM32\CRYPTBASE.dll:CRYPTBASE.dll (00007FF9AC370000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8246
+C:\WINDOWS\System32\imagehlp.dll:imagehlp.dll (00007FF9AF5E0000), size: 131072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.4202
+C:\WINDOWS\SYSTEM32\gpapi.dll:gpapi.dll (00007FF9AC0E0000), size: 192512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\Windows\System32\cryptnet.dll:cryptnet.dll (00007FF99EB60000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\WINNSI.DLL:WINNSI.DLL (00007FF9AA470000), size: 57344 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8246
+C:\WINDOWS\System32\NSI.dll:NSI.dll (00007FF9AFC20000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8246
+C:\WINDOWS\system32\IconCodecService.dll:IconCodecService.dll (00007FF9825E0000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1
+C:\WINDOWS\SYSTEM32\WindowsCodecs.dll:WindowsCodecs.dll (00007FF9A5C50000), size: 2281472 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\clbcatq.dll:clbcatq.dll (00007FF9AF030000), size: 712704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2001.12.10941.16384
+C:\WINDOWS\System32\netprofm.dll:netprofm.dll (00007FF9A50C0000), size: 450560 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\npmproxy.dll:npmproxy.dll (00007FF9A2C50000), size: 102400 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (00007FF9A3FD0000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (00007FF9A3FA0000), size: 151552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\DNSAPI.dll:DNSAPI.dll (00007FF9AB420000), size: 1253376 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\system32\napinsp.dll:napinsp.dll (00007FF9927B0000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+C:\WINDOWS\System32\winrnr.dll:winrnr.dll (00007FF992790000), size: 77824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\system32\nlansp_c.dll:nlansp_c.dll (00007FF992760000), size: 139264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8115
+C:\WINDOWS\system32\wshbth.dll:wshbth.dll (00007FF9A2130000), size: 90112 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.5074
+C:\WINDOWS\System32\fwpuclnt.dll:fwpuclnt.dll (00007FF9A4320000), size: 548864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (00007FF9A2D10000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\AMDUnityPlugin.DLL:AMDUnityPlugin.DLL (00007FF8EE170000), size: 8814592 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\NVUnityPlugin.DLL:NVUnityPlugin.DLL (00007FF969480000), size: 1609728 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Data\Tools\astcenc-avx2.dll:astcenc-avx2.dll (00007FF969DD0000), size: 364544 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\SYSTEM32\mfplat.dll:mfplat.dll (00007FF9A2D20000), size: 2191360 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\RTWorkQ.DLL:RTWorkQ.DLL (00007FF9A2CA0000), size: 245760 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\mfreadwrite.dll:mfreadwrite.dll (00007FF98D540000), size: 872448 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\Mf.dll:Mf.dll (00007FF992640000), size: 622592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\MFCORE.DLL:MFCORE.DLL (00007FF9A31D0000), size: 4300800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\CompPkgSup.DLL:CompPkgSup.DLL (00007FF996B30000), size: 221184 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\Windows\System32\Windows.Media.dll:Windows.Media.dll (00007FF980A20000), size: 6873088 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\Windows\System32\Windows.ApplicationModel.dll:Windows.ApplicationModel.dll (00007FF982E20000), size: 880640 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\wintypes.dll:wintypes.dll (00007FF9A43E0000), size: 1482752 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\Windows\System32\Windows.StateRepositoryPS.dll:Windows.StateRepositoryPS.dll (00007FF96BE30000), size: 802816 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\Windows\System32\AppXDeploymentClient.dll:AppXDeploymentClient.dll (00007FF9A25D0000), size: 1523712 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\windows.staterepositoryclient.dll:windows.staterepositoryclient.dll (00007FF987100000), size: 294912 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\windows.staterepositorycore.dll:windows.staterepositorycore.dll (00007FF995140000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\MMDevApi.dll:MMDevApi.dll (00007FF9A22D0000), size: 626688 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\DEVOBJ.dll:DEVOBJ.dll (00007FF9AC8B0000), size: 184320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+C:\WINDOWS\SYSTEM32\AUDIOSES.DLL:AUDIOSES.DLL (00007FF985D80000), size: 1781760 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\resourcepolicyclient.dll:resourcepolicyclient.dll (00007FF9AA870000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8115
+C:\WINDOWS\SYSTEM32\opencl.dll:opencl.dll (00007FF9698A0000), size: 483328 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.0.6.0
+C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\radeonrays.dll:radeonrays.dll (00007FF969840000), size: 344064 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Data\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll:mono-2.0-bdwgc.dll (00007FF8D3710000), size: 10756096 (result: 0), SymType: '-deferred-', PDB: ''
+C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.burst@7a907cf5a459\.Runtime\MonoDebuggerHandling.dll:MonoDebuggerHandling.dll (00007FF8F0E50000), size: 368640 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\system32\apphelp.dll:apphelp.dll (00007FF9A73E0000), size: 655360 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\system32\wbem\wbemprox.dll:wbemprox.dll (00007FF98AD10000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\wbemcomn.dll:wbemcomn.dll (00007FF9923E0000), size: 499712 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\WINDOWS\system32\wbem\wbemsvc.dll:wbemsvc.dll (00007FF988FE0000), size: 86016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\system32\wbem\fastprox.dll:fastprox.dll (00007FF987F70000), size: 983040 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\amsi.dll:amsi.dll (00007FF98BAB0000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
+C:\WINDOWS\SYSTEM32\USERENV.dll:USERENV.dll (00007FF9AC120000), size: 208896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\Windows\System32\ScriptControl64_20709.dll:ScriptControl64_20709.dll (00007FF95ED60000), size: 221184 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.35.20709.0
+C:\WINDOWS\System32\MSCTF.dll:MSCTF.dll (00007FF9AF0F0000), size: 1425408 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\system32\explorerframe.dll:explorerframe.dll (00007FF91F3B0000), size: 3039232 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\TextShaping.dll:TextShaping.dll (00007FF97B290000), size: 733184 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.burst@7a907cf5a459\.Runtime\burst-llvm-18.dll:burst-llvm-18.dll (00007FF8CED20000), size: 57905152 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FF9ABC00000), size: 221184 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\LLMRPG\LoreLegacyMonsters\Library\BurstCache\JIT\715e05b4ac92bb8d1d398e92e8d18cdf.dll:715e05b4ac92bb8d1d398e92e8d18cdf.dll (00007FF8F26B0000), size: 20480 (result: 0), SymType: '-deferred-', PDB: ''
+C:\LLMRPG\LoreLegacyMonsters\Library\BurstCache\JIT\35da473d0609562b2345db86118e1a30.dll:35da473d0609562b2345db86118e1a30.dll (00007FF8F26A0000), size: 24576 (result: 0), SymType: '-deferred-', PDB: ''
+C:\LLMRPG\LoreLegacyMonsters\Library\BurstCache\JIT\7df798e4f0f8acd5d30e84f20be799b5.dll:7df798e4f0f8acd5d30e84f20be799b5.dll (00007FF8F2690000), size: 28672 (result: 0), SymType: '-deferred-', PDB: ''
+C:\LLMRPG\LoreLegacyMonsters\Library\BurstCache\JIT\d6d05c0370c40f84994e7bfadb7473e9.dll:d6d05c0370c40f84994e7bfadb7473e9.dll (00007FF8F0E40000), size: 32768 (result: 0), SymType: '-deferred-', PDB: ''
+C:\LLMRPG\LoreLegacyMonsters\Library\BurstCache\JIT\ce4a92f5e3f5bad480f6ac850387029d.dll:ce4a92f5e3f5bad480f6ac850387029d.dll (00007FF8F0E30000), size: 28672 (result: 0), SymType: '-deferred-', PDB: ''
+C:\LLMRPG\LoreLegacyMonsters\Library\BurstCache\JIT\35d45fa5d3b1e4b7bb1e8411353113c3.dll:35d45fa5d3b1e4b7bb1e8411353113c3.dll (00007FF8F0E20000), size: 49152 (result: 0), SymType: '-deferred-', PDB: ''
+C:\LLMRPG\LoreLegacyMonsters\Library\BurstCache\JIT\774851b0dbd1ec97af0aaf40d8ba22a3.dll:774851b0dbd1ec97af0aaf40d8ba22a3.dll (00007FF8F0E10000), size: 36864 (result: 0), SymType: '-deferred-', PDB: ''
+C:\LLMRPG\LoreLegacyMonsters\Library\BurstCache\JIT\451c3086bcf54016336e8b0fa41534c2.dll:451c3086bcf54016336e8b0fa41534c2.dll (00007FF8F0E00000), size: 40960 (result: 0), SymType: '-deferred-', PDB: ''
+C:\LLMRPG\LoreLegacyMonsters\Library\BurstCache\JIT\efa831cf05abc56774d19be0db9c4aa5.dll:efa831cf05abc56774d19be0db9c4aa5.dll (00007FF8F0DF0000), size: 36864 (result: 0), SymType: '-deferred-', PDB: ''
+C:\LLMRPG\LoreLegacyMonsters\Library\BurstCache\JIT\b3fd4426b2ce4e284174c00d40690193.dll:b3fd4426b2ce4e284174c00d40690193.dll (00007FF8F0DE0000), size: 53248 (result: 0), SymType: '-deferred-', PDB: ''
+C:\LLMRPG\LoreLegacyMonsters\Library\BurstCache\JIT\75cd70db326001cf016dae800daaaf8f.dll:75cd70db326001cf016dae800daaaf8f.dll (00007FF8F0DD0000), size: 57344 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FF9AAAF0000), size: 2367488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+
+========== OUTPUTTING STACK TRACE ==================
+
+0x00007FF8D68390AF (Unity) GfxDevice::DrawSharedGeometryJobs
+0x00007FF8D6B7DA62 (Unity) GfxDeviceClient::DrawSharedGeometryJobs
+0x00007FF8D617D190 (Unity) RenderDynamicBatchSprite
+0x00007FF8D617BBEB (Unity) DrawSpriteBatchedFromNodeQueue
+0x00007FF8D630BB59 (Unity) BatchRenderer::RenderBatch
+0x00007FF8D6307EDA (Unity) ForwardRenderLoopJob
+0x00007FF8D6839D13 (Unity) GfxDevice::ExecuteAsync
+0x00007FF8D6B7F554 (Unity) GfxDeviceClient::ExecuteAsync
+0x00007FF8D630F8E8 (Unity) ForwardShaderRenderLoop::StartRenderJobs
+0x00007FF8D630A7DD (Unity) ForwardShaderRenderLoop::PerformRendering
+0x00007FF8D63067C8 (Unity) DoForwardShaderRenderLoop
+0x00007FF8D62F6018 (Unity) DoRenderLoop
+0x00007FF8D623F5DC (Unity) Camera::DoRender
+0x00007FF8D623EE11 (Unity) Camera::CustomRender
+0x00007FF8D624CBE2 (Unity) Camera::StandaloneCustomRender
+0x00007FF8D624CD77 (Unity) Camera::StandaloneRender
+0x00007FF8D62463CE (Unity) CameraScripting::Render
+0x00007FF8D5B31DE7 (Unity) Camera_CUSTOM_Render
+0x000002492B65364A (Mono JIT Code) (wrapper managed-to-native) UnityEngine.Camera:Render_Injected (intptr)
+0x000002492B6535AB (Mono JIT Code) UnityEngine.Camera:Render ()
+0x000002492B64EEBB (Mono JIT Code) [C:\LLMRPG\LoreLegacyMonsters\Assets\Editor\VisualSmokeCapture.cs:486] LoreLegacyMonsters.Editor.VisualSmokeCapture:CaptureCameraFallback (string) 
+0x000002492B64E88B (Mono JIT Code) [C:\LLMRPG\LoreLegacyMonsters\Assets\Editor\VisualSmokeCapture.cs:469] LoreLegacyMonsters.Editor.VisualSmokeCapture:Capture (string) 
+0x000002492B64C083 (Mono JIT Code) [C:\LLMRPG\LoreLegacyMonsters\Assets\Editor\VisualSmokeCapture.cs:152] LoreLegacyMonsters.Editor.VisualSmokeCapture:Tick () 
+0x000002492B6450D0 (Mono JIT Code) UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+0x0000024960C94855 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
+0x00007FF8D39968DE (mono-2.0-bdwgc) [C:\build\output\Unity-Technologies\mono\mono\mini\mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007FF8D38D8404 (mono-2.0-bdwgc) [C:\build\output\Unity-Technologies\mono\mono\metadata\object.c:3068] do_runtime_invoke 
+0x00007FF8D38D84F0 (mono-2.0-bdwgc) [C:\build\output\Unity-Technologies\mono\mono\metadata\object.c:3115] mono_runtime_invoke 
+0x00007FF8D693E324 (Unity) scripting_method_invoke
+0x00007FF8D69160A3 (Unity) ScriptingInvocation::Invoke
+0x00007FF8D6911365 (Unity) ScriptingInvocation::Invoke<void>
+0x00007FF8D6A857BB (Unity) Scripting::UnityEditor::EditorApplicationProxy::Internal_CallUpdateFunctions
+0x00007FF8D7B61B57 (Unity) SceneTracker::Update
+0x00007FF8D76A68AA (Unity) Application::TickTimer
+0x00007FF8D7C9DD9A (Unity) MainMessageLoop
+0x00007FF8D7CA3A44 (Unity) UnityMain
+0x00007FF637DA2FBA (Unity) __scrt_common_main_seh
+0x00007FF9AE2EE957 (KERNEL32) BaseThreadInitThunk
+0x00007FF9B022427C (ntdll) RtlUserThreadStart
+
+========== END OF STACKTRACE ===========
+
+A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
+ * C:/Users/nwave/AppData/Local/Temp/Unity/Editor/Crashes

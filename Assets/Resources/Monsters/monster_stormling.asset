@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbc8d28d3dbd5c846b1d584579f23090, type: 3}
+  m_Name: monster_stormling
+  m_EditorClassIdentifier: 
+  monsterId: monster_stormling
+  displayName: Stormling
+  baseHp: 24
+  baseAttack: 7
+  baseDefense: 4
+  baseSpeed: 9
+  role: 3
+  primaryElement: 5
+  secondaryElement: 1
+  growthBias: 4
+  catchRate: 0.36
+  rarity: 3
+  defaultMoveId: move_storm_spear
+  signatureMoveId: move_oracle_glow
+  moveLearnset:
+  - moveId: move_storm_spear
+    unlockLevel: 1
+  - moveId: move_lantern_flash
+    unlockLevel: 3
+  - moveId: move_oracle_glow
+    unlockLevel: 5
+  evolution:
+    method: 1
+    targetMonsterId: monster_shardraptor
+    requiredLevel: 4
+    requiredItemId: 

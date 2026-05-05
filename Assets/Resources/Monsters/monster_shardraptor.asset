@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbc8d28d3dbd5c846b1d584579f23090, type: 3}
+  m_Name: monster_shardraptor
+  m_EditorClassIdentifier: 
+  monsterId: monster_shardraptor
+  displayName: Shard Raptor
+  baseHp: 30
+  baseAttack: 10
+  baseDefense: 6
+  baseSpeed: 10
+  role: 0
+  primaryElement: 5
+  secondaryElement: 6
+  growthBias: 2
+  catchRate: 0.24
+  rarity: 4
+  defaultMoveId: move_storm_spear
+  signatureMoveId: move_glass_slice
+  moveLearnset:
+  - moveId: move_storm_spear
+    unlockLevel: 1
+  - moveId: move_glass_slice
+    unlockLevel: 4
+  - moveId: move_oracle_glow
+    unlockLevel: 6
+  evolution:
+    method: 0
+    targetMonsterId: 
+    requiredLevel: 1
+    requiredItemId: 

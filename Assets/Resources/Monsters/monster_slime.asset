@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbc8d28d3dbd5c846b1d584579f23090, type: 3}
+  m_Name: monster_slime
+  m_EditorClassIdentifier: 
+  monsterId: monster_slime
+  displayName: Slime
+  baseHp: 18
+  baseAttack: 4
+  baseDefense: 2
+  baseSpeed: 4
+  role: 2
+  primaryElement: 3
+  secondaryElement: 0
+  growthBias: 1
+  catchRate: 0.7
+  rarity: 1
+  defaultMoveId: move_strike
+  signatureMoveId: move_wave_pulse
+  moveLearnset:
+  - moveId: move_strike
+    unlockLevel: 1
+  - moveId: move_wave_pulse
+    unlockLevel: 3
+  - moveId: move_healing_rain
+    unlockLevel: 5
+  evolution:
+    method: 1
+    targetMonsterId: monster_mireooze
+    requiredLevel: 5
+    requiredItemId: 

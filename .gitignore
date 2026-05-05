@@ -1,1 +1,47 @@
-Library/
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# IDE
+.vs/
+*.csproj.user
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Unity crash / misc
+sysinfo.txt
+*.apk
+*.aab
+*.unitypackage
+
+# Plastic / Collaborate
+.plastic/
+
+# Steam RC binary staging (generated/fetched locally)
+Assets/Plugins/Steamworks.NET/*.dll
+Assets/Plugins/Steamworks.NET/*.dll.meta
+Assets/Plugins/Steamworks.NET/*.pdb
+Assets/Plugins/Steamworks.NET/*.pdb.meta
+Assets/StreamingAssets/llm/runtime/**
+Assets/StreamingAssets/llm/models/**
+!Assets/StreamingAssets/llm/runtime/README.md
+!Assets/StreamingAssets/llm/models/README.md

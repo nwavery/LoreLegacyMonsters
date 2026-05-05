@@ -1,0 +1,14 @@
+﻿"appbuild"
+{
+    "appid"             "480"
+    "desc"              "LoreLegacyMonsters build %BUILD_DESC%"
+    "buildoutput"       "Build/Steam/steamcmd_output"
+    "contentroot"       "Build/Steam"
+    "setlive"           "default"
+    "depots"
+    {
+        "REPLACE_DEPOT_MAIN"      "tools/steam/depot_build_main.vdf"
+        "REPLACE_DEPOT_LLM"       "tools/steam/depot_build_llm.vdf"
+    }
+}
+

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbc8d28d3dbd5c846b1d584579f23090, type: 3}
+  m_Name: monster_reedfang
+  m_EditorClassIdentifier: 
+  monsterId: monster_reedfang
+  displayName: Reedfang
+  baseHp: 24
+  baseAttack: 7
+  baseDefense: 4
+  baseSpeed: 6
+  role: 0
+  primaryElement: 3
+  secondaryElement: 4
+  growthBias: 0
+  catchRate: 0.38
+  rarity: 2
+  defaultMoveId: move_tide_lash
+  signatureMoveId: move_spore_cloud
+  moveLearnset:
+  - moveId: move_tide_lash
+    unlockLevel: 1
+  - moveId: move_spore_cloud
+    unlockLevel: 3
+  - moveId: move_wave_pulse
+    unlockLevel: 5
+  evolution:
+    method: 1
+    targetMonsterId: monster_tidehorn
+    requiredLevel: 7
+    requiredItemId: 

@@ -1,0 +1,16 @@
+﻿Lore, Legacy, and Monsters - Open Source Notices
+Generated: 2026-05-05T11:18:06-05:00
+
+1) Ollama runtime
+   Version: REPLACE_WITH_VERSION
+   License: MIT
+   Upstream: https://github.com/ollama/ollama
+
+2) Model artifact
+   Model: llama3.2-q4_k_m
+   License: Llama 3.2 Community License
+   Upstream: https://www.llama.com
+
+Important:
+- Verify all dependency notices before release.
+- Confirm redistribution terms for bundled model artifacts.

@@ -1,0 +1,11 @@
+"DepotBuildConfig"
+{
+    "DepotID"   "REPLACE_DEPOT_LLM"
+    "ContentRoot" "Build/Steam/Windows/LoreLegacyMonsters_Data/StreamingAssets/llm"
+    "FileMapping"
+    {
+        "LocalPath" "*"
+        "DepotPath" "."
+        "recursive" "1"
+    }
+}

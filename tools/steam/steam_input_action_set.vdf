@@ -1,0 +1,8 @@
+"actions"
+{
+    "version" "1"
+    "action_sets"
+    {
+        "ingame" "Move,Interact,Menu,Combat1,Combat2,Combat3,Combat4,Combat5,Combat6,Combat7,Map,Inventory,Pause"
+    }
+}

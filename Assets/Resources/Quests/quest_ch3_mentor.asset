@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cde0245060ca8a43962f23a93d29273, type: 3}
+  m_Name: quest_ch3_mentor
+  m_EditorClassIdentifier: 
+  questId: quest_ch3_mentor
+  displayName: Long Campaign Lessons
+  description: Train under Cael and evolve one team member before the spire assault.
+  objectives:
+  - objectiveId: talk_mentor
+    description: Study with Mentor Cael
+    requiredCount: 1
+    currentCount: 0
+  - objectiveId: evolve_monster
+    description: Evolve one monster for the climb
+    requiredCount: 1
+    currentCount: 0
