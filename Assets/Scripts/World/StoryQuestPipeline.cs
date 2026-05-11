@@ -146,6 +146,7 @@ namespace LoreLegacyMonsters.World
                         requiredCount = 1
                     }
                 });
+            q.SetGearRewards(DefaultGameContent.GearOutfitScholarCoatId);
             return q;
         }
 
@@ -226,6 +227,7 @@ namespace LoreLegacyMonsters.World
                         requiredCount = 1
                     }
                 });
+            q.SetGearRewards(DefaultGameContent.GearOutfitForagerGreensId);
             return q;
         }
 
@@ -335,6 +337,7 @@ namespace LoreLegacyMonsters.World
                         requiredCount = 1
                     }
                 });
+            q.SetGearRewards(DefaultGameContent.GearOutfitRoyalMantleId);
             return q;
         }
 

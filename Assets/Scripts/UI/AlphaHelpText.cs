@@ -9,7 +9,7 @@ namespace LoreLegacyMonsters.UI
             "MOVEMENT: WASD — explore the overworld.\n" +
             "INTERACT: E — talk to NPCs and use services.\n" +
             "BATTLE: 1–2 moves, 3 Guard, 4 Potion, 5 Capture, 6 Switch, 7 Flee — Space closes battle results.\n" +
-            "MENUS: Tab party · J quest log · M map · I inventory · Esc closes menus / shop.\n" +
+            "MENUS: Tab party · J quest log · M map · I inventory · Esc pause · G wardrobe · Esc also closes overlays / shop.\n" +
             "FIRST 20 MINUTES: Talk to Mira in Hollowfen, follow the tracker to the east route, then challenge the grove boss.\n" +
             "MAP QUICK TIP: On the map, YOU is your current area and X is your current quest lead.\n" +
             "SAVE / LOAD: F5 quick-save slot 0 · F9 quick-load slot 0 (also use main menu Load Slot 0).\n" +

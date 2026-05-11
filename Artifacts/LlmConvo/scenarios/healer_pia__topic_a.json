@@ -1,0 +1,13 @@
+{
+    "scenarioId": "healer_pia__topic_a",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "This misty weather might lift to reveal some truth, but I've seen enough signs of life on that one road for me to worry. The Hollowfen's calm last night suggests no immediate beasts are stirring, but it's always good to be cautious. If you're planning to head north, I'd advise a careful look at what that fresh sign is – might give us a better idea of what we're up against.",
+    "sanitized": "This misty weather might lift to reveal some truth, but I've seen enough signs of life on that one road for me to worry. The Hollowfen's calm last night suggests no immediate beasts are stirring, but it's always good to be cautious. If you're planning to head north, I'd advise a careful look at what that fresh sign is – might give us a better idea of what we're up against.",
+    "cleanBeforeCommands": "This misty weather might lift to reveal some truth, but I've seen enough signs of life on that one road for me to worry. The Hollowfen's calm last night suggests no immediate beasts are stirring, but it's always good to be cautious. If you're planning to head north, I'd advise a careful look at what that fresh sign is – might give us a better idea of what we're up against.",
+    "shapedHud": "This misty weather might lift to reveal some truth, but I've seen enough signs of life on that one road for me to worry. The Hollowfen's calm last night suggests no immediate beasts are stirring, but it's always good to be cautious. If you're planning to head north, I'd advise a careful look at what that fresh sign is – might give us a better idea of what we're up against.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

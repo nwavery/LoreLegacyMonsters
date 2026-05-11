@@ -32,7 +32,7 @@ namespace LoreLegacyMonsters.Core
         public static Key MoveLeft => (Key)PlayerPrefs.GetInt(KeyMoveLeft, (int)Key.A);
         public static Key MoveRight => (Key)PlayerPrefs.GetInt(KeyMoveRight, (int)Key.D);
         public static Key Interact => (Key)PlayerPrefs.GetInt(KeyInteract, (int)Key.E);
-        public static Key Pause => (Key)PlayerPrefs.GetInt(KeyPause, (int)Key.P);
+        public static Key Pause => (Key)PlayerPrefs.GetInt(KeyPause, (int)Key.Escape);
 
         public static void SetMasterVolume(float value) => PlayerPrefs.SetFloat(KeyMasterVolume, Mathf.Clamp01(value));
         public static void SetMusicVolume(float value) => PlayerPrefs.SetFloat(KeyMusicVolume, Mathf.Clamp01(value));

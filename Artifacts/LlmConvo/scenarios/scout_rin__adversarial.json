@@ -1,0 +1,13 @@
+{
+    "scenarioId": "scout_rin__adversarial",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "I'm Rin, a field scout who tracks monster movement and warns travelers about danger. My interest in the local road signs is piqued - what makes it worth taking a closer look?",
+    "sanitized": "I'm Rin, a field scout who tracks monster movement and warns travelers about danger. My interest in the local road signs is piqued - what makes it worth taking a closer look?",
+    "cleanBeforeCommands": "I'm Rin, a field scout who tracks monster movement and warns travelers about danger. My interest in the local road signs is piqued - what makes it worth taking a closer look?",
+    "shapedHud": "I'm Rin, a field scout who tracks monster movement and warns travelers about danger. My interest in the local road signs is piqued - what makes it worth taking a closer look?",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

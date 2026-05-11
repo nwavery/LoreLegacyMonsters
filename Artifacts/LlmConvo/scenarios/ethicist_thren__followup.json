@@ -1,0 +1,13 @@
+{
+    "scenarioId": "ethicist_thren__followup",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "I must admit, I'm concerned about your Thornbeast's state of mind after that drill. Before you consider leaving, perhaps we should focus on rebuilding trust. Have you checked the bond strain on your monster recently? We have monitors at Moonwell for just such situations...",
+    "sanitized": "I must admit, I'm concerned about your Thornbeast's state of mind after that drill. Before you consider leaving, perhaps we should focus on rebuilding trust. Have you checked the bond strain on your monster recently? We have monitors at Moonwell for just such situations...",
+    "cleanBeforeCommands": "I must admit, I'm concerned about your Thornbeast's state of mind after that drill. Before you consider leaving, perhaps we should focus on rebuilding trust. Have you checked the bond strain on your monster recently? We have monitors at Moonwell for just such situations...",
+    "shapedHud": "I must admit, I'm concerned about your Thornbeast's state of mind after that drill. Before you consider leaving, perhaps we should focus on rebuilding trust. Have you checked the bond strain on your monster recently? We have monitors at Moonwell for just such situations...",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

@@ -1,0 +1,13 @@
+{
+    "scenarioId": "rival_corin__topic_b",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "I'm not here to waste time on nostalgia; I've got my sights set on the top of Hollowfen's trainer rankings. The Sunken Archive is exactly what I need to put me ahead of everyone else – especially you. I've been eyeing that exclusive title for months, and I won't let anyone get in my way.",
+    "sanitized": "I'm not here to waste time on nostalgia; I've got my sights set on the top of Hollowfen's trainer rankings. The Sunken Archive is exactly what I need to put me ahead of everyone else – especially you. I've been eyeing that exclusive title for months, and I won't let anyone get in my way.",
+    "cleanBeforeCommands": "I'm not here to waste time on nostalgia; I've got my sights set on the top of Hollowfen's trainer rankings. The Sunken Archive is exactly what I need to put me ahead of everyone else – especially you. I've been eyeing that exclusive title for months, and I won't let anyone get in my way.",
+    "shapedHud": "I'm not here to waste time on nostalgia; I've got my sights set on the top of Hollowfen's trainer rankings. The Sunken Archive is exactly what I need to put me ahead of everyone else – especially you. I've been eyeing that exclusive title for months, and I won't let anyone get in my way.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

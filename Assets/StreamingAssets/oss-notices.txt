@@ -1,5 +1,5 @@
 ﻿Lore, Legacy, and Monsters - Open Source Notices
-Generated: 2026-05-05T11:18:06-05:00
+Generated: 2026-05-05T11:54:16-05:00
 
 1) Ollama runtime
    Version: REPLACE_WITH_VERSION

@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Text;
 using UnityEngine;
 using LoreLegacyMonsters.SaveSystem;
+using LoreLegacyMonsters.Inventory;
 using LoreLegacyMonsters.Shop;
 using LoreLegacyMonsters.Achievements;
 using LoreLegacyMonsters.Core;
@@ -33,12 +34,16 @@ namespace LoreLegacyMonsters
         [SerializeField] WeatherSystem worldWeather;
         [SerializeField] NpcMemoryService npcMemoryService;
 
+        LoadoutSystem loadoutSystem;
+
         SaveCoordinator _saveCoordinator;
+        bool gearAchievementHooks;
 
         public InventorySystem Inventory => inventorySystem;
         public QuestManager Quests => questManager;
         public Monster.MonsterSystem Monsters => monsterSystem;
         public AchievementSystem Achievements => achievementSystem;
+        public LoadoutSystem Loadout => loadoutSystem;
 
         void Awake()
         {
@@ -51,6 +56,13 @@ namespace LoreLegacyMonsters
             Instance = this;
             DontDestroyOnLoad(gameObject);
             EnsureBootstrap();
+        }
+
+        void OnDestroy()
+        {
+            if (Instance != this) return;
+            UnregisterGearAchievementHooks();
+            Instance = null;
         }
 
         void Start()
@@ -75,15 +87,18 @@ namespace LoreLegacyMonsters
                 npcMemoryService = gameObject.GetComponent<NpcMemoryService>() ?? gameObject.AddComponent<NpcMemoryService>();
             var shop = shopManager != null ? shopManager : FindFirstObjectByType<ShopManager>();
             shopManager = shop;
+            loadoutSystem ??= GetComponent<LoadoutSystem>() ?? gameObject.AddComponent<LoadoutSystem>();
+            loadoutSystem.Bind(inventorySystem, assetRegistry);
             DefaultGameContent.RegisterAll(assetRegistry, worldManager, shop);
             StoryQuestPipeline.RegisterAll(questManager);
+            RegisterGearAchievementHooks();
         }
 
         void EnsureSaveCoordinator()
         {
             if (_saveCoordinator != null) return;
             _saveCoordinator = SaveCoordinator.CreateDefault(this, inventorySystem, questManager, worldManager,
-                achievementSystem, monsterSystem, worldWeather, npcMemoryService);
+                achievementSystem, monsterSystem, worldWeather, npcMemoryService, loadoutSystem);
         }
 
         public void ApplySaveToRuntime(SaveInfo save)
@@ -117,6 +132,13 @@ namespace LoreLegacyMonsters
                 sb.Append("; party: ").Append(monsterSystem.GetPartySummary(assetRegistry).Replace("\n", " | "));
             if (inventorySystem != null)
                 sb.Append("; inventory: ").Append(BuildInventoryHighlights());
+            if (loadoutSystem != null && assetRegistry != null)
+            {
+                sb.Append("; player_gear: ").Append(GearPromptFormatter.EquippedSummary(assetRegistry, loadoutSystem));
+                var tags = GearPromptFormatter.VibeTagsBracketed(loadoutSystem);
+                if (!string.IsNullOrWhiteSpace(tags))
+                    sb.Append("; gear_vibe_tags: ").Append(tags);
+            }
 
             return sb.ToString();
         }
@@ -145,5 +167,31 @@ namespace LoreLegacyMonsters
             EnsureSaveCoordinator();
             _saveCoordinator.CaptureAll(save);
         }
+
+        void RegisterGearAchievementHooks()
+        {
+            if (gearAchievementHooks) return;
+            gearAchievementHooks = true;
+            GameEvents.InventoryItemAdded += OnInventoryItemAddedForGearAchievements;
+            if (loadoutSystem != null)
+                loadoutSystem.LoadoutChanged += OnLoadoutChangedForGearAchievements;
+        }
+
+        void UnregisterGearAchievementHooks()
+        {
+            if (!gearAchievementHooks) return;
+            gearAchievementHooks = false;
+            GameEvents.InventoryItemAdded -= OnInventoryItemAddedForGearAchievements;
+            if (loadoutSystem != null)
+                loadoutSystem.LoadoutChanged -= OnLoadoutChangedForGearAchievements;
+        }
+
+        void OnInventoryItemAddedForGearAchievements(string _, int __) =>
+            AchievementGearEvaluator.EvaluateFromRuntime(inventorySystem, loadoutSystem, achievementSystem,
+                assetRegistry);
+
+        void OnLoadoutChangedForGearAchievements(GearSlot _, int __, string ___, string ____) =>
+            AchievementGearEvaluator.EvaluateFromRuntime(inventorySystem, loadoutSystem, achievementSystem,
+                assetRegistry);
     }
 }

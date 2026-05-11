@@ -1,0 +1,23 @@
+{
+  "playerMessage": "",
+  "conversationHistorySummary": "none",
+  "npcRole": "Ambient",
+  "npcId": "convo_test_npc",
+  "displayName": "Trail scout Rin",
+  "roleName": "",
+  "characterInstructions": "Weary but kind; grounded hints about Hollowfen patrols.",
+  "identitySummary": "Town perimeter scout.",
+  "gameStateSummary": "evening outskirts; eastern fog thickened",
+  "questSummary": "Find safe bearings before heading east.",
+  "inventorySummary": "basic supplies",
+  "partySummary": "one ally ready",
+  "weatherSummary": "misty",
+  "npcMemorySummary": "warned traveller about creek ford",
+  "storyStateSummary": "sandbox:dev",
+  "statusEffectsSummary": "none notable",
+  "shopStockSummary": "no shop",
+  "playerGearSummary": "travel cloak",
+  "playerVibeTags": "Cautious",
+  "temperature": "",
+  "maxTokens": ""
+}

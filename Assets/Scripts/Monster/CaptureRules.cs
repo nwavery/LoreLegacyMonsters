@@ -6,7 +6,7 @@ namespace LoreLegacyMonsters.Monster
     public static class CaptureRules
     {
         public static float CalculateChance(MonsterData species, int currentHp, int maxHp, MonsterStatusEffect status,
-            float charmModifier = 1f, bool isBoss = false)
+            float charmModifier = 1f, bool isBoss = false, float gearChanceBonus = 0f)
         {
             if (species == null || isBoss) return 0f;
 
@@ -23,11 +23,11 @@ namespace LoreLegacyMonsters.Monster
 
             var rarityPenalty = Mathf.Clamp01((species.Rarity - 1) * 0.06f);
             var baseChance = species.CatchRate + hpBonus + statusBonus - rarityPenalty;
-            return Mathf.Clamp(baseChance * Mathf.Max(0.1f, charmModifier), 0.05f, 0.95f);
+            return Mathf.Clamp(baseChance * Mathf.Max(0.1f, charmModifier) + gearChanceBonus, 0.05f, 0.95f);
         }
 
         public static CaptureResult Roll(MonsterData species, int currentHp, int maxHp, MonsterStatusEffect status,
-            float charmModifier = 1f, bool isBoss = false, IRandomSource rng = null)
+            float charmModifier = 1f, bool isBoss = false, IRandomSource rng = null, float gearChanceBonus = 0f)
         {
             rng ??= UnityRandomSource.Default;
             if (isBoss)
@@ -41,7 +41,7 @@ namespace LoreLegacyMonsters.Monster
                 };
             }
 
-            var chance = CalculateChance(species, currentHp, maxHp, status, charmModifier, isBoss);
+            var chance = CalculateChance(species, currentHp, maxHp, status, charmModifier, isBoss, gearChanceBonus);
             var roll = rng.Next01();
             return new CaptureResult
             {

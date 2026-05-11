@@ -1,0 +1,13 @@
+{
+    "scenarioId": "cartographer_jessa__topic_a",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Let me take a closer look at that one-sided road you mentioned. It seems there are some fresh signs, but they're not too clear yet. I'd recommend taking a bearing from your current location and heading due east for about 300 paces before making any further decisions. That way, the wind shouldn't blow soot onto your cloak. Follow the road, keep an eye out for any other interesting landmarks or clues, and see where it leads you.",
+    "sanitized": "Let me take a closer look at that one-sided road you mentioned. It seems there are some fresh signs, but they're not too clear yet. I'd recommend taking a bearing from your current location and heading due east for about 300 paces before making any further decisions. That way, the wind shouldn't blow soot onto your cloak. Follow the road, keep an eye out for any other interesting landmarks or clues, and see where it leads you.",
+    "cleanBeforeCommands": "Let me take a closer look at that one-sided road you mentioned. It seems there are some fresh signs, but they're not too clear yet. I'd recommend taking a bearing from your current location and heading due east for about 300 paces before making any further decisions. That way, the wind shouldn't blow soot onto your cloak. Follow the road, keep an eye out for any other interesting landmarks or clues, and see where it leads you.",
+    "shapedHud": "Let me take a closer look at that one-sided road you mentioned. It seems there are some fresh signs, but they're not too clear yet. I'd recommend taking a bearing from your current location and heading due east for about 300 paces before making any further decisions. That way, the wind shouldn't blow soot onto your cloak. Follow the road, keep an eye out for any other interesting landmarks or clues, and see where it leads you.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

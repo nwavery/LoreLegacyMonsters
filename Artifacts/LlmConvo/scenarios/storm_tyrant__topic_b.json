@@ -1,0 +1,13 @@
+{
+    "scenarioId": "storm_tyrant__topic_b",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "\"A storm awakens when a warrior is ready, and I am your testing ground. Come, let us see if your party can weather the trials that lie within.\"",
+    "sanitized": "\"A storm awakens when a warrior is ready, and I am your testing ground. Come, let us see if your party can weather the trials that lie within.\"",
+    "cleanBeforeCommands": "\"A storm awakens when a warrior is ready, and I am your testing ground. Come, let us see if your party can weather the trials that lie within.\"",
+    "shapedHud": "\"A storm awakens when a warrior is ready, and I am your testing ground. Come, let us see if your party can weather the trials that lie within.\"",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

@@ -22,6 +22,7 @@ namespace LoreLegacyMonsters.Monster
         [SerializeField] string signatureMoveId = "move_focus";
         [SerializeField] List<MonsterMoveLearnEntry> moveLearnset = new List<MonsterMoveLearnEntry>();
         [SerializeField] MonsterEvolutionRule evolution = new MonsterEvolutionRule();
+        [SerializeField] GearDropTable gearDropTable;
 
         public string MonsterId => monsterId;
         public string DisplayName => displayName;
@@ -39,6 +40,13 @@ namespace LoreLegacyMonsters.Monster
         public string SignatureMoveId => signatureMoveId;
         public IReadOnlyList<MonsterMoveLearnEntry> MoveLearnset => moveLearnset;
         public MonsterEvolutionRule Evolution => evolution;
+        public GearDropTable GearDropTable => gearDropTable;
+
+        /// <summary>Runtime registration hook (starter monsters / seeded tables).</summary>
+        public void BindGearDropRuntime(GearDropTable table)
+        {
+            gearDropTable = table;
+        }
 
         public void Configure(string id, string name, int hp, int atk, int def)
         {

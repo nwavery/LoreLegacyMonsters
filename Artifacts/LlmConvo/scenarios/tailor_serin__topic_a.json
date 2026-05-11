@@ -1,0 +1,13 @@
+{
+    "scenarioId": "tailor_serin__topic_a",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "A cloak isn't ideal for an east wind, especially with soot in the air. Consider a longer coat with some water resistance; those are staples of our travels here in Hollowfen. I've got just the thing – stitched coats made from durable fabric that'll keep you dry and warm on your journey.",
+    "sanitized": "A cloak isn't ideal for an east wind, especially with soot in the air. Consider a longer coat with some water resistance; those are staples of our travels here in Hollowfen. I've got just the thing – stitched coats made from durable fabric that'll keep you dry and warm on your journey.",
+    "cleanBeforeCommands": "A cloak isn't ideal for an east wind, especially with soot in the air. Consider a longer coat with some water resistance; those are staples of our travels here in Hollowfen. I've got just the thing – stitched coats made from durable fabric that'll keep you dry and warm on your journey.",
+    "shapedHud": "A cloak isn't ideal for an east wind, especially with soot in the air. Consider a longer coat with some water resistance; those are staples of our travels here in Hollowfen. I've got just the thing – stitched coats made from durable fabric that'll keep you dry and warm on your journey.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

@@ -54,15 +54,46 @@ namespace LoreLegacyMonsters.Dialog.Llm
 
         void ApplyPlayerPreferenceOverlay()
         {
-            if (LlmRuntimeSupervisor.IsBundledRuntimeEnabled())
+            var bundled = LlmRuntimeSupervisor.IsBundledRuntimeEnabled();
+            if (bundled)
             {
                 baseUrl = LlmRuntimeSupervisor.BundledBaseUrl;
                 LlmRuntimeSupervisor.EnsureStarted();
             }
+
             if (PlayerPrefs.HasKey(LlmGlobalPreferences.KeyBaseUrl))
-                baseUrl = PlayerPrefs.GetString(LlmGlobalPreferences.KeyBaseUrl);
+            {
+                var prefUrl = PlayerPrefs.GetString(LlmGlobalPreferences.KeyBaseUrl);
+                if (bundled && MatchesLegacyDesktopOllamaRoot(prefUrl))
+                {
+                    PlayerPrefs.DeleteKey(LlmGlobalPreferences.KeyBaseUrl);
+                    PlayerPrefs.Save();
+                }
+                else
+                    baseUrl = prefUrl.Trim();
+            }
+
             if (PlayerPrefs.HasKey(LlmGlobalPreferences.KeyModel))
-                model = PlayerPrefs.GetString(LlmGlobalPreferences.KeyModel);
+            {
+                var prefModel = PlayerPrefs.GetString(LlmGlobalPreferences.KeyModel);
+                if (bundled && BundledOllamaModelProvisioner.LooksLikeLegacyDesktopDefaultModel(prefModel))
+                {
+                    PlayerPrefs.DeleteKey(LlmGlobalPreferences.KeyModel);
+                    PlayerPrefs.Save();
+                    model = BundledOllamaModelProvisioner.BundledModelTag;
+                }
+                else
+                    model = prefModel.Trim();
+            }
+            else if (bundled)
+                model = BundledOllamaModelProvisioner.BundledModelTag;
+        }
+
+        static bool MatchesLegacyDesktopOllamaRoot(string url)
+        {
+            if (string.IsNullOrWhiteSpace(url)) return false;
+            var t = url.Trim().TrimEnd('/').ToLowerInvariant();
+            return t == "http://127.0.0.1:11434/v1" || t == "http://localhost:11434/v1";
         }
     }
 }

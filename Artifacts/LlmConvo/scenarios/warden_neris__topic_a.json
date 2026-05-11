@@ -1,0 +1,13 @@
+{
+    "scenarioId": "warden_neris__topic_a",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "That soot's been clinging to everything since the storm passed. You'd think it'd settle by now, but I've seen worse weather than this in years of keeping Hollowfen's roads open. Still, one side road showed some fresh signs last night... a bit too soon for my taste.",
+    "sanitized": "That soot's been clinging to everything since the storm passed. You'd think it'd settle by now, but I've seen worse weather than this in years of keeping Hollowfen's roads open. Still, one side road showed some fresh signs last night... a bit too soon for my taste.",
+    "cleanBeforeCommands": "That soot's been clinging to everything since the storm passed. You'd think it'd settle by now, but I've seen worse weather than this in years of keeping Hollowfen's roads open. Still, one side road showed some fresh signs last night... a bit too soon for my taste.",
+    "shapedHud": "That soot's been clinging to everything since the storm passed. You'd think it'd settle by now, but I've seen worse weather than this in years of keeping Hollowfen's roads open. Still, one side road showed some fresh signs last night... a bit too soon for my taste.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

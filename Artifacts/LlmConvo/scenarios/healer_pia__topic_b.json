@@ -1,0 +1,13 @@
+{
+    "scenarioId": "healer_pia__topic_b",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Of course! I'll fully restore your party, Thornbeast and Gremlin. Come on up to the bench, and let me get to work on those wounds. By the way, speaking of travel, remember to keep that cloak dry - we don't want any accidents out here on the road.",
+    "sanitized": "Of course! I'll fully restore your party, Thornbeast and Gremlin. Come on up to the bench, and let me get to work on those wounds. By the way, speaking of travel, remember to keep that cloak dry - we don't want any accidents out here on the road.",
+    "cleanBeforeCommands": "Of course! I'll fully restore your party, Thornbeast and Gremlin. Come on up to the bench, and let me get to work on those wounds. By the way, speaking of travel, remember to keep that cloak dry - we don't want any accidents out here on the road.",
+    "shapedHud": "Of course! I'll fully restore your party, Thornbeast and Gremlin. Come on up to the bench, and let me get to work on those wounds. By the way, speaking of travel, remember to keep that cloak dry - we don't want any accidents out here on the road.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

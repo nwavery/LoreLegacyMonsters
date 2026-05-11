@@ -1,0 +1,13 @@
+{
+    "scenarioId": "warden_neris__greet",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "\"Another long stretch to Hollowfen ahead. You might want to check that road for any signs of... trouble. We've had some issues with the water lately.\"",
+    "sanitized": "\"Another long stretch to Hollowfen ahead. You might want to check that road for any signs of... trouble. We've had some issues with the water lately.\"",
+    "cleanBeforeCommands": "\"Another long stretch to Hollowfen ahead. You might want to check that road for any signs of... trouble. We've had some issues with the water lately.\"",
+    "shapedHud": "\"Another long stretch to Hollowfen ahead. You might want to check that road for any signs of... trouble. We've had some issues with the water lately.\"",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

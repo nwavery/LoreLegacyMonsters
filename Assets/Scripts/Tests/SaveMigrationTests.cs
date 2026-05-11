@@ -63,11 +63,30 @@ namespace LoreLegacyMonsters.Tests
         }
 
         [Test]
-        public void SaveInfo_DefaultsToV1Schema_AndVersion8()
+        public void SaveInfo_Defaults_ToVersion9()
         {
             var save = new SaveInfo();
-            Assert.AreEqual(8, save.Version);
+            Assert.AreEqual(9, save.Version);
             Assert.AreEqual("v1.0", save.SaveSchemaTag);
+        }
+
+        [Test]
+        public void SaveSystem_MigrateInPlace_FromV8_Creates_LoadoutBuckets()
+        {
+            var save = new SaveInfo
+            {
+                Version = 8,
+                SaveSchemaTag = "v1.0",
+                Loadout = null
+            };
+
+            SaveSystem.SaveSystem.MigrateInPlace(save);
+
+            Assert.IsNotNull(save.Loadout);
+            Assert.IsNotNull(save.Loadout.charmItemIds);
+            Assert.AreEqual(3, save.Loadout.charmItemIds.Count);
+            Assert.AreEqual("", save.Loadout.outfitItemId);
+            Assert.AreEqual("", save.Loadout.charmItemIds[0]);
         }
     }
 }

@@ -1,0 +1,13 @@
+{
+    "scenarioId": "runner_nia__topic_b",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "They're still flickering, but now we can see they're not just random fireflies. The pattern looks like it might be a warning – some kind of signal to anyone passing by. I've seen this sort of thing before on the north road; could be a sign that someone's left a message or even set up a makeshift campsite. If you're thinking of investigating, I'd recommend heading east from here and keeping an eye out for any signs of recent activity.",
+    "sanitized": "They're still flickering, but now we can see they're not just random fireflies. The pattern looks like it might be a warning – some kind of signal to anyone passing by. I've seen this sort of thing before on the north road; could be a sign that someone's left a message or even set up a makeshift campsite. If you're thinking of investigating, I'd recommend heading east from here and keeping an eye out for any signs of recent activity.",
+    "cleanBeforeCommands": "They're still flickering, but now we can see they're not just random fireflies. The pattern looks like it might be a warning – some kind of signal to anyone passing by. I've seen this sort of thing before on the north road; could be a sign that someone's left a message or even set up a makeshift campsite. If you're thinking of investigating, I'd recommend heading east from here and keeping an eye out for any signs of recent activity.",
+    "shapedHud": "They're still flickering, but now we can see they're not just random fireflies. The pattern looks like it might be a warning – some kind of signal to anyone passing by. I've seen this sort of thing before on the north road; could be a sign that someone's left a message or even set up a makeshift campsite. If you're thinking of investigating, I'd recommend heading east from here and keeping an eye out for any signs of recent activity.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

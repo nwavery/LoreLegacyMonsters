@@ -1,0 +1,13 @@
+{
+    "scenarioId": "collector_veya__topic_b",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Fresh tracks in the mist. Must've washed up here last night, right after the rain. Looks like someone – or something – was moving fast through Hollowfen, trying to shake off any unwanted company. That side road looks promising, if you're feeling brave enough to take a closer look.",
+    "sanitized": "Fresh tracks in the mist. Must've washed up here last night, right after the rain. Looks like someone – or something – was moving fast through Hollowfen, trying to shake off any unwanted company. That side road looks promising, if you're feeling brave enough to take a closer look.",
+    "cleanBeforeCommands": "Fresh tracks in the mist. Must've washed up here last night, right after the rain. Looks like someone – or something – was moving fast through Hollowfen, trying to shake off any unwanted company. That side road looks promising, if you're feeling brave enough to take a closer look.",
+    "shapedHud": "Fresh tracks in the mist. Must've washed up here last night, right after the rain. Looks like someone – or something – was moving fast through Hollowfen, trying to shake off any unwanted company. That side road looks promising, if you're feeling brave enough to take a closer look.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

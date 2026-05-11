@@ -1,0 +1,13 @@
+{
+    "scenarioId": "elder_mira__topic_a",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Now that the rain has passed, we can take a closer look at those fresh signs on the side road. It might be worth sending someone to investigate and see if they can gather any information about what caused them. If you'd like, I could assign one of our scouts to take a look. We have a good formation in place with Thornbeast and Gremlin, so it shouldn't be too much trouble.",
+    "sanitized": "Now that the rain has passed, we can take a closer look at those fresh signs on the side road. It might be worth sending someone to investigate and see if they can gather any information about what caused them. If you'd like, I could assign one of our scouts to take a look. We have a good formation in place with Thornbeast and Gremlin, so it shouldn't be too much trouble.",
+    "cleanBeforeCommands": "Now that the rain has passed, we can take a closer look at those fresh signs on the side road. It might be worth sending someone to investigate and see if they can gather any information about what caused them. If you'd like, I could assign one of our scouts to take a look. We have a good formation in place with Thornbeast and Gremlin, so it shouldn't be too much trouble.",
+    "shapedHud": "Now that the rain has passed, we can take a closer look at those fresh signs on the side road. It might be worth sending someone to investigate and see if they can gather any information about what caused them. If you'd like, I could assign one of our scouts to take a look. We have a good formation in place with Thornbeast and Gremlin, so it shouldn't be too much trouble.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

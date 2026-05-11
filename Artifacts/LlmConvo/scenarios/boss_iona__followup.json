@@ -1,0 +1,13 @@
+{
+    "scenarioId": "boss_iona__followup",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Before departing for another day, make sure you've secured any loose items that could become lost in the mist. The road kit charms and vials are essential; don't want them getting damaged or misplaced. And, of course, check your bedrolls and ration tins – a traveler's comfort is hard to come by on the open road.",
+    "sanitized": "Before departing for another day, make sure you've secured any loose items that could become lost in the mist. The road kit charms and vials are essential; don't want them getting damaged or misplaced. And, of course, check your bedrolls and ration tins – a traveler's comfort is hard to come by on the open road.",
+    "cleanBeforeCommands": "Before departing for another day, make sure you've secured any loose items that could become lost in the mist. The road kit charms and vials are essential; don't want them getting damaged or misplaced. And, of course, check your bedrolls and ration tins – a traveler's comfort is hard to come by on the open road.",
+    "shapedHud": "Before departing for another day, make sure you've secured any loose items that could become lost in the mist. The road kit charms and vials are essential; don't want them getting damaged or misplaced. And, of course, check your bedrolls and ration tins – a traveler's comfort is hard to come by on the open road.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

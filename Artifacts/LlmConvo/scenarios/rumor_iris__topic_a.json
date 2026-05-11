@@ -1,0 +1,13 @@
+{
+    "scenarioId": "rumor_iris__topic_a",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Rumors spread quick in Hollowfen when it's calm. People whisper about what they saw on that one side road at dawn: tracks that don't match any beast, and strange marks that seem to shift like the mist itself. Some say it's just the wind playing tricks, but I've heard stories of folk who ventured out there and didn't come back till nightfall. You might want to take a closer look, especially with the glow reports on the north road.",
+    "sanitized": "Rumors spread quick in Hollowfen when it's calm. People whisper about what they saw on that one side road at dawn: tracks that don't match any beast, and strange marks that seem to shift like the mist itself. Some say it's just the wind playing tricks, but I've heard stories of folk who ventured out there and didn't come back till nightfall. You might want to take a closer look, especially with the glow reports on the north road.",
+    "cleanBeforeCommands": "Rumors spread quick in Hollowfen when it's calm. People whisper about what they saw on that one side road at dawn: tracks that don't match any beast, and strange marks that seem to shift like the mist itself. Some say it's just the wind playing tricks, but I've heard stories of folk who ventured out there and didn't come back till nightfall. You might want to take a closer look, especially with the glow reports on the north road.",
+    "shapedHud": "Rumors spread quick in Hollowfen when it's calm. People whisper about what they saw on that one side road at dawn: tracks that don't match any beast, and strange marks that seem to shift like the mist itself. Some say it's just the wind playing tricks, but I've heard stories of folk who ventured out there and didn't come back till nightfall. You might want to take a closer look, especially with the glow reports on the north road.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

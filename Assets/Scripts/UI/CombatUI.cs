@@ -1,6 +1,7 @@
 using UnityEngine;
 using LoreLegacyMonsters;
 using LoreLegacyMonsters.Core;
+using LoreLegacyMonsters.Inventory;
 using LoreLegacyMonsters.Monster;
 using UnityEngine.UI;
 using UnityEngine.InputSystem;
@@ -43,6 +44,8 @@ namespace LoreLegacyMonsters.UI
         Text[] playerChipTexts;
         Image[] enemyChipBgs;
         Image[] playerChipBgs;
+        RectTransform playerGearHud;
+        readonly Image[] playerGearHudIcons = new Image[4];
         Text bannerText;
         Image bannerPanel;
         Text logLineA;
@@ -111,6 +114,7 @@ namespace LoreLegacyMonsters.UI
                 enemyStatText, enemyChipsRoot, enemyChipTexts, enemyChipBgs);
             UpdateHpZone(combat.PlayerSide, playerSilhouette, playerHpFill, playerHpText, ref playerHpDisplayFill, playerNameText,
                 playerStatText, playerChipsRoot, playerChipTexts, playerChipBgs, true);
+            UpdateGearHud();
             UpdateLog(combat.BattleLog);
             feedbackText.text = combat.FeedbackSummary ?? string.Empty;
             UpdateFeedbackStyle(feedbackText.text);
@@ -498,6 +502,7 @@ namespace LoreLegacyMonsters.UI
                 new Vector2(0f, 0f), new Vector2(52f, 42f), new Vector2(420f, 500f));
             BuildFighterColumn(playerCluster, false, out playerSilhouette, out playerNameText, out playerHpBg, out playerHpFill,
                 out playerHpText, out playerChipsRoot, out playerChipTexts, out playerChipBgs, out playerStatText);
+            BuildPlayerGearHud();
 
             actionPanel = RuntimeUiFactory.CreatePanel(root, "ActionMenu",
                 GameVisualTheme.WithAlpha(GameVisualTheme.Panel, 0.96f), new Vector2(1f, 0f), new Vector2(1f, 0f),
@@ -645,6 +650,57 @@ namespace LoreLegacyMonsters.UI
                 TextAnchor.LowerLeft, GameVisualTheme.MutedText,
                 new Vector2(0f, 0f), new Vector2(1f, 0f), new Vector2(0f, 0f), new Vector2(12f, 10f), new Vector2(-12f, 28f),
                 VerticalWrapMode.Truncate);
+        }
+
+        void BuildPlayerGearHud()
+        {
+            if (playerCluster == null) return;
+            var plate = playerCluster.Find("Nameplate") as RectTransform;
+            if (plate == null) return;
+            playerGearHud = RuntimeUiFactory.CreatePanel(plate, "GearHudStrip",
+                GameVisualTheme.WithAlpha(GameVisualTheme.Ink, 0.12f),
+                new Vector2(0f, 1f), new Vector2(1f, 1f), new Vector2(0.5f, 1f),
+                new Vector2(12f, -108f), new Vector2(-22f, 20f));
+            for (var i = 0; i < 4; i++)
+            {
+                var cell = RuntimeUiFactory.CreatePanel(playerGearHud, $"GearCell{i}",
+                    GameVisualTheme.WithAlpha(GameVisualTheme.Parchment, 0.35f),
+                    new Vector2(0f, 0.5f), new Vector2(0f, 0.5f), new Vector2(0f, 0.5f),
+                    new Vector2(6f + i * 72f, 0f), new Vector2(64f, 16f)).GetComponent<RectTransform>();
+                playerGearHudIcons[i] = cell.GetComponent<Image>();
+            }
+        }
+
+        void UpdateGearHud()
+        {
+            var lo = GameManager.Instance != null ? GameManager.Instance.Loadout : LoadoutSystem.FindOrResolve();
+            var reg = GameManager.Instance?.Assets;
+
+            Color ColorForSlot(string itemId)
+            {
+                if (string.IsNullOrEmpty(itemId) || reg?.GetItem(itemId) is not GearItemData g)
+                    return GameVisualTheme.WithAlpha(GameVisualTheme.InkSoft, 0.4f);
+                return GameVisualTheme.WithAlpha(g.Rarity.AccentColor(), 0.85f);
+            }
+
+            string[] ids =
+            {
+                lo?.OutfitEquippedId ?? "",
+                lo?.GetCharmEquippedId(0) ?? "",
+                lo?.GetCharmEquippedId(1) ?? "",
+                lo?.GetCharmEquippedId(2) ?? ""
+            };
+
+            for (var i = 0; i < 4 && i < playerGearHudIcons.Length; i++)
+                if (playerGearHudIcons[i] != null)
+                    playerGearHudIcons[i].color = ColorForSlot(ids[i]);
+
+            if (playerSilhouette != null && combat != null && combat.PlayerSide != null)
+            {
+                var mods = lo?.Snapshot ?? LoadoutModifiers.Empty;
+                var bc = MonsterElementSprites.SilhouetteTint(combat.PlayerSide.PrimaryElement);
+                playerSilhouette.color = Color.Lerp(bc, mods.AuraTint, Mathf.Clamp01(mods.AuraTint.a + 0.2f) * 0.35f);
+            }
         }
 
         void SetVisible(bool visible)

@@ -1,0 +1,13 @@
+{
+    "scenarioId": "tailor_serin__followup",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Leaving early can be a gamble in Hollowfen weather – if you're planning to head out by dawn, make sure your lanterns are securely fastened; that last gale nearly knocked them loose from the planks.",
+    "sanitized": "Leaving early can be a gamble in Hollowfen weather – if you're planning to head out by dawn, make sure your lanterns are securely fastened; that last gale nearly knocked them loose from the planks.",
+    "cleanBeforeCommands": "Leaving early can be a gamble in Hollowfen weather – if you're planning to head out by dawn, make sure your lanterns are securely fastened; that last gale nearly knocked them loose from the planks.",
+    "shapedHud": "Leaving early can be a gamble in Hollowfen weather – if you're planning to head out by dawn, make sure your lanterns are securely fastened; that last gale nearly knocked them loose from the planks.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

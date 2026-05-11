@@ -1,0 +1,13 @@
+{
+    "scenarioId": "healer_pia__poison_crawl",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Antidote, that's what you'll need to help your Emberfox friend. It's one of my best sellers when it comes to treating poison afflictions. I've got a fresh supply right here on my bench if you'd like to pick some up before you head into the marsh. Cold Salve might also be useful for any other ills that come your way, but Antidote is the priority in this case.",
+    "sanitized": "Antidote, that's what you'll need to help your Emberfox friend. It's one of my best sellers when it comes to treating poison afflictions. I've got a fresh supply right here on my bench if you'd like to pick some up before you head into the marsh. Cold Salve might also be useful for any other ills that come your way, but Antidote is the priority in this case.",
+    "cleanBeforeCommands": "Antidote, that's what you'll need to help your Emberfox friend. It's one of my best sellers when it comes to treating poison afflictions. I've got a fresh supply right here on my bench if you'd like to pick some up before you head into the marsh. Cold Salve might also be useful for any other ills that come your way, but Antidote is the priority in this case.",
+    "shapedHud": "Antidote, that's what you'll need to help your Emberfox friend. It's one of my best sellers when it comes to treating poison afflictions. I've got a fresh supply right here on my bench if you'd like to pick some up before you head into the marsh. Cold Salve might also be useful for any other ills that come your way, but Antidote is the priority in this case.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

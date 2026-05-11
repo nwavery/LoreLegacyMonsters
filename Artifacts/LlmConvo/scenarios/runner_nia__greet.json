@@ -1,0 +1,13 @@
+{
+    "scenarioId": "runner_nia__greet",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Mornin', traveler! The mist's clearin' up now. You might want to check that side road near Hollowfen – I've seen some fresh signs there.",
+    "sanitized": "Mornin', traveler! The mist's clearin' up now. You might want to check that side road near Hollowfen – I've seen some fresh signs there.",
+    "cleanBeforeCommands": "Mornin', traveler! The mist's clearin' up now. You might want to check that side road near Hollowfen – I've seen some fresh signs there.",
+    "shapedHud": "Mornin', traveler! The mist's clearin' up now. You might want to check that side road near Hollowfen – I've seen some fresh signs there.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

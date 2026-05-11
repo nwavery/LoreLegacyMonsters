@@ -1,0 +1,13 @@
+{
+    "scenarioId": "rival_corin__greet",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Looks like you're not wasting any time getting back on the road. Those fresh signs on the side road could be worth a closer look - might just give us an edge on where to start digging for answers about that glow in the lowlands.",
+    "sanitized": "Looks like you're not wasting any time getting back on the road. Those fresh signs on the side road could be worth a closer look - might just give us an edge on where to start digging for answers about that glow in the lowlands.",
+    "cleanBeforeCommands": "Looks like you're not wasting any time getting back on the road. Those fresh signs on the side road could be worth a closer look - might just give us an edge on where to start digging for answers about that glow in the lowlands.",
+    "shapedHud": "Looks like you're not wasting any time getting back on the road. Those fresh signs on the side road could be worth a closer look - might just give us an edge on where to start digging for answers about that glow in the lowlands.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

@@ -1,0 +1,13 @@
+{
+    "scenarioId": "collector_veya__followup",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Before you head out, take a good look at your lanterns and make sure they're securely fastened to those planks; last gale really took them down, didn't it?",
+    "sanitized": "Before you head out, take a good look at your lanterns and make sure they're securely fastened to those planks; last gale really took them down, didn't it?",
+    "cleanBeforeCommands": "Before you head out, take a good look at your lanterns and make sure they're securely fastened to those planks; last gale really took them down, didn't it?",
+    "shapedHud": "Before you head out, take a good look at your lanterns and make sure they're securely fastened to those planks; last gale really took them down, didn't it?",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

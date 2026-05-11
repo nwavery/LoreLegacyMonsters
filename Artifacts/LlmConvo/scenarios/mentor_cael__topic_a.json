@@ -1,0 +1,13 @@
+{
+    "scenarioId": "mentor_cael__topic_a",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Preparing for the spire is a test of endurance and strategy. As you've balanced your team with Thornbeast and Gremlin, now think about terrain. The misty road ahead offers little cover; keep that in mind when positioning for upcoming challenges. Rest well tonight – the journey will be long and unforgiving.",
+    "sanitized": "Preparing for the spire is a test of endurance and strategy. As you've balanced your team with Thornbeast and Gremlin, now think about terrain. The misty road ahead offers little cover; keep that in mind when positioning for upcoming challenges. Rest well tonight – the journey will be long and unforgiving.",
+    "cleanBeforeCommands": "Preparing for the spire is a test of endurance and strategy. As you've balanced your team with Thornbeast and Gremlin, now think about terrain. The misty road ahead offers little cover; keep that in mind when positioning for upcoming challenges. Rest well tonight – the journey will be long and unforgiving.",
+    "shapedHud": "Preparing for the spire is a test of endurance and strategy. As you've balanced your team with Thornbeast and Gremlin, now think about terrain. The misty road ahead offers little cover; keep that in mind when positioning for upcoming challenges. Rest well tonight – the journey will be long and unforgiving.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

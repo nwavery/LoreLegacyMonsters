@@ -62,6 +62,14 @@ namespace LoreLegacyMonsters.UI
             _llmSettingsRoot = LlmSettingsOverlay.Create(UIManager.Instance.Root.transform, () => _llmSettingsRoot = null);
         }
 
+        public bool CloseLlmSettingsOverlayIfOpen()
+        {
+            if (_llmSettingsRoot == null) return false;
+            Destroy(_llmSettingsRoot.gameObject);
+            _llmSettingsRoot = null;
+            return true;
+        }
+
         /// <summary>Alpha: verify Ollama / OpenAI-compatible endpoint before play.</summary>
         public void RunLlmHealthCheck()
         {

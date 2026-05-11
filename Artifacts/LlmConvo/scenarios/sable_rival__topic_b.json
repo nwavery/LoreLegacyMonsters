@@ -1,0 +1,13 @@
+{
+    "scenarioId": "sable_rival__topic_b",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Fresh signs of recent travel on this side road warrant a closer look, but I've seen enough dirt-tracks and discarded gear to know that someone's been making haste in these parts. You might be able to glean some useful information from the locals if they're willing to share it – perhaps it's worth stopping by the next village to see what rumors are circulating?",
+    "sanitized": "Fresh signs of recent travel on this side road warrant a closer look, but I've seen enough dirt-tracks and discarded gear to know that someone's been making haste in these parts. You might be able to glean some useful information from the locals if they're willing to share it – perhaps it's worth stopping by the next village to see what rumors are circulating?",
+    "cleanBeforeCommands": "Fresh signs of recent travel on this side road warrant a closer look, but I've seen enough dirt-tracks and discarded gear to know that someone's been making haste in these parts. You might be able to glean some useful information from the locals if they're willing to share it – perhaps it's worth stopping by the next village to see what rumors are circulating?",
+    "shapedHud": "Fresh signs of recent travel on this side road warrant a closer look, but I've seen enough dirt-tracks and discarded gear to know that someone's been making haste in these parts. You might be able to glean some useful information from the locals if they're willing to share it – perhaps it's worth stopping by the next village to see what rumors are circulating?",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

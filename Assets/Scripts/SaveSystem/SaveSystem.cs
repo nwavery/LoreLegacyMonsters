@@ -6,7 +6,7 @@ namespace LoreLegacyMonsters.SaveSystem
 {
     public class SaveSystem
     {
-        const int CurrentVersion = 8;
+        const int CurrentVersion = 9;
         static string SaveDir => Path.Combine(Application.persistentDataPath, "Saves");
 
         public static string GetSlotPath(int slot) =>
@@ -93,6 +93,12 @@ namespace LoreLegacyMonsters.SaveSystem
             data.StoryFlags ??= new System.Collections.Generic.List<string>();
             if (string.IsNullOrWhiteSpace(data.SaveSchemaTag))
                 data.SaveSchemaTag = "v1.0";
+
+            data.Loadout ??= new LoadoutDto { outfitItemId = "", charmItemIds = new System.Collections.Generic.List<string> { "", "", "" } };
+            if (data.Loadout.charmItemIds == null)
+                data.Loadout.charmItemIds = new System.Collections.Generic.List<string>();
+            while (data.Loadout.charmItemIds.Count < 3)
+                data.Loadout.charmItemIds.Add("");
 
             if (data.Party.Count == 0 && data.PartyMonsterIds.Count > 0)
             {

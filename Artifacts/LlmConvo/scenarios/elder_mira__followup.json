@@ -1,0 +1,13 @@
+{
+    "scenarioId": "elder_mira__followup",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "An early departure won't do you any favors with this weather and the road ahead. Before you head out, make sure to check your lanterns - they were blown out in that last gale, after all. Don't want to be stuck without light on the north road.",
+    "sanitized": "An early departure won't do you any favors with this weather and the road ahead. Before you head out, make sure to check your lanterns - they were blown out in that last gale, after all. Don't want to be stuck without light on the north road.",
+    "cleanBeforeCommands": "An early departure won't do you any favors with this weather and the road ahead. Before you head out, make sure to check your lanterns - they were blown out in that last gale, after all. Don't want to be stuck without light on the north road.",
+    "shapedHud": "An early departure won't do you any favors with this weather and the road ahead. Before you head out, make sure to check your lanterns - they were blown out in that last gale, after all. Don't want to be stuck without light on the north road.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

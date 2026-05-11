@@ -33,6 +33,8 @@ namespace LoreLegacyMonsters
         public const string EthicistThrenId = "ethicist_thren";
         public const string MoonwellLumaId = "moonwell_luma";
         public const string SableRivalId = "sable_rival";
+        /// <summary>Wandering outfitter; sells <c>shop_gear</c> stock.</summary>
+        public const string TailorSerinId = "tailor_serin";
 
         [SerializeField] string npcId;
         [SerializeField] string displayName = "NPC";

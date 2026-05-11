@@ -1,0 +1,13 @@
+{
+    "scenarioId": "moonwell_luma__topic_a",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "A seeker of truth and whispers in the darkness, I see. The moonwell is an ancient well, one that holds secrets and reflections of the heart. Its waters are said to reveal the trust between a monster and its handler, a bond that can shape the very essence of evolution. Come, let me show you our sacred space, and we shall unravel the mysteries of the lowland glow together.",
+    "sanitized": "A seeker of truth and whispers in the darkness, I see. The moonwell is an ancient well, one that holds secrets and reflections of the heart. Its waters are said to reveal the trust between a monster and its handler, a bond that can shape the very essence of evolution. Come, let me show you our sacred space, and we shall unravel the mysteries of the lowland glow together.",
+    "cleanBeforeCommands": "A seeker of truth and whispers in the darkness, I see. The moonwell is an ancient well, one that holds secrets and reflections of the heart. Its waters are said to reveal the trust between a monster and its handler, a bond that can shape the very essence of evolution. Come, let me show you our sacred space, and we shall unravel the mysteries of the lowland glow together.",
+    "shapedHud": "A seeker of truth and whispers in the darkness, I see. The moonwell is an ancient well, one that holds secrets and reflections of the heart. Its waters are said to reveal the trust between a monster and its handler, a bond that can shape the very essence of evolution. Come, let me show you our sacred space, and we shall unravel the mysteries of the lowland glow together.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

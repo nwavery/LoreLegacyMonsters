@@ -1,0 +1,13 @@
+{
+    "scenarioId": "archivist_sel__followup",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Tomorrow's a big day for repairs... especially with those lanterns still in disarray after last gale. If you're heading out early, make sure to recheck the wardstones along the Hollowfen road. The recent rain might have washed away some crucial markings that could give us a lead on what's been spotted in the lowlands.",
+    "sanitized": "Tomorrow's a big day for repairs... especially with those lanterns still in disarray after last gale. If you're heading out early, make sure to recheck the wardstones along the Hollowfen road. The recent rain might have washed away some crucial markings that could give us a lead on what's been spotted in the lowlands.",
+    "cleanBeforeCommands": "Tomorrow's a big day for repairs... especially with those lanterns still in disarray after last gale. If you're heading out early, make sure to recheck the wardstones along the Hollowfen road. The recent rain might have washed away some crucial markings that could give us a lead on what's been spotted in the lowlands.",
+    "shapedHud": "Tomorrow's a big day for repairs... especially with those lanterns still in disarray after last gale. If you're heading out early, make sure to recheck the wardstones along the Hollowfen road. The recent rain might have washed away some crucial markings that could give us a lead on what's been spotted in the lowlands.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

@@ -1,0 +1,13 @@
+{
+    "scenarioId": "tailor_serin__adversarial",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "I can barely make out your words through this misty morning air. My wits are still foggy from that midnight rain. What brings you to my humble shop today? Do you need a coat to shield you from the elements, or perhaps something to add a dash of luck to your travels?",
+    "sanitized": "I can barely make out your words through this misty morning air. My wits are still foggy from that midnight rain. What brings you to my humble shop today? Do you need a coat to shield you from the elements, or perhaps something to add a dash of luck to your travels?",
+    "cleanBeforeCommands": "I can barely make out your words through this misty morning air. My wits are still foggy from that midnight rain. What brings you to my humble shop today? Do you need a coat to shield you from the elements, or perhaps something to add a dash of luck to your travels?",
+    "shapedHud": "I can barely make out your words through this misty morning air. My wits are still foggy from that midnight rain. What brings you to my humble shop today? Do you need a coat to shield you from the elements, or perhaps something to add a dash of luck to your travels?",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

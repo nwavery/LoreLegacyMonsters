@@ -10,7 +10,7 @@ You are granted a personal, non-exclusive, non-transferable license to install a
 
 ## 2. Ownership
 
-The Game, code, assets, and trademarks are owned by LoreLegacyStudios and its licensors. This EULA grants use rights only.
+The Game, code, assets, and trademarks are owned by NA Dev and its licensors. This EULA grants use rights only.
 
 ## 3. Acceptable use
 
@@ -40,7 +40,7 @@ THE GAME IS PROVIDED "AS IS" WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED,
 
 ## 7. Limitation of liability
 
-TO THE MAXIMUM EXTENT PERMITTED BY LAW, LORELEGACYSTUDIOS WILL NOT BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR LOSS OF DATA/PROFITS ARISING FROM USE OF THE GAME.
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, NA DEV WILL NOT BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR LOSS OF DATA/PROFITS ARISING FROM USE OF THE GAME.
 
 ## 8. Termination
 

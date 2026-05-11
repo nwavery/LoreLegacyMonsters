@@ -1,4 +1,5 @@
 using NUnit.Framework;
+using LoreLegacyMonsters;
 using LoreLegacyMonsters.Dialog.Llm;
 
 namespace LoreLegacyMonsters.Tests
@@ -38,6 +39,36 @@ namespace LoreLegacyMonsters.Tests
             Assert.IsTrue(msgs[1].content.Contains("Rainy"));
             Assert.IsTrue(msgs[1].content.Contains("Capture Charm"));
             Assert.IsTrue(msgs[1].content.Contains("Welcome back"));
+        }
+
+        [Test]
+        public void NpcLlmPromptBuilder_WithPlayerSpeech_AddsBareThirdUserMessage()
+        {
+            var ctx = new NpcLlmPromptContext
+            {
+                NpcId = "scout_rin",
+                DisplayName = "Rin",
+                Role = NpcRole.Story,
+                RoleName = "Story",
+                CharacterInstructions = "You scout the route.",
+                IdentitySummary = "Field scout.",
+                GameStateSummary = "area_id: route",
+                QuestSummary = "Head east.",
+                InventorySummary = "Lantern x1",
+                PartySummary = "none",
+                WeatherSummary = "Clear",
+                NpcMemorySummary = "none",
+                ConversationHistorySummary = "assistant: Stay safe.",
+                PlayerMessage = "Why should I?"
+            };
+
+            var msgs = NpcLlmPromptBuilder.BuildMessages(ctx);
+            Assert.AreEqual(3, msgs.Length);
+            Assert.AreEqual("system", msgs[0].role);
+            Assert.AreEqual("user", msgs[1].role);
+            Assert.AreEqual("user", msgs[2].role);
+            Assert.IsFalse(msgs[1].content.Contains("The player just said"), "Echo-prone preamble must stay out of prompts.");
+            Assert.AreEqual("Why should I?", msgs[2].content);
         }
 
         [Test]

@@ -2,7 +2,7 @@
 
 Last updated: 2026-05-04
 
-This Privacy Policy explains how LoreLegacyStudios handles data in Lore, Legacy, and Monsters.
+This Privacy Policy explains how NA Dev handles data in Lore, Legacy, and Monsters.
 
 ## 1. Data processed locally
 
@@ -17,12 +17,12 @@ The Game stores gameplay data locally on your machine, including:
 The Game can run a bundled local language model runtime for NPC dialogue.
 
 - NPC dialogue inference runs on your device.
-- Prompts used for local AI dialogue are not sent to LoreLegacyStudios servers by default.
+- Prompts used for local AI dialogue are not sent to NA Dev servers by default.
 - You can disable local AI in settings.
 
 ## 3. Data we receive
 
-LoreLegacyStudios does not receive personal gameplay data by default through the standalone game client.
+NA Dev does not receive personal gameplay data by default through the standalone game client.
 
 If optional crash reporting is enabled in a future update, this policy will be updated with exact fields and retention.
 

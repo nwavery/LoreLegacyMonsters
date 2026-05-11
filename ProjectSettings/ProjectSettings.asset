@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: LoreLegacyStudios
-  productName: LoreLegacyMonsters
+  companyName: NA Dev
+  productName: Lore, Legacy, and Monsters
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.08, g: 0.11, b: 0.14, a: 1}

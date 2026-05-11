@@ -54,6 +54,8 @@ namespace LoreLegacyMonsters
             rootCanvas = RuntimeUiFactory.EnsureCanvas(ref rootCanvas);
             EnsureLoadingOverlay();
             _loadingOverlayEnsured = true;
+            if (GetComponent<TooltipOverlay>() == null)
+                gameObject.AddComponent<TooltipOverlay>();
             SeedModalStateDefaults();
         }
 

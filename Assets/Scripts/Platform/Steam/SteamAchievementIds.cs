@@ -19,5 +19,10 @@ namespace LoreLegacyMonsters.Platform.Steam
         public const string EndingBurn = "ach_ending_burn";
         public const string CaptureTen = "ach_capture_ten";
         public const string CaptureFifty = "ach_capture_fifty";
+        /// <summary>Wardrobe milestones (also defined in Steam partner).</summary>
+        public const string FirstEquip = "ach_gear_first_equip";
+        public const string FullLoadout = "ach_gear_full_loadout";
+        public const string LegendaryOwned = "ach_gear_legend_owned";
+        public const string MasterOutfitter = "ach_gear_master_outfitter";
     }
 }

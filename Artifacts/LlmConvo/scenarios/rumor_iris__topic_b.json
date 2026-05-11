@@ -1,0 +1,13 @@
+{
+    "scenarioId": "rumor_iris__topic_b",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Fresh signs on that one-side road are always worth a look, but be careful - this time of year, the mist can play tricks on travelers. I've heard some folks swear they saw shadowy figures lurking just beyond the trees. Still, if you're looking for something to do, the emptying lot at the old windmill isn't so bad. The caretaker's gone, left it to rot, but there's still some useful supplies scattered about...",
+    "sanitized": "Fresh signs on that one-side road are always worth a look, but be careful - this time of year, the mist can play tricks on travelers. I've heard some folks swear they saw shadowy figures lurking just beyond the trees. Still, if you're looking for something to do, the emptying lot at the old windmill isn't so bad. The caretaker's gone, left it to rot, but there's still some useful supplies scattered about...",
+    "cleanBeforeCommands": "Fresh signs on that one-side road are always worth a look, but be careful - this time of year, the mist can play tricks on travelers. I've heard some folks swear they saw shadowy figures lurking just beyond the trees. Still, if you're looking for something to do, the emptying lot at the old windmill isn't so bad. The caretaker's gone, left it to rot, but there's still some useful supplies scattered about...",
+    "shapedHud": "Fresh signs on that one-side road are always worth a look, but be careful - this time of year, the mist can play tricks on travelers. I've heard some folks swear they saw shadowy figures lurking just beyond the trees. Still, if you're looking for something to do, the emptying lot at the old windmill isn't so bad. The caretaker's gone, left it to rot, but there's still some useful supplies scattered about...",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

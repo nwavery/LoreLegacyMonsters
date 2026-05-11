@@ -107,14 +107,41 @@ namespace LoreLegacyMonsters
                 return;
             }
 
+            AudioManager.EnsureExists().PlayCombatMusic();
             activePlayerInstance?.RefreshLearnedMoves(activePlayerData);
-            Phase = BattlePhase.PlayerTurn;
             playerSide.ConfigureFromMonster(activePlayerData, activePlayerInstance, false);
             enemySide.ConfigureFromMonster(activeEnemyData, true);
             BuildMoveLists();
+
+            var mods = gm != null ? gm.Loadout?.Snapshot : null;
+            mods ??= LoreLegacyMonsters.Inventory.LoadoutModifiers.Empty;
+            var aggMult = Mathf.Max(0.1f, mods.MonsterAggressionMult);
+            if (!enemyWasBoss)
+            {
+                if (aggMult < 0.62f)
+                {
+                    FeedbackSummary =
+                        $"{enemySide.DisplayName} hangs back—it might listen if you flee or keep your distance.";
+                }
+                else if (aggMult > 1.4f)
+                {
+                    FeedbackSummary = $"{enemySide.DisplayName} rushes forward, spoiling for a fight!";
+                }
+            }
+
+            var playerFirstChance = Mathf.Clamp01(0.5f +
+                                                 Mathf.Clamp(mods.InitiativeBonus * 0.14f, -0.3f, 0.42f));
+            if (!enemyWasBoss && BattleRng.Next01() > playerFirstChance)
+            {
+                Phase = BattlePhase.EnemyTurn;
+                BattleLog = $"A wild {enemySide.DisplayName} catches you off guard.";
+                EnemyStrikeBack();
+                return;
+            }
+
+            Phase = BattlePhase.PlayerTurn;
             BattleLog = $"A wild {enemySide.DisplayName} appeared.";
             FeedbackSummary = $"Enemy elements: {enemySide.PrimaryElement}{BuildSecondaryElementText(enemySide.SecondaryElement)}. {BuildCaptureReadinessHint()}";
-            AudioManager.EnsureExists().PlayCombatMusic();
         }
 
         public void PlayerAttack()
@@ -184,8 +211,10 @@ namespace LoreLegacyMonsters
             if (inventory == null || monsters == null || inventory.Count(DefaultGameContent.CaptureCharmId) <= 0) return false;
             if (!inventory.TryRemove(DefaultGameContent.CaptureCharmId, 1)) return false;
 
-            var result = CaptureRules.Roll(activeEnemyData, enemySide.CurrentHp, enemySide.MaxHp, enemySide.Status, 1.1f, enemyWasBoss,
-                BattleRng);
+            var gm = GameManager.Instance;
+            var gearCap = gm?.Loadout?.Snapshot.CaptureRateBonus ?? 0f;
+            var result = CaptureRules.Roll(activeEnemyData, enemySide.CurrentHp, enemySide.MaxHp, enemySide.Status, 1.1f,
+                enemyWasBoss, BattleRng, gearCap);
             if (result.Success)
             {
                 var caught = monsters.AddMonster(activeEnemyData);
@@ -289,7 +318,8 @@ namespace LoreLegacyMonsters
                 enemyWasBoss,
                 activeBossObjectiveId,
                 victoryGold,
-                victoryExperience);
+                victoryExperience,
+                activeEnemyData);
 
             BattleLog = captured
                 ? (string.IsNullOrWhiteSpace(captureOutcomeLog) ? $"{enemySide.DisplayName} joined your party." : captureOutcomeLog)
@@ -362,6 +392,14 @@ namespace LoreLegacyMonsters
             EnemyStrikeBack();
         }
 
+        float ResolveOutgoingTypeMultiplier(CombatEntity attackerSide, MoveData move, bool enemyAction)
+        {
+            if (enemyAction || playerSide == null || move == null) return 1f;
+            if (attackerSide != playerSide) return 1f;
+            var gm = GameManager.Instance;
+            return gm?.Loadout?.Snapshot.TypeDamageMult(move.Element) ?? 1f;
+        }
+
         void ResolveMove(CombatEntity attackerSide, MonsterData attackerData, MonsterInstance attackerInstance,
             CombatEntity defenderSide, MonsterData defenderData, MonsterInstance defenderInstance, MoveData move, bool enemyAction)
         {
@@ -393,7 +431,8 @@ namespace LoreLegacyMonsters
                 if (defenderSide.Status == MonsterStatusEffect.GuardBreak)
                     defense = Mathf.Max(0, defense - 2);
                 var damage = Logic.CalculateMoveDamage(attackerSide.AttackPower, defense, move, attackerSide.PrimaryElement,
-                    defenderSide.PrimaryElement, defenderSide.SecondaryElement, out var wasCrit, out var typeText);
+                    defenderSide.PrimaryElement, defenderSide.SecondaryElement, out var wasCrit, out var typeText,
+                    ResolveOutgoingTypeMultiplier(attackerSide, move, enemyAction));
                 defenderSide.ApplyDamage(damage);
                 BattleLog = $"{attackerSide.DisplayName} used {move.DisplayName} for {damage} damage.";
                 if (typeText > 1.05f) BattleLog += " It's strong against that target.";
@@ -401,11 +440,18 @@ namespace LoreLegacyMonsters
                 if (wasCrit) BattleLog += " Critical hit!";
                 FeedbackSummary = BuildAttackFeedback(move, damage, typeText, wasCrit, defenderSide, false);
 
+                var statusProb = Mathf.Clamp01(move.StatusChance);
+                var gmCombat = GameManager.Instance;
+                if (enemyAction && defenderSide != null && defenderSide == playerSide &&
+                    gmCombat?.Loadout?.Snapshot != null)
+                    statusProb /= Mathf.Max(1f, gmCombat.Loadout.Snapshot.StatusResistFor(move.InflictedStatus));
+                statusProb = Mathf.Clamp01(statusProb);
+
                 if (move.InflictedStatus != MonsterStatusEffect.None &&
-                    BattleRng.Next01() <= Mathf.Clamp01(move.StatusChance))
+                    BattleRng.Next01() <= statusProb)
                 {
                     defenderSide.SetStatus(move.InflictedStatus);
-                    if (!enemyAction && defenderInstance != null)
+                    if (defenderInstance != null)
                         defenderInstance.persistentStatus = move.InflictedStatus;
                     BattleLog += $" {defenderSide.DisplayName} is now {move.InflictedStatus}.";
                     FeedbackSummary = BuildAttackFeedback(move, damage, typeText, wasCrit, defenderSide, true);
@@ -531,7 +577,8 @@ namespace LoreLegacyMonsters
         {
             if (activeEnemyData == null || enemySide == null || enemyWasBoss)
                 return "Capture unavailable for this target.";
-            var chance = CaptureRules.CalculateChance(activeEnemyData, enemySide.CurrentHp, enemySide.MaxHp, enemySide.Status, 1.1f, false);
+            var chance = CaptureRules.CalculateChance(activeEnemyData, enemySide.CurrentHp, enemySide.MaxHp, enemySide.Status,
+                1.1f, false, GameManager.Instance?.Loadout?.Snapshot.CaptureRateBonus ?? 0f);
             var pct = Mathf.RoundToInt(chance * 100f);
             var band = pct >= 65 ? "high" : pct >= 40 ? "moderate" : "low";
             return $"Capture odds are currently {band} ({pct}%).";

@@ -1,0 +1,13 @@
+{
+    "scenarioId": "elder_mira__greet",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Good morrow to you, weary trainer. The north road's mist-shrouded path beckons, and whispers of help may be found within its depths. Take a moment to heed the signs on that nearby side road – a careful glance might reveal secrets worth uncovering.",
+    "sanitized": "Good morrow to you, weary trainer. The north road's mist-shrouded path beckons, and whispers of help may be found within its depths. Take a moment to heed the signs on that nearby side road – a careful glance might reveal secrets worth uncovering.",
+    "cleanBeforeCommands": "Good morrow to you, weary trainer. The north road's mist-shrouded path beckons, and whispers of help may be found within its depths. Take a moment to heed the signs on that nearby side road – a careful glance might reveal secrets worth uncovering.",
+    "shapedHud": "Good morrow to you, weary trainer. The north road's mist-shrouded path beckons, and whispers of help may be found within its depths. Take a moment to heed the signs on that nearby side road – a careful glance might reveal secrets worth uncovering.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

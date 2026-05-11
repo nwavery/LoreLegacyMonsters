@@ -1,0 +1,13 @@
+{
+    "scenarioId": "quartermaster_bram__followup",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Roads can be treacherous in the morning mist, especially with that last gale still blowing about. If you're planning to head out early, make sure your lanterns are securely fastened and won't blow away again. Also, take a good look at your road kit - those twine bedrolls might not hold up as well as I thought they would.",
+    "sanitized": "Roads can be treacherous in the morning mist, especially with that last gale still blowing about. If you're planning to head out early, make sure your lanterns are securely fastened and won't blow away again. Also, take a good look at your road kit - those twine bedrolls might not hold up as well as I thought they would.",
+    "cleanBeforeCommands": "Roads can be treacherous in the morning mist, especially with that last gale still blowing about. If you're planning to head out early, make sure your lanterns are securely fastened and won't blow away again. Also, take a good look at your road kit - those twine bedrolls might not hold up as well as I thought they would.",
+    "shapedHud": "Roads can be treacherous in the morning mist, especially with that last gale still blowing about. If you're planning to head out early, make sure your lanterns are securely fastened and won't blow away again. Also, take a good look at your road kit - those twine bedrolls might not hold up as well as I thought they would.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

@@ -1,0 +1,13 @@
+{
+    "scenarioId": "rumor_iris__greet",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Traveler! Mist're lifting now. Take a gander down that side road before nightfall – you won't regret it.",
+    "sanitized": "Traveler! Mist're lifting now. Take a gander down that side road before nightfall – you won't regret it.",
+    "cleanBeforeCommands": "Traveler! Mist're lifting now. Take a gander down that side road before nightfall – you won't regret it.",
+    "shapedHud": "Traveler! Mist're lifting now. Take a gander down that side road before nightfall – you won't regret it.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

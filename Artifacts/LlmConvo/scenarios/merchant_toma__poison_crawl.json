@@ -1,0 +1,13 @@
+{
+    "scenarioId": "merchant_toma__poison_crawl",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "A trip to the marsh, eh? With your Emberfox poisoned, you'll want something to help counteract that nasty affliction. I've got just what you need: an Antidote potion. It's a strong cure for poison, and it should do the trick if you act fast. We can also throw in some additional supplies to keep you both safe on the road – perhaps some extra vials of charms or a few more potions?",
+    "sanitized": "A trip to the marsh, eh? With your Emberfox poisoned, you'll want something to help counteract that nasty affliction. I've got just what you need: an Antidote potion. It's a strong cure for poison, and it should do the trick if you act fast. We can also throw in some additional supplies to keep you both safe on the road – perhaps some extra vials of charms or a few more potions?",
+    "cleanBeforeCommands": "A trip to the marsh, eh? With your Emberfox poisoned, you'll want something to help counteract that nasty affliction. I've got just what you need: an Antidote potion. It's a strong cure for poison, and it should do the trick if you act fast. We can also throw in some additional supplies to keep you both safe on the road – perhaps some extra vials of charms or a few more potions?",
+    "shapedHud": "A trip to the marsh, eh? With your Emberfox poisoned, you'll want something to help counteract that nasty affliction. I've got just what you need: an Antidote potion. It's a strong cure for poison, and it should do the trick if you act fast. We can also throw in some additional supplies to keep you both safe on the road – perhaps some extra vials of charms or a few more potions?",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

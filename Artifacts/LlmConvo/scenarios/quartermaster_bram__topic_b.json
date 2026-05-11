@@ -1,0 +1,13 @@
+{
+    "scenarioId": "quartermaster_bram__topic_b",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Can't rightly tell you what changed, but I do know there's been some peculiar happenings out on the north road. We've had reports of strange lights and sounds that don't seem quite natural. Might be worth takin' a gander yourself, if you're plannin' on headin' that way.",
+    "sanitized": "Can't rightly tell you what changed, but I do know there's been some peculiar happenings out on the north road. We've had reports of strange lights and sounds that don't seem quite natural. Might be worth takin' a gander yourself, if you're plannin' on headin' that way.",
+    "cleanBeforeCommands": "Can't rightly tell you what changed, but I do know there's been some peculiar happenings out on the north road. We've had reports of strange lights and sounds that don't seem quite natural. Might be worth takin' a gander yourself, if you're plannin' on headin' that way.",
+    "shapedHud": "Can't rightly tell you what changed, but I do know there's been some peculiar happenings out on the north road. We've had reports of strange lights and sounds that don't seem quite natural. Might be worth takin' a gander yourself, if you're plannin' on headin' that way.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

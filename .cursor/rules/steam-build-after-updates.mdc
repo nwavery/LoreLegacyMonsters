@@ -1,0 +1,18 @@
+---
+description: After game-impacting changes, run Unity steam-build so the author can test from Steam.
+alwaysApply: true
+---
+
+# Steam build after updates
+
+When you finish **implementation work** that affects what runs in the player (C# under `Assets/`, Unity assets, build scripts, Steam packaging), **run a fresh Steam Windows build** before treating the task as done.
+
+- **Command** (from any shell, adjust paths if needed):
+
+  `powershell -NoProfile -ExecutionPolicy Bypass -File "c:\LLMRPG\LoreLegacyMonsters\scripts\Invoke-UnityBatchTask.ps1" -Task steam-build -ProjectPath "c:\LLMRPG\LoreLegacyMonsters"`
+
+- **Outcome:** Player output and log as documented in [docs/steam/release_handoff_checklist.md](docs/steam/release_handoff_checklist.md) (e.g. `Build/Steam/Windows/`, `Build/unity-steam-batch.log`).
+
+- **Skip** when the diff is **docs-only**, **comments-only**, or **no impact** on the built game—unless the user explicitly asks for a build.
+
+- If the build fails, fix the cause or report the blocking error; do not claim the update is ready for Steam launch until the build succeeds.

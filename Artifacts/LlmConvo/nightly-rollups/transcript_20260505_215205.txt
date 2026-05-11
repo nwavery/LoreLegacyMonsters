@@ -1,0 +1,2073 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260505215205
+Username: NATESRAZER\nwave
+RunAs User: NATESRAZER\nwave
+Configuration Name: 
+Machine: NATESRAZER (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File c:\LLMRPG\LoreLegacyMonsters\scripts\Invoke-NpcLlmScenarioSuiteMany.ps1 -Iterations 120 -CooldownSecondsBetweenRuns 105
+Process ID: 31196
+PSVersion: 5.1.26100.8328
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8328
+BuildVersion: 10.0.26100.8328
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\nightly-rollups\transcript_20260505_215205.txt
+
+=== Nightly scenario batch: 2026-05-05T21:52:05.5272842-05:00, iterations=120, cooldown=105s ===
+
+--- Iteration 1 / 120 (001-20260505_215205) ---
+Exporting scenario manifest (manifest.jsonl) ...
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T02:54:58.0329957Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 1,
+    "evalFailures": 0,
+    "failingIdsPipe": "rival_corin__topic_b|llm",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+--- unity-scenario-suite.log (tail) ---
+PS>TerminatingError(): "Scenario suite exited with 1. See 'C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\unity-scenario-suite.log'"
+FAIL: Scenario suite exited with 1. See 'C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\unity-scenario-suite.log'
+Cooldown 105s ...
+--- Iteration 2 / 120 (002-20260505_215647) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T02:59:10.7920772Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-05T21:59:14.9822412-05:00	2/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 3 / 120 (003-20260505_220100) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T03:03:13.9564295Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-05T22:03:18.2716608-05:00	3/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 4 / 120 (004-20260505_220503) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T03:07:17.6981873Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-05T22:07:21.5670463-05:00	4/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 5 / 120 (005-20260505_220906) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T03:11:17.9051101Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-05T22:11:23.9328064-05:00	5/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 6 / 120 (006-20260505_221308) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T03:15:17.0947792Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-05T22:15:21.1834471-05:00	6/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 7 / 120 (007-20260505_221706) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T03:19:21.9894821Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-05T22:19:27.5101877-05:00	7/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 8 / 120 (008-20260505_222112) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T03:23:23.6301373Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-05T22:23:27.8009813-05:00	8/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 9 / 120 (009-20260505_222512) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T03:27:34.4729737Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-05T22:27:40.2738980-05:00	9/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 10 / 120 (010-20260505_222925) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T03:31:33.5593761Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-05T22:31:39.6660122-05:00	10/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 11 / 120 (011-20260505_223324) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T03:35:30.4095083Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-05T22:35:35.8946697-05:00	11/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 12 / 120 (012-20260505_223720) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T03:39:27.5689017Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-05T22:39:33.1932236-05:00	12/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 13 / 120 (013-20260505_224118) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T03:43:58.8235640Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-05T22:44:03.7563513-05:00	13/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 14 / 120 (014-20260505_224548) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T03:48:05.8040195Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-05T22:48:10.1045071-05:00	14/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 15 / 120 (015-20260505_224955) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T03:52:11.0042718Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-05T22:52:16.3502795-05:00	15/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 16 / 120 (016-20260505_225401) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T03:56:02.5677675Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-05T22:56:07.4305286-05:00	16/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 17 / 120 (017-20260505_225752) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T04:00:06.4456557Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-05T23:00:10.7127256-05:00	17/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 18 / 120 (018-20260505_230155) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T04:04:11.7468333Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-05T23:04:17.0603575-05:00	18/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 19 / 120 (019-20260505_230602) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T04:08:27.9576918Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-05T23:08:32.6199138-05:00	19/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 20 / 120 (020-20260505_231017) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T04:12:48.2742092Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-05T23:12:53.9180185-05:00	20/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 21 / 120 (021-20260505_231438) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T04:17:02.2267887Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-05T23:17:06.3282789-05:00	21/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 22 / 120 (022-20260505_231851) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T04:21:11.9045081Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-05T23:21:18.6046690-05:00	22/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 23 / 120 (023-20260505_232303) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T04:25:18.4700693Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-05T23:25:24.7991026-05:00	23/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 24 / 120 (024-20260505_232709) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T04:29:16.2458140Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-05T23:29:21.9002045-05:00	24/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 25 / 120 (025-20260505_233106) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T04:33:58.5398402Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-05T23:34:04.5970581-05:00	25/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 26 / 120 (026-20260505_233549) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T04:38:00.8737677Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-05T23:38:04.8781130-05:00	26/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 27 / 120 (027-20260505_233949) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T04:42:15.3207133Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-05T23:42:20.3223713-05:00	27/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 28 / 120 (028-20260505_234405) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T04:46:20.6665750Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-05T23:46:26.5303861-05:00	28/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 29 / 120 (029-20260505_234811) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T04:50:16.7840435Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-05T23:50:23.7811402-05:00	29/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 30 / 120 (030-20260505_235208) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T04:54:11.6361196Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-05T23:54:18.1132722-05:00	30/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 31 / 120 (031-20260505_235603) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T04:58:14.6655838Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-05T23:58:21.4617648-05:00	31/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 32 / 120 (032-20260506_000006) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T05:02:33.2670579Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T00:02:38.0978713-05:00	32/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 33 / 120 (033-20260506_000423) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T05:06:43.2375446Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T00:06:47.4896776-05:00	33/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 34 / 120 (034-20260506_000832) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T05:10:48.4034801Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T00:10:53.9033684-05:00	34/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 35 / 120 (035-20260506_001238) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T05:15:07.9093349Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T00:15:12.3478300-05:00	35/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 36 / 120 (036-20260506_001657) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T05:20:04.2145640Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T00:20:10.1758148-05:00	36/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 37 / 120 (037-20260506_002155) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T05:24:20.9987130Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T00:24:25.5551342-05:00	37/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 38 / 120 (038-20260506_002610) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T05:28:58.1018480Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T00:29:01.9996043-05:00	38/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 39 / 120 (039-20260506_003047) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T05:33:22.7176715Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T00:33:26.5151210-05:00	39/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 40 / 120 (040-20260506_003511) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T05:37:09.9222726Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T00:37:14.5656241-05:00	40/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 41 / 120 (041-20260506_003859) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T05:41:04.3276805Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T00:41:08.7344770-05:00	41/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 42 / 120 (042-20260506_004253) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T05:45:38.0292779Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T00:45:42.1765030-05:00	42/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 43 / 120 (043-20260506_004727) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T05:49:50.5241140Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T00:49:54.4160649-05:00	43/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 44 / 120 (044-20260506_005139) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T05:54:03.7051511Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T00:54:09.7599423-05:00	44/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 45 / 120 (045-20260506_005554) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T05:58:09.5577212Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T00:58:16.1168093-05:00	45/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 46 / 120 (046-20260506_010001) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T06:02:09.3464470Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T01:02:16.3871975-05:00	46/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 47 / 120 (047-20260506_010401) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T06:06:40.1800748Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T01:06:46.9856774-05:00	47/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 48 / 120 (048-20260506_010831) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T06:10:53.3871414Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T01:10:59.1011927-05:00	48/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 49 / 120 (049-20260506_011244) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T06:15:00.6519277Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T01:15:05.4155140-05:00	49/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 50 / 120 (050-20260506_011650) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T06:19:13.2135323Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T01:19:17.8551208-05:00	50/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 51 / 120 (051-20260506_012102) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T06:23:14.9229803Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T01:23:21.2566207-05:00	51/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 52 / 120 (052-20260506_012506) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T06:27:26.1331997Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T01:27:30.6017163-05:00	52/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 53 / 120 (053-20260506_012915) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T06:31:31.5318143Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T01:31:36.9144310-05:00	53/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 54 / 120 (054-20260506_013321) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T06:35:38.5109668Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T01:35:43.2825890-05:00	54/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 55 / 120 (055-20260506_013728) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T06:40:07.7872116Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T01:40:13.8000089-05:00	55/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 56 / 120 (056-20260506_014158) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T06:44:18.3036311Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T01:44:23.1697933-05:00	56/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 57 / 120 (057-20260506_014608) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T06:48:48.3358161Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T01:48:53.6389790-05:00	57/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 58 / 120 (058-20260506_015038) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T06:53:00.7075707Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T01:53:05.9079277-05:00	58/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 59 / 120 (059-20260506_015450) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T06:56:52.9891811Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T01:56:57.0908623-05:00	59/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 60 / 120 (060-20260506_015842) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T07:00:55.2590328Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T02:01:00.3567384-05:00	60/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 61 / 120 (061-20260506_020245) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T07:05:03.8220688Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T02:05:09.5658670-05:00	61/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 62 / 120 (062-20260506_020654) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T07:09:33.3516965Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T02:09:37.1613559-05:00	62/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 63 / 120 (063-20260506_021122) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T07:13:28.8621128Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T02:13:34.5267802-05:00	63/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 64 / 120 (064-20260506_021519) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T07:17:31.4607202Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T02:17:37.8110152-05:00	64/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 65 / 120 (065-20260506_021922) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T07:21:29.8110393Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T02:21:35.1250120-05:00	65/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 66 / 120 (066-20260506_022320) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T07:25:41.4705223Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T02:25:47.5146418-05:00	66/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 67 / 120 (067-20260506_022732) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T07:29:40.3935482Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T02:29:44.7178774-05:00	67/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 68 / 120 (068-20260506_023129) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T07:33:39.4141937Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T02:33:45.0041780-05:00	68/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 69 / 120 (069-20260506_023530) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T07:37:41.1245180Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T02:37:45.2896539-05:00	69/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 70 / 120 (070-20260506_023930) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T07:42:04.7976985Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T02:42:09.7837311-05:00	70/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 71 / 120 (071-20260506_024354) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T07:46:11.7209156Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T02:46:16.1131139-05:00	71/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 72 / 120 (072-20260506_024801) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T07:50:06.7822516Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T02:50:13.2827497-05:00	72/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 73 / 120 (073-20260506_025158) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T07:53:48.7883253Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T02:53:55.2849234-05:00	73/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 74 / 120 (074-20260506_025540) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T07:57:39.0352599Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T02:57:43.4161860-05:00	74/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 75 / 120 (075-20260506_025928) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T08:01:55.9077959Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T03:02:01.8908766-05:00	75/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 76 / 120 (076-20260506_030346) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T08:05:55.9279609Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T03:06:02.1303920-05:00	76/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 77 / 120 (077-20260506_030747) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T08:09:56.4006728Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T03:10:02.4927992-05:00	77/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 78 / 120 (078-20260506_031147) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T08:13:57.9548940Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 1,
+    "evalFailures": 0,
+    "failingIdsPipe": "rival_corin__topic_b|llm",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+--- unity-scenario-suite.log (tail) ---
+PS>TerminatingError(): "Scenario suite exited with 1. See 'C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\unity-scenario-suite.log'"
+FAIL: Scenario suite exited with 1. See 'C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\unity-scenario-suite.log'
+Cooldown 105s ...
+--- Iteration 79 / 120 (079-20260506_031547) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T08:18:14.2600413Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T03:18:18.3300882-05:00	79/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 80 / 120 (080-20260506_032003) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T08:22:37.7347008Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T03:22:42.7397973-05:00	80/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 81 / 120 (081-20260506_032427) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T08:27:01.4245586Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T03:27:07.1516862-05:00	81/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 82 / 120 (082-20260506_032852) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T08:31:06.3752671Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T03:31:10.4446997-05:00	82/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 83 / 120 (083-20260506_033255) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T08:35:10.7012925Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T03:35:16.8021954-05:00	83/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 84 / 120 (084-20260506_033701) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T08:38:57.7264246Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T03:39:01.9120737-05:00	84/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 85 / 120 (085-20260506_034046) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T08:43:15.2442421Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T03:43:20.2813064-05:00	85/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 86 / 120 (086-20260506_034505) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T08:47:14.1972708Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T03:47:20.6369754-05:00	86/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 87 / 120 (087-20260506_034905) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T08:51:44.2767107Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T03:51:48.1250650-05:00	87/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 88 / 120 (088-20260506_035333) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T08:56:02.2135564Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T03:56:06.4398337-05:00	88/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 89 / 120 (089-20260506_035751) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T09:00:03.5829821Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T04:00:09.5687994-05:00	89/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 90 / 120 (090-20260506_040154) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T09:04:02.8998154Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T04:04:06.8339476-05:00	90/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 91 / 120 (091-20260506_040551) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T09:08:04.4124138Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T04:08:10.0874180-05:00	91/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 92 / 120 (092-20260506_040955) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T09:12:13.8641176Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T04:12:19.4508010-05:00	92/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 93 / 120 (093-20260506_041404) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T09:16:10.1359664Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T04:16:16.5902486-05:00	93/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 94 / 120 (094-20260506_041801) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T09:20:16.9975294Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T04:20:22.9662089-05:00	94/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 95 / 120 (095-20260506_042207) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T09:24:42.0803914Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T04:24:47.5095273-05:00	95/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 96 / 120 (096-20260506_042632) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T09:29:09.0102210Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T04:29:15.0282951-05:00	96/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 97 / 120 (097-20260506_043100) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T09:33:21.3071181Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T04:33:27.3250893-05:00	97/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 98 / 120 (098-20260506_043512) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T09:37:48.0256795Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T04:37:51.7120095-05:00	98/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 99 / 120 (099-20260506_043936) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T09:42:02.2769065Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T04:42:07.1557394-05:00	99/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 100 / 120 (100-20260506_044352) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T09:46:14.1754176Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T04:46:19.5950944-05:00	100/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 101 / 120 (101-20260506_044804) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T09:50:34.5571765Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T04:50:40.9513325-05:00	101/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 102 / 120 (102-20260506_045225) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T09:54:35.4018364Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T04:54:41.2386980-05:00	102/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 103 / 120 (103-20260506_045626) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T09:58:56.9778678Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T04:59:02.6842555-05:00	103/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 104 / 120 (104-20260506_050047) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T10:02:58.8249298Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T05:03:02.9148754-05:00	104/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 105 / 120 (105-20260506_050447) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T10:07:17.7257911Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T05:07:24.4309402-05:00	105/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 106 / 120 (106-20260506_050909) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T10:11:32.4893144Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T05:11:36.7975215-05:00	106/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 107 / 120 (107-20260506_051321) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T10:15:44.3247109Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T05:15:49.2050784-05:00	107/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 108 / 120 (108-20260506_051734) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T10:19:52.2061092Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T05:19:58.5330150-05:00	108/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 109 / 120 (109-20260506_052143) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T10:24:05.5759961Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T05:24:10.9027708-05:00	109/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 110 / 120 (110-20260506_052555) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T10:28:00.4019070Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T05:28:05.1874921-05:00	110/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 111 / 120 (111-20260506_052950) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T10:31:57.9687221Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T05:32:02.4617832-05:00	111/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 112 / 120 (112-20260506_053347) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T10:35:54.6396067Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T05:35:59.7316784-05:00	112/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 113 / 120 (113-20260506_053744) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T10:40:14.7753825Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T05:40:21.1107636-05:00	113/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 114 / 120 (114-20260506_054206) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T10:44:26.9346492Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T05:44:33.5053483-05:00	114/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 115 / 120 (115-20260506_054618) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T10:48:35.2658145Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T05:48:39.7608479-05:00	115/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 116 / 120 (116-20260506_055024) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T10:52:39.0114034Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T05:52:43.1298775-05:00	116/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 117 / 120 (117-20260506_055428) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T10:56:34.4750770Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T05:56:40.3320670-05:00	117/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 118 / 120 (118-20260506_055825) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T11:00:59.5691851Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 1,
+    "evalFailures": 0,
+    "failingIdsPipe": "rival_corin__topic_b|llm",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+--- unity-scenario-suite.log (tail) ---
+PS>TerminatingError(): "Scenario suite exited with 1. See 'C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\unity-scenario-suite.log'"
+FAIL: Scenario suite exited with 1. See 'C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\unity-scenario-suite.log'
+Cooldown 105s ...
+--- Iteration 119 / 120 (119-20260506_060249) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T11:05:00.9532516Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T06:05:05.1172766-05:00	119/120	PASS	llm=0	eval=0
+Cooldown 105s ...
+--- Iteration 120 / 120 (120-20260506_060650) ---
+Skipping manifest export (-SkipManifestExport).
+Running scenario suite (requires live LLM per NpcLlmDevEndpointResolver) ...
+--- run_summary.json ---
+{
+    "completedUtc": "2026-05-06T11:09:09.6794171Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}
+Scenario suite completed. Reports: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\
+2026-05-06T06:09:14.4350196-05:00	120/120	PASS	llm=0	eval=0
+
+=== Batch finished 2026-05-06T06:09:14.4360190-05:00 ===
+Passes (no throw): 117  Failures: 3  Iterations configured: 120
+Line log: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\nightly-rollups\nightly-batch-line.log
+Rollups snapshot dir: C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\nightly-rollups
+**********************
+Windows PowerShell transcript end
+End time: 20260506060914
+**********************

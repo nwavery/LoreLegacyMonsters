@@ -1,0 +1,13 @@
+{
+    "scenarioId": "mentor_cael__greet",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Good morrow to you. You've got a road that's crying out for attention - take your time to examine those fresh signs on that one side road. See if you can glean anything of value before heading north.",
+    "sanitized": "Good morrow to you. You've got a road that's crying out for attention - take your time to examine those fresh signs on that one side road. See if you can glean anything of value before heading north.",
+    "cleanBeforeCommands": "Good morrow to you. You've got a road that's crying out for attention - take your time to examine those fresh signs on that one side road. See if you can glean anything of value before heading north.",
+    "shapedHud": "Good morrow to you. You've got a road that's crying out for attention - take your time to examine those fresh signs on that one side road. See if you can glean anything of value before heading north.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

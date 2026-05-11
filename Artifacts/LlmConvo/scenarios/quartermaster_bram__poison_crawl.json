@@ -1,0 +1,13 @@
+{
+    "scenarioId": "quartermaster_bram__poison_crawl",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Antidote, at least one of 'em. We can't afford to take any chances with that poison on Emberfox. You'll also want some Cold Salve and a Shock Tonic, just in case things get ugly. I've got Road Kit charms that might come in handy too, but let's focus on the essentials for now.",
+    "sanitized": "Antidote, at least one of 'em. We can't afford to take any chances with that poison on Emberfox. You'll also want some Cold Salve and a Shock Tonic, just in case things get ugly. I've got Road Kit charms that might come in handy too, but let's focus on the essentials for now.",
+    "cleanBeforeCommands": "Antidote, at least one of 'em. We can't afford to take any chances with that poison on Emberfox. You'll also want some Cold Salve and a Shock Tonic, just in case things get ugly. I've got Road Kit charms that might come in handy too, but let's focus on the essentials for now.",
+    "shapedHud": "Antidote, at least one of 'em. We can't afford to take any chances with that poison on Emberfox. You'll also want some Cold Salve and a Shock Tonic, just in case things get ugly. I've got Road Kit charms that might come in handy too, but let's focus on the essentials for now.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

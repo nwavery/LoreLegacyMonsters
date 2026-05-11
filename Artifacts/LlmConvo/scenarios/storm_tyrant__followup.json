@@ -1,0 +1,13 @@
+{
+    "scenarioId": "storm_tyrant__followup",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Tomorrow's repairs will wait until morning's light. For now, check that lantern string which was blown loose during last gale. See if any other damage has crept in while you slept.",
+    "sanitized": "Tomorrow's repairs will wait until morning's light. For now, check that lantern string which was blown loose during last gale. See if any other damage has crept in while you slept.",
+    "cleanBeforeCommands": "Tomorrow's repairs will wait until morning's light. For now, check that lantern string which was blown loose during last gale. See if any other damage has crept in while you slept.",
+    "shapedHud": "Tomorrow's repairs will wait until morning's light. For now, check that lantern string which was blown loose during last gale. See if any other damage has crept in while you slept.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

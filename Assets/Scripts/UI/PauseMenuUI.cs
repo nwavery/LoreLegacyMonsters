@@ -7,13 +7,14 @@ namespace LoreLegacyMonsters.UI
 {
     public static class PauseMenuUI
     {
-        public static RectTransform Create(Transform parent, Action onResume, Action onOpenSettings, Action onQuitToMain)
+        public static RectTransform Create(Transform parent, Action onResume, Action onOpenSettings, Action onOpenWardrobe,
+            Action onQuitToMain)
         {
             var root = RuntimeUiFactory.CreatePanel(parent, "PauseOverlayRoot",
                 GameVisualTheme.WithAlpha(GameVisualTheme.Ink, 0.85f), Vector2.zero, Vector2.one, new Vector2(0.5f, 0.5f),
                 Vector2.zero, Vector2.zero);
             var panel = RuntimeUiFactory.CreateCard(root, "PausePanel", GameVisualTheme.WithAlpha(GameVisualTheme.Panel, 0.98f),
-                new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f), Vector2.zero, new Vector2(620f, 420f));
+                new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f), Vector2.zero, new Vector2(620f, 480f));
 
             RuntimeUiFactory.CreateText(panel, "PauseTitle", "Paused", 34, TextAnchor.UpperCenter, GameVisualTheme.Accent,
                 new Vector2(0.5f, 1f), new Vector2(0.5f, 1f), new Vector2(0.5f, 1f), new Vector2(0f, -24f), new Vector2(280f, 50f));
@@ -26,8 +27,10 @@ namespace LoreLegacyMonsters.UI
                 new Vector2(0.5f, 1f), new Vector2(0.5f, 1f), new Vector2(0.5f, 1f), new Vector2(0f, -160f), new Vector2(300f, 44f));
             var settings = RuntimeUiFactory.CreateSecondaryActionButton(panel, "PauseSettingsBtn", "Settings",
                 new Vector2(0.5f, 1f), new Vector2(0.5f, 1f), new Vector2(0.5f, 1f), new Vector2(0f, -216f), new Vector2(300f, 44f));
-            var quit = RuntimeUiFactory.CreateSecondaryActionButton(panel, "PauseMainMenuBtn", "Quit to Main Menu",
+            var wardrobe = RuntimeUiFactory.CreateSecondaryActionButton(panel, "PauseWardrobeBtn", "Wardrobe",
                 new Vector2(0.5f, 1f), new Vector2(0.5f, 1f), new Vector2(0.5f, 1f), new Vector2(0f, -272f), new Vector2(300f, 44f));
+            var quit = RuntimeUiFactory.CreateSecondaryActionButton(panel, "PauseMainMenuBtn", "Quit to Main Menu",
+                new Vector2(0.5f, 1f), new Vector2(0.5f, 1f), new Vector2(0.5f, 1f), new Vector2(0f, -328f), new Vector2(300f, 44f));
 
             var settingsSummary = RuntimeUiFactory.CreateText(panel, "PauseSettingsSummary", BuildSettingsSummary(), 14,
                 TextAnchor.MiddleCenter, GameVisualTheme.MutedText,
@@ -43,6 +46,11 @@ namespace LoreLegacyMonsters.UI
                 AudioManager.EnsureExists().PlayUiSfx(0);
                 onOpenSettings?.Invoke();
                 settingsSummary.text = BuildSettingsSummary();
+            });
+            wardrobe.onClick.AddListener(() =>
+            {
+                AudioManager.EnsureExists().PlayUiSfx(0);
+                onOpenWardrobe?.Invoke();
             });
             quit.onClick.AddListener(() =>
             {

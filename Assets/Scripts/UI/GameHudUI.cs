@@ -58,6 +58,7 @@ namespace LoreLegacyMonsters.UI
 
             var nonCombatUiAllowed = ui != null && !ui.IsModalOpen(UiModal.Dialog) && !ui.IsModalOpen(UiModal.Loading) &&
                                      !ui.IsModalOpen(UiModal.Pause) && !ui.IsModalOpen(UiModal.Settings) &&
+                                     !ui.IsModalOpen(UiModal.Loadout) &&
                                      !controller.ShopOpen && (combat == null || !combat.IsBattleActive);
 
             if (kb.f1Key.wasPressedThisFrame && nonCombatUiAllowed)
@@ -68,6 +69,7 @@ namespace LoreLegacyMonsters.UI
                 ui.SetModalOpen(UiModal.QuestLog, false);
                 ui.SetModalOpen(UiModal.Map, false);
                 ui.SetModalOpen(UiModal.Inventory, false);
+                ui.SetModalOpen(UiModal.Loadout, false);
                 ui.ToggleModal(UiModal.Party);
             }
 
@@ -76,6 +78,7 @@ namespace LoreLegacyMonsters.UI
                 ui.SetModalOpen(UiModal.Party, false);
                 ui.SetModalOpen(UiModal.Map, false);
                 ui.SetModalOpen(UiModal.Inventory, false);
+                ui.SetModalOpen(UiModal.Loadout, false);
                 ui.ToggleModal(UiModal.QuestLog);
             }
 
@@ -84,6 +87,7 @@ namespace LoreLegacyMonsters.UI
                 ui.SetModalOpen(UiModal.Party, false);
                 ui.SetModalOpen(UiModal.QuestLog, false);
                 ui.SetModalOpen(UiModal.Inventory, false);
+                ui.SetModalOpen(UiModal.Loadout, false);
                 ui.ToggleModal(UiModal.Map);
             }
 
@@ -92,28 +96,89 @@ namespace LoreLegacyMonsters.UI
                 ui.SetModalOpen(UiModal.Party, false);
                 ui.SetModalOpen(UiModal.QuestLog, false);
                 ui.SetModalOpen(UiModal.Map, false);
+                ui.SetModalOpen(UiModal.Loadout, false);
                 ui.ToggleModal(UiModal.Inventory);
             }
 
-            if (kb.escapeKey.wasPressedThisFrame)
+            if (kb.gKey.wasPressedThisFrame && nonCombatUiAllowed)
             {
-                if (helpOverlayRoot != null) CloseHelpOverlay();
-                else if (settingsOverlayRoot != null) CloseSettingsOverlay();
-                else if (pauseOverlayRoot != null) ClosePauseOverlay();
-                else if (ui != null && ui.IsModalOpen(UiModal.Inventory)) ui.SetModalOpen(UiModal.Inventory, false);
-                else if (ui != null && ui.IsModalOpen(UiModal.Map)) ui.SetModalOpen(UiModal.Map, false);
-                else if (ui != null && ui.IsModalOpen(UiModal.QuestLog)) ui.SetModalOpen(UiModal.QuestLog, false);
-                else if (ui != null && ui.IsModalOpen(UiModal.Party)) ui.SetModalOpen(UiModal.Party, false);
-                else if (controller.ShopOpen) controller.CloseShop();
+                ui.SetModalOpen(UiModal.Party, false);
+                ui.SetModalOpen(UiModal.QuestLog, false);
+                ui.SetModalOpen(UiModal.Map, false);
+                ui.SetModalOpen(UiModal.Inventory, false);
+                ui.ToggleModal(UiModal.Loadout);
             }
 
-            if (kb[GameSettings.Pause].wasPressedThisFrame && nonCombatUiAllowed && pauseOverlayRoot == null)
+            var esc = kb.escapeKey.wasPressedThisFrame;
+            var pauseKey = GameSettings.Pause;
+            var pauseBind = kb[pauseKey].wasPressedThisFrame;
+            var escapeDismissed = false;
+            if (esc)
             {
-                OpenPauseOverlay(ui);
+                if (helpOverlayRoot != null)
+                {
+                    CloseHelpOverlay();
+                    escapeDismissed = true;
+                }
+                else if (settingsOverlayRoot != null)
+                {
+                    CloseSettingsOverlay();
+                    escapeDismissed = true;
+                }
+                else if (pauseOverlayRoot != null)
+                {
+                    ClosePauseOverlay();
+                    escapeDismissed = true;
+                }
+                else if (ui != null && ui.IsModalOpen(UiModal.Inventory))
+                {
+                    ui.SetModalOpen(UiModal.Inventory, false);
+                    escapeDismissed = true;
+                }
+                else if (ui != null && ui.IsModalOpen(UiModal.Loadout))
+                {
+                    ui.SetModalOpen(UiModal.Loadout, false);
+                    escapeDismissed = true;
+                }
+                else if (ui != null && ui.IsModalOpen(UiModal.Map))
+                {
+                    ui.SetModalOpen(UiModal.Map, false);
+                    escapeDismissed = true;
+                }
+                else if (ui != null && ui.IsModalOpen(UiModal.QuestLog))
+                {
+                    ui.SetModalOpen(UiModal.QuestLog, false);
+                    escapeDismissed = true;
+                }
+                else if (ui != null && ui.IsModalOpen(UiModal.Party))
+                {
+                    ui.SetModalOpen(UiModal.Party, false);
+                    escapeDismissed = true;
+                }
+                else if (controller.ShopOpen)
+                {
+                    controller.CloseShop();
+                    escapeDismissed = true;
+                }
             }
-            else if (Gamepad.current != null && Gamepad.current.startButton.wasPressedThisFrame && nonCombatUiAllowed && pauseOverlayRoot == null)
-            {
+
+            if (pauseKey == Key.Escape && esc && !escapeDismissed && nonCombatUiAllowed)
                 OpenPauseOverlay(ui);
+
+            if (pauseKey != Key.Escape && pauseBind)
+            {
+                if (pauseOverlayRoot != null)
+                    ClosePauseOverlay();
+                else if (nonCombatUiAllowed)
+                    OpenPauseOverlay(ui);
+            }
+
+            if (Gamepad.current != null && Gamepad.current.startButton.wasPressedThisFrame)
+            {
+                if (pauseOverlayRoot != null)
+                    ClosePauseOverlay();
+                else if (nonCombatUiAllowed)
+                    OpenPauseOverlay(ui);
             }
         }
 
@@ -124,6 +189,12 @@ namespace LoreLegacyMonsters.UI
             pauseOverlayRoot = PauseMenuUI.Create(ui.Root.transform,
                 onResume: ClosePauseOverlay,
                 onOpenSettings: () => OpenSettingsOverlay(ui),
+                onOpenWardrobe: () =>
+                {
+                    Time.timeScale = 1f;
+                    ClosePauseOverlay();
+                    ui.SetModalOpen(UiModal.Loadout, true);
+                },
                 onQuitToMain: QuitToMainMenu);
             ui.SetModalOpen(UiModal.Pause, true);
         }

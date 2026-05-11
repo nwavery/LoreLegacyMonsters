@@ -62,7 +62,10 @@
   <ItemGroup>
     <Compile Include="Assets\Editor\BatchEditModeTestRunner.cs" />
     <Compile Include="Assets\Editor\AlphaBuild.cs" />
+    <Compile Include="Assets\Editor\NpcLlmScenarioBatch.cs" />
     <Compile Include="Assets\Editor\SteamBuild.cs" />
+    <Compile Include="Assets\Editor\NpcLlmScenarioManifestGenerator.cs" />
+    <Compile Include="Assets\Editor\NpcLlmConvoCli.cs" />
     <Compile Include="Assets\Editor\BatchAutomationBootstrap.cs" />
     <Compile Include="Assets\Editor\VisualSmokeCapture.cs" />
     <Compile Include="Assets\Editor\SteamBrandingProfile.cs" />

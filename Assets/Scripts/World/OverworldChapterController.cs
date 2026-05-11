@@ -63,6 +63,7 @@ namespace LoreLegacyMonsters.World
         NPCController ethicist;
         NPCController moonwellKeeper;
         NPCController sable;
+        NPCController tailor;
 
         readonly Dictionary<string, DialogData> dialogCache = new Dictionary<string, DialogData>();
         readonly OverworldEncounterPacer encounterPacer = new OverworldEncounterPacer();
@@ -116,10 +117,12 @@ namespace LoreLegacyMonsters.World
             GameEvents.MonsterLeveled += OnMonsterLeveled;
             GameEvents.MonsterEvolved += OnMonsterEvolved;
             EnsureNewGameState();
+            EnsureGearShopRuntime();
             ConfigureNpcs();
             SyncPlayerToSavedArea();
             SyncCampaignState();
             EnsureMinimalWorldVisuals();
+            SubscribePlayerGearVisuals();
             SetStatus("Explore Hollowfen. Speak to townsfolk and head east for your first hunt.");
             AudioManager.EnsureExists().PlayMusicForArea(worldManager != null ? worldManager.CurrentAreaId : DefaultGameContent.TownId);
             StartCoroutine(BootLlmProbe());
@@ -127,25 +130,98 @@ namespace LoreLegacyMonsters.World
 
         IEnumerator BootLlmProbe()
         {
-            var settings = NpcLlmSettings.ResolveForDriver(null);
             var ok = false;
-            string msg = null;
-            yield return NpcLlmHealthCheck.Probe(settings, (success, m) =>
+            string lastMsg = null;
+            NpcLlmSettings settings = null;
+            LlmRuntimeStatus.SetBootProbeInProgress(true);
+            try
             {
-                ok = success;
-                msg = m;
-            });
-            LlmRuntimeStatus.SetProbeResult(ok, ok ? $"OK — {settings.Model}" : (msg ?? "failed"));
+                yield return new WaitForSecondsRealtime(0.35f);
+
+                var bundled = LlmRuntimeSupervisor.IsBundledRuntimeEnabled();
+
+                var tcpCap = Time.unscaledTime +
+                             (bundled ? LlmBootProbePolicy.BundledTcpWaitCapSeconds : 12f);
+                while (bundled && Time.unscaledTime < tcpCap && !LlmRuntimeSupervisor.IsBundledListenerReachable())
+                {
+                    LlmRuntimeSupervisor.EnsureStarted();
+                    yield return new WaitForSecondsRealtime(0.4f);
+                }
+
+                if (bundled)
+                    yield return BundledOllamaModelProvisioner.EnsureBundledModelRegistered();
+
+                var deadline = Time.unscaledTime + LlmBootProbePolicy.DeadlineSeconds(bundled);
+                var retryDelay = 0.25f;
+                var attemptIndex = 0;
+
+                while (Time.unscaledTime < deadline && !ok)
+                {
+                    settings = NpcLlmSettings.ResolveForDriver(null);
+                    LlmRuntimeSupervisor.EnsureStarted();
+                    var attemptOk = false;
+                    string attemptMsg = null;
+                    var httpTimeout = LlmBootProbePolicy.ProbeHttpTimeoutSeconds(bundled, attemptIndex);
+                    yield return NpcLlmHealthCheck.Probe(settings, httpTimeout, (success, m) =>
+                    {
+                        attemptOk = success;
+                        attemptMsg = m;
+                    });
+                    ok = attemptOk;
+                    lastMsg = attemptMsg;
+                    attemptIndex++;
+
+                    if (ok)
+                        break;
+
+                    yield return new WaitForSecondsRealtime(retryDelay);
+                    retryDelay = Mathf.Min(2f, retryDelay * 1.55f);
+                }
+
+                settings ??= NpcLlmSettings.ResolveForDriver(null);
+            }
+            finally
+            {
+                try
+                {
+                    settings ??= NpcLlmSettings.ResolveForDriver(null);
+                }
+                catch
+                {
+                    // If settings resolution fails, still clear boot state.
+                }
+
+                var modelLabel = settings != null ? settings.Model : "unknown";
+                LlmRuntimeStatus.SetProbeResult(ok, ok ? $"OK — {modelLabel}" : (lastMsg ?? "failed"));
+            }
+
+            try
+            {
+                settings ??= NpcLlmSettings.ResolveForDriver(null);
+            }
+            catch
+            {
+                // ignore — toasts are best-effort
+            }
+
             if (ok)
-                GameEvents.RaiseToast($"Local LLM ready ({settings.Model}).");
+                GameEvents.RaiseToast($"Local LLM ready ({settings?.Model}).");
             else
-                GameEvents.RaiseToast("Local LLM not detected — NPC lines use scripted fallback until Ollama is running.");
+            {
+                var detail = lastMsg ?? "unknown error";
+                if (detail.Length > 120)
+                    detail = detail.Substring(0, 117) + "…";
+                detail = detail.Replace('\n', ' ').Trim();
+                GameEvents.RaiseToast(
+                    $"Local LLM not ready — scripted dialog fallback. Detail: {detail}");
+            }
         }
 
         void OnDestroy()
         {
             GameEvents.MonsterLeveled -= OnMonsterLeveled;
             GameEvents.MonsterEvolved -= OnMonsterEvolved;
+            UnsubscribePlayerGearVisuals();
         }
 
         void OnEnable()
@@ -166,6 +242,7 @@ namespace LoreLegacyMonsters.World
         {
             SyncCampaignState();
             EnsurePartyAndInventoryFallback();
+            RefreshPlayerGearVisuals();
         }
 
         void OnQuestCompletedForCampaign(string _) => SyncCampaignState();
@@ -176,6 +253,7 @@ namespace LoreLegacyMonsters.World
             RefreshChapterTwoNpcState();
             RefreshChapterThreeNpcState();
             RefreshPhaseTwoNpcState();
+            ReplenishGearVendorIfNeeded();
         }
 
         void Update()
@@ -354,6 +432,10 @@ namespace LoreLegacyMonsters.World
             if (inventoryUi == null) inventoryUi = gameObject.AddComponent<InventoryUI>();
             inventoryUi.Bind(this);
 
+            var loadoutUi = GetComponent<LoadoutUI>();
+            if (loadoutUi == null) loadoutUi = gameObject.AddComponent<LoadoutUI>();
+            loadoutUi.Bind(this);
+
             var shopUi = GetComponent<ShopUI>();
             if (shopUi == null) shopUi = gameObject.AddComponent<ShopUI>();
             shopUi.Bind(this);
@@ -386,14 +468,57 @@ namespace LoreLegacyMonsters.World
                 inventory.AddItem(DefaultGameContent.CaptureCharmId, 3);
         }
 
+        [SerializeField] ShopData runtimeGearShop;
+
+        void EnsureGearShopRuntime()
+        {
+            if (runtimeGearShop != null) return;
+            // Always runtime-owned so Replenish() never mutates a Resources-backed asset instance.
+            runtimeGearShop = ScriptableObject.CreateInstance<ShopData>();
+            runtimeGearShop.hideFlags = HideFlags.DontUnloadUnusedAsset;
+        }
+
+        void ReplenishGearVendorIfNeeded()
+        {
+            if (questManager == null) return;
+            EnsureGearShopRuntime();
+            GearVendorCatalog.Replenish(runtimeGearShop, questManager);
+        }
+
+        void SubscribePlayerGearVisuals()
+        {
+            var lo = gameManager != null ? gameManager.Loadout : null;
+            if (lo == null) return;
+            lo.LoadoutChanged -= OnLoadoutVisualsChanged;
+            lo.LoadoutChanged += OnLoadoutVisualsChanged;
+        }
+
+        void UnsubscribePlayerGearVisuals()
+        {
+            var lo = gameManager != null ? gameManager.Loadout : null;
+            if (lo == null) return;
+            lo.LoadoutChanged -= OnLoadoutVisualsChanged;
+        }
+
+        void OnLoadoutVisualsChanged(GearSlot _, int __, string ___, string ____) => RefreshPlayerGearVisuals();
+
+        void RefreshPlayerGearVisuals()
+        {
+            if (player == null) return;
+            OverworldCharacterVisuals.ApplyPlayerGear(player.gameObject, registry, gameManager?.Loadout);
+        }
+
         void ConfigureNpcs()
         {
             var shopGeneral = Resources.Load<ShopData>("Shops/shop_general");
             var shopHealer = Resources.Load<ShopData>("Shops/shop_healer");
+            EnsureGearShopRuntime();
+            ReplenishGearVendorIfNeeded();
 
             foreach (var def in NpcContentRegistry.All)
             {
-                var npc = EnsureNpc(def, NpcContentRegistry.ResolveShop(def, shopGeneral, shopHealer));
+                var shop = NpcContentRegistry.ResolveShop(def, shopGeneral, shopHealer, runtimeGearShop);
+                var npc = EnsureNpc(def, shop);
                 AssignNpcReference(npc);
             }
         }
@@ -444,6 +569,7 @@ namespace LoreLegacyMonsters.World
                 case NPCController.EthicistThrenId: ethicist = npc; break;
                 case NPCController.MoonwellLumaId: moonwellKeeper = npc; break;
                 case NPCController.SableRivalId: sable = npc; break;
+                case NPCController.TailorSerinId: tailor = npc; break;
             }
         }
 
@@ -918,7 +1044,7 @@ namespace LoreLegacyMonsters.World
                 SetStatus(string.IsNullOrEmpty(error) ? "Load failed." : $"Load failed: {error}");
         }
 
-        public void BuyShopItem(string itemId, int price)
+        public void BuyShopItem(string itemId, int _)
         {
             if (shopManager == null || inventory == null)
             {
@@ -933,13 +1059,22 @@ namespace LoreLegacyMonsters.World
                 return;
             }
 
+            var shop = shopManager.Current;
+            var row = ShopManager.FindListing(shop, itemId);
+            if (row == null)
+            {
+                SetStatus("Item not in stock.");
+                return;
+            }
+
+            var price = ShopManager.QuoteUnitPrice(registry, row);
             if (gm.PlayerGold < price)
             {
                 SetStatus($"Need {price}g (you have {gm.PlayerGold}g).");
                 return;
             }
 
-            if (shopManager.TryBuy(inventory, itemId, price))
+            if (shopManager.TryBuy(inventory, shop, itemId))
                 SetStatus($"Bought {registry?.GetItem(itemId)?.DisplayName ?? itemId}.");
             else
                 SetStatus("Purchase failed.");
@@ -951,7 +1086,14 @@ namespace LoreLegacyMonsters.World
         public void OpenShopForNpc(ShopData shopData)
         {
             if (shopData == null || shopManager == null) return;
-            shopManager.SetShop(shopData);
+            EnsureGearShopRuntime();
+            if (ReferenceEquals(shopData, runtimeGearShop) || shopData.ShopId == DefaultGameContent.GearShopId)
+            {
+                GearVendorCatalog.Replenish(runtimeGearShop, questManager);
+                shopManager.SetShop(runtimeGearShop);
+            }
+            else
+                shopManager.SetShop(shopData);
             shopOpen = true;
             SetStatus("Browse stock and buy what you need.");
         }
@@ -1529,11 +1671,15 @@ namespace LoreLegacyMonsters.World
             overworldBackdropRoot = OverworldPixelVisuals.Build(transform);
 
             if (player != null)
+            {
                 OverworldCharacterVisuals.AddPlayer(player.gameObject);
+                RefreshPlayerGearVisuals();
+            }
 
             OverworldCharacterVisuals.AddNpc(elder);
             OverworldCharacterVisuals.AddNpc(merchant);
             OverworldCharacterVisuals.AddNpc(healer);
+            OverworldCharacterVisuals.AddNpc(tailor);
             OverworldCharacterVisuals.AddNpc(scout);
             OverworldCharacterVisuals.AddNpc(boss);
             OverworldCharacterVisuals.AddNpc(archivist);

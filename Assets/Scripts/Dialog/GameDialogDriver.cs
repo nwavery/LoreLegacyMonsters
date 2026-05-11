@@ -160,6 +160,11 @@ namespace LoreLegacyMonsters.Dialog
             _awaitingPlayerReply = false;
             if (_llmCoroutine != null) StopCoroutine(_llmCoroutine);
             var generation = ++_conversationGeneration;
+            var preview = playerMessage.Trim();
+            if (preview.Length > 160)
+                preview = preview.Substring(0, 157).TrimEnd() + "...";
+            preview = preview.Replace("\r\n", "\\n ").Replace('\n', ' ');
+            Debug.Log($"[LLM Dialog] SubmitPlayerMessage npc={_activeNpc.NpcId} gen={generation}: \"{preview}\"");
             _llmCoroutine = StartCoroutine(LlmConversationFlow(_activeNpc, _lastScriptedDialog, playerMessage.Trim(), generation));
         }
 
@@ -317,18 +322,8 @@ namespace LoreLegacyMonsters.Dialog
 
             if (!string.IsNullOrWhiteSpace(fullText))
             {
-                var clean = OpenAiCompatibleLlmClient.SanitizeReply(fullText);
-                clean = NpcLlmResponseFilter.Clean(clean);
-                NpcLlmValidatedCommand command = null;
-                if (NpcLlmCommandParser.TryParseAndStrip(clean, out var displayText, out var parsedCmd))
-                {
-                    clean = displayText;
-                    command = parsedCmd;
-                }
-                else
-                {
-                    clean = NpcLlmCommandParser.StripCommandMarkers(clean);
-                }
+                var clean = NpcLlmDisplayPipeline.ShapeForHud(fullText, out var parsedCmd);
+                NpcLlmValidatedCommand command = parsedCmd;
 
                 if (command != null && command.IsValid)
                 {

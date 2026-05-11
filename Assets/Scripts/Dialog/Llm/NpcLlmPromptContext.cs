@@ -42,6 +42,10 @@ namespace LoreLegacyMonsters.Dialog.Llm
         public string StatusEffectsSummary;
         public string ShopStockSummary;
         public string StoryStateSummary;
+        /// <summary>Equipped gear one-liner for LLM flavor.</summary>
+        public string PlayerGearSummary;
+        /// <summary>Comma-separated vibe tags from loadout.</summary>
+        public string PlayerVibeTags;
         public NpcRole Role;
 
         public static NpcLlmPromptContext ForNpc(
@@ -65,6 +69,10 @@ namespace LoreLegacyMonsters.Dialog.Llm
             var statusFx = BuildStatusEffectsSummary(gm, monster);
             var shopStock = BuildShopStockSummary(gm, npc);
             var storyState = BuildStoryStateSummary();
+            var gearSummary = gm != null
+                ? GearPromptFormatter.EquippedSummary(gm.Assets, gm.Loadout)
+                : "Gear unavailable.";
+            var vibeTags = gm != null ? GearPromptFormatter.VibeTagsBracketed(gm.Loadout) : "";
             return new NpcLlmPromptContext
             {
                 NpcId = npc != null ? npc.NpcId : "npc",
@@ -85,7 +93,9 @@ namespace LoreLegacyMonsters.Dialog.Llm
                     : conversationHistorySummary.Trim(),
                 StatusEffectsSummary = statusFx,
                 ShopStockSummary = shopStock,
-                StoryStateSummary = storyState
+                StoryStateSummary = storyState,
+                PlayerGearSummary = gearSummary,
+                PlayerVibeTags = vibeTags
             };
         }
 

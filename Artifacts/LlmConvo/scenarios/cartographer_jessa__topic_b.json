@@ -1,0 +1,13 @@
+{
+    "scenarioId": "cartographer_jessa__topic_b",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Stonewake - that's a name I've been meaning to get down on paper, but it's a spot I've only heard tales about from older cartographers. From what I understand, it's an ancient site nestled at the confluence of two great rivers, where the stone itself seems to hum with a strange energy. The locals say that during certain times of year, when the stars align just so, you can hear the whispers of the ancients echoing across the water. It's said to be a place of great power and mystery - though I've never had the chance to map it myself.",
+    "sanitized": "Stonewake - that's a name I've been meaning to get down on paper, but it's a spot I've only heard tales about from older cartographers. From what I understand, it's an ancient site nestled at the confluence of two great rivers, where the stone itself seems to hum with a strange energy. The locals say that during certain times of year, when the stars align just so, you can hear the whispers of the ancients echoing across the water. It's said to be a place of great power and mystery - though I've never had the chance to map it myself.",
+    "cleanBeforeCommands": "Stonewake - that's a name I've been meaning to get down on paper, but it's a spot I've only heard tales about from older cartographers. From what I understand, it's an ancient site nestled at the confluence of two great rivers, where the stone itself seems to hum with a strange energy. The locals say that during certain times of year, when the stars align just so, you can hear the whispers of the ancients echoing across the water. It's said to be a place of great power and mystery - though I've never had the chance to map it myself.",
+    "shapedHud": "Stonewake - that's a name I've been meaning to get down on paper, but it's a spot I've only heard tales about from older cartographers. From what I understand, it's an ancient site nestled at the confluence of two great rivers, where the stone itself seems to hum with a strange energy. The locals say that during certain times of year, when the stars align just so, you can hear the whispers of the ancients echoing across the water. It's said to be a place of great power and mystery - though I've never had the chance to map it myself.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

@@ -1,5 +1,7 @@
 using System.Collections.Generic;
+using LoreLegacyMonsters;
 using LoreLegacyMonsters.Core;
+using LoreLegacyMonsters.Inventory;
 using LoreLegacyMonsters.UI;
 using UnityEngine;
 
@@ -451,7 +453,7 @@ namespace LoreLegacyMonsters.World.Visuals
                 AddParallaxStrip(backdrop, $"Para_{p.AreaId}", p.Parallax, startX + width * 0.5f, width * 0.98f, 0.48f, p.ParallaxTint, -56);
         }
 
-        static Sprite LoadWorldSprite(string spriteName)
+        public static Sprite LoadWorldSprite(string spriteName)
         {
             if (string.IsNullOrWhiteSpace(spriteName)) return null;
             if (SpriteCache.TryGetValue(spriteName, out var cached)) return cached;
@@ -754,6 +756,86 @@ namespace LoreLegacyMonsters.World.Visuals
         public static void AddPlayer(GameObject host) =>
             AddCharacter(host, "PlayerSprite", GameVisualTheme.AccentBlue, GameVisualTheme.Cream, GameVisualTheme.Ink, 10, 1.05f);
 
+        /// <summary>Outfit overlay + charm auras (call after <see cref="AddPlayer"/>; safe to repeat).</summary>
+        public static void ApplyPlayerGear(GameObject host, AssetRegistryManager reg, LoadoutSystem loadout)
+        {
+            if (host == null) return;
+            var fxRoot = OverworldPixelVisuals.EnsureRoot(host.transform, "PlayerGearFx");
+            RuntimeUiFactory.DestroyChildren(fxRoot);
+            var pulse = fxRoot.GetComponent<PlayerCharmPulseAnimator>();
+            if (pulse != null)
+                Object.Destroy(pulse);
+
+            var spriteRoot = host.transform.Find("PlayerSprite");
+            fxRoot.localPosition = Vector3.zero;
+            fxRoot.localScale = spriteRoot != null ? spriteRoot.localScale : Vector3.one * 1.05f;
+
+            if (loadout == null || reg == null)
+                return;
+
+            var baseOrder = 11;
+            if (reg.GetItem(loadout.OutfitEquippedId) is GearItemData outfit)
+            {
+                if (!string.IsNullOrWhiteSpace(outfit.CosmeticSpriteName))
+                {
+                    var spr = Resources.Load<Sprite>($"Sprites/Gear/{outfit.CosmeticSpriteName}");
+                    if (spr != null)
+                    {
+                        var go = new GameObject("OutfitOverlay");
+                        go.transform.SetParent(fxRoot, false);
+                        go.transform.localPosition = Vector3.zero;
+                        var sr = go.AddComponent<SpriteRenderer>();
+                        sr.sprite = spr;
+                        sr.color = Color.white;
+                        sr.sortingOrder = baseOrder;
+                        var height = Mathf.Max(0.01f, spr.bounds.size.y);
+                        go.transform.localScale = Vector3.one * (1.72f / height);
+                    }
+                    else
+                        AddTintedPlayerSilhouette(fxRoot, outfit.Rarity.AccentColor(), baseOrder);
+                }
+                else
+                    AddTintedPlayerSilhouette(fxRoot, outfit.Rarity.AccentColor(), baseOrder);
+            }
+
+            var orbTransforms = new List<Transform>(3);
+            for (var i = 0; i < 3; i++)
+            {
+                var id = loadout.GetCharmEquippedId(i);
+                if (string.IsNullOrEmpty(id) || !(reg.GetItem(id) is GearItemData charm)) continue;
+                var c = charm.AuraColor;
+                c.a = Mathf.Clamp01(c.a > 0.01f ? c.a : 0.55f);
+                var x = -0.38f + i * 0.34f;
+                var y = 1.05f;
+                var orb = OverworldPixelVisuals.Rect(fxRoot, $"CharmOrb_{i}", new Vector3(x, y, 0f),
+                    Vector3.one * 0.16f, c, baseOrder + 2 + i);
+                orbTransforms.Add(orb.transform);
+            }
+
+            if (orbTransforms.Count > 0)
+            {
+                var anim = fxRoot.gameObject.AddComponent<PlayerCharmPulseAnimator>();
+                anim.Bind(orbTransforms.ToArray());
+            }
+        }
+
+        static void AddTintedPlayerSilhouette(Transform fxRoot, Color rarityTint, int order)
+        {
+            var sprite = OverworldPixelVisuals.LoadWorldSprite("player");
+            if (sprite == null) return;
+            var go = new GameObject("OutfitTint");
+            go.transform.SetParent(fxRoot, false);
+            go.transform.localPosition = Vector3.zero;
+            var sr = go.AddComponent<SpriteRenderer>();
+            sr.sprite = sprite;
+            var t = rarityTint;
+            t.a = 0.34f;
+            sr.color = t;
+            sr.sortingOrder = order;
+            var height = Mathf.Max(0.01f, sprite.bounds.size.y);
+            go.transform.localScale = Vector3.one * (1.72f / height);
+        }
+
         public static void AddNpc(NPCController npc)
         {
             if (npc == null) return;
@@ -798,7 +880,8 @@ namespace LoreLegacyMonsters.World.Visuals
                 return "npc_boss";
             if (role == NpcRole.Healer || npcId == NPCController.HealerPiaId || npcId == NPCController.MoonwellLumaId)
                 return "npc_healer";
-            if (role == NpcRole.Shopkeeper || npcId == NPCController.QuartermasterBramId || npcId == NPCController.MerchantTomaId)
+            if (role == NpcRole.Shopkeeper || npcId == NPCController.QuartermasterBramId || npcId == NPCController.MerchantTomaId
+                || npcId == NPCController.TailorSerinId)
                 return "npc_merchant";
             if (npcId == NPCController.CartographerJessaId || npcId == NPCController.ElderMiraId || npcId == NPCController.ArchivistSelId)
                 return "npc_story";

@@ -20,3 +20,5 @@ MonoBehaviour:
     description: Win a wild battle
     requiredCount: 1
     currentCount: 0
+  gearRewardItemIds:
+  - gear_charm_lucky_foxbone

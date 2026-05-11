@@ -1,0 +1,13 @@
+{
+    "scenarioId": "merchant_toma__followup",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Tightening a charm can wait till morning, but if you're in such a hurry, I'd recommend checking that road kit of yours before leaving. A bit of twine or thread might come loose from the vials, and you don't want it all spilling out on the way to Hollowfen.",
+    "sanitized": "Tightening a charm can wait till morning, but if you're in such a hurry, I'd recommend checking that road kit of yours before leaving. A bit of twine or thread might come loose from the vials, and you don't want it all spilling out on the way to Hollowfen.",
+    "cleanBeforeCommands": "Tightening a charm can wait till morning, but if you're in such a hurry, I'd recommend checking that road kit of yours before leaving. A bit of twine or thread might come loose from the vials, and you don't want it all spilling out on the way to Hollowfen.",
+    "shapedHud": "Tightening a charm can wait till morning, but if you're in such a hurry, I'd recommend checking that road kit of yours before leaving. A bit of twine or thread might come loose from the vials, and you don't want it all spilling out on the way to Hollowfen.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

@@ -1,0 +1,13 @@
+{
+    "scenarioId": "foreman_orlo__adversarial",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "I'm not sure what kind of dust talk you're looking for, but I've got more pressing concerns like this tremor that's been causing trouble lately. We need to get the stone monsters under control before they start making it difficult for anyone to pass through Hollowfen. What do you say we take a look at those signs on the one side road?",
+    "sanitized": "I'm not sure what kind of dust talk you're looking for, but I've got more pressing concerns like this tremor that's been causing trouble lately. We need to get the stone monsters under control before they start making it difficult for anyone to pass through Hollowfen. What do you say we take a look at those signs on the one side road?",
+    "cleanBeforeCommands": "I'm not sure what kind of dust talk you're looking for, but I've got more pressing concerns like this tremor that's been causing trouble lately. We need to get the stone monsters under control before they start making it difficult for anyone to pass through Hollowfen. What do you say we take a look at those signs on the one side road?",
+    "shapedHud": "I'm not sure what kind of dust talk you're looking for, but I've got more pressing concerns like this tremor that's been causing trouble lately. We need to get the stone monsters under control before they start making it difficult for anyone to pass through Hollowfen. What do you say we take a look at those signs on the one side road?",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

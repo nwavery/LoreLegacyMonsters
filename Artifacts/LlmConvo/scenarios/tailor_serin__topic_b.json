@@ -1,0 +1,13 @@
+{
+    "scenarioId": "tailor_serin__topic_b",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Charm hoops are a nice touch, aren't they? While I've seen many a traveler swear by their charm's effectiveness, I'm not one to take such claims at face value. Road grit and grime can be quite stubborn, after all. Still, having a bit of good fortune on your side never hurts – especially when venturing into the unpredictable landscape of Hollowfen.",
+    "sanitized": "Charm hoops are a nice touch, aren't they? While I've seen many a traveler swear by their charm's effectiveness, I'm not one to take such claims at face value. Road grit and grime can be quite stubborn, after all. Still, having a bit of good fortune on your side never hurts – especially when venturing into the unpredictable landscape of Hollowfen.",
+    "cleanBeforeCommands": "Charm hoops are a nice touch, aren't they? While I've seen many a traveler swear by their charm's effectiveness, I'm not one to take such claims at face value. Road grit and grime can be quite stubborn, after all. Still, having a bit of good fortune on your side never hurts – especially when venturing into the unpredictable landscape of Hollowfen.",
+    "shapedHud": "Charm hoops are a nice touch, aren't they? While I've seen many a traveler swear by their charm's effectiveness, I'm not one to take such claims at face value. Road grit and grime can be quite stubborn, after all. Still, having a bit of good fortune on your side never hurts – especially when venturing into the unpredictable landscape of Hollowfen.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

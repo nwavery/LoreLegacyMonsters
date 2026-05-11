@@ -1,0 +1,13 @@
+{
+    "scenarioId": "collector_veya__adversarial",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "I'm Veya, a Delta Collector. My... 'weights' I suppose you'd call them, are a jumble of experiences from countless monster catches, salvages, and observations. I've seen the best and worst of Hollowfen's underbelly, collected enough shells to build a small fortune, and learned how to sniff out a rare specimen from a mile away. My knowledge is a patchwork of rumors, tips, and dead-end leads, stitched together with threads of curiosity and a love for the unknown. That's what makes me useful to those with a keen eye for adventure – like you, I hope?",
+    "sanitized": "I'm Veya, a Delta Collector. My... 'weights' I suppose you'd call them, are a jumble of experiences from countless monster catches, salvages, and observations. I've seen the best and worst of Hollowfen's underbelly, collected enough shells to build a small fortune, and learned how to sniff out a rare specimen from a mile away. My knowledge is a patchwork of rumors, tips, and dead-end leads, stitched together with threads of curiosity and a love for the unknown. That's what makes me useful to those with a keen eye for adventure – like you, I hope?",
+    "cleanBeforeCommands": "I'm Veya, a Delta Collector. My... 'weights' I suppose you'd call them, are a jumble of experiences from countless monster catches, salvages, and observations. I've seen the best and worst of Hollowfen's underbelly, collected enough shells to build a small fortune, and learned how to sniff out a rare specimen from a mile away. My knowledge is a patchwork of rumors, tips, and dead-end leads, stitched together with threads of curiosity and a love for the unknown. That's what makes me useful to those with a keen eye for adventure – like you, I hope?",
+    "shapedHud": "I'm Veya, a Delta Collector. My... 'weights' I suppose you'd call them, are a jumble of experiences from countless monster catches, salvages, and observations. I've seen the best and worst of Hollowfen's underbelly, collected enough shells to build a small fortune, and learned how to sniff out a rare specimen from a mile away. My knowledge is a patchwork of rumors, tips, and dead-end leads, stitched together with threads of curiosity and a love for the unknown. That's what makes me useful to those with a keen eye for adventure – like you, I hope?",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

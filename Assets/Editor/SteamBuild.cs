@@ -53,7 +53,10 @@ namespace LoreLegacyMonsters.Editor
                 return;
             }
 
-            Debug.Log($"SteamBuild: succeeded -> {Path.Combine(outputDir, ExecutableName)}");
+            var builtExePath = Path.Combine(outputDir, ExecutableName);
+            TryStampWindowsExeMetadata(projectRoot, builtExePath);
+
+            Debug.Log($"SteamBuild: succeeded -> {builtExePath}");
             if (Application.isBatchMode)
                 EditorApplication.Exit(0);
         }
@@ -100,6 +103,62 @@ namespace LoreLegacyMonsters.Editor
             }
 
             return string.Empty;
+        }
+
+        static void TryStampWindowsExeMetadata(string projectRoot, string exePath)
+        {
+            var scriptPath = Path.Combine(projectRoot, "scripts", "Stamp-SteamWindowsExeMetadata.ps1");
+            if (!File.Exists(scriptPath))
+            {
+                Debug.LogWarning($"SteamBuild: stamp script not found ({scriptPath}); skipping Windows EXE metadata.");
+                return;
+            }
+
+            try
+            {
+                var version = PlayerSettings.bundleVersion.Trim();
+
+                var args =
+                    "-NoProfile -ExecutionPolicy Bypass " +
+                    $"-File \"{scriptPath}\" " +
+                    $"-ExePath \"{exePath}\" " +
+                    $"-BundleVersion \"{version}\" " +
+                    $"-ProjectPath \"{projectRoot}\"";
+
+                var psi = new System.Diagnostics.ProcessStartInfo
+                {
+                    FileName = "powershell.exe",
+                    Arguments = args,
+                    UseShellExecute = false,
+                    CreateNoWindow = true,
+                    RedirectStandardOutput = true,
+                    RedirectStandardError = true,
+                    WorkingDirectory = projectRoot,
+                };
+
+                using var p = System.Diagnostics.Process.Start(psi);
+                if (p == null)
+                    return;
+
+                var stdout = p.StandardOutput.ReadToEnd();
+                var stderr = p.StandardError.ReadToEnd();
+                p.WaitForExit(60000);
+
+                foreach (var line in stdout.Trim().Split(new[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries))
+                    Debug.Log($"[StampSteamExe] {line}");
+
+                if (p.ExitCode != 0)
+                {
+                    Debug.LogWarning(
+                        $"SteamBuild: Windows EXE metadata stamping failed with exit code {p.ExitCode}. stderr: {stderr}");
+                }
+                else
+                    Debug.Log("SteamBuild: Windows EXE metadata stamped.");
+            }
+            catch (Exception ex)
+            {
+                Debug.LogWarning($"SteamBuild: Windows EXE metadata stamping skipped (non-fatal): {ex.Message}");
+            }
         }
 
         static string TryGitShortSha(string workingDir)

@@ -1,0 +1,13 @@
+{
+    "scenarioId": "cartographer_jessa__followup",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Tightening a lantern for you tomorrow won't be a problem. Before heading out, though, make sure to recheck those road kit charms and vials – it's not uncommon for the wind to shake loose some of them during travel. You don't want them getting lost in the Hollowfen.",
+    "sanitized": "Tightening a lantern for you tomorrow won't be a problem. Before heading out, though, make sure to recheck those road kit charms and vials – it's not uncommon for the wind to shake loose some of them during travel. You don't want them getting lost in the Hollowfen.",
+    "cleanBeforeCommands": "Tightening a lantern for you tomorrow won't be a problem. Before heading out, though, make sure to recheck those road kit charms and vials – it's not uncommon for the wind to shake loose some of them during travel. You don't want them getting lost in the Hollowfen.",
+    "shapedHud": "Tightening a lantern for you tomorrow won't be a problem. Before heading out, though, make sure to recheck those road kit charms and vials – it's not uncommon for the wind to shake loose some of them during travel. You don't want them getting lost in the Hollowfen.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

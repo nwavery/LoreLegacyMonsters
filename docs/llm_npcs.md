@@ -88,10 +88,11 @@ The project asset is never mutated; `Instantiate` clones it and `ApplyPlayerPref
 
 ### Where prompts come from
 
-Prompts are assembled fresh every turn by `NpcLlmPromptBuilder.BuildMessages(NpcLlmPromptContext ctx)`. The output is a two-message array in OpenAI chat format:
+Prompts are assembled fresh every turn by `NpcLlmPromptBuilder.BuildMessages(NpcLlmPromptContext ctx)`. The output is **two or three** messages in OpenAI chat format:
 
 1. A `system` message — identity, role, rules, safety block, command grammar.
-2. A `user` message — live game state and the player's latest utterance.
+2. A **context** `user` message — live game state, NPC memory/session summaries, instructions to stay in character, and *(when the traveller is replying)* a note that **the following user message** is their utterance alone.
+3. *(Only when `PlayerMessage` is non-empty.)* A second `user` message containing **only** the traveller’s exact words — no `"The player just said:"` wrapper (those strings used to bleed into prompts and smaller models echoed them back verbatim into NPC dialogue boxes).
 
 The `system` message has four concatenated sections:
 
@@ -100,7 +101,7 @@ The `system` message has four concatenated sections:
 - **Character block.** Built from the NPC itself: `DisplayName`, `NpcId`, role name, `LlmIdentitySummary`, and `LlmCharacterPrompt`. For Elder Mira specifically the driver uses a longer default when the NPC's own prompt is blank (`DefaultElderCharacter`).
 - **Command grammar.** Only the tags that make sense for this NPC's role are listed, so a merchant can see `offer_hint` and `open_shop`, a healer sees `offer_hint` and `offer_heal`, a boss sees `offer_hint` and `offer_battle`, everyone else sees `offer_hint` and `suggest_destination`. See `AppendRoleCommandLines`.
 
-The `user` message is live game context plus what the player just said:
+The **context** `user` message aggregates:
 
 - `GameStateSummary` from `GameManager.BuildLlmStateSummary()` — current area, time-of-day summary, etc.
 - `QuestSummary` from `QuestManager.GetPrimaryQuestSummary()` — what the player is actively doing.
@@ -108,8 +109,9 @@ The `user` message is live game context plus what the player just said:
 - `InventorySummary` — top four stacks.
 - `WeatherSummary` — current weather enum.
 - `NpcMemorySummary` from `NpcMemoryService.BuildPromptSummary(npcId)` — long-term memory about this specific player for this specific NPC.
-- `ConversationHistorySummary` — the last four turns of this NPC's *current* session.
-- The player's just-typed message, or a greeting prompt if the player hasn't spoken yet.
+- `ConversationHistorySummary` — the last four turns of this NPC's *current* session — plus greeting instructions **or** bridging text when a follow-up `user` message will carry exact player text separately.
+
+Responses go through `NpcLlmResponseFilter.Clean(...)` which strips scaffold lines (`The player/traveller said…`, narrator `You say:` prefixes on a line, etc.).
 
 Because every one of those fields is looked up per-NPC, two NPCs in the same room build different prompts from the same game state.
 

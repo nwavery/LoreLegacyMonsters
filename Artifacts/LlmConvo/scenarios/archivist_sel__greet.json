@@ -1,0 +1,13 @@
+{
+    "scenarioId": "archivist_sel__greet",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Another weary soul seeking shelter and guidance. I see you're taking a cautious approach to your journey – and rightly so, given Hollowfen's...unsettling history. Be sure to inspect that road thoroughly; those signs could be more than just the usual trappings of Marsh life.",
+    "sanitized": "Another weary soul seeking shelter and guidance. I see you're taking a cautious approach to your journey – and rightly so, given Hollowfen's...unsettling history. Be sure to inspect that road thoroughly; those signs could be more than just the usual trappings of Marsh life.",
+    "cleanBeforeCommands": "Another weary soul seeking shelter and guidance. I see you're taking a cautious approach to your journey – and rightly so, given Hollowfen's...unsettling history. Be sure to inspect that road thoroughly; those signs could be more than just the usual trappings of Marsh life.",
+    "shapedHud": "Another weary soul seeking shelter and guidance. I see you're taking a cautious approach to your journey – and rightly so, given Hollowfen's...unsettling history. Be sure to inspect that road thoroughly; those signs could be more than just the usual trappings of Marsh life.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

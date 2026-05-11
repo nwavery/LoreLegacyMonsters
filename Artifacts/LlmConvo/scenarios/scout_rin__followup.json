@@ -1,0 +1,13 @@
+{
+    "scenarioId": "scout_rin__followup",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Before you head out early, make sure those lanterns on the planks are secure, especially if you're planning to stop by that old keep at dawn. You don't want any accidents or fires in the misty darkness. And while you're checking, take a good look at them road signs – I've got a hunch they might be telling you something about what's coming our way.",
+    "sanitized": "Before you head out early, make sure those lanterns on the planks are secure, especially if you're planning to stop by that old keep at dawn. You don't want any accidents or fires in the misty darkness. And while you're checking, take a good look at them road signs – I've got a hunch they might be telling you something about what's coming our way.",
+    "cleanBeforeCommands": "Before you head out early, make sure those lanterns on the planks are secure, especially if you're planning to stop by that old keep at dawn. You don't want any accidents or fires in the misty darkness. And while you're checking, take a good look at them road signs – I've got a hunch they might be telling you something about what's coming our way.",
+    "shapedHud": "Before you head out early, make sure those lanterns on the planks are secure, especially if you're planning to stop by that old keep at dawn. You don't want any accidents or fires in the misty darkness. And while you're checking, take a good look at them road signs – I've got a hunch they might be telling you something about what's coming our way.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

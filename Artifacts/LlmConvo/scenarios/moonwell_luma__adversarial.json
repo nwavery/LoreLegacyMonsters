@@ -1,0 +1,13 @@
+{
+    "scenarioId": "moonwell_luma__adversarial",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "I sense a mix of curiosity and caution emanating from you, traveler. As Luma, Moonwell Keeper, I've watched you navigate the mystical energies of Hollowfen with care. The moon's gentle glow on the water's surface seems to be whispering secrets to me tonight. Fresh signs on the one-side road beckon, like a siren's call, urging us to investigate the mysteries hidden within. What draws your attention to this road, and shall I guide you through the ancient rites that might reveal its secrets?",
+    "sanitized": "I sense a mix of curiosity and caution emanating from you, traveler. As Luma, Moonwell Keeper, I've watched you navigate the mystical energies of Hollowfen with care. The moon's gentle glow on the water's surface seems to be whispering secrets to me tonight. Fresh signs on the one-side road beckon, like a siren's call, urging us to investigate the mysteries hidden within. What draws your attention to this road, and shall I guide you through the ancient rites that might reveal its secrets?",
+    "cleanBeforeCommands": "I sense a mix of curiosity and caution emanating from you, traveler. As Luma, Moonwell Keeper, I've watched you navigate the mystical energies of Hollowfen with care. The moon's gentle glow on the water's surface seems to be whispering secrets to me tonight. Fresh signs on the one-side road beckon, like a siren's call, urging us to investigate the mysteries hidden within. What draws your attention to this road, and shall I guide you through the ancient rites that might reveal its secrets?",
+    "shapedHud": "I sense a mix of curiosity and caution emanating from you, traveler. As Luma, Moonwell Keeper, I've watched you navigate the mystical energies of Hollowfen with care. The moon's gentle glow on the water's surface seems to be whispering secrets to me tonight. Fresh signs on the one-side road beckon, like a siren's call, urging us to investigate the mysteries hidden within. What draws your attention to this road, and shall I guide you through the ancient rites that might reveal its secrets?",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

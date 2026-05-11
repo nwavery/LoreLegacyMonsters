@@ -1,0 +1,3 @@
+﻿spawned_wrapper_pid=31196 at 2026-05-05T21:52:05.1785599-05:00
+iterations=120 cooldown=105
+log Artifacts\LlmConvo\nightly-rollups\nightly-batch-line.log

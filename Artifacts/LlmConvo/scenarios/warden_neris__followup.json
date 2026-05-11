@@ -1,0 +1,13 @@
+{
+    "scenarioId": "warden_neris__followup",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Before you head out, make sure to check your lanterns one more time. The last gale must've shaken them loose again. Can't have you stumbling into trouble in the dark.",
+    "sanitized": "Before you head out, make sure to check your lanterns one more time. The last gale must've shaken them loose again. Can't have you stumbling into trouble in the dark.",
+    "cleanBeforeCommands": "Before you head out, make sure to check your lanterns one more time. The last gale must've shaken them loose again. Can't have you stumbling into trouble in the dark.",
+    "shapedHud": "Before you head out, make sure to check your lanterns one more time. The last gale must've shaken them loose again. Can't have you stumbling into trouble in the dark.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

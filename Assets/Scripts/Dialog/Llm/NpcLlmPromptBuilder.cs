@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Text;
 using LoreLegacyMonsters;
 
@@ -16,7 +17,63 @@ namespace LoreLegacyMonsters.Dialog.Llm
             "You worry about wild monsters in the nearby forest and want new trainers to prove themselves before taking dangerous work. " +
             "You speak plainly, with warmth and a hint of old-fashioned formality.";
 
+        /// <summary>
+        /// System + context user message always; when the traveller has spoken we add a <b>third</b> bare user message
+        /// containing only their exact words (never "The player just said:" wrappers—models echoed those back into UX).
+        /// </summary>
         public static ChatMessageJson[] BuildMessages(NpcLlmPromptContext ctx)
+        {
+            var sys = BuildSystemPrompt(ctx);
+
+            var contextBody = new StringBuilder();
+            contextBody.AppendLine("Current game state (facts only, do not repeat verbatim as a list unless the player asked):");
+            contextBody.AppendLine(ctx.GameStateSummary ?? "(none)");
+            contextBody.AppendLine();
+            contextBody.Append("Weather: ").AppendLine(ctx.WeatherSummary ?? "unknown");
+            contextBody.Append("Primary quest context: ").AppendLine(ctx.QuestSummary ?? "none");
+            contextBody.Append("Party summary: ").AppendLine(ctx.PartySummary ?? "none");
+            contextBody.Append("Player appearance & vibe: ").Append(ctx.PlayerGearSummary ?? "unknown").Append("; tags=[")
+                .Append(string.IsNullOrWhiteSpace(ctx.PlayerVibeTags) ? "" : ctx.PlayerVibeTags.Trim()).AppendLine("]");
+            contextBody.Append("Inventory highlights: ").AppendLine(ctx.InventorySummary ?? "none");
+            contextBody.Append("Persistent status & typical cures: ").AppendLine(ctx.StatusEffectsSummary ?? "none");
+            contextBody.Append("This NPC shop stock (if any): ").AppendLine(ctx.ShopStockSummary ?? "none");
+            contextBody.Append("Story branch state: ").AppendLine(ctx.StoryStateSummary ?? "none");
+            contextBody.Append("Remembered history with this player: ").AppendLine(ctx.NpcMemorySummary ?? "none");
+            contextBody.Append("Recent conversation: ").AppendLine(ctx.ConversationHistorySummary ?? "none");
+            contextBody.AppendLine();
+
+            var hasTurn = !string.IsNullOrWhiteSpace(ctx.PlayerMessage);
+
+            var messages = new List<ChatMessageJson>
+            {
+                new ChatMessageJson { role = "system", content = sys.ToString() }
+            };
+
+            if (hasTurn)
+            {
+                contextBody.AppendLine("Speak only as this NPC dialogue—no screenplay labels, ");
+                contextBody.AppendLine("no lines like \"The player said …\" or \"You say …\", ");
+                contextBody.AppendLine("and no restating headings from above.");
+                contextBody.AppendLine();
+                contextBody.AppendLine(
+                    "The very next USER message contains ONLY the traveller's exact spoken line—nothing else.");
+
+                messages.Add(new ChatMessageJson { role = "user", content = contextBody.ToString() });
+                messages.Add(new ChatMessageJson { role = "user", content = ctx.PlayerMessage.Trim() });
+            }
+            else
+            {
+                contextBody.AppendLine("The traveller has opened this conversation.");
+                contextBody.AppendLine(
+                    "Greet them briefly in character; offer one grounded, useful cue from the facts above (no preamble labels).");
+
+                messages.Add(new ChatMessageJson { role = "user", content = contextBody.ToString() });
+            }
+
+            return messages.ToArray();
+        }
+
+        static string BuildSystemPrompt(NpcLlmPromptContext ctx)
         {
             var sys = new StringBuilder();
             sys.AppendLine(SafetyBlock);
@@ -40,38 +97,7 @@ namespace LoreLegacyMonsters.Dialog.Llm
             AppendRoleCommandLines(sys, ctx.Role);
             sys.AppendLine("Only append a command when it clearly matches the NPC role and current context.");
 
-            var user = new StringBuilder();
-            user.AppendLine("Current game state (facts only, do not repeat verbatim as a list unless the player asked):");
-            user.AppendLine(ctx.GameStateSummary ?? "(none)");
-            user.AppendLine();
-            user.Append("Weather: ").AppendLine(ctx.WeatherSummary ?? "unknown");
-            user.Append("Primary quest context: ").AppendLine(ctx.QuestSummary ?? "none");
-            user.Append("Party summary: ").AppendLine(ctx.PartySummary ?? "none");
-            user.Append("Inventory highlights: ").AppendLine(ctx.InventorySummary ?? "none");
-            user.Append("Persistent status & typical cures: ").AppendLine(ctx.StatusEffectsSummary ?? "none");
-            user.Append("This NPC shop stock (if any): ").AppendLine(ctx.ShopStockSummary ?? "none");
-            user.Append("Story branch state: ").AppendLine(ctx.StoryStateSummary ?? "none");
-            user.Append("Remembered history with this player: ").AppendLine(ctx.NpcMemorySummary ?? "none");
-            user.Append("Recent conversation: ").AppendLine(ctx.ConversationHistorySummary ?? "none");
-            user.AppendLine();
-            user.AppendLine("Speak your next line(s) to the player as this NPC.");
-            if (!string.IsNullOrWhiteSpace(ctx.PlayerMessage))
-            {
-                user.AppendLine();
-                user.Append("The player just said: ");
-                user.AppendLine(ctx.PlayerMessage.Trim());
-            }
-            else
-            {
-                user.AppendLine();
-                user.AppendLine("The player has initiated a conversation. Greet them naturally and offer a useful next topic.");
-            }
-
-            return new[]
-            {
-                new ChatMessageJson { role = "system", content = sys.ToString() },
-                new ChatMessageJson { role = "user", content = user.ToString() }
-            };
+            return sys.ToString();
         }
 
         /// <summary>Exposed for unit tests.</summary>

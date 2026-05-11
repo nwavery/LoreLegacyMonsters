@@ -3,6 +3,10 @@ using UnityEngine;
 
 namespace LoreLegacyMonsters.Audio
 {
+    /// <summary>
+    /// UI SFX indices (<see cref="PlayUiSfx"/>): 0 = light menu tick / navigation; 1 = gear equip; 2 = gear unequip.
+    /// Wire clips in the prefab or scene AudioManager component.
+    /// </summary>
     public class AudioManager : MonoBehaviour
     {
         [SerializeField] AudioClip[] townMusic;

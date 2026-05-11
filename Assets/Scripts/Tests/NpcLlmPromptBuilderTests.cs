@@ -61,6 +61,29 @@ namespace LoreLegacyMonsters.Tests
             Assert.IsTrue(user.Contains("advisor=thren"));
         }
 
+        [Test]
+        public void UserPrompt_IncludesPlayerAppearanceBlock()
+        {
+            var ctx = BaseContext(NpcRole.Story);
+            ctx.PlayerGearSummary = "Wearing: Test (Common).";
+            ctx.PlayerVibeTags = "Scholar";
+            var user = NpcLlmPromptBuilder.BuildMessages(ctx)[1].content;
+            Assert.IsTrue(user.Contains("Player appearance & vibe:"));
+            Assert.IsTrue(user.Contains("Scholar"));
+        }
+
+        [Test]
+        public void PromptContextBody_DoesNotContainPlayerJustSaidPhrase()
+        {
+            var ctx = BaseContext(NpcRole.Story);
+            ctx.PlayerMessage = "Test line.";
+            ctx.ConversationHistorySummary = "assistant: Hi.";
+            var msgs = NpcLlmPromptBuilder.BuildMessages(ctx);
+            Assert.AreEqual(3, msgs.Length);
+            Assert.IsFalse(msgs[1].content.Contains("The player just said"));
+            Assert.AreEqual("Test line.", msgs[2].content);
+        }
+
         static NpcLlmPromptContext BaseContext(NpcRole role)
         {
             return new NpcLlmPromptContext

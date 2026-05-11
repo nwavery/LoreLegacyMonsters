@@ -1,0 +1,13 @@
+{
+    "scenarioId": "warden_neris__topic_b",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Check in with the folks at Longshore Keep; they might've had something to do with those glow reports you're looking for, and it's worth seeing what assistance they'd be willing to offer. If the mist lingers, though, it'll be harder to get a clear read on things out there.",
+    "sanitized": "Check in with the folks at Longshore Keep; they might've had something to do with those glow reports you're looking for, and it's worth seeing what assistance they'd be willing to offer. If the mist lingers, though, it'll be harder to get a clear read on things out there.",
+    "cleanBeforeCommands": "Check in with the folks at Longshore Keep; they might've had something to do with those glow reports you're looking for, and it's worth seeing what assistance they'd be willing to offer. If the mist lingers, though, it'll be harder to get a clear read on things out there.",
+    "shapedHud": "Check in with the folks at Longshore Keep; they might've had something to do with those glow reports you're looking for, and it's worth seeing what assistance they'd be willing to offer. If the mist lingers, though, it'll be harder to get a clear read on things out there.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

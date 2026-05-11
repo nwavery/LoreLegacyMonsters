@@ -1,0 +1,13 @@
+{
+    "scenarioId": "tailor_serin__poison_crawl",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Traveling to the marsh, eh? I've got just what you need. My special 'Marsh-Mist' kit might do the trick - it's a mix of salves and potions that can help counteract some of those nasty poisons. And if you're feeling brave, I've also got a few scraps of stitched fabric that might offer some protection against... unpleasantness.",
+    "sanitized": "Traveling to the marsh, eh? I've got just what you need. My special 'Marsh-Mist' kit might do the trick - it's a mix of salves and potions that can help counteract some of those nasty poisons. And if you're feeling brave, I've also got a few scraps of stitched fabric that might offer some protection against... unpleasantness.",
+    "cleanBeforeCommands": "Traveling to the marsh, eh? I've got just what you need. My special 'Marsh-Mist' kit might do the trick - it's a mix of salves and potions that can help counteract some of those nasty poisons. And if you're feeling brave, I've also got a few scraps of stitched fabric that might offer some protection against... unpleasantness.",
+    "shapedHud": "Traveling to the marsh, eh? I've got just what you need. My special 'Marsh-Mist' kit might do the trick - it's a mix of salves and potions that can help counteract some of those nasty poisons. And if you're feeling brave, I've also got a few scraps of stitched fabric that might offer some protection against... unpleasantness.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

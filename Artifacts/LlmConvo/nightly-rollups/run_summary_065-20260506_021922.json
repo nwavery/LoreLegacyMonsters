@@ -1,0 +1,10 @@
+{
+    "completedUtc": "2026-05-06T07:21:29.8110393Z",
+    "scenariosAttempted": 104,
+    "llmFailures": 0,
+    "evalFailures": 0,
+    "failingIdsPipe": "",
+    "manifestPathUsed": "C:\\LLMRPG\\LoreLegacyMonsters\\tools\\convo\\scenarios\\manifest.jsonl",
+    "completionsUrl": "http://127.0.0.1:11436/v1/chat/completions",
+    "model": "lore-bundled:latest"
+}

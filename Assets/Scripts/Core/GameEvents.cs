@@ -12,6 +12,8 @@ namespace LoreLegacyMonsters.Core
         public static event Action<string> AchievementUnlocked;
         public static event Action<string> MonsterLeveled;
         public static event Action<string> MonsterEvolved;
+        /// <summary>Raised whenever <see cref="LoreLegacyMonsters.InventorySystem.AddItem"/> adds quantity &gt; 0.</summary>
+        public static event Action<string, int> InventoryItemAdded;
         public static event Action<string> ToastRequested;
         /// <summary>Raised after <see cref="GameManager.ApplySaveToRuntime"/> finishes applying a save snapshot.</summary>
         public static event Action RuntimeRestored;
@@ -23,6 +25,8 @@ namespace LoreLegacyMonsters.Core
         public static void RaiseAchievementUnlocked(string id) => AchievementUnlocked?.Invoke(id);
         public static void RaiseMonsterLeveled(string instanceId) => MonsterLeveled?.Invoke(instanceId);
         public static void RaiseMonsterEvolved(string instanceId) => MonsterEvolved?.Invoke(instanceId);
+        public static void RaiseInventoryItemAdded(string itemId, int quantity) =>
+            InventoryItemAdded?.Invoke(itemId, quantity);
         public static void RaiseToast(string message) => ToastRequested?.Invoke(message);
         public static void RaiseRuntimeRestored() => RuntimeRestored?.Invoke();
     }

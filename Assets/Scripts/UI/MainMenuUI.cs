@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using LoreLegacyMonsters.Core;
 using LoreLegacyMonsters.Dialog.Llm;
+using UnityEngine.InputSystem;
 
 namespace LoreLegacyMonsters.UI
 {
@@ -44,13 +45,45 @@ namespace LoreLegacyMonsters.UI
             if (llmStatusText != null)
                 llmStatusText.text = LlmRuntimeStatus.HasProbeResult
                     ? (LlmRuntimeStatus.LastProbeOk ? $"LLM ready: {LlmRuntimeStatus.LastProbeMessage}" : $"LLM offline: {LlmRuntimeStatus.LastProbeMessage}")
-                    : "Local LLM has not been checked yet. Use \"Test LLM connection\" before starting.";
+                    : LlmRuntimeStatus.BootProbeInProgress
+                        ? "Local LLM is starting… First bundled import needs a minute or longer on slower disks."
+                        : "Local LLM has not been checked yet. Use \"Test LLM connection\" before starting.";
+            HandleEscapeFromMenu();
+
         }
 
         void OnDestroy()
         {
             CloseOverlays();
             if (root != null) Destroy(root.gameObject);
+        }
+
+        void HandleEscapeFromMenu()
+        {
+            var kb = Keyboard.current;
+            if (kb == null || !kb.escapeKey.wasPressedThisFrame || menuController == null) return;
+
+            if (helpOverlayRoot != null)
+            {
+                Destroy(helpOverlayRoot.gameObject);
+                helpOverlayRoot = null;
+                return;
+            }
+
+            if (aboutOverlayRoot != null)
+            {
+                Destroy(aboutOverlayRoot.gameObject);
+                aboutOverlayRoot = null;
+                return;
+            }
+
+            if (menuController.CloseLlmSettingsOverlayIfOpen())
+                return;
+
+            if (nameField != null && nameField.isFocused)
+                return;
+
+            menuController.OnQuit();
         }
 
         void CloseOverlays()

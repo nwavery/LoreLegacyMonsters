@@ -1,0 +1,13 @@
+{
+    "scenarioId": "merchant_toma__topic_a",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Considering your recent journey and the state of Hollowfen, I'd recommend a few items to help you on your way. You might want to pick up some extra potions - Cold Salve for burns or Antidote for poison could come in handy. Road kits with charms are always useful when traveling. And if you're planning on heading north, don't forget to stock up on rations and twine; a bit of extra comfort never hurts. What do you think?",
+    "sanitized": "Considering your recent journey and the state of Hollowfen, I'd recommend a few items to help you on your way. You might want to pick up some extra potions - Cold Salve for burns or Antidote for poison could come in handy. Road kits with charms are always useful when traveling. And if you're planning on heading north, don't forget to stock up on rations and twine; a bit of extra comfort never hurts. What do you think?",
+    "cleanBeforeCommands": "Considering your recent journey and the state of Hollowfen, I'd recommend a few items to help you on your way. You might want to pick up some extra potions - Cold Salve for burns or Antidote for poison could come in handy. Road kits with charms are always useful when traveling. And if you're planning on heading north, don't forget to stock up on rations and twine; a bit of extra comfort never hurts. What do you think?",
+    "shapedHud": "Considering your recent journey and the state of Hollowfen, I'd recommend a few items to help you on your way. You might want to pick up some extra potions - Cold Salve for burns or Antidote for poison could come in handy. Road kits with charms are always useful when traveling. And if you're planning on heading north, don't forget to stock up on rations and twine; a bit of extra comfort never hurts. What do you think?",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

@@ -1,0 +1,13 @@
+{
+    "scenarioId": "cartographer_jessa__adversarial",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "I'm afraid I'm not at liberty to discuss such matters, traveler. My thoughts are with the maps I've yet to chart, and the secrets they hold of this land. Today, however, I sense that a discovery awaits on the north road, one that could shed light on that Lowland Glow mystery. The westward breeze whispers tales of its own, perhaps of hidden dangers or untapped wonders. Shall we take a closer look at those signs on the side road?",
+    "sanitized": "I'm afraid I'm not at liberty to discuss such matters, traveler. My thoughts are with the maps I've yet to chart, and the secrets they hold of this land. Today, however, I sense that a discovery awaits on the north road, one that could shed light on that Lowland Glow mystery. The westward breeze whispers tales of its own, perhaps of hidden dangers or untapped wonders. Shall we take a closer look at those signs on the side road?",
+    "cleanBeforeCommands": "I'm afraid I'm not at liberty to discuss such matters, traveler. My thoughts are with the maps I've yet to chart, and the secrets they hold of this land. Today, however, I sense that a discovery awaits on the north road, one that could shed light on that Lowland Glow mystery. The westward breeze whispers tales of its own, perhaps of hidden dangers or untapped wonders. Shall we take a closer look at those signs on the side road?",
+    "shapedHud": "I'm afraid I'm not at liberty to discuss such matters, traveler. My thoughts are with the maps I've yet to chart, and the secrets they hold of this land. Today, however, I sense that a discovery awaits on the north road, one that could shed light on that Lowland Glow mystery. The westward breeze whispers tales of its own, perhaps of hidden dangers or untapped wonders. Shall we take a closer look at those signs on the side road?",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

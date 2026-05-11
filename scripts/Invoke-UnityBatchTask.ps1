@@ -11,7 +11,7 @@
   Batch task handled by BatchAutomationBootstrap: edit-tests, smoke-main-menu, smoke-tour, smoke-full, steam-build.
 #>
 param(
-    [string] $UnityPath = "C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Unity.exe",
+    [string] $UnityPath = "C:\Program Files\Unity\Hub\Editor\6000.4.5f1\Editor\Unity.exe",
     [string] $ProjectPath = "",
     [Parameter(Mandatory = $true)]
     [ValidateSet("edit-tests", "smoke-main-menu", "smoke-tour", "smoke-full", "steam-build")]
@@ -19,7 +19,8 @@ param(
     [int] $MaxAttempts = 5,
     [int] $RetryDelaySeconds = 8,
     [int] $MaxUnityLockWaitMinutes = 5,
-    [int] $TaskTimeoutMinutes = 45
+    [int] $TaskTimeoutMinutes = 45,
+    [switch] $SkipUnityProcessIdleWait
 )
 
 $ErrorActionPreference = "Stop"
@@ -81,16 +82,21 @@ function Reset-FileIfExists([string] $path) {
 }
 
 for ($attempt = 1; $attempt -le $MaxAttempts; $attempt++) {
-    $lockWaitStarted = Get-Date
-    while (Test-UnityProcessRunning) {
-        $waited = (Get-Date) - $lockWaitStarted
-        if ($waited.TotalMinutes -ge $MaxUnityLockWaitMinutes) {
-            $summary = Get-UnityProcessSummary
-            throw "Unity process lock wait exceeded $MaxUnityLockWaitMinutes minute(s). Running Unity processes: $summary"
-        }
+    if (-not $SkipUnityProcessIdleWait) {
+        $lockWaitStarted = Get-Date
+        while (Test-UnityProcessRunning) {
+            $waited = (Get-Date) - $lockWaitStarted
+            if ($waited.TotalMinutes -ge $MaxUnityLockWaitMinutes) {
+                $summary = Get-UnityProcessSummary
+                throw "Unity process lock wait exceeded $MaxUnityLockWaitMinutes minute(s). Running Unity processes: $summary"
+            }
 
-        Write-Host "Unity is still running; waiting $RetryDelaySeconds seconds before attempt $attempt/$MaxAttempts..."
-        Start-Sleep -Seconds $RetryDelaySeconds
+            Write-Host "Unity is still running; waiting $RetryDelaySeconds seconds before attempt $attempt/$MaxAttempts..."
+            Start-Sleep -Seconds $RetryDelaySeconds
+        }
+    }
+    elseif ($attempt -eq 1) {
+        Write-Warning "SkipUnityProcessIdleWait: not waiting for other Unity.exe processes to exit (same-project editor may still block the batch)."
     }
 
     if (Test-Path $log) {

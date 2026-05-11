@@ -1,6 +1,9 @@
 using UnityEngine;
+using System.Text;
 using LoreLegacyMonsters.Shop;
 using LoreLegacyMonsters.World;
+using LoreLegacyMonsters;
+using LoreLegacyMonsters.Core;
 using UnityEngine.UI;
 
 namespace LoreLegacyMonsters.UI
@@ -15,6 +18,7 @@ namespace LoreLegacyMonsters.UI
         Text titleText;
         Button closeButton;
         bool _shopListBuilt;
+        string _lastShopStockSig = "!";
 
         public void Bind(OverworldChapterController chapterController) => controller = chapterController;
 
@@ -40,16 +44,38 @@ namespace LoreLegacyMonsters.UI
             if (!controller.ShopOpen || shop == null || shop.Current == null)
             {
                 _shopListBuilt = false;
+                _lastShopStockSig = "!";
                 return;
             }
 
+            var stockSig = BuildShopStockSignature(shop.Current);
+            if (stockSig != _lastShopStockSig)
+            {
+                _lastShopStockSig = stockSig;
+                _shopListBuilt = false;
+            }
+
             titleText.text = $"Shop - {shop.Current.ShopId}";
-            // Rebuild once per open only. Rebuilding every frame destroyed Buy buttons before clicks registered.
+            // Rebuild once per open until stock changes (so Buy works and sold-out rows refresh).
             if (!_shopListBuilt)
             {
                 RebuildList();
                 _shopListBuilt = true;
             }
+        }
+
+        static string BuildShopStockSignature(ShopData currentShop)
+        {
+            if (currentShop?.Stock == null) return "";
+            var sb = new StringBuilder(128);
+            for (var i = 0; i < currentShop.Stock.Count; i++)
+            {
+                var row = currentShop.Stock[i];
+                if (row == null) continue;
+                sb.Append(row.itemId).Append('=').Append(row.stock).Append(':').Append(row.price).Append('|');
+            }
+
+            return sb.ToString();
         }
 
         void OnDestroy()
@@ -87,12 +113,12 @@ namespace LoreLegacyMonsters.UI
                     ? controller.Registry.GetItem(item.itemId)?.DisplayName ?? item.itemId
                     : item.itemId;
                 nameLabel.text = name;
-                priceLabel.text = $"{item.price}g  Stock {item.stock}";
+                var q = controller != null ? ShopManager.QuoteUnitPrice(controller.Registry, item) : item.price;
+                priceLabel.text = $"{q}g  Stock {item.stock}";
                 var button = RuntimeUiFactory.CreateButton(row, "BuyButton", "Buy",
                     new Vector2(1f, 0.5f), new Vector2(1f, 0.5f), new Vector2(1f, 0.5f), new Vector2(-12f, 0f), new Vector2(100f, 32f));
                 var itemId = item.itemId;
-                var price = item.price;
-                button.onClick.AddListener(() => controller?.BuyShopItem(itemId, price));
+                button.onClick.AddListener(() => controller?.BuyShopItem(itemId, 0));
             }
         }
 

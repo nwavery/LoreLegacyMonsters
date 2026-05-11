@@ -26,11 +26,12 @@ namespace LoreLegacyMonsters.Combat
             MonsterElement defenderPrimary, MonsterElement defenderSecondary = MonsterElement.None)
         {
             return CalculateMoveDamage(attack, defense, move, attackerPrimary, defenderPrimary, defenderSecondary,
-                out _, out _);
+                out _, out _, 1f);
         }
 
         public int CalculateMoveDamage(int attack, int defense, MoveData move, MonsterElement attackerPrimary,
-            MonsterElement defenderPrimary, MonsterElement defenderSecondary, out bool wasCrit, out float typeMultiplier)
+            MonsterElement defenderPrimary, MonsterElement defenderSecondary, out bool wasCrit, out float typeMultiplier,
+            float outgoingElementMult = 1f)
         {
             if (move == null)
             {
@@ -40,7 +41,8 @@ namespace LoreLegacyMonsters.Combat
             }
             var raw = CalculateDamage(Mathf.Max(1, attack + move.Power), defense);
             var stab = move.Element != MonsterElement.None && move.Element == attackerPrimary ? 1.25f : 1f;
-            typeMultiplier = GetTypeMultiplier(move.Element, defenderPrimary, defenderSecondary);
+            typeMultiplier = GetTypeMultiplier(move.Element, defenderPrimary, defenderSecondary) *
+                             Mathf.Max(0.05f, outgoingElementMult);
             wasCrit = RollCrit(move.CritChance);
             var crit = wasCrit ? 1.4f : 1f;
             return Mathf.Max(1, Mathf.RoundToInt(raw * stab * typeMultiplier * crit));

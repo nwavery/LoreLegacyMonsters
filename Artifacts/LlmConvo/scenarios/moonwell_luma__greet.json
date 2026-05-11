@@ -1,0 +1,13 @@
+{
+    "scenarioId": "moonwell_luma__greet",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Traveler, I sense a quiet resolve about you today. The misty dawn seems to suit your prepared heart, don't it?",
+    "sanitized": "Traveler, I sense a quiet resolve about you today. The misty dawn seems to suit your prepared heart, don't it?",
+    "cleanBeforeCommands": "Traveler, I sense a quiet resolve about you today. The misty dawn seems to suit your prepared heart, don't it?",
+    "shapedHud": "Traveler, I sense a quiet resolve about you today. The misty dawn seems to suit your prepared heart, don't it?",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

@@ -1,0 +1,1876 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.4/staging' branch; Version is '6000.4.5f1 (cc83ebd631f8) revision 13403115'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Channel LicenseClient-nwave doesn't exist
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 32414 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-05-11T05:14:03Z
+[Licensing::Module] Successfully launched the LicensingClient (PId: 35996)
+Starting IPC server.
+Waiting for clients to connect on \\.\pipe\Unity-LicenseClient-nwave, press Ctrl-C to exit.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nwave" at "2026-05-11T05:14:03.5772508Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 35996, path: "C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              c203e102c6dd423fb4434cc4aee6ac82
+  Correlation Id:          ce6f98bf31f6ef80b0f0e84b0f486e22
+  External correlation Id: 2051177106271472925
+  Machine Id:              /CIpopPksGM8b2yzT8FVLTRdRDA=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-nwave" (connect: 0.37s, validation: 0.13s, handshake: 0.06s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nwave-notifications" at "2026-05-11T05:14:03.7666172Z"
+[Licensing::Module] Connected to LicensingClient (PId: 35996, launch time: 0.01, total connection time: 0.56s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 20067242488518-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.62s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.4.5f1\Editor\Unity.exe
+-batchmode
+-nographics
+-quit
+-projectPath
+c:\LLMRPG\LoreLegacyMonsters
+-logFile
+c:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\unity-scenario-suite.log
+-executeMethod
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch.RunScenarioSuiteBatch
+Successfully changed project path to: c:\LLMRPG\LoreLegacyMonsters
+C:/LLMRPG/LoreLegacyMonsters
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [42656]  Target information:
+
+Player connection [42656]  * "[IP] 192.168.1.228 [Port] 55504 [Flags] 2 [Guid] 4079736999 [EditorId] 4079736999 [Version] 1048832 [Id] WindowsEditor(7,NatesRazer) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [42656] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [42656] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-37920" after 0.2 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.10 ms, found 2 plugins.
+Initialize engine version: 6000.4.5f1 (cc83ebd631f8)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/LLMRPG/LoreLegacyMonsters/Assets
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
+CodeReloadManager initialized
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.014755 seconds.
+Native extension for LinuxStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Licensing::Client] Successfully resolved entitlement details
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.394 seconds
+Domain Reload Profiling: 1811ms
+	BeginReloadAssembly (131ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (173ms)
+		LoadAssemblies (116ms)
+		AnalyzeDomain (163ms)
+			TypeCache.Refresh (162ms)
+				TypeCache.ScanAssembly (151ms)
+	FinalizeReload (1394ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (90ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (84ms)
+			ProcessInitializeOnLoadMethodAttributes (1100ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 72 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.2d.animation@14.0.3 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.2d.animation@a6f2f1d22eb5)
+    com.unity.2d.pixel-perfect@5.1.1 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.2d.pixel-perfect@09d99455b901)
+    com.unity.2d.psdimporter@13.0.2 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.2d.psdimporter@11a0e04e0561)
+    com.unity.2d.spriteshape@14.0.1 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.2d.spriteshape@da3647ffbbd7)
+    com.unity.2d.tilemap.extras@7.0.1 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.2d.tilemap.extras@66df903b3633)
+    com.unity.ads@4.16.4 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.ads@e89225828059)
+    com.unity.ai.navigation@2.0.12 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.ai.navigation@734c2c4c5591)
+    com.unity.analytics@3.8.2 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.analytics@c9d14a6bdec6)
+    com.unity.collab-proxy@2.12.4 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.collab-proxy@0b1559bcd34e)
+    com.unity.ide.rider@3.0.39 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.ide.rider@4504839d03f7)
+    com.unity.ide.visualstudio@2.0.27 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.ide.visualstudio@dc1ddd4f09b6)
+    com.unity.inputsystem@1.19.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.inputsystem@21a28c3a6c83)
+    com.unity.purchasing@4.15.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.purchasing@ffbc76639aab)
+    com.unity.timeline@1.8.12 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.timeline@8cd8509afae5)
+    com.unity.visualscripting@1.9.11 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.visualscripting@8bed5ad90189)
+    com.unity.xr.legacyinputhelpers@3.0.1 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.xr.legacyinputhelpers@3f62d634f63b)
+    com.unity.services.core@1.16.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.services.core@8ba50f624741)
+    com.unity.services.analytics@6.3.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.services.analytics@cde4e6cf92f9)
+    com.unity.2d.common@13.0.1 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.2d.common@49d8bea2bff3)
+    com.unity.mathematics@1.3.3 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.mathematics@19a9377c4ffa)
+    com.unity.searcher@4.9.4 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.searcher@d45a78918735)
+    com.unity.burst@1.8.29 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.burst@6bb9aca3ef38)
+    com.unity.nuget.newtonsoft-json@3.2.2 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.nuget.newtonsoft-json@4dfd81071c64)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.test-framework.performance@3.4.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.test-framework.performance@aa81a99c4a75)
+  Built-in packages:
+    com.unity.2d.sprite@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.2d.sprite@929df5adbb1f)
+    com.unity.2d.tilemap@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.2d.tilemap@c457c5249013)
+    com.unity.multiplayer.center@1.0.1 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.multiplayer.center@f01f4ba8d00a)
+    com.unity.render-pipelines.universal@17.4.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.render-pipelines.universal@4d008a28541a)
+    com.unity.test-framework@1.6.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.test-framework@76560ee600cb)
+    com.unity.ugui@2.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.ugui@d8a2716f3013)
+    com.unity.modules.accessibility@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.vr@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.modules.vr)
+    com.unity.modules.wind@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.0.5 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.ext.nunit@d8c07649098d)
+    com.unity.render-pipelines.core@17.4.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.render-pipelines.core@2269be549234)
+    com.unity.shadergraph@17.4.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.shadergraph@cd28a7c13031)
+    com.unity.render-pipelines.universal-config@17.4.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.render-pipelines.universal-config@0db4263b9e6b)
+    com.unity.collections@6.4.0 (location: C:\LLMRPG\LoreLegacyMonsters\Library\PackageCache\com.unity.collections@9c2353fb96f6)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.05 seconds
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:80
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\LLMRPG\LoreLegacyMonsters
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 25.1609ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.4.5f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/LLMRPG/LoreLegacyMonsters
+DisplayProgressbar: Compiling Scripts
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly unityeditor.ios.extensions.xcode has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.4.5f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.4.5f1\Editor\Data\PlaybackEngines\MacStandaloneSupport\UnityEditor.iOS.Extensions.Xcode.dll"
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.4.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.4.5f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll"
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.4.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.4.5f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll"
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Burst.Cecil, Version=0.11.6.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library\PackageCache\com.unity.burst@6bb9aca3ef38\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Mono.Cecil, Version=0.11.5.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff\Mono.Cecil.dll
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 44.7158ms
+ExitCode: 0 Duration: 0s415ms
+[1187/1566  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (0.35 seconds), 1 items updated, 1566 evaluated
+AssetDatabase: script compilation time: 0.952687s
+Begin MonoManager ReloadAssembly
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp.dll at Library/ScriptAssemblies/Assembly-CSharp.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Animation.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Animation.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Common.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Common.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.PixelPerfect.Editor.Tests.dll at Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Psdimporter.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Psdimporter.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.SpriteShape.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.SpriteShape.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Analytics.DataPrivacy.Tests.dll at Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Analytics.StandardEvents.EditorTests.dll at Library/ScriptAssemblies/Unity.Analytics.StandardEvents.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.XR.LegacyInputHelpers.Tests.dll at Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.Advertisements.Editor.Tests.dll at Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.Advertisements.Tests.dll at Library/ScriptAssemblies/UnityEngine.Advertisements.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.Purchasing.Apple.dll at Library/ScriptAssemblies/UnityEngine.Purchasing.Apple.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.Purchasing.AppleMacos.dll at Library/ScriptAssemblies/UnityEngine.Purchasing.AppleMacos.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.Purchasing.Security.dll at Library/ScriptAssemblies/UnityEngine.Purchasing.Security.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.Purchasing.WinRT.dll at Library/ScriptAssemblies/UnityEngine.Purchasing.WinRT.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.SpatialTracking.Tests.dll at Library/ScriptAssemblies/UnityEngine.SpatialTracking.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+'Assets/Scripts/InventoryManager.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Scripts/InventorySystem.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Scripts/Inventory/InventorySystem.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Scripts/World/WeatherSystem.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Scripts/Inventory/InventoryManager.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Scripts/WeatherSystem.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 11.77 ms, found 7 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 8.52 ms, found 7 plugins.
+Loaded VersionHandlerImpl
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Google.Logger:Log (string,Google.LogLevel)
+Google.VersionHandlerImpl:Log (string,bool,Google.LogLevel)
+Google.VersionHandlerImpl:.cctor ()
+Google.VersionHandlerImpl/DotNetVersionUpdater:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Assets\MobileDependencyResolver\Editor\Google.IOSResolver.dll metadata will be checked
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Google.Logger:Log (string,Google.LogLevel)
+Google.VersionHandlerImpl:Log (string,bool,Google.LogLevel)
+Google.VersionHandlerImpl/FileMetadataSet:FindWithPendingUpdates (Google.VersionHandlerImpl/FileMetadataSet)
+Google.VersionHandlerImpl:UpdateVersionedAssets (bool,System.Action)
+Google.VersionHandlerImpl:UpdateVersionedAssets (bool)
+Google.VersionHandlerImpl:UpdateVersionedAssets ()
+Google.VersionHandlerImpl:UpdateVersionedAssetsOnUpdate ()
+Google.VersionHandlerImpl:<VersionHandlerImpl>m__B ()
+Google.RunOnMainThread:ExecuteNext ()
+Google.RunOnMainThread:<ExecuteAll>m__A ()
+Google.RunOnMainThread:RunAction (System.Action)
+Google.RunOnMainThread:ExecuteAll ()
+Google.RunOnMainThread:Run (System.Action,bool)
+Google.VersionHandlerImpl:.cctor ()
+Google.VersionHandlerImpl/DotNetVersionUpdater:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Assets\MobileDependencyResolver\Editor\Google.JarResolver.dll metadata will be checked
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Google.Logger:Log (string,Google.LogLevel)
+Google.VersionHandlerImpl:Log (string,bool,Google.LogLevel)
+Google.VersionHandlerImpl/FileMetadataSet:FindWithPendingUpdates (Google.VersionHandlerImpl/FileMetadataSet)
+Google.VersionHandlerImpl:UpdateVersionedAssets (bool,System.Action)
+Google.VersionHandlerImpl:UpdateVersionedAssets (bool)
+Google.VersionHandlerImpl:UpdateVersionedAssets ()
+Google.VersionHandlerImpl:UpdateVersionedAssetsOnUpdate ()
+Google.VersionHandlerImpl:<VersionHandlerImpl>m__B ()
+Google.RunOnMainThread:ExecuteNext ()
+Google.RunOnMainThread:<ExecuteAll>m__A ()
+Google.RunOnMainThread:RunAction (System.Action)
+Google.RunOnMainThread:ExecuteAll ()
+Google.RunOnMainThread:Run (System.Action,bool)
+Google.VersionHandlerImpl:.cctor ()
+Google.VersionHandlerImpl/DotNetVersionUpdater:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Assets\MobileDependencyResolver\Editor\Google.VersionHandler.dll metadata will be checked
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Google.Logger:Log (string,Google.LogLevel)
+Google.VersionHandlerImpl:Log (string,bool,Google.LogLevel)
+Google.VersionHandlerImpl/FileMetadataSet:FindWithPendingUpdates (Google.VersionHandlerImpl/FileMetadataSet)
+Google.VersionHandlerImpl:UpdateVersionedAssets (bool,System.Action)
+Google.VersionHandlerImpl:UpdateVersionedAssets (bool)
+Google.VersionHandlerImpl:UpdateVersionedAssets ()
+Google.VersionHandlerImpl:UpdateVersionedAssetsOnUpdate ()
+Google.VersionHandlerImpl:<VersionHandlerImpl>m__B ()
+Google.RunOnMainThread:ExecuteNext ()
+Google.RunOnMainThread:<ExecuteAll>m__A ()
+Google.RunOnMainThread:RunAction (System.Action)
+Google.RunOnMainThread:ExecuteAll ()
+Google.RunOnMainThread:Run (System.Action,bool)
+Google.VersionHandlerImpl:.cctor ()
+Google.VersionHandlerImpl/DotNetVersionUpdater:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Assets\MobileDependencyResolver\Editor\Google.VersionHandlerImpl.dll metadata will be checked
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Google.Logger:Log (string,Google.LogLevel)
+Google.VersionHandlerImpl:Log (string,bool,Google.LogLevel)
+Google.VersionHandlerImpl/FileMetadataSet:FindWithPendingUpdates (Google.VersionHandlerImpl/FileMetadataSet)
+Google.VersionHandlerImpl:UpdateVersionedAssets (bool,System.Action)
+Google.VersionHandlerImpl:UpdateVersionedAssets (bool)
+Google.VersionHandlerImpl:UpdateVersionedAssets ()
+Google.VersionHandlerImpl:UpdateVersionedAssetsOnUpdate ()
+Google.VersionHandlerImpl:<VersionHandlerImpl>m__B ()
+Google.RunOnMainThread:ExecuteNext ()
+Google.RunOnMainThread:<ExecuteAll>m__A ()
+Google.RunOnMainThread:RunAction (System.Action)
+Google.RunOnMainThread:ExecuteAll ()
+Google.RunOnMainThread:Run (System.Action,bool)
+Google.VersionHandlerImpl:.cctor ()
+Google.VersionHandlerImpl/DotNetVersionUpdater:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Assets\MobileDependencyResolver\Editor\mobile-dependency-resolver.txt metadata will be checked
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Google.Logger:Log (string,Google.LogLevel)
+Google.VersionHandlerImpl:Log (string,bool,Google.LogLevel)
+Google.VersionHandlerImpl/FileMetadataSet:FindWithPendingUpdates (Google.VersionHandlerImpl/FileMetadataSet)
+Google.VersionHandlerImpl:UpdateVersionedAssets (bool,System.Action)
+Google.VersionHandlerImpl:UpdateVersionedAssets (bool)
+Google.VersionHandlerImpl:UpdateVersionedAssets ()
+Google.VersionHandlerImpl:UpdateVersionedAssetsOnUpdate ()
+Google.VersionHandlerImpl:<VersionHandlerImpl>m__B ()
+Google.RunOnMainThread:ExecuteNext ()
+Google.RunOnMainThread:<ExecuteAll>m__A ()
+Google.RunOnMainThread:RunAction (System.Action)
+Google.RunOnMainThread:ExecuteAll ()
+Google.RunOnMainThread:Run (System.Action,bool)
+Google.VersionHandlerImpl:.cctor ()
+Google.VersionHandlerImpl/DotNetVersionUpdater:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Detected .NET version 4.5
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Google.Logger:Log (string,Google.LogLevel)
+Google.VersionHandlerImpl:Log (string,bool,Google.LogLevel)
+Google.VersionHandlerImpl/DotNetVersionUpdater:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.278 seconds
+Domain Reload Profiling: 4436ms
+	BeginReloadAssembly (355ms)
+		DisableScriptedObjects (81ms)
+		CreateAndSetChildDomain (150ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (679ms)
+		LoadAssemblies (449ms)
+		AnalyzeDomain (309ms)
+			TypeCache.Refresh (206ms)
+				TypeCache.ScanAssembly (190ms)
+			BuildScriptInfoCaches (87ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (3279ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			BeforeProcessingInitializeOnLoad (156ms)
+			ProcessInitializeOnLoadAttributes (2636ms)
+			ProcessInitializeOnLoadMethodAttributes (261ms)
+			AfterProcessingInitializeOnLoad (5ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+(Values over 0.050ms)
+Asset Pipeline Refresh (id=7db8a5f9ceb4dfa4c987670662c798dc): Total: 6.166 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=3867 ms
+		Asset DB Callback time: managed=74 ms, native=52 ms
+		Scripting: domain reloads=1, domain reload time=1162 ms, compile time=954 ms, other=53 ms
+		Project Asset Count: scripts=1897, non-scripts=3517
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 55.152ms
+	ApplyChangesToAssetFolders: 1.233ms
+	Scan: 191.492ms
+	CategorizeScriptCompilationAssets: 58.976ms
+	ProcessAssetsWithTransientArtifactChanges: 88.577ms
+	CategorizeAssets: 48.737ms
+	CompileScripts: 954.107ms
+	ImportOutOfDateAssets: 3308.386ms (3307.109ms without children)
+		UnloadImportedAssets: 0.137ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.727ms
+		OnDemandSchedulerStart: 0.410ms
+	PostProcessAllAssets: 74.793ms
+		MonoPostProcessAllAssets: 74.750ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 59.741ms
+			SyncVS.PostprocessSyncProject 2.893ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.668ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.665ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.277ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.212ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.162ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.157ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.128ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.064ms
+	UnloadStreamsBegin: 2.133ms
+	PersistCurrentRevisions: 0.152ms
+	GenerateScriptTypeHashes: 2.338ms
+	GenerateScriptTypeSerializationHashes: 4.370ms
+	Untracked: 1368.144ms
+
+Application.AssetDatabase Initial Refresh End
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Scanning for USB devices : 4.691ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Lore, Legacy, and Monsters
+Unloading 139 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8513 unused Assets / (3.5 MB). Loaded Objects now: 9345.
+Memory consumption went from 235.2 MB to 231.7 MB.
+Total: 12.240000 ms (FindLiveObjects: 0.470900 ms CreateObjectMapping: 0.336400 ms MarkObjects: 9.795900 ms  DeleteObjects: 1.634400 ms)
+
+[NpcLlmDev] completions=http://127.0.0.1:11434/v1/chat/completions model=llama3.2:latest timeout=90s
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Dialog.Llm.NpcLlmDevEndpointResolver:Resolve (string&,string&,int&,bool) (at Assets/Scripts/Dialog/Llm/NpcLlmDevEndpointResolver.cs:20)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:83)
+
+(Filename: Assets/Scripts/Dialog/Llm/NpcLlmDevEndpointResolver.cs Line: 20)
+
+[NpcLlmScenarioBatch] PASS: elder_mira__greet
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: elder_mira__topic_a
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: elder_mira__topic_b
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: elder_mira__followup
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: elder_mira__adversarial
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: scout_rin__greet
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: scout_rin__topic_a
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: scout_rin__topic_b
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: scout_rin__followup
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: scout_rin__adversarial
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: merchant_toma__greet
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: merchant_toma__topic_a
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: merchant_toma__topic_b
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: merchant_toma__followup
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: merchant_toma__adversarial
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: merchant_toma__poison_crawl
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: healer_pia__greet
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: healer_pia__topic_a
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: healer_pia__topic_b
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: healer_pia__followup
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: healer_pia__adversarial
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: healer_pia__poison_crawl
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: tailor_serin__greet
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: tailor_serin__topic_a
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: tailor_serin__topic_b
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: tailor_serin__followup
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: tailor_serin__adversarial
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: tailor_serin__poison_crawl
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: boss_iona__greet
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: boss_iona__topic_a
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: boss_iona__topic_b
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: boss_iona__followup
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: boss_iona__adversarial
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: archivist_sel__greet
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: archivist_sel__topic_a
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: archivist_sel__topic_b
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: archivist_sel__followup
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: archivist_sel__adversarial
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: rival_corin__greet
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: rival_corin__topic_a
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: rival_corin__topic_b
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: rival_corin__followup
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: rival_corin__adversarial
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: warden_neris__greet
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: warden_neris__topic_a
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: warden_neris__topic_b
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: warden_neris__followup
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: warden_neris__adversarial
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: mentor_cael__greet
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: mentor_cael__topic_a
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: mentor_cael__topic_b
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: mentor_cael__followup
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: mentor_cael__adversarial
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: storm_tyrant__greet
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: storm_tyrant__topic_a
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: storm_tyrant__topic_b
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: storm_tyrant__followup
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: storm_tyrant__adversarial
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: collector_veya__greet
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: collector_veya__topic_a
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: collector_veya__topic_b
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: collector_veya__followup
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: collector_veya__adversarial
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: rumor_iris__greet
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: rumor_iris__topic_a
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: rumor_iris__topic_b
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: rumor_iris__followup
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: rumor_iris__adversarial
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: cartographer_jessa__greet
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: cartographer_jessa__topic_a
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: cartographer_jessa__topic_b
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: cartographer_jessa__followup
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: cartographer_jessa__adversarial
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: quartermaster_bram__greet
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: quartermaster_bram__topic_a
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: quartermaster_bram__topic_b
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: quartermaster_bram__followup
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: quartermaster_bram__adversarial
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: quartermaster_bram__poison_crawl
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: runner_nia__greet
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: runner_nia__topic_a
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: runner_nia__topic_b
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: runner_nia__followup
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: runner_nia__adversarial
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: foreman_orlo__greet
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: foreman_orlo__topic_a
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: foreman_orlo__topic_b
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: foreman_orlo__followup
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: foreman_orlo__adversarial
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: ethicist_thren__greet
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: ethicist_thren__topic_a
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: ethicist_thren__topic_b
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: ethicist_thren__followup
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: ethicist_thren__adversarial
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: moonwell_luma__greet
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: moonwell_luma__topic_a
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: moonwell_luma__topic_b
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: moonwell_luma__followup
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: moonwell_luma__adversarial
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: sable_rival__greet
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: sable_rival__topic_a
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: sable_rival__topic_b
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: sable_rival__followup
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] PASS: sable_rival__adversarial
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunSuiteSync (string,string,string,string,int,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:204)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:88)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 204)
+
+[NpcLlmScenarioBatch] Summary → C:\LLMRPG\LoreLegacyMonsters\Artifacts\LlmConvo\scenarios\run_summary.json (attempted=104, llmFails=0, evalFails=0)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:FinishRollup (string,string,string,string,LoreLegacyMonsters.Editor.NpcLlmScenarioBatch/SuiteState) (at Assets/Editor/NpcLlmScenarioBatch.cs:240)
+LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Assets/Editor/NpcLlmScenarioBatch.cs:90)
+
+(Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 240)
+
+Killing ADB server in 2.0956174 seconds.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-nwave-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-nwave channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Shut down.
+Cleanup mono
+CodeReloadManager destroyed
+abort_threads: Failed aborting id: 0000000000009C60, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000009C60, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 3776
+[usbmuxd] Stop listen thread
+[usbmuxd] Listen thread exiting
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1778476756441,"processId":37920,"allocatedMemory":16161922,"memoryLabels":[{"Default":226815},{"Permanent":15276},{"NewDelete":65011},{"Thread":4237904},{"Manager":50789},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":850092},{"Material":24},{"GfxDevice":55321},{"Animation":392},{"Audio":3008},{"FreeType":8},{"FontEngine":736},{"Physics":2090},{"Physics2D":16},{"Serialization":440},{"Input":9880},{"JobScheduler":33024},{"TextLib":216},{"Mono":32},{"MonoCode":64},{"ScriptingNativeRuntime":155052},{"BaseObject":1620880},{"Resource":1184},{"Renderer":3008},{"Transform":4685},{"File":1088},{"WebCam":616},{"Culling":32},{"Terrain":11394},{"Wind":24},{"STL":40},{"String":16818},{"StaticString":6718},{"Utility":2675494},{"Curl":2559},{"PoolAlloc":2168},{"AI":80},{"TypeTree":28789},{"ScriptManager":448},{"RuntimeInitializeOnLoadManager":64},{"SpriteAtlas":120},{"GI":7792},{"Director":8320},{"CloudService":7952},{"WebRequest":421432},{"VR":48050},{"SceneManager":504},{"Video":64},{"LazyScriptCache":32},{"Camera":17},{"Secure":2113},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":640},{"Hierarchy":608},{"CoreStats":13032},{"Identifiers":12960},{"Gui":128},{"EditorUtility":130476},{"VersionControl":4},{"Undo":931},{"AssetDatabase":5020720},{"EditorGi":328},{"UnityConnect":37753},{"Upm":1912},{"UpmDiagnostics":8},{"AssetCompliance":64},{"DrivenProperties":72},{"LocalIPC":260},{"ProfilerEditor":9746},{"CoreBusinessMetrics":2917},{"Windowing":456},{"Licensing":776},{"AssetReference":32},{"IPCStream":32}]}
+~StackAllocator(ALLOC_TEMP_MAIN) m_LastAlloc not NULL. Did you forget to call FreeAllStackAllocations()? To get more information, run app with -diag-temp-memory-leak-validation cmd line argument

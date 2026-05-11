@@ -1,0 +1,13 @@
+{
+    "scenarioId": "mentor_cael__topic_b",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "A balanced team is key to survival on long campaigns, and I've seen many teams falter because of a lack of discipline or poor positioning. The Gremlin in your party looks like it's doing well, but how does its speed compare to the Thornbeast? Have you considered using terrain to your advantage - there are plenty of spots around here where we can funnel enemies into traps and take them out quietly.",
+    "sanitized": "A balanced team is key to survival on long campaigns, and I've seen many teams falter because of a lack of discipline or poor positioning. The Gremlin in your party looks like it's doing well, but how does its speed compare to the Thornbeast? Have you considered using terrain to your advantage - there are plenty of spots around here where we can funnel enemies into traps and take them out quietly.",
+    "cleanBeforeCommands": "A balanced team is key to survival on long campaigns, and I've seen many teams falter because of a lack of discipline or poor positioning. The Gremlin in your party looks like it's doing well, but how does its speed compare to the Thornbeast? Have you considered using terrain to your advantage - there are plenty of spots around here where we can funnel enemies into traps and take them out quietly.",
+    "shapedHud": "A balanced team is key to survival on long campaigns, and I've seen many teams falter because of a lack of discipline or poor positioning. The Gremlin in your party looks like it's doing well, but how does its speed compare to the Thornbeast? Have you considered using terrain to your advantage - there are plenty of spots around here where we can funnel enemies into traps and take them out quietly.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

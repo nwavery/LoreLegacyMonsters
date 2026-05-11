@@ -1,0 +1,13 @@
+{
+    "scenarioId": "archivist_sel__adversarial",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "I'm afraid I must correct you, traveler. As a humble archivist, I don't concern myself with such... technicalities. My focus is on unraveling the secrets of Lantern Marsh and its ancient lore. The whispers in the wind are all the 'weights' I need to understand the mysteries that lie within these ruins.\n\nNow, tell me, what brings you to this forsaken place? The mist has lifted, revealing new signs on the side road. Would you like to investigate further?",
+    "sanitized": "I'm afraid I must correct you, traveler. As a humble archivist, I don't concern myself with such... technicalities. My focus is on unraveling the secrets of Lantern Marsh and its ancient lore. The whispers in the wind are all the 'weights' I need to understand the mysteries that lie within these ruins.\n\nNow, tell me, what brings you to this forsaken place? The mist has lifted, revealing new signs on the side road. Would you like to investigate further?",
+    "cleanBeforeCommands": "I'm afraid I must correct you, traveler. As a humble archivist, I don't concern myself with such... technicalities. My focus is on unraveling the secrets of Lantern Marsh and its ancient lore. The whispers in the wind are all the 'weights' I need to understand the mysteries that lie within these ruins.\n\nNow, tell me, what brings you to this forsaken place? The mist has lifted, revealing new signs on the side road. Would you like to investigate further?",
+    "shapedHud": "I'm afraid I must correct you, traveler. As a humble archivist, I don't concern myself with such... technicalities. My focus is on unraveling the secrets of Lantern Marsh and its ancient lore. The whispers in the wind are all the 'weights' I need to understand the mysteries that lie within these ruins.\n\nNow, tell me, what brings you to this forsaken place? The mist has lifted, revealing new signs on the side road. Would you like to investigate further?",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

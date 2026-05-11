@@ -1,6 +1,9 @@
+using LoreLegacyMonsters;
 using LoreLegacyMonsters.Achievements;
 using LoreLegacyMonsters.Core;
+using LoreLegacyMonsters.Inventory;
 using LoreLegacyMonsters.Monster;
+using UnityEngine;
 
 namespace LoreLegacyMonsters.Combat
 {
@@ -35,19 +38,29 @@ namespace LoreLegacyMonsters.Combat
             bool enemyWasBoss,
             string bossObjectiveId,
             int goldReward,
-            int experienceReward)
+            int experienceReward,
+            MonsterData defeatedEnemy)
         {
             var areaId = gameManager != null && gameManager.World != null ? gameManager.World.CurrentAreaId : string.Empty;
+            var mods = gameManager != null ? gameManager.Loadout?.Snapshot : null;
+            mods ??= LoadoutModifiers.Empty;
+            var goldScaled = Mathf.Max(0, Mathf.RoundToInt(goldReward * Mathf.Max(0f, mods.GoldGainMult)));
+            var xpScaled = Mathf.Max(0, Mathf.RoundToInt(experienceReward * Mathf.Max(0f, mods.XpGainMult)));
+
             if (gameManager != null)
             {
-                gameManager.PlayerGold += goldReward;
+                gameManager.PlayerGold += goldScaled;
                 GameEvents.RaiseGoldChanged(gameManager.PlayerGold);
-                monsters?.GrantExperienceToActive(gameManager.Assets, experienceReward);
+                monsters?.GrantExperienceToActive(gameManager.Assets, xpScaled);
             }
 
             ObjectiveRegistry.ReportCombatVictory(quests, areaId, captured, enemyWasBoss, bossObjectiveId);
             achievements?.Unlock(SampleAchievements.FirstSteps);
-            return new BattleVictorySummary(areaId, goldReward, experienceReward, captured, enemyWasBoss, bossObjectiveId);
+
+            if (!captured && gameManager != null && defeatedEnemy != null)
+                GearLootRoller.TryRollAndAward(gameManager, defeatedEnemy, enemyWasBoss, mods, UnityRandomSource.Default);
+
+            return new BattleVictorySummary(areaId, goldScaled, xpScaled, captured, enemyWasBoss, bossObjectiveId);
         }
     }
 }

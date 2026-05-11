@@ -1,0 +1,13 @@
+{
+    "scenarioId": "sable_rival__followup",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "A hasty departure doesn't suit a seasoned adventurer like yourself, traveler. Before you head out into the light, make sure to inspect those lanterns one more time - they might've been damaged in that last gale, and a loose wire could be a hazard on the road ahead.",
+    "sanitized": "A hasty departure doesn't suit a seasoned adventurer like yourself, traveler. Before you head out into the light, make sure to inspect those lanterns one more time - they might've been damaged in that last gale, and a loose wire could be a hazard on the road ahead.",
+    "cleanBeforeCommands": "A hasty departure doesn't suit a seasoned adventurer like yourself, traveler. Before you head out into the light, make sure to inspect those lanterns one more time - they might've been damaged in that last gale, and a loose wire could be a hazard on the road ahead.",
+    "shapedHud": "A hasty departure doesn't suit a seasoned adventurer like yourself, traveler. Before you head out into the light, make sure to inspect those lanterns one more time - they might've been damaged in that last gale, and a loose wire could be a hazard on the road ahead.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

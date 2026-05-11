@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using LoreLegacyMonsters.SaveSystem;
+using LoreLegacyMonsters.Core;
 
 namespace LoreLegacyMonsters
 {
@@ -41,6 +42,7 @@ namespace LoreLegacyMonsters
             var s = FindStack(itemId);
             if (s != null) s.quantity += quantity;
             else stacks.Add(new Stack { itemId = itemId, quantity = quantity });
+            GameEvents.RaiseInventoryItemAdded(itemId, quantity);
             return true;
         }
 

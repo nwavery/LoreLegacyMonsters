@@ -1,0 +1,13 @@
+{
+    "scenarioId": "rumor_iris__followup",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Tomorrow's road trip won't be easy without a sturdy lantern. I can tighten one for you by mid-morning, but don't say I didn't warn you – the winds have been fierce lately. Make sure to check your gear and the old lantern itself before setting out; loose parts or worn-out wicks could leave you in the dark, quite literally.",
+    "sanitized": "Tomorrow's road trip won't be easy without a sturdy lantern. I can tighten one for you by mid-morning, but don't say I didn't warn you – the winds have been fierce lately. Make sure to check your gear and the old lantern itself before setting out; loose parts or worn-out wicks could leave you in the dark, quite literally.",
+    "cleanBeforeCommands": "Tomorrow's road trip won't be easy without a sturdy lantern. I can tighten one for you by mid-morning, but don't say I didn't warn you – the winds have been fierce lately. Make sure to check your gear and the old lantern itself before setting out; loose parts or worn-out wicks could leave you in the dark, quite literally.",
+    "shapedHud": "Tomorrow's road trip won't be easy without a sturdy lantern. I can tighten one for you by mid-morning, but don't say I didn't warn you – the winds have been fierce lately. Make sure to check your gear and the old lantern itself before setting out; loose parts or worn-out wicks could leave you in the dark, quite literally.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

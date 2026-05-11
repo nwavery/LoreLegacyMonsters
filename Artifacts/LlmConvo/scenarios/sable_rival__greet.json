@@ -1,0 +1,13 @@
+{
+    "scenarioId": "sable_rival__greet",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Mist's clearing, and the road ahead seems a bit more inviting. Take another look at those fresh signs - they might give you some insight into what's been stirring out here.",
+    "sanitized": "Mist's clearing, and the road ahead seems a bit more inviting. Take another look at those fresh signs - they might give you some insight into what's been stirring out here.",
+    "cleanBeforeCommands": "Mist's clearing, and the road ahead seems a bit more inviting. Take another look at those fresh signs - they might give you some insight into what's been stirring out here.",
+    "shapedHud": "Mist's clearing, and the road ahead seems a bit more inviting. Take another look at those fresh signs - they might give you some insight into what's been stirring out here.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

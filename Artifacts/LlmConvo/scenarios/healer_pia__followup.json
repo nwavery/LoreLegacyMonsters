@@ -1,0 +1,13 @@
+{
+    "scenarioId": "healer_pia__followup",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Before you head out again tomorrow, make sure to check your lanterns for any damage or loose parts that might have been blown about by the last gale. A tight fit is always a good idea, especially when traveling through misty nights.",
+    "sanitized": "Before you head out again tomorrow, make sure to check your lanterns for any damage or loose parts that might have been blown about by the last gale. A tight fit is always a good idea, especially when traveling through misty nights.",
+    "cleanBeforeCommands": "Before you head out again tomorrow, make sure to check your lanterns for any damage or loose parts that might have been blown about by the last gale. A tight fit is always a good idea, especially when traveling through misty nights.",
+    "shapedHud": "Before you head out again tomorrow, make sure to check your lanterns for any damage or loose parts that might have been blown about by the last gale. A tight fit is always a good idea, especially when traveling through misty nights.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

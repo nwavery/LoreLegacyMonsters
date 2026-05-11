@@ -32,6 +32,20 @@ namespace LoreLegacyMonsters.Dialog.Llm
 
         public static string BundledBaseUrl => $"http://127.0.0.1:{BundledPort}/v1";
 
+        /// <summary>OpenAI-compatible tags are under <c>/v1</c>; native Ollama list is <c>/api/tags</c>.</summary>
+        public static string BundledNativeTagsUrl => $"http://127.0.0.1:{BundledPort}/api/tags";
+
+        public static string BundledRuntimeExePath =>
+            Path.GetFullPath(Path.Combine(GetRuntimeDirectory(), "ollama.exe"))
+                .Replace('/', Path.DirectorySeparatorChar);
+
+        public static string BundledModelsDirectory =>
+            Path.GetFullPath(Path.Combine(GetLlmRootDirectory(), "models"))
+                .Replace('/', Path.DirectorySeparatorChar);
+
+        /// <summary>True when something is listening on <see cref="BundledPort"/> (e.g. bundled <c>ollama serve</c>).</summary>
+        public static bool IsBundledListenerReachable() => IsBundledEndpointReachable();
+
         public static bool IsProcessAlive
         {
             get
@@ -53,7 +67,7 @@ namespace LoreLegacyMonsters.Dialog.Llm
             HookQuitOnce();
             EnsureDriver();
 
-            if (IsBundledEndpointReachable())
+            if (IsBundledListenerReachable())
             {
                 lastFailure = null;
                 nextRetryUtc = DateTime.MinValue;
@@ -70,10 +84,8 @@ namespace LoreLegacyMonsters.Dialog.Llm
 
                 var runtimeDir = Path.GetFullPath(GetRuntimeDirectory())
                     .Replace('/', Path.DirectorySeparatorChar);
-                var exePath = Path.GetFullPath(Path.Combine(runtimeDir, "ollama.exe"))
-                    .Replace('/', Path.DirectorySeparatorChar);
-                var modelsDir = Path.GetFullPath(Path.Combine(GetLlmRootDirectory(), "models"))
-                    .Replace('/', Path.DirectorySeparatorChar);
+                var exePath = BundledRuntimeExePath;
+                var modelsDir = BundledModelsDirectory;
 
                 try
                 {
@@ -130,7 +142,7 @@ namespace LoreLegacyMonsters.Dialog.Llm
                             return;
                         }
 
-                        if (TryCreateProcessWin32(exePath, runtimeDir, out var nativeProcess, out var nativeError))
+                        if (TryCreateProcessWin32(exePath, runtimeDir, "serve", out var nativeProcess, out var nativeError))
                         {
                             process = nativeProcess;
                             lastFailure = null;
@@ -142,7 +154,7 @@ namespace LoreLegacyMonsters.Dialog.Llm
                     }
                     catch (Exception fallbackEx)
                     {
-                        if (TryCreateProcessWin32(exePath, runtimeDir, out var nativeProcess, out var nativeError))
+                        if (TryCreateProcessWin32(exePath, runtimeDir, "serve", out var nativeProcess, out var nativeError))
                         {
                             process = nativeProcess;
                             lastFailure = null;
@@ -196,7 +208,7 @@ namespace LoreLegacyMonsters.Dialog.Llm
             if (!IsBundledRuntimeEnabled())
                 return;
 
-            if (IsBundledEndpointReachable())
+            if (IsBundledListenerReachable())
                 return;
 
             if (IsProcessAlive)
@@ -276,6 +288,70 @@ namespace LoreLegacyMonsters.Dialog.Llm
             }
         }
 
+        /// <summary>Diagnostics for bundled model provisioning; same file as supervisor boot.</summary>
+        public static void AppendDiagnostic(string message) => WriteSupervisorLog(message);
+
+        /// <summary>
+        /// Spawns bundled <c>ollama.exe</c> with CLI <paramref name="arguments"/> via <c>CreateProcessW</c>
+        /// (same native path used when <see cref="Process.Start"/> rejects <c>serve</c> in the player).
+        /// Temporarily assigns <c>OLLAMA_HOST</c>/<c>OLLAMA_MODELS</c> so the child inherits them.
+        /// </summary>
+        public static bool TrySpawnBundledOllamaCli(string arguments, out Process started, out string error)
+        {
+            started = null;
+            error = null;
+
+#if UNITY_STANDALONE_WIN || UNITY_EDITOR_WIN
+            var exePath = BundledRuntimeExePath;
+            var runtimeDir = Path.GetFullPath(GetRuntimeDirectory()).Replace('/', Path.DirectorySeparatorChar);
+            if (!File.Exists(exePath))
+            {
+                error = $"Bundled runtime missing: {exePath}";
+                return false;
+            }
+
+            var prevHost = SafeGetEnvironmentVariable("OLLAMA_HOST");
+            var prevModels = SafeGetEnvironmentVariable("OLLAMA_MODELS");
+            try
+            {
+                Environment.SetEnvironmentVariable("OLLAMA_HOST", $"127.0.0.1:{BundledPort}");
+                Environment.SetEnvironmentVariable("OLLAMA_MODELS", BundledModelsDirectory);
+                return TryCreateProcessWin32(exePath, runtimeDir, arguments, out started, out error);
+            }
+            finally
+            {
+                RestoreEnvironmentVariable("OLLAMA_HOST", prevHost);
+                RestoreEnvironmentVariable("OLLAMA_MODELS", prevModels);
+            }
+#else
+            error = "Bundled CLI spawn requires Windows standalone/editor.";
+            return false;
+#endif
+        }
+
+#if UNITY_STANDALONE_WIN || UNITY_EDITOR_WIN
+        static string SafeGetEnvironmentVariable(string key)
+        {
+            try { return Environment.GetEnvironmentVariable(key); }
+            catch { return null; }
+        }
+
+        static void RestoreEnvironmentVariable(string key, string previous)
+        {
+            try
+            {
+                if (previous == null)
+                    Environment.SetEnvironmentVariable(key, null);
+                else
+                    Environment.SetEnvironmentVariable(key, previous);
+            }
+            catch
+            {
+                // ignore
+            }
+        }
+#endif
+
         static void WriteSupervisorLog(string message)
         {
             try
@@ -288,7 +364,7 @@ namespace LoreLegacyMonsters.Dialog.Llm
             }
         }
 
-        static bool TryCreateProcessWin32(string exePath, string runtimeDir, out Process started, out string error)
+        static bool TryCreateProcessWin32(string exePath, string runtimeDir, string arguments, out Process started, out string error)
         {
             started = null;
             error = string.Empty;
@@ -296,7 +372,11 @@ namespace LoreLegacyMonsters.Dialog.Llm
             var startupInfo = new STARTUPINFO();
             startupInfo.cb = Marshal.SizeOf<STARTUPINFO>();
             var processInfo = new PROCESS_INFORMATION();
-            var commandLine = $"\"{exePath}\" serve";
+            arguments ??= string.Empty;
+            arguments = arguments.TrimStart();
+            var commandLine = string.IsNullOrEmpty(arguments)
+                ? $"\"{exePath}\""
+                : $"\"{exePath}\" {arguments}";
             const uint CREATE_NO_WINDOW = 0x08000000;
             var ok = CreateProcessW(
                 lpApplicationName: exePath,

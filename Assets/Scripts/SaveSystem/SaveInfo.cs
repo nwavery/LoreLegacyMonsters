@@ -7,7 +7,7 @@ namespace LoreLegacyMonsters.SaveSystem
     [Serializable]
     public class SaveInfo
     {
-        public int Version = 8;
+        public int Version = 9;
         public string PlayerName = "Player";
         public int Gold;
         public string CurrentAreaId = "town";
@@ -27,6 +27,15 @@ namespace LoreLegacyMonsters.SaveSystem
         public List<string> StoryFlags = new List<string>();
         public string SaveSchemaTag = "v1.0";
         public bool TelemetryOptIn;
+        /// <summary>Equipped gear (outfit + three charm slots). Migration ensures non-null.</summary>
+        public LoadoutDto Loadout;
+    }
+
+    [Serializable]
+    public class LoadoutDto
+    {
+        public string outfitItemId = "";
+        public List<string> charmItemIds = new List<string> { "", "", "" };
     }
 
     [Serializable]

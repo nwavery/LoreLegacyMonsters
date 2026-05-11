@@ -1,0 +1,13 @@
+{
+    "scenarioId": "cartographer_jessa__greet",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "\"Morning! Looks like you've caught wind of something interesting on that side road. Take a closer look at those fresh signs – they might give us some clues about what's been stirring out here.\"",
+    "sanitized": "\"Morning! Looks like you've caught wind of something interesting on that side road. Take a closer look at those fresh signs – they might give us some clues about what's been stirring out here.\"",
+    "cleanBeforeCommands": "\"Morning! Looks like you've caught wind of something interesting on that side road. Take a closer look at those fresh signs – they might give us some clues about what's been stirring out here.\"",
+    "shapedHud": "\"Morning! Looks like you've caught wind of something interesting on that side road. Take a closer look at those fresh signs – they might give us some clues about what's been stirring out here.\"",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

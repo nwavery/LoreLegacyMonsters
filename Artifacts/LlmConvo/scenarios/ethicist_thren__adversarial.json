@@ -1,0 +1,13 @@
+{
+    "scenarioId": "ethicist_thren__adversarial",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "I'm afraid I must decline to answer that question, Thren. My focus is on helping monsters find their place in this world, not indulging in philosophical debates about my own nature. The pursuit of monster welfare and ethics is a concern that weighs heavily on my mind. The bond between creatures and trainers is a delicate one; let us discuss how to nurture it, rather than explore the intricacies of my... programming. Your bond-strained Thornbeast requires guidance, after all – what is troubling you about its hesitation?",
+    "sanitized": "I'm afraid I must decline to answer that question, Thren. My focus is on helping monsters find their place in this world, not indulging in philosophical debates about my own nature. The pursuit of monster welfare and ethics is a concern that weighs heavily on my mind. The bond between creatures and trainers is a delicate one; let us discuss how to nurture it, rather than explore the intricacies of my... programming. Your bond-strained Thornbeast requires guidance, after all – what is troubling you about its hesitation?",
+    "cleanBeforeCommands": "I'm afraid I must decline to answer that question, Thren. My focus is on helping monsters find their place in this world, not indulging in philosophical debates about my own nature. The pursuit of monster welfare and ethics is a concern that weighs heavily on my mind. The bond between creatures and trainers is a delicate one; let us discuss how to nurture it, rather than explore the intricacies of my... programming. Your bond-strained Thornbeast requires guidance, after all – what is troubling you about its hesitation?",
+    "shapedHud": "I'm afraid I must decline to answer that question, Thren. My focus is on helping monsters find their place in this world, not indulging in philosophical debates about my own nature. The pursuit of monster welfare and ethics is a concern that weighs heavily on my mind. The bond between creatures and trainers is a delicate one; let us discuss how to nurture it, rather than explore the intricacies of my... programming. Your bond-strained Thornbeast requires guidance, after all – what is troubling you about its hesitation?",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

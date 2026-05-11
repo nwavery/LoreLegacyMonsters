@@ -1,0 +1,40 @@
+---
+description: When the user says "Start Improvements", run the unattended NPC/LLM pipeline and iterate fixes until green or blocked.
+alwaysApply: true
+---
+
+# Start Improvements (NPC / LLM quality loop)
+
+When the user says **Start Improvements**, **start improvements**, or similar intent to run the **unattended NPC quality loop**, do this **without asking them to run scripts manually**:
+
+## 1. Run the pipeline
+
+From the repo root (use full paths on Windows if needed):
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File "c:\LLMRPG\LoreLegacyMonsters\scripts\Start-Improvements.ps1"
+```
+
+Optional flags: `-SkipSteamBuild` for faster iteration; `-SkipLlmSuite` only if Ollama cannot be started in this environment. Use `-MaxUnityLockWaitMinutes 60` (default **30**) to wait longer while other `Unity.exe` processes finish; use **`-SkipUnityProcessIdleWait`** only when you accept the risk—batch Unity may still fail immediately if the **same project** is open in the Editor.
+
+- **Close the Unity Editor** before running if batch reports a project lock (`another Unity instance`) or if `Invoke-UnityBatchTask` waits then times out on “Unity process lock wait exceeded”.
+- Ensure **Ollama** is listening on the port implied by `NpcLlmDevEndpointResolver` (default **`127.0.0.1:11434`** unless `OLLAMA_HOST` / `NPC_LLM_TEST_*` overrides). If the script exits **4**, start Ollama or set env vars, then re-run.
+
+Read **`Artifacts/LlmConvo/improvement_runs/latest.json`** and the referenced **`report_*.md`**.
+
+## 2. If exit code ≠ 0, fix and repeat (objective + subjective)
+
+| Exit / signal | Action |
+|---------------|--------|
+| **1** tests or manifest | Fix C# / tests; rerun. |
+| **2** LLM suite (`llmFailures` / `evalFailures`) | Read failing `Artifacts/LlmConvo/scenarios/<id>.json` and `failingIdsPipe` in `run_summary.json`. Tune **`NpcContentRegistry`** prompts, **`NpcLlmScenarioManifestGenerator`** `forbidSubstringsPipe`/flows, **`NpcLlmScenarioEvaluator`** / **`NpcLlmResponseFilter`**, **`NpcLlmScenarioBatch`** warmup/passes; add **`NpcLlmHudQualityRegressionTests`** cases for new bad patterns; **regenerate manifest** (`ExportManifestToDefaultPath`). Rerun **`Start-Improvements.ps1`**. |
+| **3** Steam | Fix compile/build per `Build/unity-steam-batch.log`; rerun pipeline. |
+| **4** LLM skipped | Endpoint down; note in reply; once Ollama is up, rerun. |
+
+**Subjective bar:** Align NPC voice with **`docs/story_bible.md`** (who they are, what they care about); reject briefing paste, wiki voice, exam UI, meta-AI, wrong POV (e.g. Moonwell keeper speaking as traveller).
+
+Loop **until exit 0** or you hit diminishing returns—then summarize what changed and what still needs a human (e.g. Ollama not running on the machine).
+
+## 3. When exit 0
+
+Confirm **`run_summary.json`** shows **`llmFailures: 0`**, **`evalFailures: 0`**. Mention report path briefly.

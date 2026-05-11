@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using LoreLegacyMonsters;
+using LoreLegacyMonsters.Inventory;
 using LoreLegacyMonsters.Core;
 using LoreLegacyMonsters.Achievements;
 using LoreLegacyMonsters.Dialog.Llm;
@@ -50,11 +51,14 @@ namespace LoreLegacyMonsters.SaveSystem
             AchievementSystem achievements,
             MonsterSystem monsters,
             WeatherSystem weather,
-            NpcMemoryService npcMemories)
+            NpcMemoryService npcMemories,
+            LoadoutSystem loadout = null)
         {
             var coord = new SaveCoordinator();
             coord.Register(new GoldContributor(gm));
             coord.Register(new InventoryContributor(inventory));
+            if (loadout != null)
+                coord.Register(new LoadoutContributor(loadout));
             coord.Register(new QuestContributor(quests));
             coord.Register(new WorldContributor(world));
             coord.Register(new AchievementContributor(achievements));
@@ -92,6 +96,25 @@ namespace LoreLegacyMonsters.SaveSystem
 
             public void CaptureSave(SaveInfo save) =>
                 save.Inventory = _inv?.ToSaveDto() ?? new List<ItemStackDto>();
+        }
+
+        sealed class LoadoutContributor : ISaveContributor
+        {
+            readonly LoadoutSystem _loadout;
+
+            public LoadoutContributor(LoadoutSystem loadout) => _loadout = loadout;
+
+            public void ApplySave(SaveInfo save)
+            {
+                if (_loadout != null && save != null)
+                    _loadout.ApplyFromDto(save.Loadout);
+            }
+
+            public void CaptureSave(SaveInfo save)
+            {
+                if (_loadout != null && save != null)
+                    save.Loadout = _loadout.ToDto();
+            }
         }
 
         sealed class QuestContributor : ISaveContributor

@@ -1,0 +1,13 @@
+{
+    "scenarioId": "scout_rin__greet",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Mist's clearing, and you've got a fresh set of tracks on that side road. Take care, those signs look like they might be something worth investigating, before the day gets too hot.",
+    "sanitized": "Mist's clearing, and you've got a fresh set of tracks on that side road. Take care, those signs look like they might be something worth investigating, before the day gets too hot.",
+    "cleanBeforeCommands": "Mist's clearing, and you've got a fresh set of tracks on that side road. Take care, those signs look like they might be something worth investigating, before the day gets too hot.",
+    "shapedHud": "Mist's clearing, and you've got a fresh set of tracks on that side road. Take care, those signs look like they might be something worth investigating, before the day gets too hot.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

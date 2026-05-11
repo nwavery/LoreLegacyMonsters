@@ -1,6 +1,7 @@
 using NUnit.Framework;
 using System.Reflection;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using LoreLegacyMonsters;
 using LoreLegacyMonsters.Combat;
 using LoreLegacyMonsters.Core;
@@ -93,6 +94,15 @@ namespace LoreLegacyMonsters.Tests
             Assert.IsTrue(AlphaHelpText.ControlsBody.Contains("FIRST 20 MINUTES"));
             Assert.IsTrue(AlphaHelpText.ControlsBody.Contains("MAP QUICK TIP"));
             Assert.IsTrue(AlphaHelpText.ControlsBody.Contains("YOU is your current area"));
+            Assert.IsTrue(AlphaHelpText.ControlsBody.Contains("Esc pause"));
+        }
+
+        [Test]
+        public void GameSettings_Pause_DefaultsToEscape()
+        {
+            PlayerPrefs.DeleteKey("settings.key.pause");
+            PlayerPrefs.Save();
+            Assert.AreEqual(Key.Escape, GameSettings.Pause);
         }
 
         [Test]
@@ -135,7 +145,7 @@ namespace LoreLegacyMonsters.Tests
         {
             var s = DefaultGameContent.CreateFreshSave("Tester");
             Assert.AreEqual("Tester", s.PlayerName);
-            Assert.AreEqual(7, s.Version);
+            Assert.AreEqual(9, s.Version);
             Assert.AreEqual(100, s.Gold);
             Assert.AreEqual(DefaultGameContent.TownId, s.CurrentAreaId);
             Assert.AreEqual(2f, s.PlayerPositionX);
@@ -150,6 +160,9 @@ namespace LoreLegacyMonsters.Tests
             Assert.AreEqual(3, potion.quantity);
             Assert.IsNotNull(charm);
             Assert.AreEqual(3, charm.quantity);
+            Assert.IsNotNull(s.Loadout);
+            Assert.AreEqual("", s.Loadout.outfitItemId);
+            Assert.AreEqual(3, s.Loadout.charmItemIds.Count);
         }
 
         [Test]

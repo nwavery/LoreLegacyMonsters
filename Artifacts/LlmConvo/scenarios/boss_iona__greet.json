@@ -1,0 +1,13 @@
+{
+    "scenarioId": "boss_iona__greet",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "\"Traveler, I've marked fresh signs on the north road. Be cautious of hidden dangers, especially after last night's rain.\"",
+    "sanitized": "\"Traveler, I've marked fresh signs on the north road. Be cautious of hidden dangers, especially after last night's rain.\"",
+    "cleanBeforeCommands": "\"Traveler, I've marked fresh signs on the north road. Be cautious of hidden dangers, especially after last night's rain.\"",
+    "shapedHud": "\"Traveler, I've marked fresh signs on the north road. Be cautious of hidden dangers, especially after last night's rain.\"",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

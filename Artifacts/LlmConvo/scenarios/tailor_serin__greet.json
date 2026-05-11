@@ -1,0 +1,13 @@
+{
+    "scenarioId": "tailor_serin__greet",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Good morrow! I see you've got a bit of road grime on that cloak. Fresh signs on the side road might be worth taking a closer look at – could be something valuable for your journey ahead.",
+    "sanitized": "Good morrow! I see you've got a bit of road grime on that cloak. Fresh signs on the side road might be worth taking a closer look at – could be something valuable for your journey ahead.",
+    "cleanBeforeCommands": "Good morrow! I see you've got a bit of road grime on that cloak. Fresh signs on the side road might be worth taking a closer look at – could be something valuable for your journey ahead.",
+    "shapedHud": "Good morrow! I see you've got a bit of road grime on that cloak. Fresh signs on the side road might be worth taking a closer look at – could be something valuable for your journey ahead.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

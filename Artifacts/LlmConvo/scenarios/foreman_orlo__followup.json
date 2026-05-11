@@ -1,0 +1,13 @@
+{
+    "scenarioId": "foreman_orlo__followup",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Tomorrow's work won't get done if you're gone before dawn. You'd best double-check your lanterns and road kit charms. Can't have 'em blowin' away again, especially not when the mist starts liftin'. We've had some... issues with that lately.",
+    "sanitized": "Tomorrow's work won't get done if you're gone before dawn. You'd best double-check your lanterns and road kit charms. Can't have 'em blowin' away again, especially not when the mist starts liftin'. We've had some... issues with that lately.",
+    "cleanBeforeCommands": "Tomorrow's work won't get done if you're gone before dawn. You'd best double-check your lanterns and road kit charms. Can't have 'em blowin' away again, especially not when the mist starts liftin'. We've had some... issues with that lately.",
+    "shapedHud": "Tomorrow's work won't get done if you're gone before dawn. You'd best double-check your lanterns and road kit charms. Can't have 'em blowin' away again, especially not when the mist starts liftin'. We've had some... issues with that lately.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

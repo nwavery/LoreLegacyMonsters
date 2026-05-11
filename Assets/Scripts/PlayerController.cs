@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using LoreLegacyMonsters.World;
 using LoreLegacyMonsters.Core;
+using LoreLegacyMonsters;
 
 namespace LoreLegacyMonsters
 {
@@ -54,8 +55,10 @@ namespace LoreLegacyMonsters
             }
             if (v.sqrMagnitude > 0.01f)
             {
+                var speedMult = GameManager.Instance?.Loadout?.Snapshot.MoveSpeedMult ?? 1f;
+                speedMult = Mathf.Max(0.2f, speedMult);
                 var from = new Vector2(transform.position.x, transform.position.y);
-                var desired = from + v.normalized * moveSpeed * Time.deltaTime;
+                var desired = from + v.normalized * moveSpeed * speedMult * Time.deltaTime;
                 var resolved = WorldMapLayout.ResolveNavigation(from, desired, collisionRadius);
                 transform.position = new Vector3(resolved.x, resolved.y, transform.position.z);
                 if (Mathf.Abs(v.x) > 0.01f)

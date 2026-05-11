@@ -13,8 +13,8 @@ namespace LoreLegacyMonsters.Editor
     /// </summary>
     public static class SteamBrandingProfile
     {
-        public const string ShippingCompanyName = "LoreLegacyStudios";
-        public const string ShippingProductName = "LoreLegacyMonsters";
+        public const string ShippingCompanyName = "NA Dev";
+        public const string ShippingProductName = "Lore, Legacy, and Monsters";
         public const string ShippingVersion = "1.0.0";
         public const string SteamworksDefine = "STEAMWORKS_NET";
 

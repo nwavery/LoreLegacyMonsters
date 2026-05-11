@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Text;
+using System.Threading;
 using UnityEngine;
 using UnityEngine.Networking;
 
@@ -40,7 +41,9 @@ namespace LoreLegacyMonsters.Dialog.Llm
             request.SetRequestHeader("Content-Type", "application/json");
             request.timeout = Mathf.Clamp(timeoutSeconds, 1, 3600);
 
-            yield return request.SendWebRequest();
+            var op = request.SendWebRequest();
+            while (!op.isDone)
+                yield return null;
 
             if (request.result != UnityWebRequest.Result.Success)
             {
@@ -60,6 +63,50 @@ namespace LoreLegacyMonsters.Dialog.Llm
             }
 
             done?.Invoke(true, content);
+        }
+
+        /// <summary>Synchronous completions for Editor batch tooling (scenario suite). Spins until the request completes on the caller thread.</summary>
+        public static bool TrySendChatCompletionBlocking(string completionsUrl, string jsonBody, int timeoutSeconds,
+            out string assistantContent, out string errorMessage)
+        {
+            assistantContent = null;
+            errorMessage = null;
+            if (string.IsNullOrWhiteSpace(completionsUrl))
+            {
+                Debug.LogError("[LLM] TrySendChatCompletionBlocking: empty completions URL");
+                errorMessage = "Empty completions URL";
+                return false;
+            }
+
+            using var request = new UnityWebRequest(completionsUrl, UnityWebRequest.kHttpVerbPOST);
+            request.uploadHandler = new UploadHandlerRaw(Encoding.UTF8.GetBytes(jsonBody));
+            request.downloadHandler = new DownloadHandlerBuffer();
+            request.SetRequestHeader("Content-Type", "application/json");
+            request.timeout = Mathf.Clamp(timeoutSeconds, 1, 3600);
+
+            var op = request.SendWebRequest();
+            while (!op.isDone)
+                Thread.Sleep(1);
+
+            if (request.result != UnityWebRequest.Result.Success)
+            {
+                var detail = request.downloadHandler?.text;
+                var msg = string.IsNullOrEmpty(detail) ? request.error : $"{request.error}: {detail}";
+                Debug.LogWarning($"[LLM] Non-stream blocking request failed ({request.result}): {msg}");
+                errorMessage = msg ?? "Request failed";
+                return false;
+            }
+
+            var text = request.downloadHandler.text;
+            if (!TryExtractAssistantContent(text, out var content) || string.IsNullOrWhiteSpace(content))
+            {
+                Debug.LogWarning($"[LLM] Non-stream blocking parse failed. Body head: {Truncate(text, 200)}");
+                errorMessage = "Could not parse assistant content. Body: " + Truncate(text, 400);
+                return false;
+            }
+
+            assistantContent = content;
+            return true;
         }
 
         /// <summary>Streaming chat; <paramref name="onDelta"/> receives each decoded text delta; <paramref name="done"/> (success, full text or error).</summary>
@@ -89,7 +136,9 @@ namespace LoreLegacyMonsters.Dialog.Llm
 
             try
             {
-                yield return request.SendWebRequest();
+                var op = request.SendWebRequest();
+                while (!op.isDone)
+                    yield return null;
 
                 if (request.result != UnityWebRequest.Result.Success)
                 {

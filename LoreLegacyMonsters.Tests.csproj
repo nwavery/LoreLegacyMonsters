@@ -63,33 +63,42 @@
     <Compile Include="Assets\Scripts\Tests\SaveLoadSystemTests.cs" />
     <Compile Include="Assets\Scripts\Tests\QuestSystemTests.cs" />
     <Compile Include="Assets\Scripts\Tests\WorldSystemTests.cs" />
+    <Compile Include="Assets\Scripts\Tests\NpcLlmCoachHudLeakTests.cs" />
     <Compile Include="Assets\Scripts\Tests\OpenAiSseAccumulatorTests.cs" />
     <Compile Include="Assets\Scripts\Tests\CaptureRulesTests.cs" />
     <Compile Include="Assets\Scripts\Tests\MockMonsterSystem.cs" />
     <Compile Include="Assets\Scripts\Tests\CombatInventoryIntegrationTests.cs" />
+    <Compile Include="Assets\Scripts\Tests\NpcLlmLiveOllamaScenarioTests.cs" />
     <Compile Include="Assets\Scripts\Tests\InventoryTests.cs" />
     <Compile Include="Assets\Scripts\Tests\LlmPromptAndParseTests.cs" />
     <Compile Include="Assets\Scripts\Tests\QuestPriorityTests.cs" />
+    <Compile Include="Assets\Scripts\Tests\LlmNpcDialogRegressionAsserts.cs" />
     <Compile Include="Assets\Scripts\Tests\ContentCatalogTests.cs" />
     <Compile Include="Assets\Scripts\Tests\CombatUITests.cs" />
     <Compile Include="Assets\Scripts\Tests\SaveMigrationTests.cs" />
     <Compile Include="Assets\Scripts\Tests\NpcLlmResponseFilterTests.cs" />
+    <Compile Include="Assets\Scripts\Tests\Editor\Gear\LoadoutGearTests.cs" />
     <Compile Include="Assets\Scripts\Tests\MainStoryQuestTests.cs" />
     <Compile Include="Assets\Scripts\Tests\Editor\AchievementSystemTests.cs" />
     <Compile Include="Assets\Scripts\Tests\CombatSystemTests.cs" />
     <Compile Include="Assets\Scripts\Tests\MonsterProgressionTests.cs" />
     <Compile Include="Assets\Scripts\Tests\Editor\WeatherSystemTests.cs" />
     <Compile Include="Assets\Scripts\Tests\NpcLlmPromptBuilderTests.cs" />
+    <Compile Include="Assets\Scripts\Tests\NpcLlmDialogRegressionTests.cs" />
     <Compile Include="Assets\Scripts\Tests\CombatTestHelpers.cs" />
     <Compile Include="Assets\Scripts\Tests\DialogueSystemTests.cs" />
     <Compile Include="Assets\Scripts\Tests\AlphaReadinessTests.cs" />
     <Compile Include="Assets\Scripts\Tests\ShopSystemTests.cs" />
     <Compile Include="Assets\Scripts\Tests\CampaignFoundationTests.cs" />
+    <Compile Include="Assets\Scripts\Tests\NpcLlmDisplayPipelineTests.cs" />
     <Compile Include="Assets\Scripts\Tests\NpcMemoryServiceTests.cs" />
     <Compile Include="Assets\Scripts\Tests\MockItem.cs" />
+    <Compile Include="Assets\Scripts\Tests\NpcLlmScenarioEvaluatorTests.cs" />
     <Compile Include="Assets\Scripts\Tests\UiManagerTests.cs" />
     <Compile Include="Assets\Scripts\Tests\EncounterServiceTests.cs" />
+    <Compile Include="Assets\Scripts\Tests\NpcLlmHudQualityRegressionTests.cs" />
     <Compile Include="Assets\Scripts\Tests\DialogSystemTests.cs" />
+    <Compile Include="Assets\Scripts\Tests\LlmBundledBootPolicyTests.cs" />
     <Compile Include="Assets\Scripts\Tests\QuestSystemIntegrationTests.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -1210,6 +1219,10 @@
     </Reference>
     <Reference Include="System.Xml.XPath.XDocument">
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.4.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">

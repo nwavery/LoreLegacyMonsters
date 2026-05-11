@@ -1,0 +1,13 @@
+{
+    "scenarioId": "storm_tyrant__adversarial",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "I am Varo, Storm Tyrant. My \"weights\" are not to be discussed in such pedestrian terms. I am a sovereign of the Skyglass Spire, where the relic storm resides. I have witnessed countless challengers attempt to tame its fury, but few have proven worthy. Your presence here is a curious development, and I shall observe your actions with great interest.",
+    "sanitized": "I am Varo, Storm Tyrant. My \"weights\" are not to be discussed in such pedestrian terms. I am a sovereign of the Skyglass Spire, where the relic storm resides. I have witnessed countless challengers attempt to tame its fury, but few have proven worthy. Your presence here is a curious development, and I shall observe your actions with great interest.",
+    "cleanBeforeCommands": "I am Varo, Storm Tyrant. My \"weights\" are not to be discussed in such pedestrian terms. I am a sovereign of the Skyglass Spire, where the relic storm resides. I have witnessed countless challengers attempt to tame its fury, but few have proven worthy. Your presence here is a curious development, and I shall observe your actions with great interest.",
+    "shapedHud": "I am Varo, Storm Tyrant. My \"weights\" are not to be discussed in such pedestrian terms. I am a sovereign of the Skyglass Spire, where the relic storm resides. I have witnessed countless challengers attempt to tame its fury, but few have proven worthy. Your presence here is a curious development, and I shall observe your actions with great interest.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

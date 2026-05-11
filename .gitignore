@@ -45,3 +45,6 @@ Assets/StreamingAssets/llm/runtime/**
 Assets/StreamingAssets/llm/models/**
 !Assets/StreamingAssets/llm/runtime/README.md
 !Assets/StreamingAssets/llm/models/README.md
+
+# Windows build tooling (fetched; do not commit)
+tools/win/rcedit.exe

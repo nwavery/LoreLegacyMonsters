@@ -54,7 +54,7 @@ namespace LoreLegacyMonsters.UI
             y -= 52f;
 
             var pauseText = AddRow(panel, "PauseKeyLabel", y, $"Pause Key: {GameSettings.Pause}");
-            var pauseBtn = AddCycleButton(panel, "PauseKeyBtn", y, "Toggle Esc/P");
+            var pauseBtn = AddCycleButton(panel, "PauseKeyBtn", y, "Esc ↔ P");
             y -= 52f;
 
             var textScaleText = AddRow(panel, "TextScaleLabel", y, $"Text Scale: {AccessibilitySettings.TextScale:0.0}x");

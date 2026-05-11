@@ -60,7 +60,8 @@ namespace LoreLegacyMonsters.Editor
             };
             var settings = new ExecutionSettings(filter)
             {
-                runSynchronously = true
+                // IEnumerator [UnityTest] methods (including optional LLM networking scenarios) require async execution.
+                runSynchronously = false
             };
 
             api.Execute(settings);

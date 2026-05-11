@@ -1,0 +1,13 @@
+{
+    "scenarioId": "rival_corin__followup",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Tomorrow's work will be done too late if you don't pay attention to details. Before heading out, double-check your lanterns for any damage from that last gale - we can't afford to lose a single candle in the dark.",
+    "sanitized": "Tomorrow's work will be done too late if you don't pay attention to details. Before heading out, double-check your lanterns for any damage from that last gale - we can't afford to lose a single candle in the dark.",
+    "cleanBeforeCommands": "Tomorrow's work will be done too late if you don't pay attention to details. Before heading out, double-check your lanterns for any damage from that last gale - we can't afford to lose a single candle in the dark.",
+    "shapedHud": "Tomorrow's work will be done too late if you don't pay attention to details. Before heading out, double-check your lanterns for any damage from that last gale - we can't afford to lose a single candle in the dark.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

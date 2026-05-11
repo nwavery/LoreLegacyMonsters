@@ -1,0 +1,13 @@
+{
+    "scenarioId": "runner_nia__topic_a",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Head north on the main road, then take the eastern path just before the old oak tree. It'll be greener and safer than the other side of town. Mist's clearing out, but that east wind can still pick up some grit.",
+    "sanitized": "Head north on the main road, then take the eastern path just before the old oak tree. It'll be greener and safer than the other side of town. Mist's clearing out, but that east wind can still pick up some grit.",
+    "cleanBeforeCommands": "Head north on the main road, then take the eastern path just before the old oak tree. It'll be greener and safer than the other side of town. Mist's clearing out, but that east wind can still pick up some grit.",
+    "shapedHud": "Head north on the main road, then take the eastern path just before the old oak tree. It'll be greener and safer than the other side of town. Mist's clearing out, but that east wind can still pick up some grit.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

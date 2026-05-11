@@ -1,0 +1,13 @@
+{
+    "scenarioId": "runner_nia__followup",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Tomorrow morning, make sure to check your lanterns again; they took a beating in that last gale. Fresh oil and a good wipe might do 'em some good.",
+    "sanitized": "Tomorrow morning, make sure to check your lanterns again; they took a beating in that last gale. Fresh oil and a good wipe might do 'em some good.",
+    "cleanBeforeCommands": "Tomorrow morning, make sure to check your lanterns again; they took a beating in that last gale. Fresh oil and a good wipe might do 'em some good.",
+    "shapedHud": "Tomorrow morning, make sure to check your lanterns again; they took a beating in that last gale. Fresh oil and a good wipe might do 'em some good.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

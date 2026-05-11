@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using LoreLegacyMonsters;
 using LoreLegacyMonsters.Core;
@@ -9,6 +10,9 @@ namespace LoreLegacyMonsters.UI
 {
     public class WorldUI : MonoBehaviour
     {
+        const int WorldHudLayoutRevision = 3;
+        const string WorldHudLayoutPrefsKey = "world_hud_layout_revision";
+
         [SerializeField] WorldManager world;
         [SerializeField] OverworldChapterController controller;
 
@@ -106,17 +110,23 @@ namespace LoreLegacyMonsters.UI
                     areaBannerRoot.gameObject.SetActive(false);
             }
 
-            if (LlmRuntimeStatus.HasProbeResult)
+            if (LlmRuntimeStatus.BootProbeInProgress && !LlmRuntimeStatus.HasProbeResult)
+            {
+                llmStatusText.color = new Color(0.92f, 0.82f, 0.55f, 1f);
+                llmStatusText.text = FormatLlmHudLine(importingModel: true, ok: false);
+            }
+            else if (LlmRuntimeStatus.HasProbeResult)
             {
                 llmStatusText.color = LlmRuntimeStatus.LastProbeOk ? new Color(0.65f, 0.95f, 0.75f, 1f) : new Color(1f, 0.65f, 0.55f, 1f);
-                llmStatusText.text = LlmRuntimeStatus.LastProbeOk
-                    ? $"LLM\n{Shorten(LlmRuntimeStatus.LastProbeMessage, 28)}"
-                    : "LLM\noffline";
+                llmStatusText.text = FormatLlmHudLine(
+                    importingModel: false,
+                    ok: LlmRuntimeStatus.LastProbeOk,
+                    details: LlmRuntimeStatus.LastProbeMessage);
             }
             else
             {
                 llmStatusText.color = new Color(0.85f, 0.88f, 0.95f, 1f);
-                llmStatusText.text = "LLM\n…";
+                llmStatusText.text = FormatLlmHudLine(importingModel: false, ok: false, unknown: true);
             }
 
             areaText.text = $"AREA\n{controller.AreaName}";
@@ -142,13 +152,21 @@ namespace LoreLegacyMonsters.UI
 
         void EnsureUi()
         {
+            if (UIManager.Instance == null || UIManager.Instance.Root == null) return;
+
+            InvalidateWorldHudIfLayoutOutdated(UIManager.Instance, this);
+
             if (root != null && llmStatusText == null)
             {
                 Destroy(root.gameObject);
                 root = null;
             }
 
-            if (root != null || UIManager.Instance == null || UIManager.Instance.Root == null) return;
+            if (root != null)
+            {
+                ConfigureLlmStatusLayout(llmStatusText);
+                return;
+            }
 
             root = RuntimeUiFactory.CreatePanel(UIManager.Instance.Root.transform, "WorldHudRoot",
                 new Color(0f, 0f, 0f, 0f), Vector2.zero, Vector2.one, new Vector2(0.5f, 0.5f),
@@ -175,9 +193,14 @@ namespace LoreLegacyMonsters.UI
                 new Vector2(0f, 1f), new Vector2(0f, 1f), new Vector2(0f, 1f), new Vector2(16f, -106f), new Vector2(250f, 50f),
                 VerticalWrapMode.Truncate);
             RuntimeUiFactory.ApplyHintTextStyle(routeHintText, compact: true);
-            llmStatusText = RuntimeUiFactory.CreateText(header, "LlmStatusText", "LLM\n...", 12, TextAnchor.UpperRight, GameVisualTheme.Text,
-                new Vector2(1f, 0f), new Vector2(1f, 0f), new Vector2(1f, 0f), new Vector2(-16f, 16f), new Vector2(105f, 34f),
+            llmStatusText = RuntimeUiFactory.CreateText(header, "LlmStatusText",
+                FormatLlmHudLine(importingModel: false, ok: false, unknown: true), 11,
+                TextAnchor.MiddleRight, GameVisualTheme.Text,
+                new Vector2(1f, 0f), new Vector2(1f, 0f), new Vector2(1f, 0f),
+                new Vector2(-12f, 48f), new Vector2(300f, 30f),
                 VerticalWrapMode.Truncate);
+            llmStatusText.horizontalOverflow = HorizontalWrapMode.Overflow;
+            ConfigureLlmStatusLayout(llmStatusText);
             saveButton = RuntimeUiFactory.CreateSecondaryActionButton(header, "SaveButton", "Save",
                 new Vector2(1f, 0f), new Vector2(1f, 0f), new Vector2(1f, 0f), new Vector2(-196f, 14f), new Vector2(76f, 30f), compact: true);
             loadButton = RuntimeUiFactory.CreateSecondaryActionButton(header, "LoadButton", "Load",
@@ -214,6 +237,110 @@ namespace LoreLegacyMonsters.UI
         {
             if (root != null && root.gameObject.activeSelf != visible)
                 root.gameObject.SetActive(visible);
+        }
+
+        /// <summary>Single-line status (truncated) so accessibility text scale cannot stack overlapping lines.</summary>
+        static string FormatLlmHudLine(bool importingModel, bool ok, string details = null, bool unknown = false)
+        {
+            const string tag = "Local LLM";
+            if (importingModel)
+                return $"{tag} — Importing model…";
+
+            if (unknown)
+                return $"{tag} — Not checked yet";
+
+            if (ok)
+            {
+                var model = ProbeDetailAfterOkPrefix(details ?? string.Empty).Trim();
+                if (string.IsNullOrEmpty(model))
+                    model = "connected";
+                return $"{tag} — Ready · {model}";
+            }
+
+            var trimmed = details == null ? string.Empty : details.Replace('\n', ' ').Trim();
+            var err = Shorten(trimmed, 72);
+            if (string.IsNullOrEmpty(err))
+                err = "unreachable";
+            return $"{tag} — Offline · {err}";
+        }
+
+        static void InvalidateWorldHudIfLayoutOutdated(UIManager ui, WorldUI owner)
+        {
+            if (ui?.Root == null) return;
+            try
+            {
+                if (PlayerPrefs.GetInt(WorldHudLayoutPrefsKey, 0) >= WorldHudLayoutRevision)
+                    return;
+
+                var tr = ui.Root.transform.Find("WorldHudRoot");
+                if (tr != null)
+                    UnityEngine.Object.Destroy(tr.gameObject);
+
+                owner?.ClearWorldHudWidgetRefs();
+                PlayerPrefs.SetInt(WorldHudLayoutPrefsKey, WorldHudLayoutRevision);
+                PlayerPrefs.Save();
+            }
+            catch
+            {
+                // never block HUD
+            }
+        }
+
+        void ClearWorldHudWidgetRefs()
+        {
+            root = null;
+            promptPanel = null;
+            toastPanel = null;
+            areaText = null;
+            goldText = null;
+            weatherText = null;
+            routeSummaryText = null;
+            routeHintText = null;
+            llmStatusText = null;
+            promptText = null;
+            toastText = null;
+            saveButton = null;
+            loadButton = null;
+            areaBannerRoot = null;
+            areaBannerLabel = null;
+        }
+
+        static string ProbeDetailAfterOkPrefix(string raw)
+        {
+            if (string.IsNullOrEmpty(raw)) return string.Empty;
+            var s = raw.Trim();
+            if (s.Length < 2 || !s.StartsWith("OK", StringComparison.OrdinalIgnoreCase))
+                return s;
+
+            var i = 2;
+            while (i < s.Length && char.IsWhiteSpace(s[i]))
+                i++;
+            while (i < s.Length && (s[i] == '—' || s[i] == '-' || s[i] == ':'))
+            {
+                i++;
+                while (i < s.Length && char.IsWhiteSpace(s[i]))
+                    i++;
+            }
+
+            return i >= s.Length ? string.Empty : s.Substring(i).TrimStart();
+        }
+
+        static void ConfigureLlmStatusLayout(Text t)
+        {
+            if (t == null) return;
+            var scale = Mathf.Clamp(AccessibilitySettings.TextScale, 0.9f, 1.6f);
+            var rowHeight = Mathf.RoundToInt(26f + 10f * ((scale - 0.9f) / 0.7f));
+            var rt = t.rectTransform;
+            rt.anchorMin = new Vector2(1f, 0f);
+            rt.anchorMax = new Vector2(1f, 0f);
+            rt.pivot = new Vector2(1f, 0f);
+            rt.anchoredPosition = new Vector2(-12f, 48f);
+            rt.sizeDelta = new Vector2(300f, Mathf.Clamp(rowHeight, 26, 44));
+            t.alignment = TextAnchor.MiddleRight;
+            t.horizontalOverflow = HorizontalWrapMode.Overflow;
+            t.verticalOverflow = VerticalWrapMode.Truncate;
+            t.fontSize = Mathf.RoundToInt(11f * scale);
+            t.resizeTextForBestFit = false;
         }
 
         static string Shorten(string s, int max)

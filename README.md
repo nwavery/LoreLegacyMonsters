@@ -10,7 +10,7 @@ Lore, Legacy, and Monsters is an RPG game inspired by classic monster-collecting
 
 ### Requirements
 
-- **Unity 6000.0.41f1** (Unity 6; see `ProjectSettings/ProjectVersion.txt`)
+- **Unity 6000.4.5f1** (Unity 6; authoritative version in `ProjectSettings/ProjectVersion.txt`)
 - C# IDE (Visual Studio, Visual Studio Code, Rider, etc.)
 
 ### Setup Instructions
@@ -36,10 +36,38 @@ Lore, Legacy, and Monsters is an RPG game inspired by classic monster-collecting
 - **F1**: open / close in-game help (controls, saves, LLM notes)
 - **Enter / Send button**: submit a follow-up question during LLM-enabled NPC conversations
 
+### Steam-ready Windows build (RC / **local testing**)
+
+Before the game has its **own Steam App ID** with launch rules on Steamworks, the Windows shipping layout is exercised as an **RC / local-testing** candidate (IL2CPP, `steam_appid.txt`, bundled Ollama, Steamworks shim).
+
+| Item | Detail |
+| ---- | ------ |
+| **Output** | `Build/Steam/Windows/LoreLegacyMonsters.exe` (+ `_Data`; see **`docs/steam/release_handoff_checklist.md`** §2) |
+| **Steam App ID during RC** | `480` (**Spacewar**) — Steam uses this ID so `SteamAPI_Init` succeeds while Steam is running. You **cannot** launch our build using the storefront “Play” tile for Spacewar; that always runs Valve’s demo. |
+| **Recommended: Non-Steam Game shortcut** | Steam → **Games → Add a Non-Steam Game to My Library…** → pick `Build/Steam/Windows/LoreLegacyMonsters.exe` → rename the entry → **Play**. Overlay and Steamworks behave like a normal Steam session; Steam may still show activity as **Spacewar**. Full steps: **`docs/steam/release_handoff_checklist.md`** → **§6a. RC quick start for testers**. |
+| **Alternative** | Run the same `.exe` from Explorer/PowerShell with **Steam running**; `steam_appid.txt` next to the exe still applies (see checklist §6a **Direct launch**). |
+
+**Important:** Installing or “playing” via a **Steam library shortcut** alone does **not** replace uploading a depot build to your real App ID—that flow is documented in the handoff checklist when you swap off Spacewar (**§6. App ID swap**).
+
+Produce the build locally (editor menu or CLI—see **`docs/steam/release_handoff_checklist.md`** §2):
+
+```powershell
+.\scripts\Build-Steam.ps1 `
+    -UnityPath "C:\Program Files\Unity\Hub\Editor\6000.4.5f1\Editor\Unity.exe" `
+    -BundleVersion "1.0.0" `
+    -SteamBuildNumber "<your-rc-label>"
+```
+
+Or batch: **`.\scripts\Invoke-UnityBatchTask.ps1 -Task steam-build`**.
+
+Logs and bundled LLM diagnostics (Windows): **`%LocalAppData%\NA Dev\Lore, Legacy, and Monsters\Logs\`** (see checklist §0).
+
+---
+
 ### Internal PC alpha builds
 
 - **Menu**: **Build → Alpha → Windows Standalone (64-bit)** (writes `StreamingAssets/alpha_build_info.json` then builds).
-- **CLI**: `.\scripts\Build-Alpha.ps1 -UnityPath "C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Unity.exe"`
+- **CLI**: `.\scripts\Build-Alpha.ps1 -UnityPath "C:\Program Files\Unity\Hub\Editor\6000.4.5f1\Editor\Unity.exe"`
   Output: `Build/Windows/LoreLegacyMonsters.exe` (log: `Build/unity-alpha-build.log`).
 - **Testers**: see **[ALPHA_TESTING.md](ALPHA_TESTING.md)** and **[SMOKE_CHECKLIST.md](SMOKE_CHECKLIST.md)**.
 - **Bug template**: [docs/alpha_bug_report_template.md](docs/alpha_bug_report_template.md)
@@ -120,6 +148,28 @@ Or run the bundled script (pull + smoke test against `127.0.0.1:11434`):
 ```
 
 Override the model with `$env:OLLAMA_GAME_MODEL = 'mistral'` before running the script if needed.
+
+#### NPC LLM scenario suite (batch evaluation, no CI by default)
+
+Use this when you want to **improve NPC LLM quality in a repeatable loop**: same prompt stack as shipped dialog (`NpcLlmPromptBuilder` → completions → **`NpcLlmDisplayPipeline.ShapeForHud`** = sanitize → `NpcLlmResponseFilter.Clean` → command strip/parse), then **cheap automated gates** plus a short manual rubric.
+
+| What | Where |
+| --- | --- |
+| **Scenario manifest** (JSONL; regenerated from **`NpcContentRegistry`**) | `tools/convo/scenarios/manifest.jsonl` |
+| **Regenerate manifest** (overwrite) | Unity menu **Tools → Lore Legacy → NPC LLM → Overwrite scenario manifest**, or batch: `-executeMethod LoreLegacyMonsters.Editor.NpcLlmScenarioManifestGenerator.ExportManifestToDefaultPath` |
+| **Run all scenarios against a live endpoint** | `.\scripts\Invoke-NpcLlmScenarioSuite.ps1` (defaults match **`Invoke-UnityBatchTask`** Unity path); optional `-ManifestPath` for a custom JSONL |
+| **Unattended / agent loop (“Start Improvements”)** | `.\scripts\Start-Improvements.ps1` — edit-tests → manifest export → LLM suite (with retries) → optional steam-build; writes `Artifacts/LlmConvo/improvement_runs/`. Use `-SkipSteamBuild` while iterating. |
+| **Batch entry only** (after setting env vars) | `-executeMethod LoreLegacyMonsters.Editor.NpcLlmScenarioBatch.RunScenarioSuiteBatch`; requires **`-batchmode`** and **`RUN_NPC_LLM_SCENARIO_SUITE=1`** |
+| **Per-scenario + rollup artifacts** | `Artifacts/LlmConvo/scenarios/<id>.json`, `run_summary.json` |
+| **Overnight / many full passes** | `.\scripts\Invoke-NpcLlmScenarioSuiteMany.ps1 -Iterations 120 -CooldownSecondsBetweenRuns 90` → line log `Artifacts/LlmConvo/nightly-rollups/nightly-batch-line.log`, per-iter `run_summary_*.json`. First iteration exports manifest; later ones use **`-SkipManifestExport`** on the single-run script (omit with **`-ExportManifestEveryRun`**). Detach: `Start-Process powershell.exe … -File …\Invoke-NpcLlmScenarioSuiteMany.ps1 …` |
+
+**Environment**: endpoint resolution follows **`NpcLlmDevEndpointResolver`** (same family as CLI/dev tests—e.g. **`OLLAMA_HOST`**, **`NPC_LLM_TEST_*`** overrides). Optionally set **`NPC_LLM_SCENARIO_MANIFEST`** to a full path if you do not use the default manifest location.
+
+Keep this suite **local or nightly**: live LLM batches are slow and flaky, so **`RUN_NPC_LLM_SCENARIO_SUITE` is intentionally off unless you opt in.**
+
+**Automated gates** (scenario JSON): coach-scaffolding leaks; unparsed **`[[command:…]]`** markers left in HUD text (unless **`allowRawCommandsHud`**); `forbidSubstringsPipe` / `forbidRegexPipe`; loose **`maxParagraphs`**. Offline unit coverage includes **`NpcLlmDisplayPipeline`**, **`NpcLlmScenarioEvaluator`**, and **`NpcLlmCoachHudLeakTests`** (Edit Mode suite; **no network**).
+
+**Implementation note**: the suite runner performs HTTP completions **on the Unity main thread synchronously** (not `EditorApplication.update`) so **`RunScenarioSuiteBatch` completes before `-quit`** and artifacts are written. **Up to ten completion passes per scenario** (**`elder_mira__greet`** and **`rival_corin__topic_b`** get up to **fourteen**—first-row Ollama warmup and empty-completion hotspot—with extra temperature nudge and backoff on late passes). Each pass raises **`temperature`**, **`max_tokens`**, and spacing between tries so local runners (especially Ollama) are less likely to return burst empty **`content: ""`**. Retries continue until the HUD parses, passes automated checks, and is long enough to show. **`Invoke-NpcLlmScenarioSuite.ps1 -ContinueOnFailure`** exits with Unity’s code without throwing (used by **`Start-Improvements.ps1`**). Unity exits with **`0`** only when **every scenario passes**.
 
 ## Architecture Overview
 

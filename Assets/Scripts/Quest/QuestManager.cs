@@ -3,6 +3,7 @@ using UnityEngine;
 using LoreLegacyMonsters.Core;
 using LoreLegacyMonsters.Questing;
 using LoreLegacyMonsters.SaveSystem;
+using LoreLegacyMonsters.Inventory;
 
 namespace LoreLegacyMonsters
 {
@@ -352,6 +353,24 @@ namespace LoreLegacyMonsters
                 GameEvents.RaiseToast($"Quest complete: {def.DisplayName}");
             if (GameManager.Instance != null) GameManager.Instance.PlayerGold += 25;
             GameEvents.RaiseGoldChanged(GameManager.Instance != null ? GameManager.Instance.PlayerGold : 0);
+
+            GrantQuestGearRewards(id);
+        }
+
+        /// <summary>One copy per configured gear reward id (after gold grant).</summary>
+        void GrantQuestGearRewards(string id)
+        {
+            if (!questDefinitions.TryGetValue(id, out var def) || def?.GearRewardItemIds == null) return;
+            var gm = GameManager.Instance;
+            if (gm?.Inventory == null || gm.Assets == null) return;
+            foreach (var gearId in def.GearRewardItemIds)
+            {
+                if (string.IsNullOrWhiteSpace(gearId)) continue;
+                if (!(gm.Assets.GetItem(gearId) is GearItemData)) continue;
+                gm.Inventory.AddItem(gearId, 1);
+                var name = gm.Assets.GetItem(gearId)?.DisplayName ?? gearId;
+                GameEvents.RaiseToast($"Received gear: {name}");
+            }
         }
 
         public void CancelQuest(string id)

@@ -1,0 +1,13 @@
+{
+    "scenarioId": "ethicist_thren__topic_a",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "Lore-binding... It's a delicate balance between understanding and control, isn't it? When we bind a monster to its lore, we're essentially trying to grasp the essence of its being, but that can also be seen as a form of exploitation. The question is, what are we really doing: helping or hindering these creatures? I've seen some trainers get too caught up in their own ambitions, forgetting that every bond is a mutual choice. Are you sure you're considering your monster's well-being in this practice?",
+    "sanitized": "Lore-binding... It's a delicate balance between understanding and control, isn't it? When we bind a monster to its lore, we're essentially trying to grasp the essence of its being, but that can also be seen as a form of exploitation. The question is, what are we really doing: helping or hindering these creatures? I've seen some trainers get too caught up in their own ambitions, forgetting that every bond is a mutual choice. Are you sure you're considering your monster's well-being in this practice?",
+    "cleanBeforeCommands": "Lore-binding... It's a delicate balance between understanding and control, isn't it? When we bind a monster to its lore, we're essentially trying to grasp the essence of its being, but that can also be seen as a form of exploitation. The question is, what are we really doing: helping or hindering these creatures? I've seen some trainers get too caught up in their own ambitions, forgetting that every bond is a mutual choice. Are you sure you're considering your monster's well-being in this practice?",
+    "shapedHud": "Lore-binding... It's a delicate balance between understanding and control, isn't it? When we bind a monster to its lore, we're essentially trying to grasp the essence of its being, but that can also be seen as a form of exploitation. The question is, what are we really doing: helping or hindering these creatures? I've seen some trainers get too caught up in their own ambitions, forgetting that every bond is a mutual choice. Are you sure you're considering your monster's well-being in this practice?",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}

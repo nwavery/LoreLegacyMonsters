@@ -1,4 +1,5 @@
 using System;
+using LoreLegacyMonsters;
 using LoreLegacyMonsters.Core;
 using UnityEngine;
 
@@ -49,6 +50,10 @@ namespace LoreLegacyMonsters.World
             if (varoOutcome == StoryState.VaroAlly && currentRegion.PhaseTwo)
                 dynamicEncounterStep *= 1.45f;
 
+            var loadoutMods = GameManager.Instance != null ? GameManager.Instance.Loadout?.Snapshot : null;
+            var encounterRate = loadoutMods != null ? Mathf.Max(0.2f, loadoutMods.EncounterRateMult) : 1f;
+            dynamicEncounterStep /= encounterRate;
+
             walkedSinceEncounter += player.DistanceMovedThisFrame;
             if (walkedSinceEncounter < dynamicEncounterStep)
                 return false;
@@ -60,7 +65,8 @@ namespace LoreLegacyMonsters.World
                 return false;
             }
 
-            if (!encounters.TryRollWildEncounter(registry, worldManager, weather, out var monster))
+            if (!encounters.TryRollWildEncounter(registry, worldManager, weather, out var monster,
+                    rng: null, loadout: loadoutMods))
                 return false;
 
             combat.BeginBattle(monster);

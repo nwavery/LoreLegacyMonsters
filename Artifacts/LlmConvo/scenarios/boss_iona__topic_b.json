@@ -1,0 +1,13 @@
+{
+    "scenarioId": "boss_iona__topic_b",
+    "llmHttpOk": true,
+    "llmError": "",
+    "evalOk": true,
+    "evalReason": "",
+    "rawAssistant": "A true warrior respects their craft through sweat and blood, not just words on parchment. I respect those who temper steel with strength and resolve, not just charm and show. A strong trainer leads by example, proving themselves worthy of the creatures they train and protect.",
+    "sanitized": "A true warrior respects their craft through sweat and blood, not just words on parchment. I respect those who temper steel with strength and resolve, not just charm and show. A strong trainer leads by example, proving themselves worthy of the creatures they train and protect.",
+    "cleanBeforeCommands": "A true warrior respects their craft through sweat and blood, not just words on parchment. I respect those who temper steel with strength and resolve, not just charm and show. A strong trainer leads by example, proving themselves worthy of the creatures they train and protect.",
+    "shapedHud": "A true warrior respects their craft through sweat and blood, not just words on parchment. I respect those who temper steel with strength and resolve, not just charm and show. A strong trainer leads by example, proving themselves worthy of the creatures they train and protect.",
+    "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
+    "model": "llama3.2:latest"
+}
