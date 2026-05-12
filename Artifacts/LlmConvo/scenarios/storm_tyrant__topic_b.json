@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "\"A storm awakens when a warrior is ready, and I am your testing ground. Come, let us see if your party can weather the trials that lie within.\"",
-    "sanitized": "\"A storm awakens when a warrior is ready, and I am your testing ground. Come, let us see if your party can weather the trials that lie within.\"",
-    "cleanBeforeCommands": "\"A storm awakens when a warrior is ready, and I am your testing ground. Come, let us see if your party can weather the trials that lie within.\"",
-    "shapedHud": "\"A storm awakens when a warrior is ready, and I am your testing ground. Come, let us see if your party can weather the trials that lie within.\"",
+    "rawAssistant": "Storms do not slumber, and neither do my trials. This place is a proving ground for those who dare to wield the relic's fury. Your presence, like that of many others before you, serves as a test of your mettle. Come, let us see how well you hold up against the tempests that rage within these walls.",
+    "sanitized": "Storms do not slumber, and neither do my trials. This place is a proving ground for those who dare to wield the relic's fury. Your presence, like that of many others before you, serves as a test of your mettle. Come, let us see how well you hold up against the tempests that rage within these walls.",
+    "cleanBeforeCommands": "Storms do not slumber, and neither do my trials. This place is a proving ground for those who dare to wield the relic's fury. Your presence, like that of many others before you, serves as a test of your mettle. Come, let us see how well you hold up against the tempests that rage within these walls.",
+    "shapedHud": "Storms do not slumber, and neither do my trials. This place is a proving ground for those who dare to wield the relic's fury. Your presence, like that of many others before you, serves as a test of your mettle. Come, let us see how well you hold up against the tempests that rage within these walls.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

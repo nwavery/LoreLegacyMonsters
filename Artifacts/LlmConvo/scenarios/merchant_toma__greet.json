@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Welcome to my humble shop, friend! I see you're looking well-prepared for your journey. That new charm hoop of yours is quite the find - it's said to bring a bit of good fortune to those who travel the north road. The fresh signs on one side are certainly worth investigating; they might just lead you to some answers about these lowland glows.",
-    "sanitized": "Welcome to my humble shop, friend! I see you're looking well-prepared for your journey. That new charm hoop of yours is quite the find - it's said to bring a bit of good fortune to those who travel the north road. The fresh signs on one side are certainly worth investigating; they might just lead you to some answers about these lowland glows.",
-    "cleanBeforeCommands": "Welcome to my humble shop, friend! I see you're looking well-prepared for your journey. That new charm hoop of yours is quite the find - it's said to bring a bit of good fortune to those who travel the north road. The fresh signs on one side are certainly worth investigating; they might just lead you to some answers about these lowland glows.",
-    "shapedHud": "Welcome to my humble shop, friend! I see you're looking well-prepared for your journey. That new charm hoop of yours is quite the find - it's said to bring a bit of good fortune to those who travel the north road. The fresh signs on one side are certainly worth investigating; they might just lead you to some answers about these lowland glows.",
+    "rawAssistant": "\"Good morrow! Fresh signs on the north road might be worth a look - keep an eye out for any unusual markings or scat. Come by the shop if you need anything to help with that.\"",
+    "sanitized": "\"Good morrow! Fresh signs on the north road might be worth a look - keep an eye out for any unusual markings or scat. Come by the shop if you need anything to help with that.\"",
+    "cleanBeforeCommands": "\"Good morrow! Fresh signs on the north road might be worth a look - keep an eye out for any unusual markings or scat. Come by the shop if you need anything to help with that.\"",
+    "shapedHud": "\"Good morrow! Fresh signs on the north road might be worth a look - keep an eye out for any unusual markings or scat. Come by the shop if you need anything to help with that.\"",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

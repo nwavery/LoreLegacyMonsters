@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "I'm not here to waste time on nostalgia; I've got my sights set on the top of Hollowfen's trainer rankings. The Sunken Archive is exactly what I need to put me ahead of everyone else – especially you. I've been eyeing that exclusive title for months, and I won't let anyone get in my way.",
-    "sanitized": "I'm not here to waste time on nostalgia; I've got my sights set on the top of Hollowfen's trainer rankings. The Sunken Archive is exactly what I need to put me ahead of everyone else – especially you. I've been eyeing that exclusive title for months, and I won't let anyone get in my way.",
-    "cleanBeforeCommands": "I'm not here to waste time on nostalgia; I've got my sights set on the top of Hollowfen's trainer rankings. The Sunken Archive is exactly what I need to put me ahead of everyone else – especially you. I've been eyeing that exclusive title for months, and I won't let anyone get in my way.",
-    "shapedHud": "I'm not here to waste time on nostalgia; I've got my sights set on the top of Hollowfen's trainer rankings. The Sunken Archive is exactly what I need to put me ahead of everyone else – especially you. I've been eyeing that exclusive title for months, and I won't let anyone get in my way.",
+    "rawAssistant": "I've got my sights set on that top spot - nothing but gold and prestige for me when I finally claim the most valuable relics from the Sunken Archive. Hollowfen isn't going to surpass me like this; it's time to put our trainers' skills to the test. You think you can keep up with me?",
+    "sanitized": "I've got my sights set on that top spot - nothing but gold and prestige for me when I finally claim the most valuable relics from the Sunken Archive. Hollowfen isn't going to surpass me like this; it's time to put our trainers' skills to the test. You think you can keep up with me?",
+    "cleanBeforeCommands": "I've got my sights set on that top spot - nothing but gold and prestige for me when I finally claim the most valuable relics from the Sunken Archive. Hollowfen isn't going to surpass me like this; it's time to put our trainers' skills to the test. You think you can keep up with me?",
+    "shapedHud": "I've got my sights set on that top spot - nothing but gold and prestige for me when I finally claim the most valuable relics from the Sunken Archive. Hollowfen isn't going to surpass me like this; it's time to put our trainers' skills to the test. You think you can keep up with me?",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

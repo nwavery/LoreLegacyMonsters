@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Tomorrow's road trip with a tight schedule can be tricky. Make sure to recheck the lanterns along the planks you mentioned last gale - we don't want any accidents on the way north. Also, take a closer look at that one side road; it's been cleared of new debris but I'd wager there's still some damage from the rain.",
-    "sanitized": "Tomorrow's road trip with a tight schedule can be tricky. Make sure to recheck the lanterns along the planks you mentioned last gale - we don't want any accidents on the way north. Also, take a closer look at that one side road; it's been cleared of new debris but I'd wager there's still some damage from the rain.",
-    "cleanBeforeCommands": "Tomorrow's road trip with a tight schedule can be tricky. Make sure to recheck the lanterns along the planks you mentioned last gale - we don't want any accidents on the way north. Also, take a closer look at that one side road; it's been cleared of new debris but I'd wager there's still some damage from the rain.",
-    "shapedHud": "Tomorrow's road trip with a tight schedule can be tricky. Make sure to recheck the lanterns along the planks you mentioned last gale - we don't want any accidents on the way north. Also, take a closer look at that one side road; it's been cleared of new debris but I'd wager there's still some damage from the rain.",
+    "rawAssistant": "You're planning an early departure tomorrow. Make sure to recheck your lanterns and their wicks; they might have been damaged during the storm, and you won't want them failing on you mid-march. Also, consider a quick stop at the old windmill east of Hollowfen – it's always good to restock your supplies when you can.",
+    "sanitized": "You're planning an early departure tomorrow. Make sure to recheck your lanterns and their wicks; they might have been damaged during the storm, and you won't want them failing on you mid-march. Also, consider a quick stop at the old windmill east of Hollowfen – it's always good to restock your supplies when you can.",
+    "cleanBeforeCommands": "You're planning an early departure tomorrow. Make sure to recheck your lanterns and their wicks; they might have been damaged during the storm, and you won't want them failing on you mid-march. Also, consider a quick stop at the old windmill east of Hollowfen – it's always good to restock your supplies when you can.",
+    "shapedHud": "You're planning an early departure tomorrow. Make sure to recheck your lanterns and their wicks; they might have been damaged during the storm, and you won't want them failing on you mid-march. Also, consider a quick stop at the old windmill east of Hollowfen – it's always good to restock your supplies when you can.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

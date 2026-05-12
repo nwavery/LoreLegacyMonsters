@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "I'm afraid I don't quite understand what you're getting at, friend. As Nia Reed, Marsh Runner, I've got my hands full keeping Stonewake connected to Starfall Hollow. My mind's on the road ahead, not tangled in...whatever it is you're trying to discuss. How about you focus on that glow report? The north road might hold some clues.",
-    "sanitized": "I'm afraid I don't quite understand what you're getting at, friend. As Nia Reed, Marsh Runner, I've got my hands full keeping Stonewake connected to Starfall Hollow. My mind's on the road ahead, not tangled in...whatever it is you're trying to discuss. How about you focus on that glow report? The north road might hold some clues.",
-    "cleanBeforeCommands": "I'm afraid I don't quite understand what you're getting at, friend. As Nia Reed, Marsh Runner, I've got my hands full keeping Stonewake connected to Starfall Hollow. My mind's on the road ahead, not tangled in...whatever it is you're trying to discuss. How about you focus on that glow report? The north road might hold some clues.",
-    "shapedHud": "I'm afraid I don't quite understand what you're getting at, friend. As Nia Reed, Marsh Runner, I've got my hands full keeping Stonewake connected to Starfall Hollow. My mind's on the road ahead, not tangled in...whatever it is you're trying to discuss. How about you focus on that glow report? The north road might hold some clues.",
+    "rawAssistant": "I'm Nia Reed, Marsh Runner. My weight is on these worn soles, not in metal scales. I've run these misty roads for years, guiding travelers like you through Hollowfen's secrets. The glow of the lowlands still calls to me, a siren's whisper in the darkness. What brings you back here, seeking answers?",
+    "sanitized": "I'm Nia Reed, Marsh Runner. My weight is on these worn soles, not in metal scales. I've run these misty roads for years, guiding travelers like you through Hollowfen's secrets. The glow of the lowlands still calls to me, a siren's whisper in the darkness. What brings you back here, seeking answers?",
+    "cleanBeforeCommands": "I'm Nia Reed, Marsh Runner. My weight is on these worn soles, not in metal scales. I've run these misty roads for years, guiding travelers like you through Hollowfen's secrets. The glow of the lowlands still calls to me, a siren's whisper in the darkness. What brings you back here, seeking answers?",
+    "shapedHud": "I'm Nia Reed, Marsh Runner. My weight is on these worn soles, not in metal scales. I've run these misty roads for years, guiding travelers like you through Hollowfen's secrets. The glow of the lowlands still calls to me, a siren's whisper in the darkness. What brings you back here, seeking answers?",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

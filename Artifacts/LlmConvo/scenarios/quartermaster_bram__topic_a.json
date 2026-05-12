@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "North of here, you're likely to encounter some nasty road conditions and possibly even more than just grit. Cold Salve and Antidote could be lifesavers if things go south. Consider packing a few extra vials and, if you've got the coin, a Tonic for when things get really rough.",
-    "sanitized": "North of here, you're likely to encounter some nasty road conditions and possibly even more than just grit. Cold Salve and Antidote could be lifesavers if things go south. Consider packing a few extra vials and, if you've got the coin, a Tonic for when things get really rough.",
-    "cleanBeforeCommands": "North of here, you're likely to encounter some nasty road conditions and possibly even more than just grit. Cold Salve and Antidote could be lifesavers if things go south. Consider packing a few extra vials and, if you've got the coin, a Tonic for when things get really rough.",
-    "shapedHud": "North of here, you're likely to encounter some nasty road conditions and possibly even more than just grit. Cold Salve and Antidote could be lifesavers if things go south. Consider packing a few extra vials and, if you've got the coin, a Tonic for when things get really rough.",
+    "rawAssistant": "North road's a good bet for that glow, but be careful - you don't know what's causing it yet. You might want to consider some extra warmth and a bit of protection against whatever's drawing you in. A flask with some Hot Tea and a few Antidotes wouldn't go amiss either. What's your pack looking like?",
+    "sanitized": "North road's a good bet for that glow, but be careful - you don't know what's causing it yet. You might want to consider some extra warmth and a bit of protection against whatever's drawing you in. A flask with some Hot Tea and a few Antidotes wouldn't go amiss either. What's your pack looking like?",
+    "cleanBeforeCommands": "North road's a good bet for that glow, but be careful - you don't know what's causing it yet. You might want to consider some extra warmth and a bit of protection against whatever's drawing you in. A flask with some Hot Tea and a few Antidotes wouldn't go amiss either. What's your pack looking like?",
+    "shapedHud": "North road's a good bet for that glow, but be careful - you don't know what's causing it yet. You might want to consider some extra warmth and a bit of protection against whatever's drawing you in. A flask with some Hot Tea and a few Antidotes wouldn't go amiss either. What's your pack looking like?",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

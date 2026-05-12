@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Mist's clearing, and you've got a fresh set of tracks on that side road. Take care, those signs look like they might be something worth investigating, before the day gets too hot.",
-    "sanitized": "Mist's clearing, and you've got a fresh set of tracks on that side road. Take care, those signs look like they might be something worth investigating, before the day gets too hot.",
-    "cleanBeforeCommands": "Mist's clearing, and you've got a fresh set of tracks on that side road. Take care, those signs look like they might be something worth investigating, before the day gets too hot.",
-    "shapedHud": "Mist's clearing, and you've got a fresh set of tracks on that side road. Take care, those signs look like they might be something worth investigating, before the day gets too hot.",
+    "rawAssistant": "\"Mist's cleared some, but be careful on that road side. Looks like fresh sign of something moving - might've been a beast.\"",
+    "sanitized": "\"Mist's cleared some, but be careful on that road side. Looks like fresh sign of something moving - might've been a beast.\"",
+    "cleanBeforeCommands": "\"Mist's cleared some, but be careful on that road side. Looks like fresh sign of something moving - might've been a beast.\"",
+    "shapedHud": "\"Mist's cleared some, but be careful on that road side. Looks like fresh sign of something moving - might've been a beast.\"",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

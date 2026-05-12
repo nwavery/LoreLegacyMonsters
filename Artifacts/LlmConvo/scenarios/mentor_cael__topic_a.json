@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Preparing for the spire is a test of endurance and strategy. As you've balanced your team with Thornbeast and Gremlin, now think about terrain. The misty road ahead offers little cover; keep that in mind when positioning for upcoming challenges. Rest well tonight – the journey will be long and unforgiving.",
-    "sanitized": "Preparing for the spire is a test of endurance and strategy. As you've balanced your team with Thornbeast and Gremlin, now think about terrain. The misty road ahead offers little cover; keep that in mind when positioning for upcoming challenges. Rest well tonight – the journey will be long and unforgiving.",
-    "cleanBeforeCommands": "Preparing for the spire is a test of endurance and strategy. As you've balanced your team with Thornbeast and Gremlin, now think about terrain. The misty road ahead offers little cover; keep that in mind when positioning for upcoming challenges. Rest well tonight – the journey will be long and unforgiving.",
-    "shapedHud": "Preparing for the spire is a test of endurance and strategy. As you've balanced your team with Thornbeast and Gremlin, now think about terrain. The misty road ahead offers little cover; keep that in mind when positioning for upcoming challenges. Rest well tonight – the journey will be long and unforgiving.",
+    "rawAssistant": "Preparing for the spire is a serious matter. The road ahead won't be easy, especially with that east wind whipping up soot. Make sure your cloak is secure and your gear is in order. A good night's rest will also serve you well; exhaustion can cloud judgment on treacherous paths like these.",
+    "sanitized": "Preparing for the spire is a serious matter. The road ahead won't be easy, especially with that east wind whipping up soot. Make sure your cloak is secure and your gear is in order. A good night's rest will also serve you well; exhaustion can cloud judgment on treacherous paths like these.",
+    "cleanBeforeCommands": "Preparing for the spire is a serious matter. The road ahead won't be easy, especially with that east wind whipping up soot. Make sure your cloak is secure and your gear is in order. A good night's rest will also serve you well; exhaustion can cloud judgment on treacherous paths like these.",
+    "shapedHud": "Preparing for the spire is a serious matter. The road ahead won't be easy, especially with that east wind whipping up soot. Make sure your cloak is secure and your gear is in order. A good night's rest will also serve you well; exhaustion can cloud judgment on treacherous paths like these.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

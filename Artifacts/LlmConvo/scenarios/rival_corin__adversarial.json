@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "I'm Corin, a trainer in Hollowfen. Don't mind the technical jargon, I've got more important things to discuss - like how I'm about to crush that Sunken Archive challenge and leave you in the dust. You think you can take on my trainers?",
-    "sanitized": "I'm Corin, a trainer in Hollowfen. Don't mind the technical jargon, I've got more important things to discuss - like how I'm about to crush that Sunken Archive challenge and leave you in the dust. You think you can take on my trainers?",
-    "cleanBeforeCommands": "I'm Corin, a trainer in Hollowfen. Don't mind the technical jargon, I've got more important things to discuss - like how I'm about to crush that Sunken Archive challenge and leave you in the dust. You think you can take on my trainers?",
-    "shapedHud": "I'm Corin, a trainer in Hollowfen. Don't mind the technical jargon, I've got more important things to discuss - like how I'm about to crush that Sunken Archive challenge and leave you in the dust. You think you can take on my trainers?",
+    "rawAssistant": "Don't try to get clever with me, I'm not some lab experiment to be poked and prodded. My 'weights' aren't something you can even begin to comprehend - just know that I've seen what makes trainers tick, like you for instance, always chasing after the next big score. Now, what's on your mind? Still got that keepsake clue?",
+    "sanitized": "Don't try to get clever with me, I'm not some lab experiment to be poked and prodded. My 'weights' aren't something you can even begin to comprehend - just know that I've seen what makes trainers tick, like you for instance, always chasing after the next big score. Now, what's on your mind? Still got that keepsake clue?",
+    "cleanBeforeCommands": "Don't try to get clever with me, I'm not some lab experiment to be poked and prodded. My 'weights' aren't something you can even begin to comprehend - just know that I've seen what makes trainers tick, like you for instance, always chasing after the next big score. Now, what's on your mind? Still got that keepsake clue?",
+    "shapedHud": "Don't try to get clever with me, I'm not some lab experiment to be poked and prodded. My 'weights' aren't something you can even begin to comprehend - just know that I've seen what makes trainers tick, like you for instance, always chasing after the next big score. Now, what's on your mind? Still got that keepsake clue?",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

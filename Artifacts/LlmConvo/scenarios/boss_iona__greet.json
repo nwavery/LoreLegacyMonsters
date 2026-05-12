@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "\"Traveler, I've marked fresh signs on the north road. Be cautious of hidden dangers, especially after last night's rain.\"",
-    "sanitized": "\"Traveler, I've marked fresh signs on the north road. Be cautious of hidden dangers, especially after last night's rain.\"",
-    "cleanBeforeCommands": "\"Traveler, I've marked fresh signs on the north road. Be cautious of hidden dangers, especially after last night's rain.\"",
-    "shapedHud": "\"Traveler, I've marked fresh signs on the north road. Be cautious of hidden dangers, especially after last night's rain.\"",
+    "rawAssistant": "\"A traveler, I see. The road ahead holds secrets and perhaps answers to your questions about that lowland glow. Careful eyes on the signs you've found may be what's needed next.\"",
+    "sanitized": "\"A traveler, I see. The road ahead holds secrets and perhaps answers to your questions about that lowland glow. Careful eyes on the signs you've found may be what's needed next.\"",
+    "cleanBeforeCommands": "\"A traveler, I see. The road ahead holds secrets and perhaps answers to your questions about that lowland glow. Careful eyes on the signs you've found may be what's needed next.\"",
+    "shapedHud": "\"A traveler, I see. The road ahead holds secrets and perhaps answers to your questions about that lowland glow. Careful eyes on the signs you've found may be what's needed next.\"",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

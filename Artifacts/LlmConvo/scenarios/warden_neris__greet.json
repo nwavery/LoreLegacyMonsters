@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "\"Another long stretch to Hollowfen ahead. You might want to check that road for any signs of... trouble. We've had some issues with the water lately.\"",
-    "sanitized": "\"Another long stretch to Hollowfen ahead. You might want to check that road for any signs of... trouble. We've had some issues with the water lately.\"",
-    "cleanBeforeCommands": "\"Another long stretch to Hollowfen ahead. You might want to check that road for any signs of... trouble. We've had some issues with the water lately.\"",
-    "shapedHud": "\"Another long stretch to Hollowfen ahead. You might want to check that road for any signs of... trouble. We've had some issues with the water lately.\"",
+    "rawAssistant": "Morning. You're clear to head north on the road now that the mist's lifted. The signs you'll find might give us a clue about what's been causing these glow reports – or at least some idea of where to look for help.",
+    "sanitized": "Morning. You're clear to head north on the road now that the mist's lifted. The signs you'll find might give us a clue about what's been causing these glow reports – or at least some idea of where to look for help.",
+    "cleanBeforeCommands": "Morning. You're clear to head north on the road now that the mist's lifted. The signs you'll find might give us a clue about what's been causing these glow reports – or at least some idea of where to look for help.",
+    "shapedHud": "Morning. You're clear to head north on the road now that the mist's lifted. The signs you'll find might give us a clue about what's been causing these glow reports – or at least some idea of where to look for help.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

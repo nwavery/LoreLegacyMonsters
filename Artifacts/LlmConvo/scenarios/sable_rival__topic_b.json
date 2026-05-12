@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Fresh signs of recent travel on this side road warrant a closer look, but I've seen enough dirt-tracks and discarded gear to know that someone's been making haste in these parts. You might be able to glean some useful information from the locals if they're willing to share it – perhaps it's worth stopping by the next village to see what rumors are circulating?",
-    "sanitized": "Fresh signs of recent travel on this side road warrant a closer look, but I've seen enough dirt-tracks and discarded gear to know that someone's been making haste in these parts. You might be able to glean some useful information from the locals if they're willing to share it – perhaps it's worth stopping by the next village to see what rumors are circulating?",
-    "cleanBeforeCommands": "Fresh signs of recent travel on this side road warrant a closer look, but I've seen enough dirt-tracks and discarded gear to know that someone's been making haste in these parts. You might be able to glean some useful information from the locals if they're willing to share it – perhaps it's worth stopping by the next village to see what rumors are circulating?",
-    "shapedHud": "Fresh signs of recent travel on this side road warrant a closer look, but I've seen enough dirt-tracks and discarded gear to know that someone's been making haste in these parts. You might be able to glean some useful information from the locals if they're willing to share it – perhaps it's worth stopping by the next village to see what rumors are circulating?",
+    "rawAssistant": "Fresh signs on this road suggest someone - or something - has been using it recently, possibly even deliberately trying to leave a trail. I've seen marks like these before, but they usually lead to trouble. What do you make of 'em?",
+    "sanitized": "Fresh signs on this road suggest someone - or something - has been using it recently, possibly even deliberately trying to leave a trail. I've seen marks like these before, but they usually lead to trouble. What do you make of 'em?",
+    "cleanBeforeCommands": "Fresh signs on this road suggest someone - or something - has been using it recently, possibly even deliberately trying to leave a trail. I've seen marks like these before, but they usually lead to trouble. What do you make of 'em?",
+    "shapedHud": "Fresh signs on this road suggest someone - or something - has been using it recently, possibly even deliberately trying to leave a trail. I've seen marks like these before, but they usually lead to trouble. What do you make of 'em?",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

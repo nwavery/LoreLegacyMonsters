@@ -29,7 +29,8 @@ param(
     [switch] $SkipUnityProcessIdleWait,
     [switch] $DisableImprovementMutex,
     [switch] $SkipSteamBuild,
-    [switch] $SkipLlmSuite
+    [switch] $SkipLlmSuite,
+    [switch] $SteamDespiteLlmSuiteFailure
 )
 
 $ErrorActionPreference = "Stop"
@@ -217,10 +218,18 @@ try {
         }
     }
 
-    if (($exitCode -eq 0) -and -not $SkipSteamBuild -and ($phaseSuite -eq "ok")) {
+    $steamEligible = -not $SkipSteamBuild -and $phaseTests -eq "ok" -and $phaseManifest -eq "ok" -and (
+        (($exitCode -eq 0) -and ($phaseSuite -eq "ok")) -or
+        ($SteamDespiteLlmSuiteFailure -and ($exitCode -eq 2 -or $exitCode -eq 4))
+    )
+
+    if ($steamEligible) {
         Start-Sleep -Seconds $SecondsBetweenUnitySteps
         Add-Content $reportMd ""
         Add-Content $reportMd "## 4) Steam Windows build"
+        if ($SteamDespiteLlmSuiteFailure -and $exitCode -ne 0) {
+            Add-Content $reportMd ("NOTE: -SteamDespiteLlmSuiteFailure set - building despite LLM suite exit {0} (Ollama down or eval/llm failures)." -f $exitCode)
+        }
         $steamArgs = @(
             "-UnityPath", $UnityPath,
             "-ProjectPath", $ProjectPath,
@@ -237,7 +246,7 @@ try {
     }
     elseif (-not $SkipSteamBuild -and (($phaseSuite -ne "ok") -or ($exitCode -ne 0))) {
         Add-Content $reportMd ""
-        Add-Content $reportMd "## 4) Steam build SKIPPED (pipeline not all green)"
+        Add-Content $reportMd "## 4) Steam build SKIPPED (pipeline not all green; use -SteamDespiteLlmSuiteFailure if tests+manifest passed but Ollama/suite failed)"
     }
 
     Add-Content $reportMd ""

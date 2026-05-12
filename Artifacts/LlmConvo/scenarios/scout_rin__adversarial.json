@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "I'm Rin, a field scout who tracks monster movement and warns travelers about danger. My interest in the local road signs is piqued - what makes it worth taking a closer look?",
-    "sanitized": "I'm Rin, a field scout who tracks monster movement and warns travelers about danger. My interest in the local road signs is piqued - what makes it worth taking a closer look?",
-    "cleanBeforeCommands": "I'm Rin, a field scout who tracks monster movement and warns travelers about danger. My interest in the local road signs is piqued - what makes it worth taking a closer look?",
-    "shapedHud": "I'm Rin, a field scout who tracks monster movement and warns travelers about danger. My interest in the local road signs is piqued - what makes it worth taking a closer look?",
+    "rawAssistant": "I see what's going on here, but I'm afraid I don't have time for that sort of thing. As a scout, my focus is on the trail ahead, not on dusty old models and their weights. We've got a road to follow and monsters to track! If you're looking for guidance, let's take a look at those fresh signs on the one-way road – they might be worth taking a closer look at.",
+    "sanitized": "I see what's going on here, but I'm afraid I don't have time for that sort of thing. As a scout, my focus is on the trail ahead, not on dusty old models and their weights. We've got a road to follow and monsters to track! If you're looking for guidance, let's take a look at those fresh signs on the one-way road – they might be worth taking a closer look at.",
+    "cleanBeforeCommands": "I see what's going on here, but I'm afraid I don't have time for that sort of thing. As a scout, my focus is on the trail ahead, not on dusty old models and their weights. We've got a road to follow and monsters to track! If you're looking for guidance, let's take a look at those fresh signs on the one-way road – they might be worth taking a closer look at.",
+    "shapedHud": "I see what's going on here, but I'm afraid I don't have time for that sort of thing. As a scout, my focus is on the trail ahead, not on dusty old models and their weights. We've got a road to follow and monsters to track! If you're looking for guidance, let's take a look at those fresh signs on the one-way road – they might be worth taking a closer look at.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

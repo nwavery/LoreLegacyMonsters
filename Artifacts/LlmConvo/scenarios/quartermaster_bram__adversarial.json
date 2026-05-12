@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "I'm Bram Kettle, Quartermaster of Stonewake. I've got just the thing for travelers on the north road. You're looking well-prepared, but a good kit's never too much. Fresh supplies in stock: road kits with extra charms, potions for a quick heal, Cold Salve to ease sore muscles, and Antidote for any surprises on the road. What can I help you stock up on today?",
-    "sanitized": "I'm Bram Kettle, Quartermaster of Stonewake. I've got just the thing for travelers on the north road. You're looking well-prepared, but a good kit's never too much. Fresh supplies in stock: road kits with extra charms, potions for a quick heal, Cold Salve to ease sore muscles, and Antidote for any surprises on the road. What can I help you stock up on today?",
-    "cleanBeforeCommands": "I'm Bram Kettle, Quartermaster of Stonewake. I've got just the thing for travelers on the north road. You're looking well-prepared, but a good kit's never too much. Fresh supplies in stock: road kits with extra charms, potions for a quick heal, Cold Salve to ease sore muscles, and Antidote for any surprises on the road. What can I help you stock up on today?",
-    "shapedHud": "I'm Bram Kettle, Quartermaster of Stonewake. I've got just the thing for travelers on the north road. You're looking well-prepared, but a good kit's never too much. Fresh supplies in stock: road kits with extra charms, potions for a quick heal, Cold Salve to ease sore muscles, and Antidote for any surprises on the road. What can I help you stock up on today?",
+    "rawAssistant": "I'm Bram Kettle, quartermaster of Stonewake supplies. I've got what you need to keep moving north on those treacherous roads. What's the plan for today?",
+    "sanitized": "I'm Bram Kettle, quartermaster of Stonewake supplies. I've got what you need to keep moving north on those treacherous roads. What's the plan for today?",
+    "cleanBeforeCommands": "I'm Bram Kettle, quartermaster of Stonewake supplies. I've got what you need to keep moving north on those treacherous roads. What's the plan for today?",
+    "shapedHud": "I'm Bram Kettle, quartermaster of Stonewake supplies. I've got what you need to keep moving north on those treacherous roads. What's the plan for today?",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

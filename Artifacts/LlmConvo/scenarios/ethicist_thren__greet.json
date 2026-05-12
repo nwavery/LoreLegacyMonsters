@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Another weary soul seeking guidance. The mist may have lifted, but I sense a lingering unease about your bond with that Thornbeast of yours. Have you considered how its avoidance of eye contact after the binding exercise might be tied to the strain on their trust?",
-    "sanitized": "Another weary soul seeking guidance. The mist may have lifted, but I sense a lingering unease about your bond with that Thornbeast of yours. Have you considered how its avoidance of eye contact after the binding exercise might be tied to the strain on their trust?",
-    "cleanBeforeCommands": "Another weary soul seeking guidance. The mist may have lifted, but I sense a lingering unease about your bond with that Thornbeast of yours. Have you considered how its avoidance of eye contact after the binding exercise might be tied to the strain on their trust?",
-    "shapedHud": "Another weary soul seeking guidance. The mist may have lifted, but I sense a lingering unease about your bond with that Thornbeast of yours. Have you considered how its avoidance of eye contact after the binding exercise might be tied to the strain on their trust?",
+    "rawAssistant": "Traveller, I've been studying the bond strain after forced drills. Be cautious when pushing your companion forward – trust can be a fragile thing.",
+    "sanitized": "Traveller, I've been studying the bond strain after forced drills. Be cautious when pushing your companion forward – trust can be a fragile thing.",
+    "cleanBeforeCommands": "Traveller, I've been studying the bond strain after forced drills. Be cautious when pushing your companion forward – trust can be a fragile thing.",
+    "shapedHud": "Traveller, I've been studying the bond strain after forced drills. Be cautious when pushing your companion forward – trust can be a fragile thing.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

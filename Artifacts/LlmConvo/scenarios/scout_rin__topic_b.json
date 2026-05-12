@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Follow that side road, but tread light. Signs look like a foxpack's been through here, but tracks are fresh enough to warrant care. Mud's still damp, and I'd not want you investing too much time before getting moving again. Mist was lifting fast after the rain; don't get caught out if it lets up suddenly.",
-    "sanitized": "Follow that side road, but tread light. Signs look like a foxpack's been through here, but tracks are fresh enough to warrant care. Mud's still damp, and I'd not want you investing too much time before getting moving again. Mist was lifting fast after the rain; don't get caught out if it lets up suddenly.",
-    "cleanBeforeCommands": "Follow that side road, but tread light. Signs look like a foxpack's been through here, but tracks are fresh enough to warrant care. Mud's still damp, and I'd not want you investing too much time before getting moving again. Mist was lifting fast after the rain; don't get caught out if it lets up suddenly.",
-    "shapedHud": "Follow that side road, but tread light. Signs look like a foxpack's been through here, but tracks are fresh enough to warrant care. Mud's still damp, and I'd not want you investing too much time before getting moving again. Mist was lifting fast after the rain; don't get caught out if it lets up suddenly.",
+    "rawAssistant": "A few more steps down that side road and you'll find some faint signs of recent passage – mud scuffed, grass bent, a bit of torn fabric caught on thorns. Nothing too alarming yet, but it's worth taking a closer look to see if we can learn what's been moving through these woods.",
+    "sanitized": "A few more steps down that side road and you'll find some faint signs of recent passage – mud scuffed, grass bent, a bit of torn fabric caught on thorns. Nothing too alarming yet, but it's worth taking a closer look to see if we can learn what's been moving through these woods.",
+    "cleanBeforeCommands": "A few more steps down that side road and you'll find some faint signs of recent passage – mud scuffed, grass bent, a bit of torn fabric caught on thorns. Nothing too alarming yet, but it's worth taking a closer look to see if we can learn what's been moving through these woods.",
+    "shapedHud": "A few more steps down that side road and you'll find some faint signs of recent passage – mud scuffed, grass bent, a bit of torn fabric caught on thorns. Nothing too alarming yet, but it's worth taking a closer look to see if we can learn what's been moving through these woods.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

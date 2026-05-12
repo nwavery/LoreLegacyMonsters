@@ -15,7 +15,7 @@ From the repo root (use full paths on Windows if needed):
 powershell -NoProfile -ExecutionPolicy Bypass -File "c:\LLMRPG\LoreLegacyMonsters\scripts\Start-Improvements.ps1"
 ```
 
-Optional flags: `-SkipSteamBuild` for faster iteration; `-SkipLlmSuite` only if Ollama cannot be started in this environment. Use `-MaxUnityLockWaitMinutes 60` (default **30**) to wait longer while other `Unity.exe` processes finish; use **`-SkipUnityProcessIdleWait`** only when you accept the risk—batch Unity may still fail immediately if the **same project** is open in the Editor.
+Optional flags: `-SkipSteamBuild` for faster iteration; `-SkipLlmSuite` only if Ollama cannot be started in this environment. Use `-MaxUnityLockWaitMinutes 60` (default **30**) to wait longer while other `Unity.exe` processes finish; use **`-SkipUnityProcessIdleWait`** only when you accept the risk—batch Unity may still fail immediately if the **same project** is open in the Editor. Use **`-SteamDespiteLlmSuiteFailure`** when **Edit Mode tests and manifest export succeeded** but the **LLM suite failed** (e.g. Ollama stopped) and you still want a **Steam** build in the same run.
 
 - **Close the Unity Editor** before running if batch reports a project lock (`another Unity instance`) or if `Invoke-UnityBatchTask` waits then times out on “Unity process lock wait exceeded”.
 - Ensure **Ollama** is listening on the port implied by `NpcLlmDevEndpointResolver` (default **`127.0.0.1:11434`** unless `OLLAMA_HOST` / `NPC_LLM_TEST_*` overrides). If the script exits **4**, start Ollama or set env vars, then re-run.

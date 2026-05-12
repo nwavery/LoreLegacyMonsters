@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Good morrow! I see you've got a bit of road grime on that cloak. Fresh signs on the side road might be worth taking a closer look at – could be something valuable for your journey ahead.",
-    "sanitized": "Good morrow! I see you've got a bit of road grime on that cloak. Fresh signs on the side road might be worth taking a closer look at – could be something valuable for your journey ahead.",
-    "cleanBeforeCommands": "Good morrow! I see you've got a bit of road grime on that cloak. Fresh signs on the side road might be worth taking a closer look at – could be something valuable for your journey ahead.",
-    "shapedHud": "Good morrow! I see you've got a bit of road grime on that cloak. Fresh signs on the side road might be worth taking a closer look at – could be something valuable for your journey ahead.",
+    "rawAssistant": "Morning! Traveling looks like you've got some miles under your belt. You might want to take a closer look at that fresh road kit – could be signs of something worth investigating up ahead on the north road.",
+    "sanitized": "Morning! Traveling looks like you've got some miles under your belt. You might want to take a closer look at that fresh road kit – could be signs of something worth investigating up ahead on the north road.",
+    "cleanBeforeCommands": "Morning! Traveling looks like you've got some miles under your belt. You might want to take a closer look at that fresh road kit – could be signs of something worth investigating up ahead on the north road.",
+    "shapedHud": "Morning! Traveling looks like you've got some miles under your belt. You might want to take a closer look at that fresh road kit – could be signs of something worth investigating up ahead on the north road.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

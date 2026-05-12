@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Can't rightly tell you what changed, but I do know there's been some peculiar happenings out on the north road. We've had reports of strange lights and sounds that don't seem quite natural. Might be worth takin' a gander yourself, if you're plannin' on headin' that way.",
-    "sanitized": "Can't rightly tell you what changed, but I do know there's been some peculiar happenings out on the north road. We've had reports of strange lights and sounds that don't seem quite natural. Might be worth takin' a gander yourself, if you're plannin' on headin' that way.",
-    "cleanBeforeCommands": "Can't rightly tell you what changed, but I do know there's been some peculiar happenings out on the north road. We've had reports of strange lights and sounds that don't seem quite natural. Might be worth takin' a gander yourself, if you're plannin' on headin' that way.",
-    "shapedHud": "Can't rightly tell you what changed, but I do know there's been some peculiar happenings out on the north road. We've had reports of strange lights and sounds that don't seem quite natural. Might be worth takin' a gander yourself, if you're plannin' on headin' that way.",
+    "rawAssistant": "To be honest, I've not had a chance to really dig into the updates personally, but Thornbeast's news from earlier today says it was the recent storm that washed away some of the debris on the north road. It might just make things cleaner for you and your party to navigate through.",
+    "sanitized": "To be honest, I've not had a chance to really dig into the updates personally, but Thornbeast's news from earlier today says it was the recent storm that washed away some of the debris on the north road. It might just make things cleaner for you and your party to navigate through.",
+    "cleanBeforeCommands": "To be honest, I've not had a chance to really dig into the updates personally, but Thornbeast's news from earlier today says it was the recent storm that washed away some of the debris on the north road. It might just make things cleaner for you and your party to navigate through.",
+    "shapedHud": "To be honest, I've not had a chance to really dig into the updates personally, but Thornbeast's news from earlier today says it was the recent storm that washed away some of the debris on the north road. It might just make things cleaner for you and your party to navigate through.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Tomorrow's work will be done too late if you don't pay attention to details. Before heading out, double-check your lanterns for any damage from that last gale - we can't afford to lose a single candle in the dark.",
-    "sanitized": "Tomorrow's work will be done too late if you don't pay attention to details. Before heading out, double-check your lanterns for any damage from that last gale - we can't afford to lose a single candle in the dark.",
-    "cleanBeforeCommands": "Tomorrow's work will be done too late if you don't pay attention to details. Before heading out, double-check your lanterns for any damage from that last gale - we can't afford to lose a single candle in the dark.",
-    "shapedHud": "Tomorrow's work will be done too late if you don't pay attention to details. Before heading out, double-check your lanterns for any damage from that last gale - we can't afford to lose a single candle in the dark.",
+    "rawAssistant": "Don't bother leaving so early when you haven't even checked that road for signs yet! Fresh mud and debris everywhere - it's a mess. Make sure to take a closer look at the one side road and see if there's anything out of the ordinary before heading off. You never know what might have been missed in the chaos.",
+    "sanitized": "Don't bother leaving so early when you haven't even checked that road for signs yet! Fresh mud and debris everywhere - it's a mess. Make sure to take a closer look at the one side road and see if there's anything out of the ordinary before heading off. You never know what might have been missed in the chaos.",
+    "cleanBeforeCommands": "Don't bother leaving so early when you haven't even checked that road for signs yet! Fresh mud and debris everywhere - it's a mess. Make sure to take a closer look at the one side road and see if there's anything out of the ordinary before heading off. You never know what might have been missed in the chaos.",
+    "shapedHud": "Don't bother leaving so early when you haven't even checked that road for signs yet! Fresh mud and debris everywhere - it's a mess. Make sure to take a closer look at the one side road and see if there's anything out of the ordinary before heading off. You never know what might have been missed in the chaos.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

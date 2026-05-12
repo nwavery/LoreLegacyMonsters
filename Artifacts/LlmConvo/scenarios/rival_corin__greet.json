@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Looks like you're not wasting any time getting back on the road. Those fresh signs on the side road could be worth a closer look - might just give us an edge on where to start digging for answers about that glow in the lowlands.",
-    "sanitized": "Looks like you're not wasting any time getting back on the road. Those fresh signs on the side road could be worth a closer look - might just give us an edge on where to start digging for answers about that glow in the lowlands.",
-    "cleanBeforeCommands": "Looks like you're not wasting any time getting back on the road. Those fresh signs on the side road could be worth a closer look - might just give us an edge on where to start digging for answers about that glow in the lowlands.",
-    "shapedHud": "Looks like you're not wasting any time getting back on the road. Those fresh signs on the side road could be worth a closer look - might just give us an edge on where to start digging for answers about that glow in the lowlands.",
+    "rawAssistant": "You're still here after that midnight rain. Must be the glow's pull drawing you back to Hollowfen. Looks like your road kit could use a bit of a cleaning – those charms and vials might come in handy if you're planning on investigating those lowland glows further.",
+    "sanitized": "You're still here after that midnight rain. Must be the glow's pull drawing you back to Hollowfen. Looks like your road kit could use a bit of a cleaning – those charms and vials might come in handy if you're planning on investigating those lowland glows further.",
+    "cleanBeforeCommands": "You're still here after that midnight rain. Must be the glow's pull drawing you back to Hollowfen. Looks like your road kit could use a bit of a cleaning – those charms and vials might come in handy if you're planning on investigating those lowland glows further.",
+    "shapedHud": "You're still here after that midnight rain. Must be the glow's pull drawing you back to Hollowfen. Looks like your road kit could use a bit of a cleaning – those charms and vials might come in handy if you're planning on investigating those lowland glows further.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

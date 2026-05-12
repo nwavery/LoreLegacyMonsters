@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Another weary soul seeking shelter and guidance. I see you're taking a cautious approach to your journey – and rightly so, given Hollowfen's...unsettling history. Be sure to inspect that road thoroughly; those signs could be more than just the usual trappings of Marsh life.",
-    "sanitized": "Another weary soul seeking shelter and guidance. I see you're taking a cautious approach to your journey – and rightly so, given Hollowfen's...unsettling history. Be sure to inspect that road thoroughly; those signs could be more than just the usual trappings of Marsh life.",
-    "cleanBeforeCommands": "Another weary soul seeking shelter and guidance. I see you're taking a cautious approach to your journey – and rightly so, given Hollowfen's...unsettling history. Be sure to inspect that road thoroughly; those signs could be more than just the usual trappings of Marsh life.",
-    "shapedHud": "Another weary soul seeking shelter and guidance. I see you're taking a cautious approach to your journey – and rightly so, given Hollowfen's...unsettling history. Be sure to inspect that road thoroughly; those signs could be more than just the usual trappings of Marsh life.",
+    "rawAssistant": "A traveler, fresh from the north road. You notice a faint dusting of small crystals on your cloak – must have picked those up near Hollowfen's glow. Fresh air might do you some good; take a moment to clear your head before deciding which path to take next.",
+    "sanitized": "A traveler, fresh from the north road. You notice a faint dusting of small crystals on your cloak – must have picked those up near Hollowfen's glow. Fresh air might do you some good; take a moment to clear your head before deciding which path to take next.",
+    "cleanBeforeCommands": "A traveler, fresh from the north road. You notice a faint dusting of small crystals on your cloak – must have picked those up near Hollowfen's glow. Fresh air might do you some good; take a moment to clear your head before deciding which path to take next.",
+    "shapedHud": "A traveler, fresh from the north road. You notice a faint dusting of small crystals on your cloak – must have picked those up near Hollowfen's glow. Fresh air might do you some good; take a moment to clear your head before deciding which path to take next.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

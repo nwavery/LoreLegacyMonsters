@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Fresh signs on this one road could be trouble. There's a thin layer of mist still clinging to the ground, and I've seen that kind of sign before – usually means something's been stirring in the underbrush. We should keep an eye out for any more signs, especially if there's an old keepsake clue around here somewhere waiting to be figured out.",
-    "sanitized": "Fresh signs on this one road could be trouble. There's a thin layer of mist still clinging to the ground, and I've seen that kind of sign before – usually means something's been stirring in the underbrush. We should keep an eye out for any more signs, especially if there's an old keepsake clue around here somewhere waiting to be figured out.",
-    "cleanBeforeCommands": "Fresh signs on this one road could be trouble. There's a thin layer of mist still clinging to the ground, and I've seen that kind of sign before – usually means something's been stirring in the underbrush. We should keep an eye out for any more signs, especially if there's an old keepsake clue around here somewhere waiting to be figured out.",
-    "shapedHud": "Fresh signs on this one road could be trouble. There's a thin layer of mist still clinging to the ground, and I've seen that kind of sign before – usually means something's been stirring in the underbrush. We should keep an eye out for any more signs, especially if there's an old keepsake clue around here somewhere waiting to be figured out.",
+    "rawAssistant": "That's a good question, traveler. One thing you should watch out for is the east road itself; with this wind blowing in from that direction, it's likely to be quite dusty and rough. And if you recall, there was some trouble reported on that stretch not long ago...",
+    "sanitized": "That's a good question, traveler. One thing you should watch out for is the east road itself; with this wind blowing in from that direction, it's likely to be quite dusty and rough. And if you recall, there was some trouble reported on that stretch not long ago...",
+    "cleanBeforeCommands": "That's a good question, traveler. One thing you should watch out for is the east road itself; with this wind blowing in from that direction, it's likely to be quite dusty and rough. And if you recall, there was some trouble reported on that stretch not long ago...",
+    "shapedHud": "That's a good question, traveler. One thing you should watch out for is the east road itself; with this wind blowing in from that direction, it's likely to be quite dusty and rough. And if you recall, there was some trouble reported on that stretch not long ago...",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "\"Mornin', you're lookin' for somethin' to do? That fresh sign on the side road's been botherin' me. Might be worth takin' a closer look, see if we can figure out what's causin' it.\"",
-    "sanitized": "\"Mornin', you're lookin' for somethin' to do? That fresh sign on the side road's been botherin' me. Might be worth takin' a closer look, see if we can figure out what's causin' it.\"",
-    "cleanBeforeCommands": "\"Mornin', you're lookin' for somethin' to do? That fresh sign on the side road's been botherin' me. Might be worth takin' a closer look, see if we can figure out what's causin' it.\"",
-    "shapedHud": "\"Mornin', you're lookin' for somethin' to do? That fresh sign on the side road's been botherin' me. Might be worth takin' a closer look, see if we can figure out what's causin' it.\"",
+    "rawAssistant": "You're lookin' to head north, eh? That side road's showin' some signs that don't feel right. You might want to take a gander at 'em before you keep movin'.",
+    "sanitized": "You're lookin' to head north, eh? That side road's showin' some signs that don't feel right. You might want to take a gander at 'em before you keep movin'.",
+    "cleanBeforeCommands": "You're lookin' to head north, eh? That side road's showin' some signs that don't feel right. You might want to take a gander at 'em before you keep movin'.",
+    "shapedHud": "You're lookin' to head north, eh? That side road's showin' some signs that don't feel right. You might want to take a gander at 'em before you keep movin'.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

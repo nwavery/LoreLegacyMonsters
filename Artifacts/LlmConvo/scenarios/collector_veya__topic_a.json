@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Just a curious soul like yourself, eh? I'm Veya, collector of rare finds and tales. What brings you to Hollowfen on this misty day? Heard there's some interest in lowland glows...",
-    "sanitized": "Just a curious soul like yourself, eh? I'm Veya, collector of rare finds and tales. What brings you to Hollowfen on this misty day? Heard there's some interest in lowland glows...",
-    "cleanBeforeCommands": "Just a curious soul like yourself, eh? I'm Veya, collector of rare finds and tales. What brings you to Hollowfen on this misty day? Heard there's some interest in lowland glows...",
-    "shapedHud": "Just a curious soul like yourself, eh? I'm Veya, collector of rare finds and tales. What brings you to Hollowfen on this misty day? Heard there's some interest in lowland glows...",
+    "rawAssistant": "Scout warning still fresh in my mind, actually - looks like Hollowfen had a close encounter with something not entirely pleasant. What brings you to this part of the lowlands today?",
+    "sanitized": "Scout warning still fresh in my mind, actually - looks like Hollowfen had a close encounter with something not entirely pleasant. What brings you to this part of the lowlands today?",
+    "cleanBeforeCommands": "Scout warning still fresh in my mind, actually - looks like Hollowfen had a close encounter with something not entirely pleasant. What brings you to this part of the lowlands today?",
+    "shapedHud": "Scout warning still fresh in my mind, actually - looks like Hollowfen had a close encounter with something not entirely pleasant. What brings you to this part of the lowlands today?",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

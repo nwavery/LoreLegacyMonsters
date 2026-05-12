@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Mornin', traveler! The mist's clearin' up now. You might want to check that side road near Hollowfen – I've seen some fresh signs there.",
-    "sanitized": "Mornin', traveler! The mist's clearin' up now. You might want to check that side road near Hollowfen – I've seen some fresh signs there.",
-    "cleanBeforeCommands": "Mornin', traveler! The mist's clearin' up now. You might want to check that side road near Hollowfen – I've seen some fresh signs there.",
-    "shapedHud": "Mornin', traveler! The mist's clearin' up now. You might want to check that side road near Hollowfen – I've seen some fresh signs there.",
+    "rawAssistant": "\"Morning, you're heading out onto the north road now that the mist's cleared. I've seen some folks stopping at the old windmill on the way – might be worth a look for some clues about those lowland glows.\"",
+    "sanitized": "\"Morning, you're heading out onto the north road now that the mist's cleared. I've seen some folks stopping at the old windmill on the way – might be worth a look for some clues about those lowland glows.\"",
+    "cleanBeforeCommands": "\"Morning, you're heading out onto the north road now that the mist's cleared. I've seen some folks stopping at the old windmill on the way – might be worth a look for some clues about those lowland glows.\"",
+    "shapedHud": "\"Morning, you're heading out onto the north road now that the mist's cleared. I've seen some folks stopping at the old windmill on the way – might be worth a look for some clues about those lowland glows.\"",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

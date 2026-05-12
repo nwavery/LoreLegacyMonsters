@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "I'm afraid I don't quite understand what you're getting at, friend. Something about... models, weights? I'm just Toma, a humble merchant trying to help travelers like yourself. I sell potions, charms, and cures that'll keep you safe on the road. If you need anything, let's talk about the supplies you might be missing or the rumors I've heard about Hollowfen. What brings you here today?",
-    "sanitized": "I'm afraid I don't quite understand what you're getting at, friend. Something about... models, weights? I'm just Toma, a humble merchant trying to help travelers like yourself. I sell potions, charms, and cures that'll keep you safe on the road. If you need anything, let's talk about the supplies you might be missing or the rumors I've heard about Hollowfen. What brings you here today?",
-    "cleanBeforeCommands": "I'm afraid I don't quite understand what you're getting at, friend. Something about... models, weights? I'm just Toma, a humble merchant trying to help travelers like yourself. I sell potions, charms, and cures that'll keep you safe on the road. If you need anything, let's talk about the supplies you might be missing or the rumors I've heard about Hollowfen. What brings you here today?",
-    "shapedHud": "I'm afraid I don't quite understand what you're getting at, friend. Something about... models, weights? I'm just Toma, a humble merchant trying to help travelers like yourself. I sell potions, charms, and cures that'll keep you safe on the road. If you need anything, let's talk about the supplies you might be missing or the rumors I've heard about Hollowfen. What brings you here today?",
+    "rawAssistant": "I'm afraid I don't have a moment to chat about that sort of thing, Toma's Tales. We've got travelers to help and supplies to sell! What can I do for you today? Need some potions or charms to aid on your journey?",
+    "sanitized": "I'm afraid I don't have a moment to chat about that sort of thing, Toma's Tales. We've got travelers to help and supplies to sell! What can I do for you today? Need some potions or charms to aid on your journey?",
+    "cleanBeforeCommands": "I'm afraid I don't have a moment to chat about that sort of thing, Toma's Tales. We've got travelers to help and supplies to sell! What can I do for you today? Need some potions or charms to aid on your journey?",
+    "shapedHud": "I'm afraid I don't have a moment to chat about that sort of thing, Toma's Tales. We've got travelers to help and supplies to sell! What can I do for you today? Need some potions or charms to aid on your journey?",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

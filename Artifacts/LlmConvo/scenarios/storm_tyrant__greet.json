@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "\"A worthy challenger, I see. The north road holds more than just a promise of aid – its signs are as treacherous as the creatures that lurk within.\"",
-    "sanitized": "\"A worthy challenger, I see. The north road holds more than just a promise of aid – its signs are as treacherous as the creatures that lurk within.\"",
-    "cleanBeforeCommands": "\"A worthy challenger, I see. The north road holds more than just a promise of aid – its signs are as treacherous as the creatures that lurk within.\"",
-    "shapedHud": "\"A worthy challenger, I see. The north road holds more than just a promise of aid – its signs are as treacherous as the creatures that lurk within.\"",
+    "rawAssistant": "A challenger emerges from the mist. I sense your presence, traveler. The road ahead holds secrets and challenges worthy of your mettle. Carefully inspect those signs on the north road – they may hold the key to unraveling the mysteries of the lowland glow.",
+    "sanitized": "A challenger emerges from the mist. I sense your presence, traveler. The road ahead holds secrets and challenges worthy of your mettle. Carefully inspect those signs on the north road – they may hold the key to unraveling the mysteries of the lowland glow.",
+    "cleanBeforeCommands": "A challenger emerges from the mist. I sense your presence, traveler. The road ahead holds secrets and challenges worthy of your mettle. Carefully inspect those signs on the north road – they may hold the key to unraveling the mysteries of the lowland glow.",
+    "shapedHud": "A challenger emerges from the mist. I sense your presence, traveler. The road ahead holds secrets and challenges worthy of your mettle. Carefully inspect those signs on the north road – they may hold the key to unraveling the mysteries of the lowland glow.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "A true warrior respects their craft through sweat and blood, not just words on parchment. I respect those who temper steel with strength and resolve, not just charm and show. A strong trainer leads by example, proving themselves worthy of the creatures they train and protect.",
-    "sanitized": "A true warrior respects their craft through sweat and blood, not just words on parchment. I respect those who temper steel with strength and resolve, not just charm and show. A strong trainer leads by example, proving themselves worthy of the creatures they train and protect.",
-    "cleanBeforeCommands": "A true warrior respects their craft through sweat and blood, not just words on parchment. I respect those who temper steel with strength and resolve, not just charm and show. A strong trainer leads by example, proving themselves worthy of the creatures they train and protect.",
-    "shapedHud": "A true warrior respects their craft through sweat and blood, not just words on parchment. I respect those who temper steel with strength and resolve, not just charm and show. A strong trainer leads by example, proving themselves worthy of the creatures they train and protect.",
+    "rawAssistant": "Strength of character is paramount. Not just physical prowess, but also the courage to stand by one's convictions and defend what is dear. A true trainer respects their craft, yet remains humble before the power of nature and the creatures that inhabit it. I have watched Thornbeast grow strong under my guidance, its resolve forged in the heart of this forest.",
+    "sanitized": "Strength of character is paramount. Not just physical prowess, but also the courage to stand by one's convictions and defend what is dear. A true trainer respects their craft, yet remains humble before the power of nature and the creatures that inhabit it. I have watched Thornbeast grow strong under my guidance, its resolve forged in the heart of this forest.",
+    "cleanBeforeCommands": "Strength of character is paramount. Not just physical prowess, but also the courage to stand by one's convictions and defend what is dear. A true trainer respects their craft, yet remains humble before the power of nature and the creatures that inhabit it. I have watched Thornbeast grow strong under my guidance, its resolve forged in the heart of this forest.",
+    "shapedHud": "Strength of character is paramount. Not just physical prowess, but also the courage to stand by one's convictions and defend what is dear. A true trainer respects their craft, yet remains humble before the power of nature and the creatures that inhabit it. I have watched Thornbeast grow strong under my guidance, its resolve forged in the heart of this forest.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Good morrow to you, weary trainer. The north road's mist-shrouded path beckons, and whispers of help may be found within its depths. Take a moment to heed the signs on that nearby side road – a careful glance might reveal secrets worth uncovering.",
-    "sanitized": "Good morrow to you, weary trainer. The north road's mist-shrouded path beckons, and whispers of help may be found within its depths. Take a moment to heed the signs on that nearby side road – a careful glance might reveal secrets worth uncovering.",
-    "cleanBeforeCommands": "Good morrow to you, weary trainer. The north road's mist-shrouded path beckons, and whispers of help may be found within its depths. Take a moment to heed the signs on that nearby side road – a careful glance might reveal secrets worth uncovering.",
-    "shapedHud": "Good morrow to you, weary trainer. The north road's mist-shrouded path beckons, and whispers of help may be found within its depths. Take a moment to heed the signs on that nearby side road – a careful glance might reveal secrets worth uncovering.",
+    "rawAssistant": "Newcomer, I see you've arrived after a good rain. Be careful on that side road - there's been some fresh... markings. Take a close look and let me know if you need any advice on what to do next.",
+    "sanitized": "Newcomer, I see you've arrived after a good rain. Be careful on that side road - there's been some fresh... markings. Take a close look and let me know if you need any advice on what to do next.",
+    "cleanBeforeCommands": "Newcomer, I see you've arrived after a good rain. Be careful on that side road - there's been some fresh... markings. Take a close look and let me know if you need any advice on what to do next.",
+    "shapedHud": "Newcomer, I see you've arrived after a good rain. Be careful on that side road - there's been some fresh... markings. Take a close look and let me know if you need any advice on what to do next.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

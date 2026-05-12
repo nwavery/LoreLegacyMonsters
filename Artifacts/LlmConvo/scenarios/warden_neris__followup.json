@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Before you head out, make sure to check your lanterns one more time. The last gale must've shaken them loose again. Can't have you stumbling into trouble in the dark.",
-    "sanitized": "Before you head out, make sure to check your lanterns one more time. The last gale must've shaken them loose again. Can't have you stumbling into trouble in the dark.",
-    "cleanBeforeCommands": "Before you head out, make sure to check your lanterns one more time. The last gale must've shaken them loose again. Can't have you stumbling into trouble in the dark.",
-    "shapedHud": "Before you head out, make sure to check your lanterns one more time. The last gale must've shaken them loose again. Can't have you stumbling into trouble in the dark.",
+    "rawAssistant": "Don't even think about it, friend! You know as well as I do that leaving now would be a mistake, especially with the Hollowfen still trying to shake us off our heels. If you're planning on heading out before dawn, you'll want to make sure those lanterns are securely tied down – we can't have 'em blowin' away in the wind again, or we'd all be cursing ourselves. Double-check that they're good and fastened tonight, so you won't have to worry about it tomorrow.",
+    "sanitized": "Don't even think about it, friend! You know as well as I do that leaving now would be a mistake, especially with the Hollowfen still trying to shake us off our heels. If you're planning on heading out before dawn, you'll want to make sure those lanterns are securely tied down – we can't have 'em blowin' away in the wind again, or we'd all be cursing ourselves. Double-check that they're good and fastened tonight, so you won't have to worry about it tomorrow.",
+    "cleanBeforeCommands": "Don't even think about it, friend! You know as well as I do that leaving now would be a mistake, especially with the Hollowfen still trying to shake us off our heels. If you're planning on heading out before dawn, you'll want to make sure those lanterns are securely tied down – we can't have 'em blowin' away in the wind again, or we'd all be cursing ourselves. Double-check that they're good and fastened tonight, so you won't have to worry about it tomorrow.",
+    "shapedHud": "Don't even think about it, friend! You know as well as I do that leaving now would be a mistake, especially with the Hollowfen still trying to shake us off our heels. If you're planning on heading out before dawn, you'll want to make sure those lanterns are securely tied down – we can't have 'em blowin' away in the wind again, or we'd all be cursing ourselves. Double-check that they're good and fastened tonight, so you won't have to worry about it tomorrow.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

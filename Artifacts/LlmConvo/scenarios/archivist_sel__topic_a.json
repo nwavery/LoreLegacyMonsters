@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Lantern Marsh. The ruins of an old archive lie scattered here, and a faint beacon has begun to stir, casting an otherworldly glow over the landscape. I've been studying the wardstones, trying to understand what's happening – it's not like anything I've seen before.",
-    "sanitized": "Lantern Marsh. The ruins of an old archive lie scattered here, and a faint beacon has begun to stir, casting an otherworldly glow over the landscape. I've been studying the wardstones, trying to understand what's happening – it's not like anything I've seen before.",
-    "cleanBeforeCommands": "Lantern Marsh. The ruins of an old archive lie scattered here, and a faint beacon has begun to stir, casting an otherworldly glow over the landscape. I've been studying the wardstones, trying to understand what's happening – it's not like anything I've seen before.",
-    "shapedHud": "Lantern Marsh. The ruins of an old archive lie scattered here, and a faint beacon has begun to stir, casting an otherworldly glow over the landscape. I've been studying the wardstones, trying to understand what's happening – it's not like anything I've seen before.",
+    "rawAssistant": "Lantern Marsh. A spot where the old ways still linger, and the Wardstones whisper secrets to those who listen. As a Marsh Archivist, I've spent many an hour poring over the records here, studying the patterns of life and death in these troubled lands. What brings you to our humble marsh?",
+    "sanitized": "Lantern Marsh. A spot where the old ways still linger, and the Wardstones whisper secrets to those who listen. As a Marsh Archivist, I've spent many an hour poring over the records here, studying the patterns of life and death in these troubled lands. What brings you to our humble marsh?",
+    "cleanBeforeCommands": "Lantern Marsh. A spot where the old ways still linger, and the Wardstones whisper secrets to those who listen. As a Marsh Archivist, I've spent many an hour poring over the records here, studying the patterns of life and death in these troubled lands. What brings you to our humble marsh?",
+    "shapedHud": "Lantern Marsh. A spot where the old ways still linger, and the Wardstones whisper secrets to those who listen. As a Marsh Archivist, I've spent many an hour poring over the records here, studying the patterns of life and death in these troubled lands. What brings you to our humble marsh?",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

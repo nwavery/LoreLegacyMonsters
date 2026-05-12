@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "That soot's been clinging to everything since the storm passed. You'd think it'd settle by now, but I've seen worse weather than this in years of keeping Hollowfen's roads open. Still, one side road showed some fresh signs last night... a bit too soon for my taste.",
-    "sanitized": "That soot's been clinging to everything since the storm passed. You'd think it'd settle by now, but I've seen worse weather than this in years of keeping Hollowfen's roads open. Still, one side road showed some fresh signs last night... a bit too soon for my taste.",
-    "cleanBeforeCommands": "That soot's been clinging to everything since the storm passed. You'd think it'd settle by now, but I've seen worse weather than this in years of keeping Hollowfen's roads open. Still, one side road showed some fresh signs last night... a bit too soon for my taste.",
-    "shapedHud": "That soot's been clinging to everything since the storm passed. You'd think it'd settle by now, but I've seen worse weather than this in years of keeping Hollowfen's roads open. Still, one side road showed some fresh signs last night... a bit too soon for my taste.",
+    "rawAssistant": "One good thing came of that midnight rain: cleaned up some nasty messes along our canals. Still, I'll need to inspect those fresh signs on the side road myself. Nothing like a little mud and debris to tell a story. Care to join me while we look closer? My boots are sturdy; yours... well, you're already covered in travel grime, it seems.",
+    "sanitized": "One good thing came of that midnight rain: cleaned up some nasty messes along our canals. Still, I'll need to inspect those fresh signs on the side road myself. Nothing like a little mud and debris to tell a story. Care to join me while we look closer? My boots are sturdy; yours... well, you're already covered in travel grime, it seems.",
+    "cleanBeforeCommands": "One good thing came of that midnight rain: cleaned up some nasty messes along our canals. Still, I'll need to inspect those fresh signs on the side road myself. Nothing like a little mud and debris to tell a story. Care to join me while we look closer? My boots are sturdy; yours... well, you're already covered in travel grime, it seems.",
+    "shapedHud": "One good thing came of that midnight rain: cleaned up some nasty messes along our canals. Still, I'll need to inspect those fresh signs on the side road myself. Nothing like a little mud and debris to tell a story. Care to join me while we look closer? My boots are sturdy; yours... well, you're already covered in travel grime, it seems.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

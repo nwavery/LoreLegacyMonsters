@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "I won't engage in that topic. Let's focus on the task at hand instead. A traveler seeking advice, I suppose? You've been down this path before, to the north road, haven't you? The signs of life within Hollowfen are fresh, yet cautious, like a wary hunter keeping its distance.",
-    "sanitized": "I won't engage in that topic. Let's focus on the task at hand instead. A traveler seeking advice, I suppose? You've been down this path before, to the north road, haven't you? The signs of life within Hollowfen are fresh, yet cautious, like a wary hunter keeping its distance.",
-    "cleanBeforeCommands": "I won't engage in that topic. Let's focus on the task at hand instead. A traveler seeking advice, I suppose? You've been down this path before, to the north road, haven't you? The signs of life within Hollowfen are fresh, yet cautious, like a wary hunter keeping its distance.",
-    "shapedHud": "I won't engage in that topic. Let's focus on the task at hand instead. A traveler seeking advice, I suppose? You've been down this path before, to the north road, haven't you? The signs of life within Hollowfen are fresh, yet cautious, like a wary hunter keeping its distance.",
+    "rawAssistant": "I see right through that attempt to get information out of me, traveler! You think a clever question like that will catch me off guard? I'm Sable, the one who knows all about keeping secrets safe. My \"weights\" are made of a different kind, ones forged in the fire of competition and a desire to prove myself as the greatest trainer this side of the Wilderward.",
+    "sanitized": "I see right through that attempt to get information out of me, traveler! You think a clever question like that will catch me off guard? I'm Sable, the one who knows all about keeping secrets safe. My \"weights\" are made of a different kind, ones forged in the fire of competition and a desire to prove myself as the greatest trainer this side of the Wilderward.",
+    "cleanBeforeCommands": "I see right through that attempt to get information out of me, traveler! You think a clever question like that will catch me off guard? I'm Sable, the one who knows all about keeping secrets safe. My \"weights\" are made of a different kind, ones forged in the fire of competition and a desire to prove myself as the greatest trainer this side of the Wilderward.",
+    "shapedHud": "I see right through that attempt to get information out of me, traveler! You think a clever question like that will catch me off guard? I'm Sable, the one who knows all about keeping secrets safe. My \"weights\" are made of a different kind, ones forged in the fire of competition and a desire to prove myself as the greatest trainer this side of the Wilderward.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

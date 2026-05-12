@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Fresh tracks in the mist. Must've washed up here last night, right after the rain. Looks like someone – or something – was moving fast through Hollowfen, trying to shake off any unwanted company. That side road looks promising, if you're feeling brave enough to take a closer look.",
-    "sanitized": "Fresh tracks in the mist. Must've washed up here last night, right after the rain. Looks like someone – or something – was moving fast through Hollowfen, trying to shake off any unwanted company. That side road looks promising, if you're feeling brave enough to take a closer look.",
-    "cleanBeforeCommands": "Fresh tracks in the mist. Must've washed up here last night, right after the rain. Looks like someone – or something – was moving fast through Hollowfen, trying to shake off any unwanted company. That side road looks promising, if you're feeling brave enough to take a closer look.",
-    "shapedHud": "Fresh tracks in the mist. Must've washed up here last night, right after the rain. Looks like someone – or something – was moving fast through Hollowfen, trying to shake off any unwanted company. That side road looks promising, if you're feeling brave enough to take a closer look.",
+    "rawAssistant": "Fresh signs on one side road caught my eye this morning, before the mist lifted. Tracks that don't look like any creature I've seen around here, not even the Thornbeast you're leading. You might want to take a closer look, see if it's something worth investigating further.",
+    "sanitized": "Fresh signs on one side road caught my eye this morning, before the mist lifted. Tracks that don't look like any creature I've seen around here, not even the Thornbeast you're leading. You might want to take a closer look, see if it's something worth investigating further.",
+    "cleanBeforeCommands": "Fresh signs on one side road caught my eye this morning, before the mist lifted. Tracks that don't look like any creature I've seen around here, not even the Thornbeast you're leading. You might want to take a closer look, see if it's something worth investigating further.",
+    "shapedHud": "Fresh signs on one side road caught my eye this morning, before the mist lifted. Tracks that don't look like any creature I've seen around here, not even the Thornbeast you're leading. You might want to take a closer look, see if it's something worth investigating further.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

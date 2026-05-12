@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Mist's clearing, and the road ahead seems a bit more inviting. Take another look at those fresh signs - they might give you some insight into what's been stirring out here.",
-    "sanitized": "Mist's clearing, and the road ahead seems a bit more inviting. Take another look at those fresh signs - they might give you some insight into what's been stirring out here.",
-    "cleanBeforeCommands": "Mist's clearing, and the road ahead seems a bit more inviting. Take another look at those fresh signs - they might give you some insight into what's been stirring out here.",
-    "shapedHud": "Mist's clearing, and the road ahead seems a bit more inviting. Take another look at those fresh signs - they might give you some insight into what's been stirring out here.",
+    "rawAssistant": "\"Midnight rain's washed away more than just dirt. Take a closer look at that one road for signs of what might be stirring.\"",
+    "sanitized": "\"Midnight rain's washed away more than just dirt. Take a closer look at that one road for signs of what might be stirring.\"",
+    "cleanBeforeCommands": "\"Midnight rain's washed away more than just dirt. Take a closer look at that one road for signs of what might be stirring.\"",
+    "shapedHud": "\"Midnight rain's washed away more than just dirt. Take a closer look at that one road for signs of what might be stirring.\"",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

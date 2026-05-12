@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Tomorrow morning, make sure to check your lanterns again; they took a beating in that last gale. Fresh oil and a good wipe might do 'em some good.",
-    "sanitized": "Tomorrow morning, make sure to check your lanterns again; they took a beating in that last gale. Fresh oil and a good wipe might do 'em some good.",
-    "cleanBeforeCommands": "Tomorrow morning, make sure to check your lanterns again; they took a beating in that last gale. Fresh oil and a good wipe might do 'em some good.",
-    "shapedHud": "Tomorrow morning, make sure to check your lanterns again; they took a beating in that last gale. Fresh oil and a good wipe might do 'em some good.",
+    "rawAssistant": "Before you head out, make sure to tighten those lanterns along the planks again - that last gale really blew them loose, and we don't want 'em flapping around in the wind when it picks up again. Double-check the boardwalks for any loose or broken boards, too.",
+    "sanitized": "Before you head out, make sure to tighten those lanterns along the planks again - that last gale really blew them loose, and we don't want 'em flapping around in the wind when it picks up again. Double-check the boardwalks for any loose or broken boards, too.",
+    "cleanBeforeCommands": "Before you head out, make sure to tighten those lanterns along the planks again - that last gale really blew them loose, and we don't want 'em flapping around in the wind when it picks up again. Double-check the boardwalks for any loose or broken boards, too.",
+    "shapedHud": "Before you head out, make sure to tighten those lanterns along the planks again - that last gale really blew them loose, and we don't want 'em flapping around in the wind when it picks up again. Double-check the boardwalks for any loose or broken boards, too.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

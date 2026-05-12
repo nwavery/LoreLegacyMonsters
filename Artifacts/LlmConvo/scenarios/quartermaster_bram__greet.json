@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "\"Ah, you're getting back on the road, eh? Mist's clearing out, but you should still be careful. That road kit might come in handy with all the signs you found this morning.\"",
-    "sanitized": "\"Ah, you're getting back on the road, eh? Mist's clearing out, but you should still be careful. That road kit might come in handy with all the signs you found this morning.\"",
-    "cleanBeforeCommands": "\"Ah, you're getting back on the road, eh? Mist's clearing out, but you should still be careful. That road kit might come in handy with all the signs you found this morning.\"",
-    "shapedHud": "\"Ah, you're getting back on the road, eh? Mist's clearing out, but you should still be careful. That road kit might come in handy with all the signs you found this morning.\"",
+    "rawAssistant": "Good morrow! Fresh tracks on the nearby road suggest it's safe to investigate. Make sure your charms are set for rough terrain before heading out onto that path.",
+    "sanitized": "Good morrow! Fresh tracks on the nearby road suggest it's safe to investigate. Make sure your charms are set for rough terrain before heading out onto that path.",
+    "cleanBeforeCommands": "Good morrow! Fresh tracks on the nearby road suggest it's safe to investigate. Make sure your charms are set for rough terrain before heading out onto that path.",
+    "shapedHud": "Good morrow! Fresh tracks on the nearby road suggest it's safe to investigate. Make sure your charms are set for rough terrain before heading out onto that path.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

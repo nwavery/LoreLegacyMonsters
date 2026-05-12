@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Check in with the folks at Longshore Keep; they might've had something to do with those glow reports you're looking for, and it's worth seeing what assistance they'd be willing to offer. If the mist lingers, though, it'll be harder to get a clear read on things out there.",
-    "sanitized": "Check in with the folks at Longshore Keep; they might've had something to do with those glow reports you're looking for, and it's worth seeing what assistance they'd be willing to offer. If the mist lingers, though, it'll be harder to get a clear read on things out there.",
-    "cleanBeforeCommands": "Check in with the folks at Longshore Keep; they might've had something to do with those glow reports you're looking for, and it's worth seeing what assistance they'd be willing to offer. If the mist lingers, though, it'll be harder to get a clear read on things out there.",
-    "shapedHud": "Check in with the folks at Longshore Keep; they might've had something to do with those glow reports you're looking for, and it's worth seeing what assistance they'd be willing to offer. If the mist lingers, though, it'll be harder to get a clear read on things out there.",
+    "rawAssistant": "Head north on the main road, that's where you'll likely find some answers about these lowland glows. The village nearby might have some folk willing to share what they know. Be cautious of the area; we've had reports of increased beast sightings in those parts after dark.",
+    "sanitized": "Head north on the main road, that's where you'll likely find some answers about these lowland glows. The village nearby might have some folk willing to share what they know. Be cautious of the area; we've had reports of increased beast sightings in those parts after dark.",
+    "cleanBeforeCommands": "Head north on the main road, that's where you'll likely find some answers about these lowland glows. The village nearby might have some folk willing to share what they know. Be cautious of the area; we've had reports of increased beast sightings in those parts after dark.",
+    "shapedHud": "Head north on the main road, that's where you'll likely find some answers about these lowland glows. The village nearby might have some folk willing to share what they know. Be cautious of the area; we've had reports of increased beast sightings in those parts after dark.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

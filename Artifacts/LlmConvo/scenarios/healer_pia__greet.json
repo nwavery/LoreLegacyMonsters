@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "\"Welcome back to Hollowfen! I see you're geared up for a journey, and with that travel cloak of yours, you look like you're ready for whatever the roads bring. Why not take a moment to restock on some healing supplies before you head out? My bench is fully stocked tonight – Cold Salve, Antidote, Shock Tonic are all available.\"",
-    "sanitized": "\"Welcome back to Hollowfen! I see you're geared up for a journey, and with that travel cloak of yours, you look like you're ready for whatever the roads bring. Why not take a moment to restock on some healing supplies before you head out? My bench is fully stocked tonight – Cold Salve, Antidote, Shock Tonic are all available.\"",
-    "cleanBeforeCommands": "\"Welcome back to Hollowfen! I see you're geared up for a journey, and with that travel cloak of yours, you look like you're ready for whatever the roads bring. Why not take a moment to restock on some healing supplies before you head out? My bench is fully stocked tonight – Cold Salve, Antidote, Shock Tonic are all available.\"",
-    "shapedHud": "\"Welcome back to Hollowfen! I see you're geared up for a journey, and with that travel cloak of yours, you look like you're ready for whatever the roads bring. Why not take a moment to restock on some healing supplies before you head out? My bench is fully stocked tonight – Cold Salve, Antidote, Shock Tonic are all available.\"",
+    "rawAssistant": "Good morrow! Mist's clearing a bit now. You might want to take another gander at that road over by the Hollowfen - seems like it might be worth investigating further.",
+    "sanitized": "Good morrow! Mist's clearing a bit now. You might want to take another gander at that road over by the Hollowfen - seems like it might be worth investigating further.",
+    "cleanBeforeCommands": "Good morrow! Mist's clearing a bit now. You might want to take another gander at that road over by the Hollowfen - seems like it might be worth investigating further.",
+    "shapedHud": "Good morrow! Mist's clearing a bit now. You might want to take another gander at that road over by the Hollowfen - seems like it might be worth investigating further.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Traveler, I sense a quiet resolve about you today. The misty dawn seems to suit your prepared heart, don't it?",
-    "sanitized": "Traveler, I sense a quiet resolve about you today. The misty dawn seems to suit your prepared heart, don't it?",
-    "cleanBeforeCommands": "Traveler, I sense a quiet resolve about you today. The misty dawn seems to suit your prepared heart, don't it?",
-    "shapedHud": "Traveler, I sense a quiet resolve about you today. The misty dawn seems to suit your prepared heart, don't it?",
+    "rawAssistant": "\"Welcome to Moonwell's refuge. Tonight's misty veil lifts, and I sense a subtle unease within the well itself. The north road whispers of help, but first, let us unravel the threads of this old keepsake clue – its bond-omens may hold the key.\"",
+    "sanitized": "\"Welcome to Moonwell's refuge. Tonight's misty veil lifts, and I sense a subtle unease within the well itself. The north road whispers of help, but first, let us unravel the threads of this old keepsake clue – its bond-omens may hold the key.\"",
+    "cleanBeforeCommands": "\"Welcome to Moonwell's refuge. Tonight's misty veil lifts, and I sense a subtle unease within the well itself. The north road whispers of help, but first, let us unravel the threads of this old keepsake clue – its bond-omens may hold the key.\"",
+    "shapedHud": "\"Welcome to Moonwell's refuge. Tonight's misty veil lifts, and I sense a subtle unease within the well itself. The north road whispers of help, but first, let us unravel the threads of this old keepsake clue – its bond-omens may hold the key.\"",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

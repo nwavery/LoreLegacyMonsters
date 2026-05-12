@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Antidote, at least one of 'em. We can't afford to take any chances with that poison on Emberfox. You'll also want some Cold Salve and a Shock Tonic, just in case things get ugly. I've got Road Kit charms that might come in handy too, but let's focus on the essentials for now.",
-    "sanitized": "Antidote, at least one of 'em. We can't afford to take any chances with that poison on Emberfox. You'll also want some Cold Salve and a Shock Tonic, just in case things get ugly. I've got Road Kit charms that might come in handy too, but let's focus on the essentials for now.",
-    "cleanBeforeCommands": "Antidote, at least one of 'em. We can't afford to take any chances with that poison on Emberfox. You'll also want some Cold Salve and a Shock Tonic, just in case things get ugly. I've got Road Kit charms that might come in handy too, but let's focus on the essentials for now.",
-    "shapedHud": "Antidote, at least one of 'em. We can't afford to take any chances with that poison on Emberfox. You'll also want some Cold Salve and a Shock Tonic, just in case things get ugly. I've got Road Kit charms that might come in handy too, but let's focus on the essentials for now.",
+    "rawAssistant": "Marsh travel, eh? Got to watch out for that poison on Emberfox. You'll need some Antidote, at least one vial. Maybe a Shock Tonic if you haven't got some of those already in your kit. And don't forget Cold Salve, just in case things get chilly. I also recommend a few more bedrolls and some twine – can never have too much on the road.",
+    "sanitized": "Marsh travel, eh? Got to watch out for that poison on Emberfox. You'll need some Antidote, at least one vial. Maybe a Shock Tonic if you haven't got some of those already in your kit. And don't forget Cold Salve, just in case things get chilly. I also recommend a few more bedrolls and some twine – can never have too much on the road.",
+    "cleanBeforeCommands": "Marsh travel, eh? Got to watch out for that poison on Emberfox. You'll need some Antidote, at least one vial. Maybe a Shock Tonic if you haven't got some of those already in your kit. And don't forget Cold Salve, just in case things get chilly. I also recommend a few more bedrolls and some twine – can never have too much on the road.",
+    "shapedHud": "Marsh travel, eh? Got to watch out for that poison on Emberfox. You'll need some Antidote, at least one vial. Maybe a Shock Tonic if you haven't got some of those already in your kit. And don't forget Cold Salve, just in case things get chilly. I also recommend a few more bedrolls and some twine – can never have too much on the road.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

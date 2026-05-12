@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Tomorrow's work won't get done if you're gone before dawn. You'd best double-check your lanterns and road kit charms. Can't have 'em blowin' away again, especially not when the mist starts liftin'. We've had some... issues with that lately.",
-    "sanitized": "Tomorrow's work won't get done if you're gone before dawn. You'd best double-check your lanterns and road kit charms. Can't have 'em blowin' away again, especially not when the mist starts liftin'. We've had some... issues with that lately.",
-    "cleanBeforeCommands": "Tomorrow's work won't get done if you're gone before dawn. You'd best double-check your lanterns and road kit charms. Can't have 'em blowin' away again, especially not when the mist starts liftin'. We've had some... issues with that lately.",
-    "shapedHud": "Tomorrow's work won't get done if you're gone before dawn. You'd best double-check your lanterns and road kit charms. Can't have 'em blowin' away again, especially not when the mist starts liftin'. We've had some... issues with that lately.",
+    "rawAssistant": "Tomorrow'll be a busy day 'round here. Can't tighten anything till then, but I reckon you should make sure those lanterns are secure on the planks for good measure. Last gale came through like a scythe and near wiped out our lighting. Don't want no accidents while you're makin' your way north.",
+    "sanitized": "Tomorrow'll be a busy day 'round here. Can't tighten anything till then, but I reckon you should make sure those lanterns are secure on the planks for good measure. Last gale came through like a scythe and near wiped out our lighting. Don't want no accidents while you're makin' your way north.",
+    "cleanBeforeCommands": "Tomorrow'll be a busy day 'round here. Can't tighten anything till then, but I reckon you should make sure those lanterns are secure on the planks for good measure. Last gale came through like a scythe and near wiped out our lighting. Don't want no accidents while you're makin' your way north.",
+    "shapedHud": "Tomorrow'll be a busy day 'round here. Can't tighten anything till then, but I reckon you should make sure those lanterns are secure on the planks for good measure. Last gale came through like a scythe and near wiped out our lighting. Don't want no accidents while you're makin' your way north.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "A hasty departure doesn't suit a seasoned adventurer like yourself, traveler. Before you head out into the light, make sure to inspect those lanterns one more time - they might've been damaged in that last gale, and a loose wire could be a hazard on the road ahead.",
-    "sanitized": "A hasty departure doesn't suit a seasoned adventurer like yourself, traveler. Before you head out into the light, make sure to inspect those lanterns one more time - they might've been damaged in that last gale, and a loose wire could be a hazard on the road ahead.",
-    "cleanBeforeCommands": "A hasty departure doesn't suit a seasoned adventurer like yourself, traveler. Before you head out into the light, make sure to inspect those lanterns one more time - they might've been damaged in that last gale, and a loose wire could be a hazard on the road ahead.",
-    "shapedHud": "A hasty departure doesn't suit a seasoned adventurer like yourself, traveler. Before you head out into the light, make sure to inspect those lanterns one more time - they might've been damaged in that last gale, and a loose wire could be a hazard on the road ahead.",
+    "rawAssistant": "Before you head out so soon, make sure you've got a clear view of those lanterns on the planks. They were blown loose by that last gale, and it'd be a shame if they got lost in the mist again. Don't want you to be worrying about something simple when you're already heading into the unknown.",
+    "sanitized": "Before you head out so soon, make sure you've got a clear view of those lanterns on the planks. They were blown loose by that last gale, and it'd be a shame if they got lost in the mist again. Don't want you to be worrying about something simple when you're already heading into the unknown.",
+    "cleanBeforeCommands": "Before you head out so soon, make sure you've got a clear view of those lanterns on the planks. They were blown loose by that last gale, and it'd be a shame if they got lost in the mist again. Don't want you to be worrying about something simple when you're already heading into the unknown.",
+    "shapedHud": "Before you head out so soon, make sure you've got a clear view of those lanterns on the planks. They were blown loose by that last gale, and it'd be a shame if they got lost in the mist again. Don't want you to be worrying about something simple when you're already heading into the unknown.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

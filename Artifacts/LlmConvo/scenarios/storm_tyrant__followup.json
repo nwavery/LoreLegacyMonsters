@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Tomorrow's repairs will wait until morning's light. For now, check that lantern string which was blown loose during last gale. See if any other damage has crept in while you slept.",
-    "sanitized": "Tomorrow's repairs will wait until morning's light. For now, check that lantern string which was blown loose during last gale. See if any other damage has crept in while you slept.",
-    "cleanBeforeCommands": "Tomorrow's repairs will wait until morning's light. For now, check that lantern string which was blown loose during last gale. See if any other damage has crept in while you slept.",
-    "shapedHud": "Tomorrow's repairs will wait until morning's light. For now, check that lantern string which was blown loose during last gale. See if any other damage has crept in while you slept.",
+    "rawAssistant": "Traveler, you seek to flee before dawn, do you? Very well, if you depart too early, make certain the lanterns on your path are secure. The last storm that passed left them askew, and I would not have you face another tempest with loose candles. Tighten those lanterns for me tomorrow, and we shall speak of your journey once more.",
+    "sanitized": "Traveler, you seek to flee before dawn, do you? Very well, if you depart too early, make certain the lanterns on your path are secure. The last storm that passed left them askew, and I would not have you face another tempest with loose candles. Tighten those lanterns for me tomorrow, and we shall speak of your journey once more.",
+    "cleanBeforeCommands": "Traveler, you seek to flee before dawn, do you? Very well, if you depart too early, make certain the lanterns on your path are secure. The last storm that passed left them askew, and I would not have you face another tempest with loose candles. Tighten those lanterns for me tomorrow, and we shall speak of your journey once more.",
+    "shapedHud": "Traveler, you seek to flee before dawn, do you? Very well, if you depart too early, make certain the lanterns on your path are secure. The last storm that passed left them askew, and I would not have you face another tempest with loose candles. Tighten those lanterns for me tomorrow, and we shall speak of your journey once more.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

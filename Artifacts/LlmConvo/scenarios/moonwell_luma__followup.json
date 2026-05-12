@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "As you prepare to depart, remember to inspect your lanterns once more. The last gale must have loosened some of the straps; it'd be a shame for them to blow away again in the morning's wind. And while you're at it, take a glance at Gremlin's claws – they might've picked up any signs on that one roadside that caught your eye earlier.",
-    "sanitized": "As you prepare to depart, remember to inspect your lanterns once more. The last gale must have loosened some of the straps; it'd be a shame for them to blow away again in the morning's wind. And while you're at it, take a glance at Gremlin's claws – they might've picked up any signs on that one roadside that caught your eye earlier.",
-    "cleanBeforeCommands": "As you prepare to depart, remember to inspect your lanterns once more. The last gale must have loosened some of the straps; it'd be a shame for them to blow away again in the morning's wind. And while you're at it, take a glance at Gremlin's claws – they might've picked up any signs on that one roadside that caught your eye earlier.",
-    "shapedHud": "As you prepare to depart, remember to inspect your lanterns once more. The last gale must have loosened some of the straps; it'd be a shame for them to blow away again in the morning's wind. And while you're at it, take a glance at Gremlin's claws – they might've picked up any signs on that one roadside that caught your eye earlier.",
+    "rawAssistant": "The morning light will reveal much that was hidden in the mist. Tomorrow, indeed, check your lanterns once more. Make sure the cord is not frayed and the metalwork is secure. The winds of Hollowfen can be unforgiving, but a well-tended lantern should guide you safely through the darkness.",
+    "sanitized": "The morning light will reveal much that was hidden in the mist. Tomorrow, indeed, check your lanterns once more. Make sure the cord is not frayed and the metalwork is secure. The winds of Hollowfen can be unforgiving, but a well-tended lantern should guide you safely through the darkness.",
+    "cleanBeforeCommands": "The morning light will reveal much that was hidden in the mist. Tomorrow, indeed, check your lanterns once more. Make sure the cord is not frayed and the metalwork is secure. The winds of Hollowfen can be unforgiving, but a well-tended lantern should guide you safely through the darkness.",
+    "shapedHud": "The morning light will reveal much that was hidden in the mist. Tomorrow, indeed, check your lanterns once more. Make sure the cord is not frayed and the metalwork is secure. The winds of Hollowfen can be unforgiving, but a well-tended lantern should guide you safely through the darkness.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

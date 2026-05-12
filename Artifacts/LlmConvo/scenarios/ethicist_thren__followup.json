@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "I must admit, I'm concerned about your Thornbeast's state of mind after that drill. Before you consider leaving, perhaps we should focus on rebuilding trust. Have you checked the bond strain on your monster recently? We have monitors at Moonwell for just such situations...",
-    "sanitized": "I must admit, I'm concerned about your Thornbeast's state of mind after that drill. Before you consider leaving, perhaps we should focus on rebuilding trust. Have you checked the bond strain on your monster recently? We have monitors at Moonwell for just such situations...",
-    "cleanBeforeCommands": "I must admit, I'm concerned about your Thornbeast's state of mind after that drill. Before you consider leaving, perhaps we should focus on rebuilding trust. Have you checked the bond strain on your monster recently? We have monitors at Moonwell for just such situations...",
-    "shapedHud": "I must admit, I'm concerned about your Thornbeast's state of mind after that drill. Before you consider leaving, perhaps we should focus on rebuilding trust. Have you checked the bond strain on your monster recently? We have monitors at Moonwell for just such situations...",
+    "rawAssistant": "Before you depart, may I inquire about your intentions? Are you ensuring that Thornbeast is properly secured and rested for its journey, or perhaps checking the road ahead to avoid any potential dangers? As a Monster Ethicist, it pains me to see even a moment of distress in our bond.",
+    "sanitized": "Before you depart, may I inquire about your intentions? Are you ensuring that Thornbeast is properly secured and rested for its journey, or perhaps checking the road ahead to avoid any potential dangers? As a Monster Ethicist, it pains me to see even a moment of distress in our bond.",
+    "cleanBeforeCommands": "Before you depart, may I inquire about your intentions? Are you ensuring that Thornbeast is properly secured and rested for its journey, or perhaps checking the road ahead to avoid any potential dangers? As a Monster Ethicist, it pains me to see even a moment of distress in our bond.",
+    "shapedHud": "Before you depart, may I inquire about your intentions? Are you ensuring that Thornbeast is properly secured and rested for its journey, or perhaps checking the road ahead to avoid any potential dangers? As a Monster Ethicist, it pains me to see even a moment of distress in our bond.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

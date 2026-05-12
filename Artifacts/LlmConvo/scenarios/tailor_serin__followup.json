@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Leaving early can be a gamble in Hollowfen weather – if you're planning to head out by dawn, make sure your lanterns are securely fastened; that last gale nearly knocked them loose from the planks.",
-    "sanitized": "Leaving early can be a gamble in Hollowfen weather – if you're planning to head out by dawn, make sure your lanterns are securely fastened; that last gale nearly knocked them loose from the planks.",
-    "cleanBeforeCommands": "Leaving early can be a gamble in Hollowfen weather – if you're planning to head out by dawn, make sure your lanterns are securely fastened; that last gale nearly knocked them loose from the planks.",
-    "shapedHud": "Leaving early can be a gamble in Hollowfen weather – if you're planning to head out by dawn, make sure your lanterns are securely fastened; that last gale nearly knocked them loose from the planks.",
+    "rawAssistant": "Tomorrow's errands won't wait, but a traveler who leaves before dawn is best prepared for anything. Double-check that your road kit is still intact, especially the vials and twine – those can be lifesavers on a long journey. And don't forget to adjust your cloak's hem; I recall you mentioned it was a bit worn after last night's windstorm.",
+    "sanitized": "Tomorrow's errands won't wait, but a traveler who leaves before dawn is best prepared for anything. Double-check that your road kit is still intact, especially the vials and twine – those can be lifesavers on a long journey. And don't forget to adjust your cloak's hem; I recall you mentioned it was a bit worn after last night's windstorm.",
+    "cleanBeforeCommands": "Tomorrow's errands won't wait, but a traveler who leaves before dawn is best prepared for anything. Double-check that your road kit is still intact, especially the vials and twine – those can be lifesavers on a long journey. And don't forget to adjust your cloak's hem; I recall you mentioned it was a bit worn after last night's windstorm.",
+    "shapedHud": "Tomorrow's errands won't wait, but a traveler who leaves before dawn is best prepared for anything. Double-check that your road kit is still intact, especially the vials and twine – those can be lifesavers on a long journey. And don't forget to adjust your cloak's hem; I recall you mentioned it was a bit worn after last night's windstorm.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }
