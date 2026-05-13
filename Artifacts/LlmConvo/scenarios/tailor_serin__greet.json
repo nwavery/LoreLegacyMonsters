@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Morning! Traveling looks like you've got some miles under your belt. You might want to take a closer look at that fresh road kit – could be signs of something worth investigating up ahead on the north road.",
-    "sanitized": "Morning! Traveling looks like you've got some miles under your belt. You might want to take a closer look at that fresh road kit – could be signs of something worth investigating up ahead on the north road.",
-    "cleanBeforeCommands": "Morning! Traveling looks like you've got some miles under your belt. You might want to take a closer look at that fresh road kit – could be signs of something worth investigating up ahead on the north road.",
-    "shapedHud": "Morning! Traveling looks like you've got some miles under your belt. You might want to take a closer look at that fresh road kit – could be signs of something worth investigating up ahead on the north road.",
+    "rawAssistant": "\"Traveler, you look like someone who's seen a few miles. The signs on that side road of yours don't look like just any ordinary wash, do they? You might want to take a closer look before nightfall.\"",
+    "sanitized": "\"Traveler, you look like someone who's seen a few miles. The signs on that side road of yours don't look like just any ordinary wash, do they? You might want to take a closer look before nightfall.\"",
+    "cleanBeforeCommands": "\"Traveler, you look like someone who's seen a few miles. The signs on that side road of yours don't look like just any ordinary wash, do they? You might want to take a closer look before nightfall.\"",
+    "shapedHud": "\"Traveler, you look like someone who's seen a few miles. The signs on that side road of yours don't look like just any ordinary wash, do they? You might want to take a closer look before nightfall.\"",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

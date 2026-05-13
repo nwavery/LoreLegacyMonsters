@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Good morrow! Mist's clearing a bit now. You might want to take another gander at that road over by the Hollowfen - seems like it might be worth investigating further.",
-    "sanitized": "Good morrow! Mist's clearing a bit now. You might want to take another gander at that road over by the Hollowfen - seems like it might be worth investigating further.",
-    "cleanBeforeCommands": "Good morrow! Mist's clearing a bit now. You might want to take another gander at that road over by the Hollowfen - seems like it might be worth investigating further.",
-    "shapedHud": "Good morrow! Mist's clearing a bit now. You might want to take another gander at that road over by the Hollowfen - seems like it might be worth investigating further.",
+    "rawAssistant": "Welcome to Hollowfen! A bit of a tricky night we had, with that rain lifting and mist rolling back in. You might want to take a closer look at that road on your northward journey – there are some interesting signs showing up now that could use careful attention.",
+    "sanitized": "Welcome to Hollowfen! A bit of a tricky night we had, with that rain lifting and mist rolling back in. You might want to take a closer look at that road on your northward journey – there are some interesting signs showing up now that could use careful attention.",
+    "cleanBeforeCommands": "Welcome to Hollowfen! A bit of a tricky night we had, with that rain lifting and mist rolling back in. You might want to take a closer look at that road on your northward journey – there are some interesting signs showing up now that could use careful attention.",
+    "shapedHud": "Welcome to Hollowfen! A bit of a tricky night we had, with that rain lifting and mist rolling back in. You might want to take a closer look at that road on your northward journey – there are some interesting signs showing up now that could use careful attention.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

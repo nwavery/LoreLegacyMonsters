@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.4/staging' branch; Version is '6000.4.5f1 (cc83ebd631f8) revision 13403115'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nwave" at "2026-05-12T12:42:00.1782697Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nwave" at "2026-05-13T13:16:53.4150728Z"
 OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 32414 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-05-12T12:42:00Z
+Date: 2026-05-13T13:16:53Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.4.5f1\Editor\Unity.exe
@@ -55,16 +55,16 @@ C:/LLMRPG/LoreLegacyMonsters
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [31868]  Target information:
+Player connection [31680]  Target information:
 
-Player connection [31868]  * "[IP] 192.168.1.228 [Port] 55504 [Flags] 2 [Guid] 1473011963 [EditorId] 1473011963 [Version] 1048832 [Id] WindowsEditor(7,NatesRazer) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [31680]  * "[IP] 192.168.1.228 [Port] 55504 [Flags] 2 [Guid] 3798062445 [EditorId] 3798062445 [Version] 1048832 [Id] WindowsEditor(7,NatesRazer) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [31868] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [31868] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [31680] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [31680] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Package Manager] Connected to IPC stream "Upm-37156" after 0.3 seconds.
+[Package Manager] Connected to IPC stream "Upm-16688" after 0.3 seconds.
 [Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
@@ -72,21 +72,21 @@ Input System module state changed to: Initialized.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-nwave"
 [Licensing::IpcConnector] LicenseClient-nwave channel disconnected successfully.
 [Licensing::IpcConnector] Channel LicenseClient-nwave-6000.4.5 doesn't exist
-[Licensing::Module] Successfully launched the LicensingClient (PId: 28612)
+[Licensing::Module] Successfully launched the LicensingClient (PId: 34824)
 Starting IPC server.
 Waiting for clients to connect on \\.\pipe\Unity-LicenseClient-nwave-6000.4.5, press Ctrl-C to exit.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nwave-6000.4.5" at "2026-05-12T12:42:01.9107433Z"
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 28612, path: "C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nwave-6000.4.5" at "2026-05-13T13:16:55.0981504Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 34824, path: "C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              ed0e3733c5fc4eee8eb382649a0a4844
-  Correlation Id:          79a6ba4c85508461e37e8876c7733ee5
-  External correlation Id: 3694254420801228103
+  Session Id:              50a1c4cb4bd345229a05588499f25827
+  Correlation Id:          27542488e9e76ae89a2c5ef863bba7d0
+  External correlation Id: 5479639596566000278
   Machine Id:              /CIpopPksGM8b2yzT8FVLTRdRDA=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-nwave-6000.4.5" (connect: 0.37s, validation: 0.24s, handshake: 0.01s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nwave-6000.4.5-notifications" at "2026-05-12T12:42:02.1600715Z"
-[Licensing::Module] Connected to LicensingClient (PId: 28612, launch time: 0.01, total connection time: 0.62s)
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-nwave-6000.4.5" (connect: 0.37s, validation: 0.21s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nwave-6000.4.5-notifications" at "2026-05-13T13:16:55.3214695Z"
+[Licensing::Module] Connected to LicensingClient (PId: 34824, launch time: 0.01, total connection time: 0.60s)
 [Licensing::Module] Error: Access token is unavailable; failed to update
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
@@ -96,8 +96,8 @@ Waiting for clients to connect on \\.\pipe\Unity-LicenseClient-nwave-6000.4.5, p
   Expiration: Unlimited
 [Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
 [Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] Licensing Background thread has ended after 2.03s
-[Licensing::Module] Licensing is initialized (took 0.85s).
+[Licensing::Module] Licensing Background thread has ended after 1.97s
+[Licensing::Module] Licensing is initialized (took 0.88s).
 [Licensing::Client] Successfully resolved entitlement details
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
@@ -106,7 +106,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.09 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.02 ms, found 2 plugins.
 Initialize engine version: 6000.4.5f1 (cc83ebd631f8)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/LLMRPG/LoreLegacyMonsters/Assets
@@ -120,7 +120,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56688
 CodeReloadManager initialized
 Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
 Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
@@ -138,7 +138,7 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.5f1/E
 [Licensing::Client] Successfully resolved entitlement details
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.015294 seconds.
+Registered in 0.017872 seconds.
 Native extension for LinuxStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
@@ -152,24 +152,24 @@ Package Manager log level set to [2]
 [Licensing::Client] Successfully resolved entitlement details
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.547 seconds
-Domain Reload Profiling: 2010ms
-	BeginReloadAssembly (126ms)
-		CreateAndSetChildDomain (5ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (83ms)
-	LoadAllAssembliesAndSetupDomain (208ms)
-		LoadAssemblies (122ms)
-		AnalyzeDomain (196ms)
-			TypeCache.Refresh (196ms)
-				TypeCache.ScanAssembly (182ms)
-	FinalizeReload (1547ms)
+- Finished resetting the current domain, in  1.567 seconds
+Domain Reload Profiling: 2014ms
+	BeginReloadAssembly (114ms)
+		CreateAndSetChildDomain (4ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (217ms)
+		LoadAssemblies (111ms)
+		AnalyzeDomain (204ms)
+			TypeCache.Refresh (203ms)
+				TypeCache.ScanAssembly (190ms)
+	FinalizeReload (1567ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (92ms)
-			BeforeProcessingInitializeOnLoad (75ms)
-			ProcessInitializeOnLoadAttributes (93ms)
-			ProcessInitializeOnLoadMethodAttributes (1229ms)
+			InitializePlatformSupportModulesInManaged (83ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (84ms)
+			ProcessInitializeOnLoadMethodAttributes (1277ms)
 [Licensing::Client] Successfully resolved entitlement details
 Application.AssetDatabase Initial Refresh Start
 [Package Manager] Restoring resolved packages state from cache
@@ -266,7 +266,7 @@ info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
       Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
 info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
-      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 29.2995ms
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 26.6731ms
 Starting: C:\Program Files\Unity\Hub\Editor\6000.4.5f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
 WorkingDir: C:/LLMRPG/LoreLegacyMonsters
 DisplayProgressbar: Compiling Scripts
@@ -287,11 +287,11 @@ info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
       Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
 info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
-      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 49.6479ms
-ExitCode: 0 Duration: 0s486ms
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 50.0743ms
+ExitCode: 0 Duration: 0s450ms
 [1187/1566  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
-*** Tundra build success (0.43 seconds), 1 items updated, 1566 evaluated
-AssetDatabase: script compilation time: 1.071480s
+*** Tundra build success (0.39 seconds), 1 items updated, 1566 evaluated
+AssetDatabase: script compilation time: 0.966544s
 Begin MonoManager ReloadAssembly
 Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
 Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
@@ -348,7 +348,7 @@ Symbol file LoadedFromMemory is not a mono symbol file
 'Assets/Scripts/World/WeatherSystem.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Assets/Scripts/Inventory/InventoryManager.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Assets/Scripts/WeatherSystem.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 9.81 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 7.44 ms, found 7 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
@@ -356,7 +356,7 @@ Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 9.88 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 8.49 ms, found 7 plugins.
 Loaded VersionHandlerImpl
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -511,80 +511,80 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.579 seconds
-Domain Reload Profiling: 4832ms
-	BeginReloadAssembly (389ms)
-		DisableScriptedObjects (70ms)
-		CreateAndSetChildDomain (162ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (102ms)
-	LoadAllAssembliesAndSetupDomain (715ms)
-		LoadAssemblies (525ms)
-		AnalyzeDomain (295ms)
-			TypeCache.Refresh (205ms)
-				TypeCache.ScanAssembly (189ms)
+- Finished resetting the current domain, in  3.231 seconds
+Domain Reload Profiling: 4343ms
+	BeginReloadAssembly (359ms)
+		DisableScriptedObjects (78ms)
+		CreateAndSetChildDomain (157ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (635ms)
+		LoadAssemblies (437ms)
+		AnalyzeDomain (276ms)
+			TypeCache.Refresh (186ms)
+				TypeCache.ScanAssembly (171ms)
 			BuildScriptInfoCaches (78ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (3580ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (3231ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (48ms)
-			BeforeProcessingInitializeOnLoad (185ms)
-			ProcessInitializeOnLoadAttributes (2869ms)
-			ProcessInitializeOnLoadMethodAttributes (293ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			BeforeProcessingInitializeOnLoad (156ms)
+			ProcessInitializeOnLoadAttributes (2600ms)
+			ProcessInitializeOnLoadMethodAttributes (260ms)
+			AfterProcessingInitializeOnLoad (8ms)
 		AwakeInstancesAfterBackupRestoration (17ms)
 (Values over 0.050ms)
-Asset Pipeline Refresh (id=5ded1179c55d5c942a3a36fc40b0434d): Total: 6.834 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+Asset Pipeline Refresh (id=01558a5d00b1c2149b960828613473bf): Total: 6.146 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
 	Summary:
 		Imports: total=0 (actual=0, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=4276 ms
-		Asset DB Callback time: managed=106 ms, native=53 ms
-		Scripting: domain reloads=1, domain reload time=1259 ms, compile time=1073 ms, other=64 ms
+		Asset DB Process Time: managed=0 ms, native=3850 ms
+		Asset DB Callback time: managed=98 ms, native=47 ms
+		Scripting: domain reloads=1, domain reload time=1118 ms, compile time=968 ms, other=62 ms
 		Project Asset Count: scripts=1897, non-scripts=3517
 		Asset File Changes: new=0, changed=0, moved=0, deleted=0
 		Scan Filter Count: 0
-	InvokePackagesCallback: 57.520ms
-	ApplyChangesToAssetFolders: 0.739ms
-	Scan: 272.921ms
-	CategorizeScriptCompilationAssets: 64.112ms
-	ProcessAssetsWithTransientArtifactChanges: 79.930ms
-	CategorizeAssets: 55.102ms
-	CompileScripts: 1072.932ms
-	ImportOutOfDateAssets: 3606.796ms (3605.435ms without children)
-		UnloadImportedAssets: 0.189ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.664ms
-		OnDemandSchedulerStart: 0.505ms
-	PostProcessAllAssets: 106.132ms
-		MonoPostProcessAllAssets: 106.086ms
-			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 88.348ms
-			SyncVS.PostprocessSyncProject 3.314ms
-			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.923ms
-			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.921ms
-			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.393ms
-			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.274ms
-			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.253ms
-			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.181ms
-			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.162ms
-			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.076ms
-	UnloadStreamsBegin: 2.299ms
-	PersistCurrentRevisions: 0.157ms
-	GenerateScriptTypeHashes: 2.759ms
-	GenerateScriptTypeSerializationHashes: 5.153ms
-	Untracked: 1502.243ms
+	InvokePackagesCallback: 50.905ms
+	ApplyChangesToAssetFolders: 0.778ms
+	Scan: 240.018ms
+	CategorizeScriptCompilationAssets: 59.150ms
+	ProcessAssetsWithTransientArtifactChanges: 68.779ms
+	CategorizeAssets: 51.859ms
+	CompileScripts: 967.929ms
+	ImportOutOfDateAssets: 3254.383ms (3253.146ms without children)
+		UnloadImportedAssets: 0.151ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.676ms
+		OnDemandSchedulerStart: 0.407ms
+	PostProcessAllAssets: 98.707ms
+		MonoPostProcessAllAssets: 98.660ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 79.491ms
+			SyncVS.PostprocessSyncProject 3.740ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.934ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.813ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.317ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.236ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.189ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.148ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.129ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.074ms
+	UnloadStreamsBegin: 2.244ms
+	PersistCurrentRevisions: 0.143ms
+	GenerateScriptTypeHashes: 2.771ms
+	GenerateScriptTypeSerializationHashes: 5.199ms
+	Untracked: 1339.584ms
 
 Application.AssetDatabase Initial Refresh End
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Scanning for USB devices : 3.685ms
+Scanning for USB devices : 3.830ms
 Initializing Unity extensions:
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-Lore, Legacy, and Monsters
 Unloading 139 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 8513 unused Assets / (3.5 MB). Loaded Objects now: 9346.
-Memory consumption went from 229.6 MB to 226.1 MB.
-Total: 15.561200 ms (FindLiveObjects: 0.756800 ms CreateObjectMapping: 0.660400 ms MarkObjects: 11.738800 ms  DeleteObjects: 2.401900 ms)
+Memory consumption went from 235.6 MB to 232.0 MB.
+Total: 12.713200 ms (FindLiveObjects: 0.681400 ms CreateObjectMapping: 0.566600 ms MarkObjects: 9.762100 ms  DeleteObjects: 1.699800 ms)
 
 [NpcLlmDev] completions=http://127.0.0.1:11434/v1/chat/completions model=llama3.2:latest timeout=90s
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
@@ -1858,7 +1858,7 @@ LoreLegacyMonsters.Editor.NpcLlmScenarioBatch:RunScenarioSuiteBatch () (at Asset
 
 (Filename: Assets/Editor/NpcLlmScenarioBatch.cs Line: 240)
 
-Killing ADB server in 2.1204405 seconds.
+Killing ADB server in 2.0926226 seconds.
 [Physics::Module] Cleanup current backend.
 [Physics::Module] Id: 0xf2b8ea05
 Input System module state changed to: ShutdownInProgress.
@@ -1870,13 +1870,13 @@ AcceleratorClientConnectionCallback - disconnected - :0
 Shut down.
 Cleanup mono
 CodeReloadManager destroyed
-abort_threads: Failed aborting id: 0000000000009700, mono_thread_manage will ignore it
+abort_threads: Failed aborting id: 0000000000009468, mono_thread_manage will ignore it
 
-debugger-agent: Unable to listen on 3752
+debugger-agent: Unable to listen on 3808
 [usbmuxd] Stop listen thread
 [usbmuxd] Listen thread exiting
 Checking for leaked weakptr:
   Found no leaked weakptrs.
 [Package Manager] Server process was shutdown
-##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1778589988644,"processId":37156,"allocatedMemory":16134568,"memoryLabels":[{"Default":214646},{"Permanent":15276},{"NewDelete":65011},{"Thread":4237624},{"Manager":51013},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":850092},{"Material":24},{"GfxDevice":55321},{"Animation":392},{"Audio":3008},{"FreeType":8},{"FontEngine":736},{"Physics":2090},{"Physics2D":16},{"Serialization":440},{"Input":9880},{"JobScheduler":33024},{"TextLib":216},{"Mono":32},{"MonoCode":64},{"ScriptingNativeRuntime":155052},{"BaseObject":1620880},{"Resource":1184},{"Renderer":3008},{"Transform":4685},{"File":1088},{"WebCam":616},{"Culling":32},{"Terrain":11394},{"Wind":24},{"STL":40},{"String":16562},{"StaticString":6718},{"Utility":2675494},{"Curl":2559},{"PoolAlloc":2168},{"AI":80},{"TypeTree":28789},{"ScriptManager":448},{"RuntimeInitializeOnLoadManager":64},{"SpriteAtlas":120},{"GI":7792},{"Director":8320},{"CloudService":7952},{"WebRequest":406937},{"VR":48050},{"SceneManager":504},{"Video":64},{"LazyScriptCache":32},{"Camera":17},{"Secure":2113},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":464},{"Hierarchy":608},{"CoreStats":13032},{"Identifiers":12960},{"Gui":128},{"EditorUtility":130476},{"VersionControl":4},{"Undo":931},{"AssetDatabase":5020720},{"EditorGi":328},{"UnityConnect":37753},{"Upm":1912},{"UpmDiagnostics":8},{"AssetCompliance":64},{"DrivenProperties":72},{"LocalIPC":211},{"ProfilerEditor":9746},{"CoreBusinessMetrics":2876},{"Windowing":456},{"Licensing":664},{"AssetReference":32},{"IPCStream":32}]}
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1778678386999,"processId":16688,"allocatedMemory":16073845,"memoryLabels":[{"Default":214646},{"Permanent":15276},{"NewDelete":65011},{"Thread":4236584},{"Manager":51013},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":850092},{"Material":24},{"GfxDevice":55321},{"Animation":392},{"Audio":3008},{"FreeType":8},{"FontEngine":736},{"Physics":2090},{"Physics2D":16},{"Serialization":440},{"Input":9880},{"JobScheduler":33024},{"TextLib":216},{"Mono":32},{"MonoCode":64},{"ScriptingNativeRuntime":155052},{"BaseObject":1620880},{"Resource":1184},{"Renderer":3008},{"Transform":4685},{"File":1088},{"WebCam":616},{"Culling":32},{"Terrain":11394},{"Wind":24},{"STL":40},{"String":16556},{"StaticString":6718},{"Utility":2675494},{"Curl":2559},{"PoolAlloc":2168},{"AI":80},{"TypeTree":28789},{"ScriptManager":448},{"RuntimeInitializeOnLoadManager":64},{"SpriteAtlas":120},{"GI":7792},{"Director":8320},{"CloudService":7952},{"WebRequest":347260},{"VR":48050},{"SceneManager":504},{"Video":64},{"LazyScriptCache":32},{"Camera":17},{"Secure":2113},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":464},{"Hierarchy":608},{"CoreStats":13032},{"Identifiers":12960},{"Gui":128},{"EditorUtility":130476},{"VersionControl":4},{"Undo":931},{"AssetDatabase":5020720},{"EditorGi":328},{"UnityConnect":37753},{"Upm":1912},{"UpmDiagnostics":8},{"AssetCompliance":64},{"DrivenProperties":72},{"LocalIPC":211},{"ProfilerEditor":9746},{"CoreBusinessMetrics":2876},{"Windowing":456},{"Licensing":664},{"AssetReference":32},{"IPCStream":32}]}
 ~StackAllocator(ALLOC_TEMP_MAIN) m_LastAlloc not NULL. Did you forget to call FreeAllStackAllocations()? To get more information, run app with -diag-temp-memory-leak-validation cmd line argument

@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Tomorrow's task won't allow for much dawdling. Before you head out, ensure that lanterns along the north road are securely fastened; the last gale left some loose ends, and we can't have them blowing away again.",
-    "sanitized": "Tomorrow's task won't allow for much dawdling. Before you head out, ensure that lanterns along the north road are securely fastened; the last gale left some loose ends, and we can't have them blowing away again.",
-    "cleanBeforeCommands": "Tomorrow's task won't allow for much dawdling. Before you head out, ensure that lanterns along the north road are securely fastened; the last gale left some loose ends, and we can't have them blowing away again.",
-    "shapedHud": "Tomorrow's task won't allow for much dawdling. Before you head out, ensure that lanterns along the north road are securely fastened; the last gale left some loose ends, and we can't have them blowing away again.",
+    "rawAssistant": "Before you head out into the misty dawn, make sure to check your lanterns one last time. That gale was fierce; it's a wonder any of them survived. You don't want to be stuck in the dark with nothing but twine and wick to keep you lit. Double-check each one, and consider making a new purchase if they're still not holding up. We can't have our travelers stumbling about in the dark, after all.",
+    "sanitized": "Before you head out into the misty dawn, make sure to check your lanterns one last time. That gale was fierce; it's a wonder any of them survived. You don't want to be stuck in the dark with nothing but twine and wick to keep you lit. Double-check each one, and consider making a new purchase if they're still not holding up. We can't have our travelers stumbling about in the dark, after all.",
+    "cleanBeforeCommands": "Before you head out into the misty dawn, make sure to check your lanterns one last time. That gale was fierce; it's a wonder any of them survived. You don't want to be stuck in the dark with nothing but twine and wick to keep you lit. Double-check each one, and consider making a new purchase if they're still not holding up. We can't have our travelers stumbling about in the dark, after all.",
+    "shapedHud": "Before you head out into the misty dawn, make sure to check your lanterns one last time. That gale was fierce; it's a wonder any of them survived. You don't want to be stuck in the dark with nothing but twine and wick to keep you lit. Double-check each one, and consider making a new purchase if they're still not holding up. We can't have our travelers stumbling about in the dark, after all.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

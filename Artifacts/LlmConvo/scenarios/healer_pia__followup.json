@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Before you head out, make sure your road kit is secure and your charms are tied down tight. A loose charm could get lost in the mist or snag on a branch, causing more trouble than good.",
-    "sanitized": "Before you head out, make sure your road kit is secure and your charms are tied down tight. A loose charm could get lost in the mist or snag on a branch, causing more trouble than good.",
-    "cleanBeforeCommands": "Before you head out, make sure your road kit is secure and your charms are tied down tight. A loose charm could get lost in the mist or snag on a branch, causing more trouble than good.",
-    "shapedHud": "Before you head out, make sure your road kit is secure and your charms are tied down tight. A loose charm could get lost in the mist or snag on a branch, causing more trouble than good.",
+    "rawAssistant": "Before you head out again, make sure to check your lanterns and torches. The wind last night did blow them off, after all. We can get some new ones for you here at the shop if you'd like, but do be careful on your travels – Hollowfen's roads aren't always safe, especially in this misty light.",
+    "sanitized": "Before you head out again, make sure to check your lanterns and torches. The wind last night did blow them off, after all. We can get some new ones for you here at the shop if you'd like, but do be careful on your travels – Hollowfen's roads aren't always safe, especially in this misty light.",
+    "cleanBeforeCommands": "Before you head out again, make sure to check your lanterns and torches. The wind last night did blow them off, after all. We can get some new ones for you here at the shop if you'd like, but do be careful on your travels – Hollowfen's roads aren't always safe, especially in this misty light.",
+    "shapedHud": "Before you head out again, make sure to check your lanterns and torches. The wind last night did blow them off, after all. We can get some new ones for you here at the shop if you'd like, but do be careful on your travels – Hollowfen's roads aren't always safe, especially in this misty light.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

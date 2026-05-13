@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Fresh signs on that one side road? You'd do well to take a closer look, friend. I've heard tell of some folks getting mighty curious about what they found there last night. Misty dawn's not the best time for snooping, mind you – might be better off waiting till after market's done and the sun's out.",
-    "sanitized": "Fresh signs on that one side road? You'd do well to take a closer look, friend. I've heard tell of some folks getting mighty curious about what they found there last night. Misty dawn's not the best time for snooping, mind you – might be better off waiting till after market's done and the sun's out.",
-    "cleanBeforeCommands": "Fresh signs on that one side road? You'd do well to take a closer look, friend. I've heard tell of some folks getting mighty curious about what they found there last night. Misty dawn's not the best time for snooping, mind you – might be better off waiting till after market's done and the sun's out.",
-    "shapedHud": "Fresh signs on that one side road? You'd do well to take a closer look, friend. I've heard tell of some folks getting mighty curious about what they found there last night. Misty dawn's not the best time for snooping, mind you – might be better off waiting till after market's done and the sun's out.",
+    "rawAssistant": "That fresh sign on the old road is a siren call, isn't it? I've been hearing whispers of trouble brewing in those woods since the last rain. What do you say we take a closer look?",
+    "sanitized": "That fresh sign on the old road is a siren call, isn't it? I've been hearing whispers of trouble brewing in those woods since the last rain. What do you say we take a closer look?",
+    "cleanBeforeCommands": "That fresh sign on the old road is a siren call, isn't it? I've been hearing whispers of trouble brewing in those woods since the last rain. What do you say we take a closer look?",
+    "shapedHud": "That fresh sign on the old road is a siren call, isn't it? I've been hearing whispers of trouble brewing in those woods since the last rain. What do you say we take a closer look?",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

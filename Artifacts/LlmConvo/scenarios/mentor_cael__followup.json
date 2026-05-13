@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "You're planning an early departure tomorrow. Make sure to recheck your lanterns and their wicks; they might have been damaged during the storm, and you won't want them failing on you mid-march. Also, consider a quick stop at the old windmill east of Hollowfen – it's always good to restock your supplies when you can.",
-    "sanitized": "You're planning an early departure tomorrow. Make sure to recheck your lanterns and their wicks; they might have been damaged during the storm, and you won't want them failing on you mid-march. Also, consider a quick stop at the old windmill east of Hollowfen – it's always good to restock your supplies when you can.",
-    "cleanBeforeCommands": "You're planning an early departure tomorrow. Make sure to recheck your lanterns and their wicks; they might have been damaged during the storm, and you won't want them failing on you mid-march. Also, consider a quick stop at the old windmill east of Hollowfen – it's always good to restock your supplies when you can.",
-    "shapedHud": "You're planning an early departure tomorrow. Make sure to recheck your lanterns and their wicks; they might have been damaged during the storm, and you won't want them failing on you mid-march. Also, consider a quick stop at the old windmill east of Hollowfen – it's always good to restock your supplies when you can.",
+    "rawAssistant": "Tomorrow's repair will have to wait; you're getting close to Stormbreak Ridge. Before dawn, make sure your gear's still sealed and your bedrolls are tied down tight - if the road gets rough, you won't want any surprises in the morning.",
+    "sanitized": "Tomorrow's repair will have to wait; you're getting close to Stormbreak Ridge. Before dawn, make sure your gear's still sealed and your bedrolls are tied down tight - if the road gets rough, you won't want any surprises in the morning.",
+    "cleanBeforeCommands": "Tomorrow's repair will have to wait; you're getting close to Stormbreak Ridge. Before dawn, make sure your gear's still sealed and your bedrolls are tied down tight - if the road gets rough, you won't want any surprises in the morning.",
+    "shapedHud": "Tomorrow's repair will have to wait; you're getting close to Stormbreak Ridge. Before dawn, make sure your gear's still sealed and your bedrolls are tied down tight - if the road gets rough, you won't want any surprises in the morning.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

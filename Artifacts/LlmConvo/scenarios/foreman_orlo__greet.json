@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "You're lookin' to head north, eh? That side road's showin' some signs that don't feel right. You might want to take a gander at 'em before you keep movin'.",
-    "sanitized": "You're lookin' to head north, eh? That side road's showin' some signs that don't feel right. You might want to take a gander at 'em before you keep movin'.",
-    "cleanBeforeCommands": "You're lookin' to head north, eh? That side road's showin' some signs that don't feel right. You might want to take a gander at 'em before you keep movin'.",
-    "shapedHud": "You're lookin' to head north, eh? That side road's showin' some signs that don't feel right. You might want to take a gander at 'em before you keep movin'.",
+    "rawAssistant": "You're back on the north road. Them fresh signs you saw might be more than just quarry dust. Take a closer look at 'em before you keep movin'.",
+    "sanitized": "You're back on the north road. Them fresh signs you saw might be more than just quarry dust. Take a closer look at 'em before you keep movin'.",
+    "cleanBeforeCommands": "You're back on the north road. Them fresh signs you saw might be more than just quarry dust. Take a closer look at 'em before you keep movin'.",
+    "shapedHud": "You're back on the north road. Them fresh signs you saw might be more than just quarry dust. Take a closer look at 'em before you keep movin'.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

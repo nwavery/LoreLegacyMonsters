@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "A good night's sleep ahead, eh? If you head out before dawn, don't forget to check that lantern string on your pack. The wind was strong last gale and those lanterns might come loose again. Check the cord tight, so it stays steady on the road.",
-    "sanitized": "A good night's sleep ahead, eh? If you head out before dawn, don't forget to check that lantern string on your pack. The wind was strong last gale and those lanterns might come loose again. Check the cord tight, so it stays steady on the road.",
-    "cleanBeforeCommands": "A good night's sleep ahead, eh? If you head out before dawn, don't forget to check that lantern string on your pack. The wind was strong last gale and those lanterns might come loose again. Check the cord tight, so it stays steady on the road.",
-    "shapedHud": "A good night's sleep ahead, eh? If you head out before dawn, don't forget to check that lantern string on your pack. The wind was strong last gale and those lanterns might come loose again. Check the cord tight, so it stays steady on the road.",
+    "rawAssistant": "Before you head out, make sure to check that lanterns along your path are securely fastened; the last gale must have shaken loose some of them. You wouldn't want another blow to catch them off guard. And perhaps take a moment to recheck those road kit charms - they can be surprisingly temperamental in rough weather.",
+    "sanitized": "Before you head out, make sure to check that lanterns along your path are securely fastened; the last gale must have shaken loose some of them. You wouldn't want another blow to catch them off guard. And perhaps take a moment to recheck those road kit charms - they can be surprisingly temperamental in rough weather.",
+    "cleanBeforeCommands": "Before you head out, make sure to check that lanterns along your path are securely fastened; the last gale must have shaken loose some of them. You wouldn't want another blow to catch them off guard. And perhaps take a moment to recheck those road kit charms - they can be surprisingly temperamental in rough weather.",
+    "shapedHud": "Before you head out, make sure to check that lanterns along your path are securely fastened; the last gale must have shaken loose some of them. You wouldn't want another blow to catch them off guard. And perhaps take a moment to recheck those road kit charms - they can be surprisingly temperamental in rough weather.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

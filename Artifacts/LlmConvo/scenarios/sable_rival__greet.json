@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "\"Midnight rain's washed away more than just dirt. Take a closer look at that one road for signs of what might be stirring.\"",
-    "sanitized": "\"Midnight rain's washed away more than just dirt. Take a closer look at that one road for signs of what might be stirring.\"",
-    "cleanBeforeCommands": "\"Midnight rain's washed away more than just dirt. Take a closer look at that one road for signs of what might be stirring.\"",
-    "shapedHud": "\"Midnight rain's washed away more than just dirt. Take a closer look at that one road for signs of what might be stirring.\"",
+    "rawAssistant": "Another face on the north road, eager to unravel those glow mysteries. Take a closer look at that fresh dirt – you might find something that'll help you decipher what's going on out here.",
+    "sanitized": "Another face on the north road, eager to unravel those glow mysteries. Take a closer look at that fresh dirt – you might find something that'll help you decipher what's going on out here.",
+    "cleanBeforeCommands": "Another face on the north road, eager to unravel those glow mysteries. Take a closer look at that fresh dirt – you might find something that'll help you decipher what's going on out here.",
+    "shapedHud": "Another face on the north road, eager to unravel those glow mysteries. Take a closer look at that fresh dirt – you might find something that'll help you decipher what's going on out here.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

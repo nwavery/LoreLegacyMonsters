@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "A traveler, fresh from the north road. You notice a faint dusting of small crystals on your cloak – must have picked those up near Hollowfen's glow. Fresh air might do you some good; take a moment to clear your head before deciding which path to take next.",
-    "sanitized": "A traveler, fresh from the north road. You notice a faint dusting of small crystals on your cloak – must have picked those up near Hollowfen's glow. Fresh air might do you some good; take a moment to clear your head before deciding which path to take next.",
-    "cleanBeforeCommands": "A traveler, fresh from the north road. You notice a faint dusting of small crystals on your cloak – must have picked those up near Hollowfen's glow. Fresh air might do you some good; take a moment to clear your head before deciding which path to take next.",
-    "shapedHud": "A traveler, fresh from the north road. You notice a faint dusting of small crystals on your cloak – must have picked those up near Hollowfen's glow. Fresh air might do you some good; take a moment to clear your head before deciding which path to take next.",
+    "rawAssistant": "A weary soul, I see. The north road's misty veil still clings to it, doesn't it? You might want to take a closer look at those fresh signs on the side road – they could be more than just the work of some restless spirits.",
+    "sanitized": "A weary soul, I see. The north road's misty veil still clings to it, doesn't it? You might want to take a closer look at those fresh signs on the side road – they could be more than just the work of some restless spirits.",
+    "cleanBeforeCommands": "A weary soul, I see. The north road's misty veil still clings to it, doesn't it? You might want to take a closer look at those fresh signs on the side road – they could be more than just the work of some restless spirits.",
+    "shapedHud": "A weary soul, I see. The north road's misty veil still clings to it, doesn't it? You might want to take a closer look at those fresh signs on the side road – they could be more than just the work of some restless spirits.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

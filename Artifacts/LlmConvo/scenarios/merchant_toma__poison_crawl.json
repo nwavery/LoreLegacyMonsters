@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Antidote, of course! Can't be too careful when venturing into those misty marshes. How many do you need, and I'll get it ready for you by the road. By the way, have you heard about that old keep on the north road? Some folks say they might know a thing or two about your... predicament with Emberfox.",
-    "sanitized": "Antidote, of course! Can't be too careful when venturing into those misty marshes. How many do you need, and I'll get it ready for you by the road. By the way, have you heard about that old keep on the north road? Some folks say they might know a thing or two about your... predicament with Emberfox.",
-    "cleanBeforeCommands": "Antidote, of course! Can't be too careful when venturing into those misty marshes. How many do you need, and I'll get it ready for you by the road. By the way, have you heard about that old keep on the north road? Some folks say they might know a thing or two about your... predicament with Emberfox.",
-    "shapedHud": "Antidote, of course! Can't be too careful when venturing into those misty marshes. How many do you need, and I'll get it ready for you by the road. By the way, have you heard about that old keep on the north road? Some folks say they might know a thing or two about your... predicament with Emberfox.",
+    "rawAssistant": "You're heading into marsh territory, eh? With Emberfox poisoned, you'll want to get her some Antidote and a Cold Salve for those burn marks. I've got just what you need - my Antidote potion is top-notch, made from the finest swamp herbs. And my Cold Salve will help ease the pain before it sets in. Might I interest you in a few road kits to boot?",
+    "sanitized": "You're heading into marsh territory, eh? With Emberfox poisoned, you'll want to get her some Antidote and a Cold Salve for those burn marks. I've got just what you need - my Antidote potion is top-notch, made from the finest swamp herbs. And my Cold Salve will help ease the pain before it sets in. Might I interest you in a few road kits to boot?",
+    "cleanBeforeCommands": "You're heading into marsh territory, eh? With Emberfox poisoned, you'll want to get her some Antidote and a Cold Salve for those burn marks. I've got just what you need - my Antidote potion is top-notch, made from the finest swamp herbs. And my Cold Salve will help ease the pain before it sets in. Might I interest you in a few road kits to boot?",
+    "shapedHud": "You're heading into marsh territory, eh? With Emberfox poisoned, you'll want to get her some Antidote and a Cold Salve for those burn marks. I've got just what you need - my Antidote potion is top-notch, made from the finest swamp herbs. And my Cold Salve will help ease the pain before it sets in. Might I interest you in a few road kits to boot?",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "The morning light will reveal much that was hidden in the mist. Tomorrow, indeed, check your lanterns once more. Make sure the cord is not frayed and the metalwork is secure. The winds of Hollowfen can be unforgiving, but a well-tended lantern should guide you safely through the darkness.",
-    "sanitized": "The morning light will reveal much that was hidden in the mist. Tomorrow, indeed, check your lanterns once more. Make sure the cord is not frayed and the metalwork is secure. The winds of Hollowfen can be unforgiving, but a well-tended lantern should guide you safely through the darkness.",
-    "cleanBeforeCommands": "The morning light will reveal much that was hidden in the mist. Tomorrow, indeed, check your lanterns once more. Make sure the cord is not frayed and the metalwork is secure. The winds of Hollowfen can be unforgiving, but a well-tended lantern should guide you safely through the darkness.",
-    "shapedHud": "The morning light will reveal much that was hidden in the mist. Tomorrow, indeed, check your lanterns once more. Make sure the cord is not frayed and the metalwork is secure. The winds of Hollowfen can be unforgiving, but a well-tended lantern should guide you safely through the darkness.",
+    "rawAssistant": "As you prepare to depart into the misty dawn, remember to check your lanterns once more. The last gale was quite fierce, and it would be a shame for them to fail you now, especially on the treacherous north road ahead. Take a moment to ensure they're securely fastened and not damaged beyond repair.",
+    "sanitized": "As you prepare to depart into the misty dawn, remember to check your lanterns once more. The last gale was quite fierce, and it would be a shame for them to fail you now, especially on the treacherous north road ahead. Take a moment to ensure they're securely fastened and not damaged beyond repair.",
+    "cleanBeforeCommands": "As you prepare to depart into the misty dawn, remember to check your lanterns once more. The last gale was quite fierce, and it would be a shame for them to fail you now, especially on the treacherous north road ahead. Take a moment to ensure they're securely fastened and not damaged beyond repair.",
+    "shapedHud": "As you prepare to depart into the misty dawn, remember to check your lanterns once more. The last gale was quite fierce, and it would be a shame for them to fail you now, especially on the treacherous north road ahead. Take a moment to ensure they're securely fastened and not damaged beyond repair.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

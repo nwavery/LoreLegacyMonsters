@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "I'd recommend checking your lanterns and torches for any damage before leaving at dawn. We've had some strong gusts lately, and it wouldn't do to have them fail you on the road. And of course, make sure you're all stocked up with supplies – we can help with that if you need us to.",
-    "sanitized": "I'd recommend checking your lanterns and torches for any damage before leaving at dawn. We've had some strong gusts lately, and it wouldn't do to have them fail you on the road. And of course, make sure you're all stocked up with supplies – we can help with that if you need us to.",
-    "cleanBeforeCommands": "I'd recommend checking your lanterns and torches for any damage before leaving at dawn. We've had some strong gusts lately, and it wouldn't do to have them fail you on the road. And of course, make sure you're all stocked up with supplies – we can help with that if you need us to.",
-    "shapedHud": "I'd recommend checking your lanterns and torches for any damage before leaving at dawn. We've had some strong gusts lately, and it wouldn't do to have them fail you on the road. And of course, make sure you're all stocked up with supplies – we can help with that if you need us to.",
+    "rawAssistant": "Before you head out, make sure to check your lanterns and oil for the road ahead. The strong winds of last night might've blown some off or damaged them. A good inspection will save you trouble down the route.",
+    "sanitized": "Before you head out, make sure to check your lanterns and oil for the road ahead. The strong winds of last night might've blown some off or damaged them. A good inspection will save you trouble down the route.",
+    "cleanBeforeCommands": "Before you head out, make sure to check your lanterns and oil for the road ahead. The strong winds of last night might've blown some off or damaged them. A good inspection will save you trouble down the route.",
+    "shapedHud": "Before you head out, make sure to check your lanterns and oil for the road ahead. The strong winds of last night might've blown some off or damaged them. A good inspection will save you trouble down the route.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

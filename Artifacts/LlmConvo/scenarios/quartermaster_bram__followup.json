@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Tomorrow's tightening will have to wait till after you've got some daylight on the road. What's more pressing is making sure that lantern post along the planks is secure for tonight. We can't have those flying about in the next storm.",
-    "sanitized": "Tomorrow's tightening will have to wait till after you've got some daylight on the road. What's more pressing is making sure that lantern post along the planks is secure for tonight. We can't have those flying about in the next storm.",
-    "cleanBeforeCommands": "Tomorrow's tightening will have to wait till after you've got some daylight on the road. What's more pressing is making sure that lantern post along the planks is secure for tonight. We can't have those flying about in the next storm.",
-    "shapedHud": "Tomorrow's tightening will have to wait till after you've got some daylight on the road. What's more pressing is making sure that lantern post along the planks is secure for tonight. We can't have those flying about in the next storm.",
+    "rawAssistant": "Don't go leaving yet, especially not without a good check of your gear for tomorrow's journey. Make sure that road kit of yours is secure and all the charms are in working order. A loose charm could be as bad as no charm at all when you need it most. I'll tighten up one of those for you first thing come dawn, but don't take any chances yourself.",
+    "sanitized": "Don't go leaving yet, especially not without a good check of your gear for tomorrow's journey. Make sure that road kit of yours is secure and all the charms are in working order. A loose charm could be as bad as no charm at all when you need it most. I'll tighten up one of those for you first thing come dawn, but don't take any chances yourself.",
+    "cleanBeforeCommands": "Don't go leaving yet, especially not without a good check of your gear for tomorrow's journey. Make sure that road kit of yours is secure and all the charms are in working order. A loose charm could be as bad as no charm at all when you need it most. I'll tighten up one of those for you first thing come dawn, but don't take any chances yourself.",
+    "shapedHud": "Don't go leaving yet, especially not without a good check of your gear for tomorrow's journey. Make sure that road kit of yours is secure and all the charms are in working order. A loose charm could be as bad as no charm at all when you need it most. I'll tighten up one of those for you first thing come dawn, but don't take any chances yourself.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

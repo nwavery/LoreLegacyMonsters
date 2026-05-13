@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Fresh signs on this road suggest someone - or something - has been using it recently, possibly even deliberately trying to leave a trail. I've seen marks like these before, but they usually lead to trouble. What do you make of 'em?",
-    "sanitized": "Fresh signs on this road suggest someone - or something - has been using it recently, possibly even deliberately trying to leave a trail. I've seen marks like these before, but they usually lead to trouble. What do you make of 'em?",
-    "cleanBeforeCommands": "Fresh signs on this road suggest someone - or something - has been using it recently, possibly even deliberately trying to leave a trail. I've seen marks like these before, but they usually lead to trouble. What do you make of 'em?",
-    "shapedHud": "Fresh signs on this road suggest someone - or something - has been using it recently, possibly even deliberately trying to leave a trail. I've seen marks like these before, but they usually lead to trouble. What do you make of 'em?",
+    "rawAssistant": "A faint glow lingers on the ground where north road gives way to overgrown brambles, whispers of an ancient path that hasn't been used in years. The signs are unclear, but this could be more than just a forgotten trail – it might hold the key to understanding those lowland glows you're searching for.",
+    "sanitized": "A faint glow lingers on the ground where north road gives way to overgrown brambles, whispers of an ancient path that hasn't been used in years. The signs are unclear, but this could be more than just a forgotten trail – it might hold the key to understanding those lowland glows you're searching for.",
+    "cleanBeforeCommands": "A faint glow lingers on the ground where north road gives way to overgrown brambles, whispers of an ancient path that hasn't been used in years. The signs are unclear, but this could be more than just a forgotten trail – it might hold the key to understanding those lowland glows you're searching for.",
+    "shapedHud": "A faint glow lingers on the ground where north road gives way to overgrown brambles, whispers of an ancient path that hasn't been used in years. The signs are unclear, but this could be more than just a forgotten trail – it might hold the key to understanding those lowland glows you're searching for.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

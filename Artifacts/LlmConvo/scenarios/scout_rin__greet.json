@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "\"Mist's cleared some, but be careful on that road side. Looks like fresh sign of something moving - might've been a beast.\"",
-    "sanitized": "\"Mist's cleared some, but be careful on that road side. Looks like fresh sign of something moving - might've been a beast.\"",
-    "cleanBeforeCommands": "\"Mist's cleared some, but be careful on that road side. Looks like fresh sign of something moving - might've been a beast.\"",
-    "shapedHud": "\"Mist's cleared some, but be careful on that road side. Looks like fresh sign of something moving - might've been a beast.\"",
+    "rawAssistant": "Mornin', you're off again. That north road's lookin' a mite treacherous after last night's rain. You might want to keep an eye out for any downed branches or hidden potholes – don't wanna be stuck on the wrong side of Hollowfen when it starts comin' alive.",
+    "sanitized": "Mornin', you're off again. That north road's lookin' a mite treacherous after last night's rain. You might want to keep an eye out for any downed branches or hidden potholes – don't wanna be stuck on the wrong side of Hollowfen when it starts comin' alive.",
+    "cleanBeforeCommands": "Mornin', you're off again. That north road's lookin' a mite treacherous after last night's rain. You might want to keep an eye out for any downed branches or hidden potholes – don't wanna be stuck on the wrong side of Hollowfen when it starts comin' alive.",
+    "shapedHud": "Mornin', you're off again. That north road's lookin' a mite treacherous after last night's rain. You might want to keep an eye out for any downed branches or hidden potholes – don't wanna be stuck on the wrong side of Hollowfen when it starts comin' alive.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

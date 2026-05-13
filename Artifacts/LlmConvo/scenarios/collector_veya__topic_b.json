@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Fresh signs on one side road caught my eye this morning, before the mist lifted. Tracks that don't look like any creature I've seen around here, not even the Thornbeast you're leading. You might want to take a closer look, see if it's something worth investigating further.",
-    "sanitized": "Fresh signs on one side road caught my eye this morning, before the mist lifted. Tracks that don't look like any creature I've seen around here, not even the Thornbeast you're leading. You might want to take a closer look, see if it's something worth investigating further.",
-    "cleanBeforeCommands": "Fresh signs on one side road caught my eye this morning, before the mist lifted. Tracks that don't look like any creature I've seen around here, not even the Thornbeast you're leading. You might want to take a closer look, see if it's something worth investigating further.",
-    "shapedHud": "Fresh signs on one side road caught my eye this morning, before the mist lifted. Tracks that don't look like any creature I've seen around here, not even the Thornbeast you're leading. You might want to take a closer look, see if it's something worth investigating further.",
+    "rawAssistant": "Just caught a glimpse of something interesting on one side road: looks like some sort of scales, half-buried in the mud. Could be worth taking a closer look – though you might need to brush away the mist for a better view.",
+    "sanitized": "Just caught a glimpse of something interesting on one side road: looks like some sort of scales, half-buried in the mud. Could be worth taking a closer look – though you might need to brush away the mist for a better view.",
+    "cleanBeforeCommands": "Just caught a glimpse of something interesting on one side road: looks like some sort of scales, half-buried in the mud. Could be worth taking a closer look – though you might need to brush away the mist for a better view.",
+    "shapedHud": "Just caught a glimpse of something interesting on one side road: looks like some sort of scales, half-buried in the mud. Could be worth taking a closer look – though you might need to brush away the mist for a better view.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

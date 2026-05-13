@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Good morrow, adventurer! The road ahead of you is looking promising. I'd advise taking a closer look at that one side road - there are some fresh signs that could use a careful examination, especially with your Thornbeast by your side.",
-    "sanitized": "Good morrow, adventurer! The road ahead of you is looking promising. I'd advise taking a closer look at that one side road - there are some fresh signs that could use a careful examination, especially with your Thornbeast by your side.",
-    "cleanBeforeCommands": "Good morrow, adventurer! The road ahead of you is looking promising. I'd advise taking a closer look at that one side road - there are some fresh signs that could use a careful examination, especially with your Thornbeast by your side.",
-    "shapedHud": "Good morrow, adventurer! The road ahead of you is looking promising. I'd advise taking a closer look at that one side road - there are some fresh signs that could use a careful examination, especially with your Thornbeast by your side.",
+    "rawAssistant": "\"Fresh signs on the side road, you say? Take a look at the way the wind's carrying the dust. It might give us an idea of what we're dealing with out there.\"",
+    "sanitized": "\"Fresh signs on the side road, you say? Take a look at the way the wind's carrying the dust. It might give us an idea of what we're dealing with out there.\"",
+    "cleanBeforeCommands": "\"Fresh signs on the side road, you say? Take a look at the way the wind's carrying the dust. It might give us an idea of what we're dealing with out there.\"",
+    "shapedHud": "\"Fresh signs on the side road, you say? Take a look at the way the wind's carrying the dust. It might give us an idea of what we're dealing with out there.\"",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

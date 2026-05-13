@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "A tight schedule, eh? If you plan to rush off before dawn, make sure those Hollowfen wardstones are properly secured – it'd be a shame if the flood washed them away while you're gone. Check their anchors and any loose stones; don't want your hard work getting swept away in the morning's misty light.",
-    "sanitized": "A tight schedule, eh? If you plan to rush off before dawn, make sure those Hollowfen wardstones are properly secured – it'd be a shame if the flood washed them away while you're gone. Check their anchors and any loose stones; don't want your hard work getting swept away in the morning's misty light.",
-    "cleanBeforeCommands": "A tight schedule, eh? If you plan to rush off before dawn, make sure those Hollowfen wardstones are properly secured – it'd be a shame if the flood washed them away while you're gone. Check their anchors and any loose stones; don't want your hard work getting swept away in the morning's misty light.",
-    "shapedHud": "A tight schedule, eh? If you plan to rush off before dawn, make sure those Hollowfen wardstones are properly secured – it'd be a shame if the flood washed them away while you're gone. Check their anchors and any loose stones; don't want your hard work getting swept away in the morning's misty light.",
+    "rawAssistant": "Tomorrow's repairs won't help you much if the roads remain treacherous. Before you leave, ensure your lanterns are properly secured – that last gale did a great deal of damage. Check the wooden supports and any loose fittings; you wouldn't want to lose light in the midst of Hollowfen's growing darkness.",
+    "sanitized": "Tomorrow's repairs won't help you much if the roads remain treacherous. Before you leave, ensure your lanterns are properly secured – that last gale did a great deal of damage. Check the wooden supports and any loose fittings; you wouldn't want to lose light in the midst of Hollowfen's growing darkness.",
+    "cleanBeforeCommands": "Tomorrow's repairs won't help you much if the roads remain treacherous. Before you leave, ensure your lanterns are properly secured – that last gale did a great deal of damage. Check the wooden supports and any loose fittings; you wouldn't want to lose light in the midst of Hollowfen's growing darkness.",
+    "shapedHud": "Tomorrow's repairs won't help you much if the roads remain treacherous. Before you leave, ensure your lanterns are properly secured – that last gale did a great deal of damage. Check the wooden supports and any loose fittings; you wouldn't want to lose light in the midst of Hollowfen's growing darkness.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

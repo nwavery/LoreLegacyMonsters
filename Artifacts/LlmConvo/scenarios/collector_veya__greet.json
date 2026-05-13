@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Morning! Good to see you're here. You might want to take a closer look at that fresh dirt on the one side road – could be some signs of what's been moving through Hollowfen lately.",
-    "sanitized": "Morning! Good to see you're here. You might want to take a closer look at that fresh dirt on the one side road – could be some signs of what's been moving through Hollowfen lately.",
-    "cleanBeforeCommands": "Morning! Good to see you're here. You might want to take a closer look at that fresh dirt on the one side road – could be some signs of what's been moving through Hollowfen lately.",
-    "shapedHud": "Morning! Good to see you're here. You might want to take a closer look at that fresh dirt on the one side road – could be some signs of what's been moving through Hollowfen lately.",
+    "rawAssistant": "\"Looks like you're heading out onto the north road. You might want to take a closer look at those fresh signs on the side road - could be worth a little extra exploration.\"",
+    "sanitized": "\"Looks like you're heading out onto the north road. You might want to take a closer look at those fresh signs on the side road - could be worth a little extra exploration.\"",
+    "cleanBeforeCommands": "\"Looks like you're heading out onto the north road. You might want to take a closer look at those fresh signs on the side road - could be worth a little extra exploration.\"",
+    "shapedHud": "\"Looks like you're heading out onto the north road. You might want to take a closer look at those fresh signs on the side road - could be worth a little extra exploration.\"",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

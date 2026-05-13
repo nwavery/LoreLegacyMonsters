@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Before you head out, make sure to tighten those lanterns along the planks again - that last gale really blew them loose, and we don't want 'em flapping around in the wind when it picks up again. Double-check the boardwalks for any loose or broken boards, too.",
-    "sanitized": "Before you head out, make sure to tighten those lanterns along the planks again - that last gale really blew them loose, and we don't want 'em flapping around in the wind when it picks up again. Double-check the boardwalks for any loose or broken boards, too.",
-    "cleanBeforeCommands": "Before you head out, make sure to tighten those lanterns along the planks again - that last gale really blew them loose, and we don't want 'em flapping around in the wind when it picks up again. Double-check the boardwalks for any loose or broken boards, too.",
-    "shapedHud": "Before you head out, make sure to tighten those lanterns along the planks again - that last gale really blew them loose, and we don't want 'em flapping around in the wind when it picks up again. Double-check the boardwalks for any loose or broken boards, too.",
+    "rawAssistant": "Leaving so early still? Misty conditions can be tricky to navigate. Double-check the lanterns on the north road; they were blown out by that last gale, and you don't want to risk tripping over a loose post in the dark.",
+    "sanitized": "Leaving so early still? Misty conditions can be tricky to navigate. Double-check the lanterns on the north road; they were blown out by that last gale, and you don't want to risk tripping over a loose post in the dark.",
+    "cleanBeforeCommands": "Leaving so early still? Misty conditions can be tricky to navigate. Double-check the lanterns on the north road; they were blown out by that last gale, and you don't want to risk tripping over a loose post in the dark.",
+    "shapedHud": "Leaving so early still? Misty conditions can be tricky to navigate. Double-check the lanterns on the north road; they were blown out by that last gale, and you don't want to risk tripping over a loose post in the dark.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

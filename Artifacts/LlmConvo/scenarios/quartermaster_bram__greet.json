@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Good morrow! Fresh tracks on the nearby road suggest it's safe to investigate. Make sure your charms are set for rough terrain before heading out onto that path.",
-    "sanitized": "Good morrow! Fresh tracks on the nearby road suggest it's safe to investigate. Make sure your charms are set for rough terrain before heading out onto that path.",
-    "cleanBeforeCommands": "Good morrow! Fresh tracks on the nearby road suggest it's safe to investigate. Make sure your charms are set for rough terrain before heading out onto that path.",
-    "shapedHud": "Good morrow! Fresh tracks on the nearby road suggest it's safe to investigate. Make sure your charms are set for rough terrain before heading out onto that path.",
+    "rawAssistant": "\"Mind the road ahead, traveler. You've got a choice to make about which path to take – north or east.\"",
+    "sanitized": "\"Mind the road ahead, traveler. You've got a choice to make about which path to take – north or east.\"",
+    "cleanBeforeCommands": "\"Mind the road ahead, traveler. You've got a choice to make about which path to take – north or east.\"",
+    "shapedHud": "\"Mind the road ahead, traveler. You've got a choice to make about which path to take – north or east.\"",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

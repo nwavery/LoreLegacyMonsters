@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "You're still here after that midnight rain. Must be the glow's pull drawing you back to Hollowfen. Looks like your road kit could use a bit of a cleaning – those charms and vials might come in handy if you're planning on investigating those lowland glows further.",
-    "sanitized": "You're still here after that midnight rain. Must be the glow's pull drawing you back to Hollowfen. Looks like your road kit could use a bit of a cleaning – those charms and vials might come in handy if you're planning on investigating those lowland glows further.",
-    "cleanBeforeCommands": "You're still here after that midnight rain. Must be the glow's pull drawing you back to Hollowfen. Looks like your road kit could use a bit of a cleaning – those charms and vials might come in handy if you're planning on investigating those lowland glows further.",
-    "shapedHud": "You're still here after that midnight rain. Must be the glow's pull drawing you back to Hollowfen. Looks like your road kit could use a bit of a cleaning – those charms and vials might come in handy if you're planning on investigating those lowland glows further.",
+    "rawAssistant": "Another brave soul willing to venture into the wilds of Hollowfen, eh? I see you're on the north road now – the misty dawn is always a good time to spot something worth your while. Be careful, though - those lowland glows can be treacherous if not studied properly; what's your take on these strange light sources?",
+    "sanitized": "Another brave soul willing to venture into the wilds of Hollowfen, eh? I see you're on the north road now – the misty dawn is always a good time to spot something worth your while. Be careful, though - those lowland glows can be treacherous if not studied properly; what's your take on these strange light sources?",
+    "cleanBeforeCommands": "Another brave soul willing to venture into the wilds of Hollowfen, eh? I see you're on the north road now – the misty dawn is always a good time to spot something worth your while. Be careful, though - those lowland glows can be treacherous if not studied properly; what's your take on these strange light sources?",
+    "shapedHud": "Another brave soul willing to venture into the wilds of Hollowfen, eh? I see you're on the north road now – the misty dawn is always a good time to spot something worth your while. Be careful, though - those lowland glows can be treacherous if not studied properly; what's your take on these strange light sources?",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

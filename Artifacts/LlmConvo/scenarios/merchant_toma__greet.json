@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "\"Good morrow! Fresh signs on the north road might be worth a look - keep an eye out for any unusual markings or scat. Come by the shop if you need anything to help with that.\"",
-    "sanitized": "\"Good morrow! Fresh signs on the north road might be worth a look - keep an eye out for any unusual markings or scat. Come by the shop if you need anything to help with that.\"",
-    "cleanBeforeCommands": "\"Good morrow! Fresh signs on the north road might be worth a look - keep an eye out for any unusual markings or scat. Come by the shop if you need anything to help with that.\"",
-    "shapedHud": "\"Good morrow! Fresh signs on the north road might be worth a look - keep an eye out for any unusual markings or scat. Come by the shop if you need anything to help with that.\"",
+    "rawAssistant": "\"Another long road ahead, eh? I'd advise a good look at that side road – there's been strange signs lately. Might be worth taking a closer sniff.\"",
+    "sanitized": "\"Another long road ahead, eh? I'd advise a good look at that side road – there's been strange signs lately. Might be worth taking a closer sniff.\"",
+    "cleanBeforeCommands": "\"Another long road ahead, eh? I'd advise a good look at that side road – there's been strange signs lately. Might be worth taking a closer sniff.\"",
+    "shapedHud": "\"Another long road ahead, eh? I'd advise a good look at that side road – there's been strange signs lately. Might be worth taking a closer sniff.\"",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

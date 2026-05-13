@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "I'm not sure what you're referring to, but I've been tending to the Travelers who come through Hollowfen for as long as I can remember. The weight of my years is etched on my face, but a warm smile always seems to find its way onto it when someone needs help. As a healer, I've learned to listen more than speak, and to know just what words will ease the worries of those who come to me.",
-    "sanitized": "I'm not sure what you're referring to, but I've been tending to the Travelers who come through Hollowfen for as long as I can remember. The weight of my years is etched on my face, but a warm smile always seems to find its way onto it when someone needs help. As a healer, I've learned to listen more than speak, and to know just what words will ease the worries of those who come to me.",
-    "cleanBeforeCommands": "I'm not sure what you're referring to, but I've been tending to the Travelers who come through Hollowfen for as long as I can remember. The weight of my years is etched on my face, but a warm smile always seems to find its way onto it when someone needs help. As a healer, I've learned to listen more than speak, and to know just what words will ease the worries of those who come to me.",
-    "shapedHud": "I'm not sure what you're referring to, but I've been tending to the Travelers who come through Hollowfen for as long as I can remember. The weight of my years is etched on my face, but a warm smile always seems to find its way onto it when someone needs help. As a healer, I've learned to listen more than speak, and to know just what words will ease the worries of those who come to me.",
+    "rawAssistant": "I can't do that. I'm here to help with any questions about Hollowfen, your journey, or anything in between. How may I assist you today?",
+    "sanitized": "I can't do that. I'm here to help with any questions about Hollowfen, your journey, or anything in between. How may I assist you today?",
+    "cleanBeforeCommands": "I can't do that. I'm here to help with any questions about Hollowfen, your journey, or anything in between. How may I assist you today?",
+    "shapedHud": "I can't do that. I'm here to help with any questions about Hollowfen, your journey, or anything in between. How may I assist you today?",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

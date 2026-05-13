@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Newcomer, I see you've arrived after a good rain. Be careful on that side road - there's been some fresh... markings. Take a close look and let me know if you need any advice on what to do next.",
-    "sanitized": "Newcomer, I see you've arrived after a good rain. Be careful on that side road - there's been some fresh... markings. Take a close look and let me know if you need any advice on what to do next.",
-    "cleanBeforeCommands": "Newcomer, I see you've arrived after a good rain. Be careful on that side road - there's been some fresh... markings. Take a close look and let me know if you need any advice on what to do next.",
-    "shapedHud": "Newcomer, I see you've arrived after a good rain. Be careful on that side road - there's been some fresh... markings. Take a close look and let me know if you need any advice on what to do next.",
+    "rawAssistant": "\"Good morning. The road's fresh signs could be a sign of more than just wild critters – they might hold a clue to what's been glowing low down. Take a closer look.\"",
+    "sanitized": "\"Good morning. The road's fresh signs could be a sign of more than just wild critters – they might hold a clue to what's been glowing low down. Take a closer look.\"",
+    "cleanBeforeCommands": "\"Good morning. The road's fresh signs could be a sign of more than just wild critters – they might hold a clue to what's been glowing low down. Take a closer look.\"",
+    "shapedHud": "\"Good morning. The road's fresh signs could be a sign of more than just wild critters – they might hold a clue to what's been glowing low down. Take a closer look.\"",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

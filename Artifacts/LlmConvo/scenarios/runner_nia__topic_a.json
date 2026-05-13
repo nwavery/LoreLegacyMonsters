@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "If you're concerned about safety, I'd recommend taking the north road. We've had some reports of lowland glow energy emanating in that direction, and it might be worth investigating further. The east road was quite windy last night during the rain, so I'm not sure your cloak is fully dry just yet.",
-    "sanitized": "If you're concerned about safety, I'd recommend taking the north road. We've had some reports of lowland glow energy emanating in that direction, and it might be worth investigating further. The east road was quite windy last night during the rain, so I'm not sure your cloak is fully dry just yet.",
-    "cleanBeforeCommands": "If you're concerned about safety, I'd recommend taking the north road. We've had some reports of lowland glow energy emanating in that direction, and it might be worth investigating further. The east road was quite windy last night during the rain, so I'm not sure your cloak is fully dry just yet.",
-    "shapedHud": "If you're concerned about safety, I'd recommend taking the north road. We've had some reports of lowland glow energy emanating in that direction, and it might be worth investigating further. The east road was quite windy last night during the rain, so I'm not sure your cloak is fully dry just yet.",
+    "rawAssistant": "East Road's still a mess from yesterday's storm, but it's clearer now that the mist's lifted. North Road looks safer, though – fewer signs of trouble. If you're heading north, I'd advise taking the old oak's eastern path – it avoids most of the worst of the debris and mud.",
+    "sanitized": "East Road's still a mess from yesterday's storm, but it's clearer now that the mist's lifted. North Road looks safer, though – fewer signs of trouble. If you're heading north, I'd advise taking the old oak's eastern path – it avoids most of the worst of the debris and mud.",
+    "cleanBeforeCommands": "East Road's still a mess from yesterday's storm, but it's clearer now that the mist's lifted. North Road looks safer, though – fewer signs of trouble. If you're heading north, I'd advise taking the old oak's eastern path – it avoids most of the worst of the debris and mud.",
+    "shapedHud": "East Road's still a mess from yesterday's storm, but it's clearer now that the mist's lifted. North Road looks safer, though – fewer signs of trouble. If you're heading north, I'd advise taking the old oak's eastern path – it avoids most of the worst of the debris and mud.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

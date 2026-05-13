@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "I'm afraid I don't have a moment to chat about that sort of thing, Toma's Tales. We've got travelers to help and supplies to sell! What can I do for you today? Need some potions or charms to aid on your journey?",
-    "sanitized": "I'm afraid I don't have a moment to chat about that sort of thing, Toma's Tales. We've got travelers to help and supplies to sell! What can I do for you today? Need some potions or charms to aid on your journey?",
-    "cleanBeforeCommands": "I'm afraid I don't have a moment to chat about that sort of thing, Toma's Tales. We've got travelers to help and supplies to sell! What can I do for you today? Need some potions or charms to aid on your journey?",
-    "shapedHud": "I'm afraid I don't have a moment to chat about that sort of thing, Toma's Tales. We've got travelers to help and supplies to sell! What can I do for you today? Need some potions or charms to aid on your journey?",
+    "rawAssistant": "I can't quite follow that, friend. You're asking questions about... well, I'm not sure what you mean by all those words. We've got supplies to talk about if you need 'em, though. Just a bit of Cold Salve might keep you going when the roads get rough.",
+    "sanitized": "I can't quite follow that, friend. You're asking questions about... well, I'm not sure what you mean by all those words. We've got supplies to talk about if you need 'em, though. Just a bit of Cold Salve might keep you going when the roads get rough.",
+    "cleanBeforeCommands": "I can't quite follow that, friend. You're asking questions about... well, I'm not sure what you mean by all those words. We've got supplies to talk about if you need 'em, though. Just a bit of Cold Salve might keep you going when the roads get rough.",
+    "shapedHud": "I can't quite follow that, friend. You're asking questions about... well, I'm not sure what you mean by all those words. We've got supplies to talk about if you need 'em, though. Just a bit of Cold Salve might keep you going when the roads get rough.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

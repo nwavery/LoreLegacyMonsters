@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Double-check your pack straps and road kit. Traveling alone by night can be treacherous. You'd rather see you safe in morning light.",
-    "sanitized": "Double-check your pack straps and road kit. Traveling alone by night can be treacherous. You'd rather see you safe in morning light.",
-    "cleanBeforeCommands": "Double-check your pack straps and road kit. Traveling alone by night can be treacherous. You'd rather see you safe in morning light.",
-    "shapedHud": "Double-check your pack straps and road kit. Traveling alone by night can be treacherous. You'd rather see you safe in morning light.",
+    "rawAssistant": "Don't be in such a hurry. If you're planning to leave before dawn, make sure those lanterns are securely tied down and won't blow away again like they did last gale. You don't want 'em snapping loose mid-trip and leaving you with no light to guide through the dark.",
+    "sanitized": "Don't be in such a hurry. If you're planning to leave before dawn, make sure those lanterns are securely tied down and won't blow away again like they did last gale. You don't want 'em snapping loose mid-trip and leaving you with no light to guide through the dark.",
+    "cleanBeforeCommands": "Don't be in such a hurry. If you're planning to leave before dawn, make sure those lanterns are securely tied down and won't blow away again like they did last gale. You don't want 'em snapping loose mid-trip and leaving you with no light to guide through the dark.",
+    "shapedHud": "Don't be in such a hurry. If you're planning to leave before dawn, make sure those lanterns are securely tied down and won't blow away again like they did last gale. You don't want 'em snapping loose mid-trip and leaving you with no light to guide through the dark.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

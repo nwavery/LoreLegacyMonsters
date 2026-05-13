@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "That's a good question, traveler. One thing you should watch out for is the east road itself; with this wind blowing in from that direction, it's likely to be quite dusty and rough. And if you recall, there was some trouble reported on that stretch not long ago...",
-    "sanitized": "That's a good question, traveler. One thing you should watch out for is the east road itself; with this wind blowing in from that direction, it's likely to be quite dusty and rough. And if you recall, there was some trouble reported on that stretch not long ago...",
-    "cleanBeforeCommands": "That's a good question, traveler. One thing you should watch out for is the east road itself; with this wind blowing in from that direction, it's likely to be quite dusty and rough. And if you recall, there was some trouble reported on that stretch not long ago...",
-    "shapedHud": "That's a good question, traveler. One thing you should watch out for is the east road itself; with this wind blowing in from that direction, it's likely to be quite dusty and rough. And if you recall, there was some trouble reported on that stretch not long ago...",
+    "rawAssistant": "East wind brings soot, but that's just a sign of the storm brewing elsewhere. The road you're headed for is treacherous at night – fresh signs on one side road hint at something more sinister lurking in the shadows. Come morning, the mist'll lift, and you might see what's been keeping travelers like us up all night.",
+    "sanitized": "East wind brings soot, but that's just a sign of the storm brewing elsewhere. The road you're headed for is treacherous at night – fresh signs on one side road hint at something more sinister lurking in the shadows. Come morning, the mist'll lift, and you might see what's been keeping travelers like us up all night.",
+    "cleanBeforeCommands": "East wind brings soot, but that's just a sign of the storm brewing elsewhere. The road you're headed for is treacherous at night – fresh signs on one side road hint at something more sinister lurking in the shadows. Come morning, the mist'll lift, and you might see what's been keeping travelers like us up all night.",
+    "shapedHud": "East wind brings soot, but that's just a sign of the storm brewing elsewhere. The road you're headed for is treacherous at night – fresh signs on one side road hint at something more sinister lurking in the shadows. Come morning, the mist'll lift, and you might see what's been keeping travelers like us up all night.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

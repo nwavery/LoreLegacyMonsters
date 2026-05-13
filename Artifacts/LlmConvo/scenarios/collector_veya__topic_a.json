@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Scout warning still fresh in my mind, actually - looks like Hollowfen had a close encounter with something not entirely pleasant. What brings you to this part of the lowlands today?",
-    "sanitized": "Scout warning still fresh in my mind, actually - looks like Hollowfen had a close encounter with something not entirely pleasant. What brings you to this part of the lowlands today?",
-    "cleanBeforeCommands": "Scout warning still fresh in my mind, actually - looks like Hollowfen had a close encounter with something not entirely pleasant. What brings you to this part of the lowlands today?",
-    "shapedHud": "Scout warning still fresh in my mind, actually - looks like Hollowfen had a close encounter with something not entirely pleasant. What brings you to this part of the lowlands today?",
+    "rawAssistant": "Looking to buy something that might help with those glow reports, I reckon? Or perhaps some local gossip on what's been spotted in these parts?",
+    "sanitized": "Looking to buy something that might help with those glow reports, I reckon? Or perhaps some local gossip on what's been spotted in these parts?",
+    "cleanBeforeCommands": "Looking to buy something that might help with those glow reports, I reckon? Or perhaps some local gossip on what's been spotted in these parts?",
+    "shapedHud": "Looking to buy something that might help with those glow reports, I reckon? Or perhaps some local gossip on what's been spotted in these parts?",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

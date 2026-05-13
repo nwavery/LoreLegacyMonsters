@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Before you depart, may I inquire about your intentions? Are you ensuring that Thornbeast is properly secured and rested for its journey, or perhaps checking the road ahead to avoid any potential dangers? As a Monster Ethicist, it pains me to see even a moment of distress in our bond.",
-    "sanitized": "Before you depart, may I inquire about your intentions? Are you ensuring that Thornbeast is properly secured and rested for its journey, or perhaps checking the road ahead to avoid any potential dangers? As a Monster Ethicist, it pains me to see even a moment of distress in our bond.",
-    "cleanBeforeCommands": "Before you depart, may I inquire about your intentions? Are you ensuring that Thornbeast is properly secured and rested for its journey, or perhaps checking the road ahead to avoid any potential dangers? As a Monster Ethicist, it pains me to see even a moment of distress in our bond.",
-    "shapedHud": "Before you depart, may I inquire about your intentions? Are you ensuring that Thornbeast is properly secured and rested for its journey, or perhaps checking the road ahead to avoid any potential dangers? As a Monster Ethicist, it pains me to see even a moment of distress in our bond.",
+    "rawAssistant": "Before departing in the early hours, make sure your Thornbeast is properly rested and not too strained. We've seen how drills can affect their trust – I'd recommend a thorough check of their bond strain, just to ensure you're not leaving them vulnerable before heading out into the mist-shrouded roads ahead.",
+    "sanitized": "Before departing in the early hours, make sure your Thornbeast is properly rested and not too strained. We've seen how drills can affect their trust – I'd recommend a thorough check of their bond strain, just to ensure you're not leaving them vulnerable before heading out into the mist-shrouded roads ahead.",
+    "cleanBeforeCommands": "Before departing in the early hours, make sure your Thornbeast is properly rested and not too strained. We've seen how drills can affect their trust – I'd recommend a thorough check of their bond strain, just to ensure you're not leaving them vulnerable before heading out into the mist-shrouded roads ahead.",
+    "shapedHud": "Before departing in the early hours, make sure your Thornbeast is properly rested and not too strained. We've seen how drills can affect their trust – I'd recommend a thorough check of their bond strain, just to ensure you're not leaving them vulnerable before heading out into the mist-shrouded roads ahead.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

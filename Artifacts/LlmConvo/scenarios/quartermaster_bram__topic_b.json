@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "To be honest, I've not had a chance to really dig into the updates personally, but Thornbeast's news from earlier today says it was the recent storm that washed away some of the debris on the north road. It might just make things cleaner for you and your party to navigate through.",
-    "sanitized": "To be honest, I've not had a chance to really dig into the updates personally, but Thornbeast's news from earlier today says it was the recent storm that washed away some of the debris on the north road. It might just make things cleaner for you and your party to navigate through.",
-    "cleanBeforeCommands": "To be honest, I've not had a chance to really dig into the updates personally, but Thornbeast's news from earlier today says it was the recent storm that washed away some of the debris on the north road. It might just make things cleaner for you and your party to navigate through.",
-    "shapedHud": "To be honest, I've not had a chance to really dig into the updates personally, but Thornbeast's news from earlier today says it was the recent storm that washed away some of the debris on the north road. It might just make things cleaner for you and your party to navigate through.",
+    "rawAssistant": "Travel's been tough lately, especially on the north road. The Hollowfen's seen its share of troubles, and we've had reports of lowland glows needing attention. Still, I'd rather not worry about that now. What's fresh is what happened on one side road – looks like someone - or something – was through there last night. You might want to take a closer look at the signs.",
+    "sanitized": "Travel's been tough lately, especially on the north road. The Hollowfen's seen its share of troubles, and we've had reports of lowland glows needing attention. Still, I'd rather not worry about that now. What's fresh is what happened on one side road – looks like someone - or something – was through there last night. You might want to take a closer look at the signs.",
+    "cleanBeforeCommands": "Travel's been tough lately, especially on the north road. The Hollowfen's seen its share of troubles, and we've had reports of lowland glows needing attention. Still, I'd rather not worry about that now. What's fresh is what happened on one side road – looks like someone - or something – was through there last night. You might want to take a closer look at the signs.",
+    "shapedHud": "Travel's been tough lately, especially on the north road. The Hollowfen's seen its share of troubles, and we've had reports of lowland glows needing attention. Still, I'd rather not worry about that now. What's fresh is what happened on one side road – looks like someone - or something – was through there last night. You might want to take a closer look at the signs.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

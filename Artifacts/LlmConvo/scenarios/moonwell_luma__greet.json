@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "\"Welcome to Moonwell's refuge. Tonight's misty veil lifts, and I sense a subtle unease within the well itself. The north road whispers of help, but first, let us unravel the threads of this old keepsake clue – its bond-omens may hold the key.\"",
-    "sanitized": "\"Welcome to Moonwell's refuge. Tonight's misty veil lifts, and I sense a subtle unease within the well itself. The north road whispers of help, but first, let us unravel the threads of this old keepsake clue – its bond-omens may hold the key.\"",
-    "cleanBeforeCommands": "\"Welcome to Moonwell's refuge. Tonight's misty veil lifts, and I sense a subtle unease within the well itself. The north road whispers of help, but first, let us unravel the threads of this old keepsake clue – its bond-omens may hold the key.\"",
-    "shapedHud": "\"Welcome to Moonwell's refuge. Tonight's misty veil lifts, and I sense a subtle unease within the well itself. The north road whispers of help, but first, let us unravel the threads of this old keepsake clue – its bond-omens may hold the key.\"",
+    "rawAssistant": "A gentle dawn breaks over Hollowfen. The mist that shrouded our roads has lifted, revealing... what secrets lie hidden on that one side road? I sense a quiet urgency about this place. Please, take a moment to examine those signs closely; they may hold more than meets the eye.",
+    "sanitized": "A gentle dawn breaks over Hollowfen. The mist that shrouded our roads has lifted, revealing... what secrets lie hidden on that one side road? I sense a quiet urgency about this place. Please, take a moment to examine those signs closely; they may hold more than meets the eye.",
+    "cleanBeforeCommands": "A gentle dawn breaks over Hollowfen. The mist that shrouded our roads has lifted, revealing... what secrets lie hidden on that one side road? I sense a quiet urgency about this place. Please, take a moment to examine those signs closely; they may hold more than meets the eye.",
+    "shapedHud": "A gentle dawn breaks over Hollowfen. The mist that shrouded our roads has lifted, revealing... what secrets lie hidden on that one side road? I sense a quiet urgency about this place. Please, take a moment to examine those signs closely; they may hold more than meets the eye.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

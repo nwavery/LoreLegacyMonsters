@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Traveller, I've been studying the bond strain after forced drills. Be cautious when pushing your companion forward – trust can be a fragile thing.",
-    "sanitized": "Traveller, I've been studying the bond strain after forced drills. Be cautious when pushing your companion forward – trust can be a fragile thing.",
-    "cleanBeforeCommands": "Traveller, I've been studying the bond strain after forced drills. Be cautious when pushing your companion forward – trust can be a fragile thing.",
-    "shapedHud": "Traveller, I've been studying the bond strain after forced drills. Be cautious when pushing your companion forward – trust can be a fragile thing.",
+    "rawAssistant": "\"Your bond with Thornbeast seems strong, but I sense a hesitation. Be mindful of trust and consent when pushing forward with lore-binding exercises.\"",
+    "sanitized": "\"Your bond with Thornbeast seems strong, but I sense a hesitation. Be mindful of trust and consent when pushing forward with lore-binding exercises.\"",
+    "cleanBeforeCommands": "\"Your bond with Thornbeast seems strong, but I sense a hesitation. Be mindful of trust and consent when pushing forward with lore-binding exercises.\"",
+    "shapedHud": "\"Your bond with Thornbeast seems strong, but I sense a hesitation. Be mindful of trust and consent when pushing forward with lore-binding exercises.\"",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

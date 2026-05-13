@@ -37,6 +37,27 @@ namespace LoreLegacyMonsters.Tests
         }
 
         [Test]
+        public void TryEvaluate_FailsWikiCharacterSentence()
+        {
+            var hud = "Mira is a character in the Hollowfen story who assigns quests.";
+            Assert.False(NpcLlmScenarioEvaluator.TryEvaluateHud(hud, Baseline(), out _));
+        }
+
+        [Test]
+        public void TryEvaluate_FailsAccordingToWikiSourcing()
+        {
+            Assert.False(NpcLlmScenarioEvaluator.TryEvaluateHud(
+                "According to the wiki, the marsh archive floods every spring.", Baseline(), out _));
+        }
+
+        [Test]
+        public void TryEvaluate_FailsMetaGameAddress()
+        {
+            Assert.False(NpcLlmScenarioEvaluator.TryEvaluateHud(
+                "In the game you should heal at Pia before the eastern route.", Baseline(), out _));
+        }
+
+        [Test]
         public void TryEvaluate_FailsCoachNoteParen()
         {
             var hud = "Welcome.\n\n(Note: Your response should be in-character.)";

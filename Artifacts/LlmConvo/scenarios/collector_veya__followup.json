@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "If you're planning to leave before dawn, don't forget to check that lantern on your pack for good measure - it was blown out by last gale, and you wouldn't want any trouble in the dark.",
-    "sanitized": "If you're planning to leave before dawn, don't forget to check that lantern on your pack for good measure - it was blown out by last gale, and you wouldn't want any trouble in the dark.",
-    "cleanBeforeCommands": "If you're planning to leave before dawn, don't forget to check that lantern on your pack for good measure - it was blown out by last gale, and you wouldn't want any trouble in the dark.",
-    "shapedHud": "If you're planning to leave before dawn, don't forget to check that lantern on your pack for good measure - it was blown out by last gale, and you wouldn't want any trouble in the dark.",
+    "rawAssistant": "Tomorrow's repairs are on me, friend! Now, about that road trip of yours... If you're planning to leave before dawn, don't forget to double-check your lanterns and torches. The winds last night must've knocked some out, and we can't have you stumbling into trouble in the dark.",
+    "sanitized": "Tomorrow's repairs are on me, friend! Now, about that road trip of yours... If you're planning to leave before dawn, don't forget to double-check your lanterns and torches. The winds last night must've knocked some out, and we can't have you stumbling into trouble in the dark.",
+    "cleanBeforeCommands": "Tomorrow's repairs are on me, friend! Now, about that road trip of yours... If you're planning to leave before dawn, don't forget to double-check your lanterns and torches. The winds last night must've knocked some out, and we can't have you stumbling into trouble in the dark.",
+    "shapedHud": "Tomorrow's repairs are on me, friend! Now, about that road trip of yours... If you're planning to leave before dawn, don't forget to double-check your lanterns and torches. The winds last night must've knocked some out, and we can't have you stumbling into trouble in the dark.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

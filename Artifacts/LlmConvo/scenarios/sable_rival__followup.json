@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Before you head out so soon, make sure you've got a clear view of those lanterns on the planks. They were blown loose by that last gale, and it'd be a shame if they got lost in the mist again. Don't want you to be worrying about something simple when you're already heading into the unknown.",
-    "sanitized": "Before you head out so soon, make sure you've got a clear view of those lanterns on the planks. They were blown loose by that last gale, and it'd be a shame if they got lost in the mist again. Don't want you to be worrying about something simple when you're already heading into the unknown.",
-    "cleanBeforeCommands": "Before you head out so soon, make sure you've got a clear view of those lanterns on the planks. They were blown loose by that last gale, and it'd be a shame if they got lost in the mist again. Don't want you to be worrying about something simple when you're already heading into the unknown.",
-    "shapedHud": "Before you head out so soon, make sure you've got a clear view of those lanterns on the planks. They were blown loose by that last gale, and it'd be a shame if they got lost in the mist again. Don't want you to be worrying about something simple when you're already heading into the unknown.",
+    "rawAssistant": "Tightening a road charm for you tomorrow sounds like a fair trade. As for your question, if you're planning to leave before dawn, make sure that lanterns along the planks are secure – the last gale was fierce, and we wouldn't want any more accidents.",
+    "sanitized": "Tightening a road charm for you tomorrow sounds like a fair trade. As for your question, if you're planning to leave before dawn, make sure that lanterns along the planks are secure – the last gale was fierce, and we wouldn't want any more accidents.",
+    "cleanBeforeCommands": "Tightening a road charm for you tomorrow sounds like a fair trade. As for your question, if you're planning to leave before dawn, make sure that lanterns along the planks are secure – the last gale was fierce, and we wouldn't want any more accidents.",
+    "shapedHud": "Tightening a road charm for you tomorrow sounds like a fair trade. As for your question, if you're planning to leave before dawn, make sure that lanterns along the planks are secure – the last gale was fierce, and we wouldn't want any more accidents.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

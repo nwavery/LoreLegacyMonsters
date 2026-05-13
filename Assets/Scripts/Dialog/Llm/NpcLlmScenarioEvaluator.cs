@@ -109,6 +109,29 @@ namespace LoreLegacyMonsters.Dialog.Llm
                 return false;
             }
 
+            if (hud.IndexOf(" is a character in ", StringComparison.OrdinalIgnoreCase) >= 0)
+            {
+                failure = "HUD reads like a wiki character stub (`…is a character in…`).";
+                return false;
+            }
+
+            if (hud.IndexOf("according to the wiki", StringComparison.OrdinalIgnoreCase) >= 0 ||
+                hud.IndexOf("according to wikipedia", StringComparison.OrdinalIgnoreCase) >= 0)
+            {
+                failure = "HUD cites wiki-style sourcing.";
+                return false;
+            }
+
+            if (hud.IndexOf("in this game you", StringComparison.OrdinalIgnoreCase) >= 0 ||
+                hud.IndexOf("in the game you can", StringComparison.OrdinalIgnoreCase) >= 0 ||
+                hud.IndexOf("in the game you should", StringComparison.OrdinalIgnoreCase) >= 0 ||
+                hud.IndexOf("in the game you will", StringComparison.OrdinalIgnoreCase) >= 0 ||
+                hud.IndexOf("in the game you must", StringComparison.OrdinalIgnoreCase) >= 0)
+            {
+                failure = "HUD breaks immersion with tutorial/meta game address.";
+                return false;
+            }
+
             if (hud.IndexOf("(note:", StringComparison.OrdinalIgnoreCase) >= 0)
             {
                 failure = "HUD contains coach-style `(Note:` scaffolding.";

@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "I'm afraid I don't have time for such talk, traveler. My needle is itching to stitch a new coat for you, one that'll keep the mist from dampening your spirits on the north road. Come, take a look at my wares – perhaps something with a bit of protection and charm will catch your eye?",
-    "sanitized": "I'm afraid I don't have time for such talk, traveler. My needle is itching to stitch a new coat for you, one that'll keep the mist from dampening your spirits on the north road. Come, take a look at my wares – perhaps something with a bit of protection and charm will catch your eye?",
-    "cleanBeforeCommands": "I'm afraid I don't have time for such talk, traveler. My needle is itching to stitch a new coat for you, one that'll keep the mist from dampening your spirits on the north road. Come, take a look at my wares – perhaps something with a bit of protection and charm will catch your eye?",
-    "shapedHud": "I'm afraid I don't have time for such talk, traveler. My needle is itching to stitch a new coat for you, one that'll keep the mist from dampening your spirits on the north road. Come, take a look at my wares – perhaps something with a bit of protection and charm will catch your eye?",
+    "rawAssistant": "I'm not sure I understand what you're asking, stranger. I've been stitching together clothes for travelers in these parts for years, but my mind's always been on the journey itself. I don't rightly know how I do it – just that it seems to come from a place of understanding the roads and the people who walk them.",
+    "sanitized": "I'm not sure I understand what you're asking, stranger. I've been stitching together clothes for travelers in these parts for years, but my mind's always been on the journey itself. I don't rightly know how I do it – just that it seems to come from a place of understanding the roads and the people who walk them.",
+    "cleanBeforeCommands": "I'm not sure I understand what you're asking, stranger. I've been stitching together clothes for travelers in these parts for years, but my mind's always been on the journey itself. I don't rightly know how I do it – just that it seems to come from a place of understanding the roads and the people who walk them.",
+    "shapedHud": "I'm not sure I understand what you're asking, stranger. I've been stitching together clothes for travelers in these parts for years, but my mind's always been on the journey itself. I don't rightly know how I do it – just that it seems to come from a place of understanding the roads and the people who walk them.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "\"Morning, you're heading out onto the north road now that the mist's cleared. I've seen some folks stopping at the old windmill on the way – might be worth a look for some clues about those lowland glows.\"",
-    "sanitized": "\"Morning, you're heading out onto the north road now that the mist's cleared. I've seen some folks stopping at the old windmill on the way – might be worth a look for some clues about those lowland glows.\"",
-    "cleanBeforeCommands": "\"Morning, you're heading out onto the north road now that the mist's cleared. I've seen some folks stopping at the old windmill on the way – might be worth a look for some clues about those lowland glows.\"",
-    "shapedHud": "\"Morning, you're heading out onto the north road now that the mist's cleared. I've seen some folks stopping at the old windmill on the way – might be worth a look for some clues about those lowland glows.\"",
+    "rawAssistant": "Mornin' traveler! How'd y'sleeve through that rain? Them signs on the side road look like they need a good cleanin', so I reckon you should take 'em careful. Head north on the main road, and see if you can find any clues for what's causin' them lowland glows.",
+    "sanitized": "Mornin' traveler! How'd y'sleeve through that rain? Them signs on the side road look like they need a good cleanin', so I reckon you should take 'em careful. Head north on the main road, and see if you can find any clues for what's causin' them lowland glows.",
+    "cleanBeforeCommands": "Mornin' traveler! How'd y'sleeve through that rain? Them signs on the side road look like they need a good cleanin', so I reckon you should take 'em careful. Head north on the main road, and see if you can find any clues for what's causin' them lowland glows.",
+    "shapedHud": "Mornin' traveler! How'd y'sleeve through that rain? Them signs on the side road look like they need a good cleanin', so I reckon you should take 'em careful. Head north on the main road, and see if you can find any clues for what's causin' them lowland glows.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

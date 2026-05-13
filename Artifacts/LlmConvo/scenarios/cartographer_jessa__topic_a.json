@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Given that Hollowfen stayed calm overnight and has fresh signs on one side road, it seems like a promising lead. If you're looking to explore carefully, follow the signs with your east wind-borne soot to see where they take you. The road ahead will give you more clues about what's going on.",
-    "sanitized": "Given that Hollowfen stayed calm overnight and has fresh signs on one side road, it seems like a promising lead. If you're looking to explore carefully, follow the signs with your east wind-borne soot to see where they take you. The road ahead will give you more clues about what's going on.",
-    "cleanBeforeCommands": "Given that Hollowfen stayed calm overnight and has fresh signs on one side road, it seems like a promising lead. If you're looking to explore carefully, follow the signs with your east wind-borne soot to see where they take you. The road ahead will give you more clues about what's going on.",
-    "shapedHud": "Given that Hollowfen stayed calm overnight and has fresh signs on one side road, it seems like a promising lead. If you're looking to explore carefully, follow the signs with your east wind-borne soot to see where they take you. The road ahead will give you more clues about what's going on.",
+    "rawAssistant": "Let me take a closer look at this road and see if there are any signs that might interest you. The wear on the stones is unusual, almost... deliberate. It looks like someone - or something - tried to hide a message. If you follow the road eastward for about half a mile, you'll notice a small bend in the path. That's where I'd recommend taking a closer look.",
+    "sanitized": "Let me take a closer look at this road and see if there are any signs that might interest you. The wear on the stones is unusual, almost... deliberate. It looks like someone - or something - tried to hide a message. If you follow the road eastward for about half a mile, you'll notice a small bend in the path. That's where I'd recommend taking a closer look.",
+    "cleanBeforeCommands": "Let me take a closer look at this road and see if there are any signs that might interest you. The wear on the stones is unusual, almost... deliberate. It looks like someone - or something - tried to hide a message. If you follow the road eastward for about half a mile, you'll notice a small bend in the path. That's where I'd recommend taking a closer look.",
+    "shapedHud": "Let me take a closer look at this road and see if there are any signs that might interest you. The wear on the stones is unusual, almost... deliberate. It looks like someone - or something - tried to hide a message. If you follow the road eastward for about half a mile, you'll notice a small bend in the path. That's where I'd recommend taking a closer look.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

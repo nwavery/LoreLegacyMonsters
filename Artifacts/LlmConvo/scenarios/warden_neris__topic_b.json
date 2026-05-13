@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Head north on the main road, that's where you'll likely find some answers about these lowland glows. The village nearby might have some folk willing to share what they know. Be cautious of the area; we've had reports of increased beast sightings in those parts after dark.",
-    "sanitized": "Head north on the main road, that's where you'll likely find some answers about these lowland glows. The village nearby might have some folk willing to share what they know. Be cautious of the area; we've had reports of increased beast sightings in those parts after dark.",
-    "cleanBeforeCommands": "Head north on the main road, that's where you'll likely find some answers about these lowland glows. The village nearby might have some folk willing to share what they know. Be cautious of the area; we've had reports of increased beast sightings in those parts after dark.",
-    "shapedHud": "Head north on the main road, that's where you'll likely find some answers about these lowland glows. The village nearby might have some folk willing to share what they know. Be cautious of the area; we've had reports of increased beast sightings in those parts after dark.",
+    "rawAssistant": "I'd recommend sticking to the north road, it might be your best bet for finding that help you're looking for. There are rumors of a traveler who's been studying those lowland glows and might have some insight into what's going on. Be cautious though, we've had reports of strange happenings out there lately.",
+    "sanitized": "I'd recommend sticking to the north road, it might be your best bet for finding that help you're looking for. There are rumors of a traveler who's been studying those lowland glows and might have some insight into what's going on. Be cautious though, we've had reports of strange happenings out there lately.",
+    "cleanBeforeCommands": "I'd recommend sticking to the north road, it might be your best bet for finding that help you're looking for. There are rumors of a traveler who's been studying those lowland glows and might have some insight into what's going on. Be cautious though, we've had reports of strange happenings out there lately.",
+    "shapedHud": "I'd recommend sticking to the north road, it might be your best bet for finding that help you're looking for. There are rumors of a traveler who's been studying those lowland glows and might have some insight into what's going on. Be cautious though, we've had reports of strange happenings out there lately.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

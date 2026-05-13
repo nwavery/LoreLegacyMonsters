@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Storms do not slumber, and neither do my trials. This place is a proving ground for those who dare to wield the relic's fury. Your presence, like that of many others before you, serves as a test of your mettle. Come, let us see how well you hold up against the tempests that rage within these walls.",
-    "sanitized": "Storms do not slumber, and neither do my trials. This place is a proving ground for those who dare to wield the relic's fury. Your presence, like that of many others before you, serves as a test of your mettle. Come, let us see how well you hold up against the tempests that rage within these walls.",
-    "cleanBeforeCommands": "Storms do not slumber, and neither do my trials. This place is a proving ground for those who dare to wield the relic's fury. Your presence, like that of many others before you, serves as a test of your mettle. Come, let us see how well you hold up against the tempests that rage within these walls.",
-    "shapedHud": "Storms do not slumber, and neither do my trials. This place is a proving ground for those who dare to wield the relic's fury. Your presence, like that of many others before you, serves as a test of your mettle. Come, let us see how well you hold up against the tempests that rage within these walls.",
+    "rawAssistant": "Storms like me don't awaken easily. Yet, I sense it - a weighty presence stirs in Hollowfen. You've come seeking answers about those lowland glows, and perhaps more. Very well, let us discuss the signs on that side road. Are they of concern to you?",
+    "sanitized": "Storms like me don't awaken easily. Yet, I sense it - a weighty presence stirs in Hollowfen. You've come seeking answers about those lowland glows, and perhaps more. Very well, let us discuss the signs on that side road. Are they of concern to you?",
+    "cleanBeforeCommands": "Storms like me don't awaken easily. Yet, I sense it - a weighty presence stirs in Hollowfen. You've come seeking answers about those lowland glows, and perhaps more. Very well, let us discuss the signs on that side road. Are they of concern to you?",
+    "shapedHud": "Storms like me don't awaken easily. Yet, I sense it - a weighty presence stirs in Hollowfen. You've come seeking answers about those lowland glows, and perhaps more. Very well, let us discuss the signs on that side road. Are they of concern to you?",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

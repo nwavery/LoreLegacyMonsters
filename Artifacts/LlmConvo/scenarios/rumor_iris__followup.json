@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Tomorrow's tighten isn't possible now, but you might want to inspect lanterns along those planks more closely; they're still blown from last gale, and that could be a sign of something worse coming our way.",
-    "sanitized": "Tomorrow's tighten isn't possible now, but you might want to inspect lanterns along those planks more closely; they're still blown from last gale, and that could be a sign of something worse coming our way.",
-    "cleanBeforeCommands": "Tomorrow's tighten isn't possible now, but you might want to inspect lanterns along those planks more closely; they're still blown from last gale, and that could be a sign of something worse coming our way.",
-    "shapedHud": "Tomorrow's tighten isn't possible now, but you might want to inspect lanterns along those planks more closely; they're still blown from last gale, and that could be a sign of something worse coming our way.",
+    "rawAssistant": "At this hour, it's a good idea to re-check those lanterns blown by the gale - and make sure nothing's snagged in the planks themselves. Misty night can play tricks on travelers.",
+    "sanitized": "At this hour, it's a good idea to re-check those lanterns blown by the gale - and make sure nothing's snagged in the planks themselves. Misty night can play tricks on travelers.",
+    "cleanBeforeCommands": "At this hour, it's a good idea to re-check those lanterns blown by the gale - and make sure nothing's snagged in the planks themselves. Misty night can play tricks on travelers.",
+    "shapedHud": "At this hour, it's a good idea to re-check those lanterns blown by the gale - and make sure nothing's snagged in the planks themselves. Misty night can play tricks on travelers.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

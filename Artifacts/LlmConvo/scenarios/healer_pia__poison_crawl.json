@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Carry some Antidote, it'll help counteract that poison. And perhaps Cold Salve, just in case things get a bit... messy on the road ahead. We can't be too careful when venturing into areas like the Marsh.",
-    "sanitized": "Carry some Antidote, it'll help counteract that poison. And perhaps Cold Salve, just in case things get a bit... messy on the road ahead. We can't be too careful when venturing into areas like the Marsh.",
-    "cleanBeforeCommands": "Carry some Antidote, it'll help counteract that poison. And perhaps Cold Salve, just in case things get a bit... messy on the road ahead. We can't be too careful when venturing into areas like the Marsh.",
-    "shapedHud": "Carry some Antidote, it'll help counteract that poison. And perhaps Cold Salve, just in case things get a bit... messy on the road ahead. We can't be too careful when venturing into areas like the Marsh.",
+    "rawAssistant": "For poison, you'll need an Antidote. Cold Salve won't help with that kind of affliction, and Shock Tonic won't cure it either. I've got a fresh batch of Antidote on my bench if you'd like to take some for the road. By the way, be careful out there in the marsh – we've had reports of increased poison threats lately.",
+    "sanitized": "For poison, you'll need an Antidote. Cold Salve won't help with that kind of affliction, and Shock Tonic won't cure it either. I've got a fresh batch of Antidote on my bench if you'd like to take some for the road. By the way, be careful out there in the marsh – we've had reports of increased poison threats lately.",
+    "cleanBeforeCommands": "For poison, you'll need an Antidote. Cold Salve won't help with that kind of affliction, and Shock Tonic won't cure it either. I've got a fresh batch of Antidote on my bench if you'd like to take some for the road. By the way, be careful out there in the marsh – we've had reports of increased poison threats lately.",
+    "shapedHud": "For poison, you'll need an Antidote. Cold Salve won't help with that kind of affliction, and Shock Tonic won't cure it either. I've got a fresh batch of Antidote on my bench if you'd like to take some for the road. By the way, be careful out there in the marsh – we've had reports of increased poison threats lately.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "You're safe for now. Be wary of that side road – them folks who vanished last night might've left more than just footprints behind.",
-    "sanitized": "You're safe for now. Be wary of that side road – them folks who vanished last night might've left more than just footprints behind.",
-    "cleanBeforeCommands": "You're safe for now. Be wary of that side road – them folks who vanished last night might've left more than just footprints behind.",
-    "shapedHud": "You're safe for now. Be wary of that side road – them folks who vanished last night might've left more than just footprints behind.",
+    "rawAssistant": "Traveler. That side road's been quiet for far too long. You might want to take a closer look at those signs – rumors say they're tied to an old trade route that hasn't seen much use in years.",
+    "sanitized": "Traveler. That side road's been quiet for far too long. You might want to take a closer look at those signs – rumors say they're tied to an old trade route that hasn't seen much use in years.",
+    "cleanBeforeCommands": "Traveler. That side road's been quiet for far too long. You might want to take a closer look at those signs – rumors say they're tied to an old trade route that hasn't seen much use in years.",
+    "shapedHud": "Traveler. That side road's been quiet for far too long. You might want to take a closer look at those signs – rumors say they're tied to an old trade route that hasn't seen much use in years.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

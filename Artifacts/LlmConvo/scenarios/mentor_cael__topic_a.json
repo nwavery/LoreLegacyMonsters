@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Preparing for the spire is a serious matter. The road ahead won't be easy, especially with that east wind whipping up soot. Make sure your cloak is secure and your gear is in order. A good night's rest will also serve you well; exhaustion can cloud judgment on treacherous paths like these.",
-    "sanitized": "Preparing for the spire is a serious matter. The road ahead won't be easy, especially with that east wind whipping up soot. Make sure your cloak is secure and your gear is in order. A good night's rest will also serve you well; exhaustion can cloud judgment on treacherous paths like these.",
-    "cleanBeforeCommands": "Preparing for the spire is a serious matter. The road ahead won't be easy, especially with that east wind whipping up soot. Make sure your cloak is secure and your gear is in order. A good night's rest will also serve you well; exhaustion can cloud judgment on treacherous paths like these.",
-    "shapedHud": "Preparing for the spire is a serious matter. The road ahead won't be easy, especially with that east wind whipping up soot. Make sure your cloak is secure and your gear is in order. A good night's rest will also serve you well; exhaustion can cloud judgment on treacherous paths like these.",
+    "rawAssistant": "The spire looms ahead, a test of your team's mettle. Balancing strength with discipline is key – don't let impulsive decisions cloud your judgement. Rest and positioning are crucial; ensure Thornbeast is fed, hydrated, and positioned to take advantage of any narrow ledges or chokepoints. The mist may lift, revealing new hazards or opportunities – stay alert.",
+    "sanitized": "The spire looms ahead, a test of your team's mettle. Balancing strength with discipline is key – don't let impulsive decisions cloud your judgement. Rest and positioning are crucial; ensure Thornbeast is fed, hydrated, and positioned to take advantage of any narrow ledges or chokepoints. The mist may lift, revealing new hazards or opportunities – stay alert.",
+    "cleanBeforeCommands": "The spire looms ahead, a test of your team's mettle. Balancing strength with discipline is key – don't let impulsive decisions cloud your judgement. Rest and positioning are crucial; ensure Thornbeast is fed, hydrated, and positioned to take advantage of any narrow ledges or chokepoints. The mist may lift, revealing new hazards or opportunities – stay alert.",
+    "shapedHud": "The spire looms ahead, a test of your team's mettle. Balancing strength with discipline is key – don't let impulsive decisions cloud your judgement. Rest and positioning are crucial; ensure Thornbeast is fed, hydrated, and positioned to take advantage of any narrow ledges or chokepoints. The mist may lift, revealing new hazards or opportunities – stay alert.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Traveler, you seek to flee before dawn, do you? Very well, if you depart too early, make certain the lanterns on your path are secure. The last storm that passed left them askew, and I would not have you face another tempest with loose candles. Tighten those lanterns for me tomorrow, and we shall speak of your journey once more.",
-    "sanitized": "Traveler, you seek to flee before dawn, do you? Very well, if you depart too early, make certain the lanterns on your path are secure. The last storm that passed left them askew, and I would not have you face another tempest with loose candles. Tighten those lanterns for me tomorrow, and we shall speak of your journey once more.",
-    "cleanBeforeCommands": "Traveler, you seek to flee before dawn, do you? Very well, if you depart too early, make certain the lanterns on your path are secure. The last storm that passed left them askew, and I would not have you face another tempest with loose candles. Tighten those lanterns for me tomorrow, and we shall speak of your journey once more.",
-    "shapedHud": "Traveler, you seek to flee before dawn, do you? Very well, if you depart too early, make certain the lanterns on your path are secure. The last storm that passed left them askew, and I would not have you face another tempest with loose candles. Tighten those lanterns for me tomorrow, and we shall speak of your journey once more.",
+    "rawAssistant": "A hasty departure would be unwise, traveler. Tonight's mist still clings to the roads, and one wrong step could prove disastrous. Double-check that your gear is securely tied to your person, lest it vanish in the darkness like a whispered secret.",
+    "sanitized": "A hasty departure would be unwise, traveler. Tonight's mist still clings to the roads, and one wrong step could prove disastrous. Double-check that your gear is securely tied to your person, lest it vanish in the darkness like a whispered secret.",
+    "cleanBeforeCommands": "A hasty departure would be unwise, traveler. Tonight's mist still clings to the roads, and one wrong step could prove disastrous. Double-check that your gear is securely tied to your person, lest it vanish in the darkness like a whispered secret.",
+    "shapedHud": "A hasty departure would be unwise, traveler. Tonight's mist still clings to the roads, and one wrong step could prove disastrous. Double-check that your gear is securely tied to your person, lest it vanish in the darkness like a whispered secret.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

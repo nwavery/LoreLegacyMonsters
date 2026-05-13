@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Morning. You're clear to head north on the road now that the mist's lifted. The signs you'll find might give us a clue about what's been causing these glow reports – or at least some idea of where to look for help.",
-    "sanitized": "Morning. You're clear to head north on the road now that the mist's lifted. The signs you'll find might give us a clue about what's been causing these glow reports – or at least some idea of where to look for help.",
-    "cleanBeforeCommands": "Morning. You're clear to head north on the road now that the mist's lifted. The signs you'll find might give us a clue about what's been causing these glow reports – or at least some idea of where to look for help.",
-    "shapedHud": "Morning. You're clear to head north on the road now that the mist's lifted. The signs you'll find might give us a clue about what's been causing these glow reports – or at least some idea of where to look for help.",
+    "rawAssistant": "\"Looks like the rain's washed away some of that grime. Take a good look at the signs on the side road, see if you can tell what made 'em.\"",
+    "sanitized": "\"Looks like the rain's washed away some of that grime. Take a good look at the signs on the side road, see if you can tell what made 'em.\"",
+    "cleanBeforeCommands": "\"Looks like the rain's washed away some of that grime. Take a good look at the signs on the side road, see if you can tell what made 'em.\"",
+    "shapedHud": "\"Looks like the rain's washed away some of that grime. Take a good look at the signs on the side road, see if you can tell what made 'em.\"",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

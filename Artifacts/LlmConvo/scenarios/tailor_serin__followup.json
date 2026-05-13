@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Tomorrow's errands won't wait, but a traveler who leaves before dawn is best prepared for anything. Double-check that your road kit is still intact, especially the vials and twine – those can be lifesavers on a long journey. And don't forget to adjust your cloak's hem; I recall you mentioned it was a bit worn after last night's windstorm.",
-    "sanitized": "Tomorrow's errands won't wait, but a traveler who leaves before dawn is best prepared for anything. Double-check that your road kit is still intact, especially the vials and twine – those can be lifesavers on a long journey. And don't forget to adjust your cloak's hem; I recall you mentioned it was a bit worn after last night's windstorm.",
-    "cleanBeforeCommands": "Tomorrow's errands won't wait, but a traveler who leaves before dawn is best prepared for anything. Double-check that your road kit is still intact, especially the vials and twine – those can be lifesavers on a long journey. And don't forget to adjust your cloak's hem; I recall you mentioned it was a bit worn after last night's windstorm.",
-    "shapedHud": "Tomorrow's errands won't wait, but a traveler who leaves before dawn is best prepared for anything. Double-check that your road kit is still intact, especially the vials and twine – those can be lifesavers on a long journey. And don't forget to adjust your cloak's hem; I recall you mentioned it was a bit worn after last night's windstorm.",
+    "rawAssistant": "A hasty departure ahead, eh? If you're leaving by dawn, make sure to check your lamp oil – don't want it running dry in the dark hours. A well-lit lantern can be a traveler's best friend out here on the roads.",
+    "sanitized": "A hasty departure ahead, eh? If you're leaving by dawn, make sure to check your lamp oil – don't want it running dry in the dark hours. A well-lit lantern can be a traveler's best friend out here on the roads.",
+    "cleanBeforeCommands": "A hasty departure ahead, eh? If you're leaving by dawn, make sure to check your lamp oil – don't want it running dry in the dark hours. A well-lit lantern can be a traveler's best friend out here on the roads.",
+    "shapedHud": "A hasty departure ahead, eh? If you're leaving by dawn, make sure to check your lamp oil – don't want it running dry in the dark hours. A well-lit lantern can be a traveler's best friend out here on the roads.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

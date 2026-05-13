@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Morning traveler. You're fortunate the mist lifted soon after the rain passed. Be wary of road conditions ahead – fresh signs can be deceiving.",
-    "sanitized": "Morning traveler. You're fortunate the mist lifted soon after the rain passed. Be wary of road conditions ahead – fresh signs can be deceiving.",
-    "cleanBeforeCommands": "Morning traveler. You're fortunate the mist lifted soon after the rain passed. Be wary of road conditions ahead – fresh signs can be deceiving.",
-    "shapedHud": "Morning traveler. You're fortunate the mist lifted soon after the rain passed. Be wary of road conditions ahead – fresh signs can be deceiving.",
+    "rawAssistant": "\"Road grit's been your companion so far, traveler. Watch where you step on the north road – old paths can hold secrets.\"",
+    "sanitized": "\"Road grit's been your companion so far, traveler. Watch where you step on the north road – old paths can hold secrets.\"",
+    "cleanBeforeCommands": "\"Road grit's been your companion so far, traveler. Watch where you step on the north road – old paths can hold secrets.\"",
+    "shapedHud": "\"Road grit's been your companion so far, traveler. Watch where you step on the north road – old paths can hold secrets.\"",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

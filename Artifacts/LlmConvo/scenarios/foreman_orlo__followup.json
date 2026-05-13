@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Tomorrow'll be a busy day 'round here. Can't tighten anything till then, but I reckon you should make sure those lanterns are secure on the planks for good measure. Last gale came through like a scythe and near wiped out our lighting. Don't want no accidents while you're makin' your way north.",
-    "sanitized": "Tomorrow'll be a busy day 'round here. Can't tighten anything till then, but I reckon you should make sure those lanterns are secure on the planks for good measure. Last gale came through like a scythe and near wiped out our lighting. Don't want no accidents while you're makin' your way north.",
-    "cleanBeforeCommands": "Tomorrow'll be a busy day 'round here. Can't tighten anything till then, but I reckon you should make sure those lanterns are secure on the planks for good measure. Last gale came through like a scythe and near wiped out our lighting. Don't want no accidents while you're makin' your way north.",
-    "shapedHud": "Tomorrow'll be a busy day 'round here. Can't tighten anything till then, but I reckon you should make sure those lanterns are secure on the planks for good measure. Last gale came through like a scythe and near wiped out our lighting. Don't want no accidents while you're makin' your way north.",
+    "rawAssistant": "Tightening a plank ain't exactly my area of expertise, lad. We've got more pressing concerns 'round here – like them stone monsters that been causin' trouble lately. If you're plannin' on leavin' before dawn, make sure you check your lanterns for sure. They were blown out the last gale, and I'd hate to see you gettin' caught in a storm with no light.",
+    "sanitized": "Tightening a plank ain't exactly my area of expertise, lad. We've got more pressing concerns 'round here – like them stone monsters that been causin' trouble lately. If you're plannin' on leavin' before dawn, make sure you check your lanterns for sure. They were blown out the last gale, and I'd hate to see you gettin' caught in a storm with no light.",
+    "cleanBeforeCommands": "Tightening a plank ain't exactly my area of expertise, lad. We've got more pressing concerns 'round here – like them stone monsters that been causin' trouble lately. If you're plannin' on leavin' before dawn, make sure you check your lanterns for sure. They were blown out the last gale, and I'd hate to see you gettin' caught in a storm with no light.",
+    "shapedHud": "Tightening a plank ain't exactly my area of expertise, lad. We've got more pressing concerns 'round here – like them stone monsters that been causin' trouble lately. If you're plannin' on leavin' before dawn, make sure you check your lanterns for sure. They were blown out the last gale, and I'd hate to see you gettin' caught in a storm with no light.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

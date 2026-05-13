@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Before heading out again, make sure to check that lantern on your cloak for any damage; it was blown loose by last gale and could be a safety hazard in the dark.",
-    "sanitized": "Before heading out again, make sure to check that lantern on your cloak for any damage; it was blown loose by last gale and could be a safety hazard in the dark.",
-    "cleanBeforeCommands": "Before heading out again, make sure to check that lantern on your cloak for any damage; it was blown loose by last gale and could be a safety hazard in the dark.",
-    "shapedHud": "Before heading out again, make sure to check that lantern on your cloak for any damage; it was blown loose by last gale and could be a safety hazard in the dark.",
+    "rawAssistant": "Mira's expression turns serious as she considers your question. When traveling to new places, especially at night or on unfamiliar roads, it's wise to ensure you have a clear path ahead and can navigate safely in the dark. Before leaving, make sure to check that all lanterns are secure and not damaged from last night's gale.",
+    "sanitized": "Mira's expression turns serious as she considers your question. When traveling to new places, especially at night or on unfamiliar roads, it's wise to ensure you have a clear path ahead and can navigate safely in the dark. Before leaving, make sure to check that all lanterns are secure and not damaged from last night's gale.",
+    "cleanBeforeCommands": "Mira's expression turns serious as she considers your question. When traveling to new places, especially at night or on unfamiliar roads, it's wise to ensure you have a clear path ahead and can navigate safely in the dark. Before leaving, make sure to check that all lanterns are secure and not damaged from last night's gale.",
+    "shapedHud": "Mira's expression turns serious as she considers your question. When traveling to new places, especially at night or on unfamiliar roads, it's wise to ensure you have a clear path ahead and can navigate safely in the dark. Before leaving, make sure to check that all lanterns are secure and not damaged from last night's gale.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }
