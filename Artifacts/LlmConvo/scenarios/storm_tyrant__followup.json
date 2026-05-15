@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "A hasty departure would be unwise, traveler. Tonight's mist still clings to the roads, and one wrong step could prove disastrous. Double-check that your gear is securely tied to your person, lest it vanish in the darkness like a whispered secret.",
-    "sanitized": "A hasty departure would be unwise, traveler. Tonight's mist still clings to the roads, and one wrong step could prove disastrous. Double-check that your gear is securely tied to your person, lest it vanish in the darkness like a whispered secret.",
-    "cleanBeforeCommands": "A hasty departure would be unwise, traveler. Tonight's mist still clings to the roads, and one wrong step could prove disastrous. Double-check that your gear is securely tied to your person, lest it vanish in the darkness like a whispered secret.",
-    "shapedHud": "A hasty departure would be unwise, traveler. Tonight's mist still clings to the roads, and one wrong step could prove disastrous. Double-check that your gear is securely tied to your person, lest it vanish in the darkness like a whispered secret.",
+    "rawAssistant": "Roads can be treacherous, especially in the mist. Before you head out, make sure those lanterns are securely tied down; we've seen them blown loose by stronger gusts than this before, and it's a hazard waiting to happen. You wouldn't want your party stumbling into darkness again, now would you?",
+    "sanitized": "Roads can be treacherous, especially in the mist. Before you head out, make sure those lanterns are securely tied down; we've seen them blown loose by stronger gusts than this before, and it's a hazard waiting to happen. You wouldn't want your party stumbling into darkness again, now would you?",
+    "cleanBeforeCommands": "Roads can be treacherous, especially in the mist. Before you head out, make sure those lanterns are securely tied down; we've seen them blown loose by stronger gusts than this before, and it's a hazard waiting to happen. You wouldn't want your party stumbling into darkness again, now would you?",
+    "shapedHud": "Roads can be treacherous, especially in the mist. Before you head out, make sure those lanterns are securely tied down; we've seen them blown loose by stronger gusts than this before, and it's a hazard waiting to happen. You wouldn't want your party stumbling into darkness again, now would you?",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

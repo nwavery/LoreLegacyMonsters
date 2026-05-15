@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "As you prepare to depart into the misty dawn, remember to check your lanterns once more. The last gale was quite fierce, and it would be a shame for them to fail you now, especially on the treacherous north road ahead. Take a moment to ensure they're securely fastened and not damaged beyond repair.",
-    "sanitized": "As you prepare to depart into the misty dawn, remember to check your lanterns once more. The last gale was quite fierce, and it would be a shame for them to fail you now, especially on the treacherous north road ahead. Take a moment to ensure they're securely fastened and not damaged beyond repair.",
-    "cleanBeforeCommands": "As you prepare to depart into the misty dawn, remember to check your lanterns once more. The last gale was quite fierce, and it would be a shame for them to fail you now, especially on the treacherous north road ahead. Take a moment to ensure they're securely fastened and not damaged beyond repair.",
-    "shapedHud": "As you prepare to depart into the misty dawn, remember to check your lanterns once more. The last gale was quite fierce, and it would be a shame for them to fail you now, especially on the treacherous north road ahead. Take a moment to ensure they're securely fastened and not damaged beyond repair.",
+    "rawAssistant": "As morning breaks in Hollowfen, it's easy to overlook details that come alive with darkness. When you head back tomorrow, double-check those lanterns along the planks; a stray spark might've exposed some hidden marks or symbols.",
+    "sanitized": "As morning breaks in Hollowfen, it's easy to overlook details that come alive with darkness. When you head back tomorrow, double-check those lanterns along the planks; a stray spark might've exposed some hidden marks or symbols.",
+    "cleanBeforeCommands": "As morning breaks in Hollowfen, it's easy to overlook details that come alive with darkness. When you head back tomorrow, double-check those lanterns along the planks; a stray spark might've exposed some hidden marks or symbols.",
+    "shapedHud": "As morning breaks in Hollowfen, it's easy to overlook details that come alive with darkness. When you head back tomorrow, double-check those lanterns along the planks; a stray spark might've exposed some hidden marks or symbols.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

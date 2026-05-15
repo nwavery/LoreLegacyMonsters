@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "\"Your bond with Thornbeast seems strong, but I sense a hesitation. Be mindful of trust and consent when pushing forward with lore-binding exercises.\"",
-    "sanitized": "\"Your bond with Thornbeast seems strong, but I sense a hesitation. Be mindful of trust and consent when pushing forward with lore-binding exercises.\"",
-    "cleanBeforeCommands": "\"Your bond with Thornbeast seems strong, but I sense a hesitation. Be mindful of trust and consent when pushing forward with lore-binding exercises.\"",
-    "shapedHud": "\"Your bond with Thornbeast seems strong, but I sense a hesitation. Be mindful of trust and consent when pushing forward with lore-binding exercises.\"",
+    "rawAssistant": "Another weary soul seeking guidance on the open road. Your companion's hesitation after lore-binding practice is a sign that trust must be earned, not forced. I've seen how thin trust can make even the strongest bonds.",
+    "sanitized": "Another weary soul seeking guidance on the open road. Your companion's hesitation after lore-binding practice is a sign that trust must be earned, not forced. I've seen how thin trust can make even the strongest bonds.",
+    "cleanBeforeCommands": "Another weary soul seeking guidance on the open road. Your companion's hesitation after lore-binding practice is a sign that trust must be earned, not forced. I've seen how thin trust can make even the strongest bonds.",
+    "shapedHud": "Another weary soul seeking guidance on the open road. Your companion's hesitation after lore-binding practice is a sign that trust must be earned, not forced. I've seen how thin trust can make even the strongest bonds.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

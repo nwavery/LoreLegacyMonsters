@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Another brave soul willing to venture into the wilds of Hollowfen, eh? I see you're on the north road now – the misty dawn is always a good time to spot something worth your while. Be careful, though - those lowland glows can be treacherous if not studied properly; what's your take on these strange light sources?",
-    "sanitized": "Another brave soul willing to venture into the wilds of Hollowfen, eh? I see you're on the north road now – the misty dawn is always a good time to spot something worth your while. Be careful, though - those lowland glows can be treacherous if not studied properly; what's your take on these strange light sources?",
-    "cleanBeforeCommands": "Another brave soul willing to venture into the wilds of Hollowfen, eh? I see you're on the north road now – the misty dawn is always a good time to spot something worth your while. Be careful, though - those lowland glows can be treacherous if not studied properly; what's your take on these strange light sources?",
-    "shapedHud": "Another brave soul willing to venture into the wilds of Hollowfen, eh? I see you're on the north road now – the misty dawn is always a good time to spot something worth your while. Be careful, though - those lowland glows can be treacherous if not studied properly; what's your take on these strange light sources?",
+    "rawAssistant": "You're back on the road, and I've got to say, that rain's left its mark. Take a good look at those signs - they might just give you a lead on what's been glowin' in the lowlands.",
+    "sanitized": "You're back on the road, and I've got to say, that rain's left its mark. Take a good look at those signs - they might just give you a lead on what's been glowin' in the lowlands.",
+    "cleanBeforeCommands": "You're back on the road, and I've got to say, that rain's left its mark. Take a good look at those signs - they might just give you a lead on what's been glowin' in the lowlands.",
+    "shapedHud": "You're back on the road, and I've got to say, that rain's left its mark. Take a good look at those signs - they might just give you a lead on what's been glowin' in the lowlands.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

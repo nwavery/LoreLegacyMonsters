@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Tightening a plank ain't exactly my area of expertise, lad. We've got more pressing concerns 'round here – like them stone monsters that been causin' trouble lately. If you're plannin' on leavin' before dawn, make sure you check your lanterns for sure. They were blown out the last gale, and I'd hate to see you gettin' caught in a storm with no light.",
-    "sanitized": "Tightening a plank ain't exactly my area of expertise, lad. We've got more pressing concerns 'round here – like them stone monsters that been causin' trouble lately. If you're plannin' on leavin' before dawn, make sure you check your lanterns for sure. They were blown out the last gale, and I'd hate to see you gettin' caught in a storm with no light.",
-    "cleanBeforeCommands": "Tightening a plank ain't exactly my area of expertise, lad. We've got more pressing concerns 'round here – like them stone monsters that been causin' trouble lately. If you're plannin' on leavin' before dawn, make sure you check your lanterns for sure. They were blown out the last gale, and I'd hate to see you gettin' caught in a storm with no light.",
-    "shapedHud": "Tightening a plank ain't exactly my area of expertise, lad. We've got more pressing concerns 'round here – like them stone monsters that been causin' trouble lately. If you're plannin' on leavin' before dawn, make sure you check your lanterns for sure. They were blown out the last gale, and I'd hate to see you gettin' caught in a storm with no light.",
+    "rawAssistant": "Don't be thinkin' you can just take off without doin' your job proper-like. If you're plannin' to head out before dawn, make sure that lantern cord's secure on the road kit. Don't want it gettin' tangled up and causin' a problem down the line.",
+    "sanitized": "Don't be thinkin' you can just take off without doin' your job proper-like. If you're plannin' to head out before dawn, make sure that lantern cord's secure on the road kit. Don't want it gettin' tangled up and causin' a problem down the line.",
+    "cleanBeforeCommands": "Don't be thinkin' you can just take off without doin' your job proper-like. If you're plannin' to head out before dawn, make sure that lantern cord's secure on the road kit. Don't want it gettin' tangled up and causin' a problem down the line.",
+    "shapedHud": "Don't be thinkin' you can just take off without doin' your job proper-like. If you're plannin' to head out before dawn, make sure that lantern cord's secure on the road kit. Don't want it gettin' tangled up and causin' a problem down the line.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

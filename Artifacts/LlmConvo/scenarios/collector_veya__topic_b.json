@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Just caught a glimpse of something interesting on one side road: looks like some sort of scales, half-buried in the mud. Could be worth taking a closer look – though you might need to brush away the mist for a better view.",
-    "sanitized": "Just caught a glimpse of something interesting on one side road: looks like some sort of scales, half-buried in the mud. Could be worth taking a closer look – though you might need to brush away the mist for a better view.",
-    "cleanBeforeCommands": "Just caught a glimpse of something interesting on one side road: looks like some sort of scales, half-buried in the mud. Could be worth taking a closer look – though you might need to brush away the mist for a better view.",
-    "shapedHud": "Just caught a glimpse of something interesting on one side road: looks like some sort of scales, half-buried in the mud. Could be worth taking a closer look – though you might need to brush away the mist for a better view.",
+    "rawAssistant": "Just a small thing caught my eye - a faint trail of iridescent dust on the side road, not far from here. Could be nothing, but it looked like... almost a signature, if you know what I mean. Reminded me of the Glowwings we've been tracking. Worth taking a closer look, don't you think?",
+    "sanitized": "Just a small thing caught my eye - a faint trail of iridescent dust on the side road, not far from here. Could be nothing, but it looked like... almost a signature, if you know what I mean. Reminded me of the Glowwings we've been tracking. Worth taking a closer look, don't you think?",
+    "cleanBeforeCommands": "Just a small thing caught my eye - a faint trail of iridescent dust on the side road, not far from here. Could be nothing, but it looked like... almost a signature, if you know what I mean. Reminded me of the Glowwings we've been tracking. Worth taking a closer look, don't you think?",
+    "shapedHud": "Just a small thing caught my eye - a faint trail of iridescent dust on the side road, not far from here. Could be nothing, but it looked like... almost a signature, if you know what I mean. Reminded me of the Glowwings we've been tracking. Worth taking a closer look, don't you think?",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

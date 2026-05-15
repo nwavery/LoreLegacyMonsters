@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Don't be in such a hurry. If you're planning to leave before dawn, make sure those lanterns are securely tied down and won't blow away again like they did last gale. You don't want 'em snapping loose mid-trip and leaving you with no light to guide through the dark.",
-    "sanitized": "Don't be in such a hurry. If you're planning to leave before dawn, make sure those lanterns are securely tied down and won't blow away again like they did last gale. You don't want 'em snapping loose mid-trip and leaving you with no light to guide through the dark.",
-    "cleanBeforeCommands": "Don't be in such a hurry. If you're planning to leave before dawn, make sure those lanterns are securely tied down and won't blow away again like they did last gale. You don't want 'em snapping loose mid-trip and leaving you with no light to guide through the dark.",
-    "shapedHud": "Don't be in such a hurry. If you're planning to leave before dawn, make sure those lanterns are securely tied down and won't blow away again like they did last gale. You don't want 'em snapping loose mid-trip and leaving you with no light to guide through the dark.",
+    "rawAssistant": "Road kit's got a few loose threads that'll come undone if you're not careful. Make sure to check the twine on your bedrolls and vials – don't want any accidents out here in the misty light of dawn.",
+    "sanitized": "Road kit's got a few loose threads that'll come undone if you're not careful. Make sure to check the twine on your bedrolls and vials – don't want any accidents out here in the misty light of dawn.",
+    "cleanBeforeCommands": "Road kit's got a few loose threads that'll come undone if you're not careful. Make sure to check the twine on your bedrolls and vials – don't want any accidents out here in the misty light of dawn.",
+    "shapedHud": "Road kit's got a few loose threads that'll come undone if you're not careful. Make sure to check the twine on your bedrolls and vials – don't want any accidents out here in the misty light of dawn.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "That fresh sign on the old road is a siren call, isn't it? I've been hearing whispers of trouble brewing in those woods since the last rain. What do you say we take a closer look?",
-    "sanitized": "That fresh sign on the old road is a siren call, isn't it? I've been hearing whispers of trouble brewing in those woods since the last rain. What do you say we take a closer look?",
-    "cleanBeforeCommands": "That fresh sign on the old road is a siren call, isn't it? I've been hearing whispers of trouble brewing in those woods since the last rain. What do you say we take a closer look?",
-    "shapedHud": "That fresh sign on the old road is a siren call, isn't it? I've been hearing whispers of trouble brewing in those woods since the last rain. What do you say we take a closer look?",
+    "rawAssistant": "Fresh signs on that one side road are always worth a look, especially with the weather lifting like this. You might want to take a closer sniff at what's caught the attention of our local scouts. I've heard tales of strange markings and faint scents that don't quite add up - could be nothing, but it's better to investigate than ignore.",
+    "sanitized": "Fresh signs on that one side road are always worth a look, especially with the weather lifting like this. You might want to take a closer sniff at what's caught the attention of our local scouts. I've heard tales of strange markings and faint scents that don't quite add up - could be nothing, but it's better to investigate than ignore.",
+    "cleanBeforeCommands": "Fresh signs on that one side road are always worth a look, especially with the weather lifting like this. You might want to take a closer sniff at what's caught the attention of our local scouts. I've heard tales of strange markings and faint scents that don't quite add up - could be nothing, but it's better to investigate than ignore.",
+    "shapedHud": "Fresh signs on that one side road are always worth a look, especially with the weather lifting like this. You might want to take a closer sniff at what's caught the attention of our local scouts. I've heard tales of strange markings and faint scents that don't quite add up - could be nothing, but it's better to investigate than ignore.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

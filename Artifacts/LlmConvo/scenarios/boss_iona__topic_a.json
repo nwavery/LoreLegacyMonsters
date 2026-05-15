@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "I am not here to guard a place, but to watch over the land itself. Hollowfen is my domain, and I ensure that its balance is maintained. The whispers of the old keepsake still linger in the air, seeking an answer. Your presence suggests you may be searching for more than just a simple clue – your resolve is commendable, Thornbeast by your side.",
-    "sanitized": "I am not here to guard a place, but to watch over the land itself. Hollowfen is my domain, and I ensure that its balance is maintained. The whispers of the old keepsake still linger in the air, seeking an answer. Your presence suggests you may be searching for more than just a simple clue – your resolve is commendable, Thornbeast by your side.",
-    "cleanBeforeCommands": "I am not here to guard a place, but to watch over the land itself. Hollowfen is my domain, and I ensure that its balance is maintained. The whispers of the old keepsake still linger in the air, seeking an answer. Your presence suggests you may be searching for more than just a simple clue – your resolve is commendable, Thornbeast by your side.",
-    "shapedHud": "I am not here to guard a place, but to watch over the land itself. Hollowfen is my domain, and I ensure that its balance is maintained. The whispers of the old keepsake still linger in the air, seeking an answer. Your presence suggests you may be searching for more than just a simple clue – your resolve is commendable, Thornbeast by your side.",
+    "rawAssistant": "My post as warden is a duty passed down through generations of grove sentinels, a weight that settles heavy upon my roots. I am here to safeguard what was once, and what may yet be: the resilience of our land against the tempests that rage beyond its borders.",
+    "sanitized": "My post as warden is a duty passed down through generations of grove sentinels, a weight that settles heavy upon my roots. I am here to safeguard what was once, and what may yet be: the resilience of our land against the tempests that rage beyond its borders.",
+    "cleanBeforeCommands": "My post as warden is a duty passed down through generations of grove sentinels, a weight that settles heavy upon my roots. I am here to safeguard what was once, and what may yet be: the resilience of our land against the tempests that rage beyond its borders.",
+    "shapedHud": "My post as warden is a duty passed down through generations of grove sentinels, a weight that settles heavy upon my roots. I am here to safeguard what was once, and what may yet be: the resilience of our land against the tempests that rage beyond its borders.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

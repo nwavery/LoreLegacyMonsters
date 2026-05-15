@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "At this hour, it's a good idea to re-check those lanterns blown by the gale - and make sure nothing's snagged in the planks themselves. Misty night can play tricks on travelers.",
-    "sanitized": "At this hour, it's a good idea to re-check those lanterns blown by the gale - and make sure nothing's snagged in the planks themselves. Misty night can play tricks on travelers.",
-    "cleanBeforeCommands": "At this hour, it's a good idea to re-check those lanterns blown by the gale - and make sure nothing's snagged in the planks themselves. Misty night can play tricks on travelers.",
-    "shapedHud": "At this hour, it's a good idea to re-check those lanterns blown by the gale - and make sure nothing's snagged in the planks themselves. Misty night can play tricks on travelers.",
+    "rawAssistant": "Traveler, if you're in such a hurry, you'd do well to not forget that one side road is shrouded in mystery now – all because of that last gale. Lanterns on the planks were blown clean away, and signs are fresh as dew. Don't leave before dawn without double-checking what happened there; it might just save your skin.",
+    "sanitized": "Traveler, if you're in such a hurry, you'd do well to not forget that one side road is shrouded in mystery now – all because of that last gale. Lanterns on the planks were blown clean away, and signs are fresh as dew. Don't leave before dawn without double-checking what happened there; it might just save your skin.",
+    "cleanBeforeCommands": "Traveler, if you're in such a hurry, you'd do well to not forget that one side road is shrouded in mystery now – all because of that last gale. Lanterns on the planks were blown clean away, and signs are fresh as dew. Don't leave before dawn without double-checking what happened there; it might just save your skin.",
+    "shapedHud": "Traveler, if you're in such a hurry, you'd do well to not forget that one side road is shrouded in mystery now – all because of that last gale. Lanterns on the planks were blown clean away, and signs are fresh as dew. Don't leave before dawn without double-checking what happened there; it might just save your skin.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

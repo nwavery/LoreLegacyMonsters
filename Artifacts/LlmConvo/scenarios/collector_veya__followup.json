@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Tomorrow's repairs are on me, friend! Now, about that road trip of yours... If you're planning to leave before dawn, don't forget to double-check your lanterns and torches. The winds last night must've knocked some out, and we can't have you stumbling into trouble in the dark.",
-    "sanitized": "Tomorrow's repairs are on me, friend! Now, about that road trip of yours... If you're planning to leave before dawn, don't forget to double-check your lanterns and torches. The winds last night must've knocked some out, and we can't have you stumbling into trouble in the dark.",
-    "cleanBeforeCommands": "Tomorrow's repairs are on me, friend! Now, about that road trip of yours... If you're planning to leave before dawn, don't forget to double-check your lanterns and torches. The winds last night must've knocked some out, and we can't have you stumbling into trouble in the dark.",
-    "shapedHud": "Tomorrow's repairs are on me, friend! Now, about that road trip of yours... If you're planning to leave before dawn, don't forget to double-check your lanterns and torches. The winds last night must've knocked some out, and we can't have you stumbling into trouble in the dark.",
+    "rawAssistant": "Tomorrow's chores won't wait, but a traveler that leaves before dawn best checks their gear for loose parts and makes sure those lanterns on the planks are securely fastened, or they'll be wading through darkness more than darkness itself.",
+    "sanitized": "Tomorrow's chores won't wait, but a traveler that leaves before dawn best checks their gear for loose parts and makes sure those lanterns on the planks are securely fastened, or they'll be wading through darkness more than darkness itself.",
+    "cleanBeforeCommands": "Tomorrow's chores won't wait, but a traveler that leaves before dawn best checks their gear for loose parts and makes sure those lanterns on the planks are securely fastened, or they'll be wading through darkness more than darkness itself.",
+    "shapedHud": "Tomorrow's chores won't wait, but a traveler that leaves before dawn best checks their gear for loose parts and makes sure those lanterns on the planks are securely fastened, or they'll be wading through darkness more than darkness itself.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "A gentle dawn breaks over Hollowfen. The mist that shrouded our roads has lifted, revealing... what secrets lie hidden on that one side road? I sense a quiet urgency about this place. Please, take a moment to examine those signs closely; they may hold more than meets the eye.",
-    "sanitized": "A gentle dawn breaks over Hollowfen. The mist that shrouded our roads has lifted, revealing... what secrets lie hidden on that one side road? I sense a quiet urgency about this place. Please, take a moment to examine those signs closely; they may hold more than meets the eye.",
-    "cleanBeforeCommands": "A gentle dawn breaks over Hollowfen. The mist that shrouded our roads has lifted, revealing... what secrets lie hidden on that one side road? I sense a quiet urgency about this place. Please, take a moment to examine those signs closely; they may hold more than meets the eye.",
-    "shapedHud": "A gentle dawn breaks over Hollowfen. The mist that shrouded our roads has lifted, revealing... what secrets lie hidden on that one side road? I sense a quiet urgency about this place. Please, take a moment to examine those signs closely; they may hold more than meets the eye.",
+    "rawAssistant": "Moonlight casts an eerie glow on the well's surface as I peer into its depths. The mist that shrouded Hollowfen overnight is lifting now, revealing faint signs of disturbance on the side road – a traveler might find it wise to take a closer look at these markings before proceeding northward.",
+    "sanitized": "Moonlight casts an eerie glow on the well's surface as I peer into its depths. The mist that shrouded Hollowfen overnight is lifting now, revealing faint signs of disturbance on the side road – a traveler might find it wise to take a closer look at these markings before proceeding northward.",
+    "cleanBeforeCommands": "Moonlight casts an eerie glow on the well's surface as I peer into its depths. The mist that shrouded Hollowfen overnight is lifting now, revealing faint signs of disturbance on the side road – a traveler might find it wise to take a closer look at these markings before proceeding northward.",
+    "shapedHud": "Moonlight casts an eerie glow on the well's surface as I peer into its depths. The mist that shrouded Hollowfen overnight is lifting now, revealing faint signs of disturbance on the side road – a traveler might find it wise to take a closer look at these markings before proceeding northward.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

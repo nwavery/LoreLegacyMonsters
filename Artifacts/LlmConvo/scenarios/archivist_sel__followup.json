@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Tomorrow's repairs won't help you much if the roads remain treacherous. Before you leave, ensure your lanterns are properly secured – that last gale did a great deal of damage. Check the wooden supports and any loose fittings; you wouldn't want to lose light in the midst of Hollowfen's growing darkness.",
-    "sanitized": "Tomorrow's repairs won't help you much if the roads remain treacherous. Before you leave, ensure your lanterns are properly secured – that last gale did a great deal of damage. Check the wooden supports and any loose fittings; you wouldn't want to lose light in the midst of Hollowfen's growing darkness.",
-    "cleanBeforeCommands": "Tomorrow's repairs won't help you much if the roads remain treacherous. Before you leave, ensure your lanterns are properly secured – that last gale did a great deal of damage. Check the wooden supports and any loose fittings; you wouldn't want to lose light in the midst of Hollowfen's growing darkness.",
-    "shapedHud": "Tomorrow's repairs won't help you much if the roads remain treacherous. Before you leave, ensure your lanterns are properly secured – that last gale did a great deal of damage. Check the wooden supports and any loose fittings; you wouldn't want to lose light in the midst of Hollowfen's growing darkness.",
+    "rawAssistant": "Tomorrow's task will be a delicate matter, as one of our lanterns blew out during last night's storm. Before you head out, make sure to inspect the plank and post where it was lodged; the wind might have loosened any remaining fastenings. A secure hold is crucial in these tempestuous hours.",
+    "sanitized": "Tomorrow's task will be a delicate matter, as one of our lanterns blew out during last night's storm. Before you head out, make sure to inspect the plank and post where it was lodged; the wind might have loosened any remaining fastenings. A secure hold is crucial in these tempestuous hours.",
+    "cleanBeforeCommands": "Tomorrow's task will be a delicate matter, as one of our lanterns blew out during last night's storm. Before you head out, make sure to inspect the plank and post where it was lodged; the wind might have loosened any remaining fastenings. A secure hold is crucial in these tempestuous hours.",
+    "shapedHud": "Tomorrow's task will be a delicate matter, as one of our lanterns blew out during last night's storm. Before you head out, make sure to inspect the plank and post where it was lodged; the wind might have loosened any remaining fastenings. A secure hold is crucial in these tempestuous hours.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

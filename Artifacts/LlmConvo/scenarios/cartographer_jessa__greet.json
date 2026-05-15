@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "\"Fresh signs on the side road, you say? Take a look at the way the wind's carrying the dust. It might give us an idea of what we're dealing with out there.\"",
-    "sanitized": "\"Fresh signs on the side road, you say? Take a look at the way the wind's carrying the dust. It might give us an idea of what we're dealing with out there.\"",
-    "cleanBeforeCommands": "\"Fresh signs on the side road, you say? Take a look at the way the wind's carrying the dust. It might give us an idea of what we're dealing with out there.\"",
-    "shapedHud": "\"Fresh signs on the side road, you say? Take a look at the way the wind's carrying the dust. It might give us an idea of what we're dealing with out there.\"",
+    "rawAssistant": "\"Morning traveler. Looks like you're making good time on the north road. Be careful out there - that lowland glow's been acting strange lately.\"",
+    "sanitized": "\"Morning traveler. Looks like you're making good time on the north road. Be careful out there - that lowland glow's been acting strange lately.\"",
+    "cleanBeforeCommands": "\"Morning traveler. Looks like you're making good time on the north road. Be careful out there - that lowland glow's been acting strange lately.\"",
+    "shapedHud": "\"Morning traveler. Looks like you're making good time on the north road. Be careful out there - that lowland glow's been acting strange lately.\"",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

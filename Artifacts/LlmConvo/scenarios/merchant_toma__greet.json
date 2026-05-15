@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "\"Another long road ahead, eh? I'd advise a good look at that side road – there's been strange signs lately. Might be worth taking a closer sniff.\"",
-    "sanitized": "\"Another long road ahead, eh? I'd advise a good look at that side road – there's been strange signs lately. Might be worth taking a closer sniff.\"",
-    "cleanBeforeCommands": "\"Another long road ahead, eh? I'd advise a good look at that side road – there's been strange signs lately. Might be worth taking a closer sniff.\"",
-    "shapedHud": "\"Another long road ahead, eh? I'd advise a good look at that side road – there's been strange signs lately. Might be worth taking a closer sniff.\"",
+    "rawAssistant": "You've made it through the mist! Now that the road's clear, what do you think is worth a look on this side?",
+    "sanitized": "You've made it through the mist! Now that the road's clear, what do you think is worth a look on this side?",
+    "cleanBeforeCommands": "You've made it through the mist! Now that the road's clear, what do you think is worth a look on this side?",
+    "shapedHud": "You've made it through the mist! Now that the road's clear, what do you think is worth a look on this side?",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

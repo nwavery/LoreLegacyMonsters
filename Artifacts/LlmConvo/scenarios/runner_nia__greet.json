@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Mornin' traveler! How'd y'sleeve through that rain? Them signs on the side road look like they need a good cleanin', so I reckon you should take 'em careful. Head north on the main road, and see if you can find any clues for what's causin' them lowland glows.",
-    "sanitized": "Mornin' traveler! How'd y'sleeve through that rain? Them signs on the side road look like they need a good cleanin', so I reckon you should take 'em careful. Head north on the main road, and see if you can find any clues for what's causin' them lowland glows.",
-    "cleanBeforeCommands": "Mornin' traveler! How'd y'sleeve through that rain? Them signs on the side road look like they need a good cleanin', so I reckon you should take 'em careful. Head north on the main road, and see if you can find any clues for what's causin' them lowland glows.",
-    "shapedHud": "Mornin' traveler! How'd y'sleeve through that rain? Them signs on the side road look like they need a good cleanin', so I reckon you should take 'em careful. Head north on the main road, and see if you can find any clues for what's causin' them lowland glows.",
+    "rawAssistant": "Morning! Fresh signs on the north road, you say? I've been meaning to send word about some strange residue near Stonewake's old windmill. It might be worth a look, especially if you're headed in that direction anyway.",
+    "sanitized": "Morning! Fresh signs on the north road, you say? I've been meaning to send word about some strange residue near Stonewake's old windmill. It might be worth a look, especially if you're headed in that direction anyway.",
+    "cleanBeforeCommands": "Morning! Fresh signs on the north road, you say? I've been meaning to send word about some strange residue near Stonewake's old windmill. It might be worth a look, especially if you're headed in that direction anyway.",
+    "shapedHud": "Morning! Fresh signs on the north road, you say? I've been meaning to send word about some strange residue near Stonewake's old windmill. It might be worth a look, especially if you're headed in that direction anyway.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "A weary soul, I see. The north road's misty veil still clings to it, doesn't it? You might want to take a closer look at those fresh signs on the side road – they could be more than just the work of some restless spirits.",
-    "sanitized": "A weary soul, I see. The north road's misty veil still clings to it, doesn't it? You might want to take a closer look at those fresh signs on the side road – they could be more than just the work of some restless spirits.",
-    "cleanBeforeCommands": "A weary soul, I see. The north road's misty veil still clings to it, doesn't it? You might want to take a closer look at those fresh signs on the side road – they could be more than just the work of some restless spirits.",
-    "shapedHud": "A weary soul, I see. The north road's misty veil still clings to it, doesn't it? You might want to take a closer look at those fresh signs on the side road – they could be more than just the work of some restless spirits.",
+    "rawAssistant": "Another weary soul on the road to nowheres. The north road's your best bet for a lead on those glow reports – be wary of what you find.",
+    "sanitized": "Another weary soul on the road to nowheres. The north road's your best bet for a lead on those glow reports – be wary of what you find.",
+    "cleanBeforeCommands": "Another weary soul on the road to nowheres. The north road's your best bet for a lead on those glow reports – be wary of what you find.",
+    "shapedHud": "Another weary soul on the road to nowheres. The north road's your best bet for a lead on those glow reports – be wary of what you find.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

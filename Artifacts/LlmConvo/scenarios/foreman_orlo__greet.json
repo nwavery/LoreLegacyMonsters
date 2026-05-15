@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "You're back on the north road. Them fresh signs you saw might be more than just quarry dust. Take a closer look at 'em before you keep movin'.",
-    "sanitized": "You're back on the north road. Them fresh signs you saw might be more than just quarry dust. Take a closer look at 'em before you keep movin'.",
-    "cleanBeforeCommands": "You're back on the north road. Them fresh signs you saw might be more than just quarry dust. Take a closer look at 'em before you keep movin'.",
-    "shapedHud": "You're back on the north road. Them fresh signs you saw might be more than just quarry dust. Take a closer look at 'em before you keep movin'.",
+    "rawAssistant": "You're still on the north road. Them signs you saw might be worth takin' a closer look at, especially if they're fresh as daybreak.",
+    "sanitized": "You're still on the north road. Them signs you saw might be worth takin' a closer look at, especially if they're fresh as daybreak.",
+    "cleanBeforeCommands": "You're still on the north road. Them signs you saw might be worth takin' a closer look at, especially if they're fresh as daybreak.",
+    "shapedHud": "You're still on the north road. Them signs you saw might be worth takin' a closer look at, especially if they're fresh as daybreak.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

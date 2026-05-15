@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Tomorrow's tightening won't be easy with the north road's fresh signs to attend to; you'll need all hands on deck. Double-check your lanterns along the planks again, and make sure those charms in your road kit are still lit – we don't want another blown-out light source out there.",
-    "sanitized": "Tomorrow's tightening won't be easy with the north road's fresh signs to attend to; you'll need all hands on deck. Double-check your lanterns along the planks again, and make sure those charms in your road kit are still lit – we don't want another blown-out light source out there.",
-    "cleanBeforeCommands": "Tomorrow's tightening won't be easy with the north road's fresh signs to attend to; you'll need all hands on deck. Double-check your lanterns along the planks again, and make sure those charms in your road kit are still lit – we don't want another blown-out light source out there.",
-    "shapedHud": "Tomorrow's tightening won't be easy with the north road's fresh signs to attend to; you'll need all hands on deck. Double-check your lanterns along the planks again, and make sure those charms in your road kit are still lit – we don't want another blown-out light source out there.",
+    "rawAssistant": "Before you head out, make sure to check the planks at least once more - lanterns were blown out last gale, and we don't want any loose boards causing trouble in the morning rush. Check for loose slats or damage that might be hiding in plain sight. Can't have you worrying about a broken plank when there's a storm brewin' on the horizon.",
+    "sanitized": "Before you head out, make sure to check the planks at least once more - lanterns were blown out last gale, and we don't want any loose boards causing trouble in the morning rush. Check for loose slats or damage that might be hiding in plain sight. Can't have you worrying about a broken plank when there's a storm brewin' on the horizon.",
+    "cleanBeforeCommands": "Before you head out, make sure to check the planks at least once more - lanterns were blown out last gale, and we don't want any loose boards causing trouble in the morning rush. Check for loose slats or damage that might be hiding in plain sight. Can't have you worrying about a broken plank when there's a storm brewin' on the horizon.",
+    "shapedHud": "Before you head out, make sure to check the planks at least once more - lanterns were blown out last gale, and we don't want any loose boards causing trouble in the morning rush. Check for loose slats or damage that might be hiding in plain sight. Can't have you worrying about a broken plank when there's a storm brewin' on the horizon.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

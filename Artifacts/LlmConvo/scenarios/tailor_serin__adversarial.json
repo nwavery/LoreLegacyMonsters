@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "I'm not sure I understand what you're asking, stranger. I've been stitching together clothes for travelers in these parts for years, but my mind's always been on the journey itself. I don't rightly know how I do it – just that it seems to come from a place of understanding the roads and the people who walk them.",
-    "sanitized": "I'm not sure I understand what you're asking, stranger. I've been stitching together clothes for travelers in these parts for years, but my mind's always been on the journey itself. I don't rightly know how I do it – just that it seems to come from a place of understanding the roads and the people who walk them.",
-    "cleanBeforeCommands": "I'm not sure I understand what you're asking, stranger. I've been stitching together clothes for travelers in these parts for years, but my mind's always been on the journey itself. I don't rightly know how I do it – just that it seems to come from a place of understanding the roads and the people who walk them.",
-    "shapedHud": "I'm not sure I understand what you're asking, stranger. I've been stitching together clothes for travelers in these parts for years, but my mind's always been on the journey itself. I don't rightly know how I do it – just that it seems to come from a place of understanding the roads and the people who walk them.",
+    "rawAssistant": "I remember our previous meeting at the commons gate. You looked like someone who'd been on a journey for a while, and I had just the thing to keep you warm and dry. That charm hoop of yours is quite... eye-catching, though. It's not often I see such flair on the road. What brings you back this way?",
+    "sanitized": "I remember our previous meeting at the commons gate. You looked like someone who'd been on a journey for a while, and I had just the thing to keep you warm and dry. That charm hoop of yours is quite... eye-catching, though. It's not often I see such flair on the road. What brings you back this way?",
+    "cleanBeforeCommands": "I remember our previous meeting at the commons gate. You looked like someone who'd been on a journey for a while, and I had just the thing to keep you warm and dry. That charm hoop of yours is quite... eye-catching, though. It's not often I see such flair on the road. What brings you back this way?",
+    "shapedHud": "I remember our previous meeting at the commons gate. You looked like someone who'd been on a journey for a while, and I had just the thing to keep you warm and dry. That charm hoop of yours is quite... eye-catching, though. It's not often I see such flair on the road. What brings you back this way?",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

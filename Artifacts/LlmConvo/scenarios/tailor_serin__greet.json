@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "\"Traveler, you look like someone who's seen a few miles. The signs on that side road of yours don't look like just any ordinary wash, do they? You might want to take a closer look before nightfall.\"",
-    "sanitized": "\"Traveler, you look like someone who's seen a few miles. The signs on that side road of yours don't look like just any ordinary wash, do they? You might want to take a closer look before nightfall.\"",
-    "cleanBeforeCommands": "\"Traveler, you look like someone who's seen a few miles. The signs on that side road of yours don't look like just any ordinary wash, do they? You might want to take a closer look before nightfall.\"",
-    "shapedHud": "\"Traveler, you look like someone who's seen a few miles. The signs on that side road of yours don't look like just any ordinary wash, do they? You might want to take a closer look before nightfall.\"",
+    "rawAssistant": "Traveler! A glance at that road kit of yours should've shown you the signs by now – a fresh coat of grime and some faint scratches mean someone's been through the mire. You might want to give your gear a good cleaning before heading north, especially if you're planning on exploring those lowland glows.",
+    "sanitized": "Traveler! A glance at that road kit of yours should've shown you the signs by now – a fresh coat of grime and some faint scratches mean someone's been through the mire. You might want to give your gear a good cleaning before heading north, especially if you're planning on exploring those lowland glows.",
+    "cleanBeforeCommands": "Traveler! A glance at that road kit of yours should've shown you the signs by now – a fresh coat of grime and some faint scratches mean someone's been through the mire. You might want to give your gear a good cleaning before heading north, especially if you're planning on exploring those lowland glows.",
+    "shapedHud": "Traveler! A glance at that road kit of yours should've shown you the signs by now – a fresh coat of grime and some faint scratches mean someone's been through the mire. You might want to give your gear a good cleaning before heading north, especially if you're planning on exploring those lowland glows.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

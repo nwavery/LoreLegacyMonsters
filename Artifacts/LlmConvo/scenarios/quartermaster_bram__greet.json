@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "\"Mind the road ahead, traveler. You've got a choice to make about which path to take – north or east.\"",
-    "sanitized": "\"Mind the road ahead, traveler. You've got a choice to make about which path to take – north or east.\"",
-    "cleanBeforeCommands": "\"Mind the road ahead, traveler. You've got a choice to make about which path to take – north or east.\"",
-    "shapedHud": "\"Mind the road ahead, traveler. You've got a choice to make about which path to take – north or east.\"",
+    "rawAssistant": "Traveler! You're looking well-prepared for a long road ahead. I'd advise you to take another look at that twine and bedrolls – fresh mist can make night travel slippery, but it's also a good chance to check your gear's knots and seams for any damage from the rain.",
+    "sanitized": "Traveler! You're looking well-prepared for a long road ahead. I'd advise you to take another look at that twine and bedrolls – fresh mist can make night travel slippery, but it's also a good chance to check your gear's knots and seams for any damage from the rain.",
+    "cleanBeforeCommands": "Traveler! You're looking well-prepared for a long road ahead. I'd advise you to take another look at that twine and bedrolls – fresh mist can make night travel slippery, but it's also a good chance to check your gear's knots and seams for any damage from the rain.",
+    "shapedHud": "Traveler! You're looking well-prepared for a long road ahead. I'd advise you to take another look at that twine and bedrolls – fresh mist can make night travel slippery, but it's also a good chance to check your gear's knots and seams for any damage from the rain.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

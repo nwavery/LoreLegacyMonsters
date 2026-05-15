@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Tightening a road charm for you tomorrow sounds like a fair trade. As for your question, if you're planning to leave before dawn, make sure that lanterns along the planks are secure – the last gale was fierce, and we wouldn't want any more accidents.",
-    "sanitized": "Tightening a road charm for you tomorrow sounds like a fair trade. As for your question, if you're planning to leave before dawn, make sure that lanterns along the planks are secure – the last gale was fierce, and we wouldn't want any more accidents.",
-    "cleanBeforeCommands": "Tightening a road charm for you tomorrow sounds like a fair trade. As for your question, if you're planning to leave before dawn, make sure that lanterns along the planks are secure – the last gale was fierce, and we wouldn't want any more accidents.",
-    "shapedHud": "Tightening a road charm for you tomorrow sounds like a fair trade. As for your question, if you're planning to leave before dawn, make sure that lanterns along the planks are secure – the last gale was fierce, and we wouldn't want any more accidents.",
+    "rawAssistant": "Roads can be deceptive, especially when mist lifts. Make sure to inspect the road signs more closely; they might hold a different tale by morning light.",
+    "sanitized": "Roads can be deceptive, especially when mist lifts. Make sure to inspect the road signs more closely; they might hold a different tale by morning light.",
+    "cleanBeforeCommands": "Roads can be deceptive, especially when mist lifts. Make sure to inspect the road signs more closely; they might hold a different tale by morning light.",
+    "shapedHud": "Roads can be deceptive, especially when mist lifts. Make sure to inspect the road signs more closely; they might hold a different tale by morning light.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Mornin', you're off again. That north road's lookin' a mite treacherous after last night's rain. You might want to keep an eye out for any downed branches or hidden potholes – don't wanna be stuck on the wrong side of Hollowfen when it starts comin' alive.",
-    "sanitized": "Mornin', you're off again. That north road's lookin' a mite treacherous after last night's rain. You might want to keep an eye out for any downed branches or hidden potholes – don't wanna be stuck on the wrong side of Hollowfen when it starts comin' alive.",
-    "cleanBeforeCommands": "Mornin', you're off again. That north road's lookin' a mite treacherous after last night's rain. You might want to keep an eye out for any downed branches or hidden potholes – don't wanna be stuck on the wrong side of Hollowfen when it starts comin' alive.",
-    "shapedHud": "Mornin', you're off again. That north road's lookin' a mite treacherous after last night's rain. You might want to keep an eye out for any downed branches or hidden potholes – don't wanna be stuck on the wrong side of Hollowfen when it starts comin' alive.",
+    "rawAssistant": "Traveler, I've got a side road that's worth taking a closer look. The signs here are fresh, but they're not exactly what you'd call welcoming.",
+    "sanitized": "Traveler, I've got a side road that's worth taking a closer look. The signs here are fresh, but they're not exactly what you'd call welcoming.",
+    "cleanBeforeCommands": "Traveler, I've got a side road that's worth taking a closer look. The signs here are fresh, but they're not exactly what you'd call welcoming.",
+    "shapedHud": "Traveler, I've got a side road that's worth taking a closer look. The signs here are fresh, but they're not exactly what you'd call welcoming.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

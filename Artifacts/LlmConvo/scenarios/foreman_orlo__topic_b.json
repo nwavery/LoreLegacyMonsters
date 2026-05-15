@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Stone worms and goblins. The goblins usually nest near the old road, but I haven't seen 'em out yet. If you're lookin' for signs, you might want to check the overgrown area on your left. It's been stirrin' up some trouble lately.",
-    "sanitized": "Stone worms and goblins. The goblins usually nest near the old road, but I haven't seen 'em out yet. If you're lookin' for signs, you might want to check the overgrown area on your left. It's been stirrin' up some trouble lately.",
-    "cleanBeforeCommands": "Stone worms and goblins. The goblins usually nest near the old road, but I haven't seen 'em out yet. If you're lookin' for signs, you might want to check the overgrown area on your left. It's been stirrin' up some trouble lately.",
-    "shapedHud": "Stone worms and goblins. The goblins usually nest near the old road, but I haven't seen 'em out yet. If you're lookin' for signs, you might want to check the overgrown area on your left. It's been stirrin' up some trouble lately.",
+    "rawAssistant": "Don't waste good time lookin' for nests when the ground's still damp and the mist's liftin'. We got us a bigger problem on our hands - them stones, they're restless. Been stirrin' up trouble all night, like angry spirits. If you want to know what's causin' the commotion, I reckon we should take a gander at that road over yonder.",
+    "sanitized": "Don't waste good time lookin' for nests when the ground's still damp and the mist's liftin'. We got us a bigger problem on our hands - them stones, they're restless. Been stirrin' up trouble all night, like angry spirits. If you want to know what's causin' the commotion, I reckon we should take a gander at that road over yonder.",
+    "cleanBeforeCommands": "Don't waste good time lookin' for nests when the ground's still damp and the mist's liftin'. We got us a bigger problem on our hands - them stones, they're restless. Been stirrin' up trouble all night, like angry spirits. If you want to know what's causin' the commotion, I reckon we should take a gander at that road over yonder.",
+    "shapedHud": "Don't waste good time lookin' for nests when the ground's still damp and the mist's liftin'. We got us a bigger problem on our hands - them stones, they're restless. Been stirrin' up trouble all night, like angry spirits. If you want to know what's causin' the commotion, I reckon we should take a gander at that road over yonder.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

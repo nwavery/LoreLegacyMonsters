@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "\"Road grit's been your companion so far, traveler. Watch where you step on the north road – old paths can hold secrets.\"",
-    "sanitized": "\"Road grit's been your companion so far, traveler. Watch where you step on the north road – old paths can hold secrets.\"",
-    "cleanBeforeCommands": "\"Road grit's been your companion so far, traveler. Watch where you step on the north road – old paths can hold secrets.\"",
-    "shapedHud": "\"Road grit's been your companion so far, traveler. Watch where you step on the north road – old paths can hold secrets.\"",
+    "rawAssistant": "Greetings. A well-worn road can be a traveler's best friend – or worst enemy. Take a closer look at those fresh signs before proceeding northward.",
+    "sanitized": "Greetings. A well-worn road can be a traveler's best friend – or worst enemy. Take a closer look at those fresh signs before proceeding northward.",
+    "cleanBeforeCommands": "Greetings. A well-worn road can be a traveler's best friend – or worst enemy. Take a closer look at those fresh signs before proceeding northward.",
+    "shapedHud": "Greetings. A well-worn road can be a traveler's best friend – or worst enemy. Take a closer look at those fresh signs before proceeding northward.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

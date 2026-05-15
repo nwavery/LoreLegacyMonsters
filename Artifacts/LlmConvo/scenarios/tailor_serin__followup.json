@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "A hasty departure ahead, eh? If you're leaving by dawn, make sure to check your lamp oil – don't want it running dry in the dark hours. A well-lit lantern can be a traveler's best friend out here on the roads.",
-    "sanitized": "A hasty departure ahead, eh? If you're leaving by dawn, make sure to check your lamp oil – don't want it running dry in the dark hours. A well-lit lantern can be a traveler's best friend out here on the roads.",
-    "cleanBeforeCommands": "A hasty departure ahead, eh? If you're leaving by dawn, make sure to check your lamp oil – don't want it running dry in the dark hours. A well-lit lantern can be a traveler's best friend out here on the roads.",
-    "shapedHud": "A hasty departure ahead, eh? If you're leaving by dawn, make sure to check your lamp oil – don't want it running dry in the dark hours. A well-lit lantern can be a traveler's best friend out here on the roads.",
+    "rawAssistant": "A hasty departure before dawn, eh? If you're planning to set out early, make sure to double-check your lanterns and oil flasks. Don't want them failing you in the misty darkness of Hollowfen's north road. A reliable light source can mean the difference between finding a safe haven and stumbling into trouble.",
+    "sanitized": "A hasty departure before dawn, eh? If you're planning to set out early, make sure to double-check your lanterns and oil flasks. Don't want them failing you in the misty darkness of Hollowfen's north road. A reliable light source can mean the difference between finding a safe haven and stumbling into trouble.",
+    "cleanBeforeCommands": "A hasty departure before dawn, eh? If you're planning to set out early, make sure to double-check your lanterns and oil flasks. Don't want them failing you in the misty darkness of Hollowfen's north road. A reliable light source can mean the difference between finding a safe haven and stumbling into trouble.",
+    "shapedHud": "A hasty departure before dawn, eh? If you're planning to set out early, make sure to double-check your lanterns and oil flasks. Don't want them failing you in the misty darkness of Hollowfen's north road. A reliable light source can mean the difference between finding a safe haven and stumbling into trouble.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Another face on the north road, eager to unravel those glow mysteries. Take a closer look at that fresh dirt – you might find something that'll help you decipher what's going on out here.",
-    "sanitized": "Another face on the north road, eager to unravel those glow mysteries. Take a closer look at that fresh dirt – you might find something that'll help you decipher what's going on out here.",
-    "cleanBeforeCommands": "Another face on the north road, eager to unravel those glow mysteries. Take a closer look at that fresh dirt – you might find something that'll help you decipher what's going on out here.",
-    "shapedHud": "Another face on the north road, eager to unravel those glow mysteries. Take a closer look at that fresh dirt – you might find something that'll help you decipher what's going on out here.",
+    "rawAssistant": "A weary soul emerges from the mist. Your road kit looks sturdy enough to see you through the morning's chill. Check those vials of charm oil before you head north – road grit can be a nasty companion on damp days like this.",
+    "sanitized": "A weary soul emerges from the mist. Your road kit looks sturdy enough to see you through the morning's chill. Check those vials of charm oil before you head north – road grit can be a nasty companion on damp days like this.",
+    "cleanBeforeCommands": "A weary soul emerges from the mist. Your road kit looks sturdy enough to see you through the morning's chill. Check those vials of charm oil before you head north – road grit can be a nasty companion on damp days like this.",
+    "shapedHud": "A weary soul emerges from the mist. Your road kit looks sturdy enough to see you through the morning's chill. Check those vials of charm oil before you head north – road grit can be a nasty companion on damp days like this.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

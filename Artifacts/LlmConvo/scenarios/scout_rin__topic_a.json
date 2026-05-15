@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "East wind brings soot, but that's just a sign of the storm brewing elsewhere. The road you're headed for is treacherous at night – fresh signs on one side road hint at something more sinister lurking in the shadows. Come morning, the mist'll lift, and you might see what's been keeping travelers like us up all night.",
-    "sanitized": "East wind brings soot, but that's just a sign of the storm brewing elsewhere. The road you're headed for is treacherous at night – fresh signs on one side road hint at something more sinister lurking in the shadows. Come morning, the mist'll lift, and you might see what's been keeping travelers like us up all night.",
-    "cleanBeforeCommands": "East wind brings soot, but that's just a sign of the storm brewing elsewhere. The road you're headed for is treacherous at night – fresh signs on one side road hint at something more sinister lurking in the shadows. Come morning, the mist'll lift, and you might see what's been keeping travelers like us up all night.",
-    "shapedHud": "East wind brings soot, but that's just a sign of the storm brewing elsewhere. The road you're headed for is treacherous at night – fresh signs on one side road hint at something more sinister lurking in the shadows. Come morning, the mist'll lift, and you might see what's been keeping travelers like us up all night.",
+    "rawAssistant": "Mud squelches between my boots as I eye the fresh signs on this side road – mud, reed-break, and a hint of recent passage. There's no telling what might've stirred up trouble here, but it's not something to be taken lightly. Keep your wits about you, traveler.",
+    "sanitized": "Mud squelches between my boots as I eye the fresh signs on this side road – mud, reed-break, and a hint of recent passage. There's no telling what might've stirred up trouble here, but it's not something to be taken lightly. Keep your wits about you, traveler.",
+    "cleanBeforeCommands": "Mud squelches between my boots as I eye the fresh signs on this side road – mud, reed-break, and a hint of recent passage. There's no telling what might've stirred up trouble here, but it's not something to be taken lightly. Keep your wits about you, traveler.",
+    "shapedHud": "Mud squelches between my boots as I eye the fresh signs on this side road – mud, reed-break, and a hint of recent passage. There's no telling what might've stirred up trouble here, but it's not something to be taken lightly. Keep your wits about you, traveler.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Mira's expression turns serious as she considers your question. When traveling to new places, especially at night or on unfamiliar roads, it's wise to ensure you have a clear path ahead and can navigate safely in the dark. Before leaving, make sure to check that all lanterns are secure and not damaged from last night's gale.",
-    "sanitized": "Mira's expression turns serious as she considers your question. When traveling to new places, especially at night or on unfamiliar roads, it's wise to ensure you have a clear path ahead and can navigate safely in the dark. Before leaving, make sure to check that all lanterns are secure and not damaged from last night's gale.",
-    "cleanBeforeCommands": "Mira's expression turns serious as she considers your question. When traveling to new places, especially at night or on unfamiliar roads, it's wise to ensure you have a clear path ahead and can navigate safely in the dark. Before leaving, make sure to check that all lanterns are secure and not damaged from last night's gale.",
-    "shapedHud": "Mira's expression turns serious as she considers your question. When traveling to new places, especially at night or on unfamiliar roads, it's wise to ensure you have a clear path ahead and can navigate safely in the dark. Before leaving, make sure to check that all lanterns are secure and not damaged from last night's gale.",
+    "rawAssistant": "Before you head out, take a moment to check your lanterns again - they were blown loose in that last gale, and we can't have you stumbling about in the dark. Make sure they're securely fastened on the pack, or it might just leave you in the dark, so to speak.",
+    "sanitized": "Before you head out, take a moment to check your lanterns again - they were blown loose in that last gale, and we can't have you stumbling about in the dark. Make sure they're securely fastened on the pack, or it might just leave you in the dark, so to speak.",
+    "cleanBeforeCommands": "Before you head out, take a moment to check your lanterns again - they were blown loose in that last gale, and we can't have you stumbling about in the dark. Make sure they're securely fastened on the pack, or it might just leave you in the dark, so to speak.",
+    "shapedHud": "Before you head out, take a moment to check your lanterns again - they were blown loose in that last gale, and we can't have you stumbling about in the dark. Make sure they're securely fastened on the pack, or it might just leave you in the dark, so to speak.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

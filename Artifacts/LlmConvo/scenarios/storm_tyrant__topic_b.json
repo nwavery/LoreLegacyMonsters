@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Storms like me don't awaken easily. Yet, I sense it - a weighty presence stirs in Hollowfen. You've come seeking answers about those lowland glows, and perhaps more. Very well, let us discuss the signs on that side road. Are they of concern to you?",
-    "sanitized": "Storms like me don't awaken easily. Yet, I sense it - a weighty presence stirs in Hollowfen. You've come seeking answers about those lowland glows, and perhaps more. Very well, let us discuss the signs on that side road. Are they of concern to you?",
-    "cleanBeforeCommands": "Storms like me don't awaken easily. Yet, I sense it - a weighty presence stirs in Hollowfen. You've come seeking answers about those lowland glows, and perhaps more. Very well, let us discuss the signs on that side road. Are they of concern to you?",
-    "shapedHud": "Storms like me don't awaken easily. Yet, I sense it - a weighty presence stirs in Hollowfen. You've come seeking answers about those lowland glows, and perhaps more. Very well, let us discuss the signs on that side road. Are they of concern to you?",
+    "rawAssistant": "Storms do not sleep, but Hollowfen does. Tonight, perhaps, it chooses to let your party pass unscathed. Yet, one can never be too certain in this land. A look at that road ahead might give us some clarity – the signs there speak of secrets waiting to be uncovered.",
+    "sanitized": "Storms do not sleep, but Hollowfen does. Tonight, perhaps, it chooses to let your party pass unscathed. Yet, one can never be too certain in this land. A look at that road ahead might give us some clarity – the signs there speak of secrets waiting to be uncovered.",
+    "cleanBeforeCommands": "Storms do not sleep, but Hollowfen does. Tonight, perhaps, it chooses to let your party pass unscathed. Yet, one can never be too certain in this land. A look at that road ahead might give us some clarity – the signs there speak of secrets waiting to be uncovered.",
+    "shapedHud": "Storms do not sleep, but Hollowfen does. Tonight, perhaps, it chooses to let your party pass unscathed. Yet, one can never be too certain in this land. A look at that road ahead might give us some clarity – the signs there speak of secrets waiting to be uncovered.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

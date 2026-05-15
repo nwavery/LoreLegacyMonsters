@@ -144,6 +144,48 @@ namespace LoreLegacyMonsters.Dialog.Llm
                 return false;
             }
 
+            // LLM "helpful reviewer" voice that leaked from bad tool loops—almost never valid in-world.
+            if (hud.IndexOf("familiarize yourself with", StringComparison.OrdinalIgnoreCase) >= 0)
+            {
+                failure = "HUD reads like external onboarding or documentation, not NPC speech.";
+                return false;
+            }
+
+            if (hud.IndexOf("if you'd like to continue working on this project", StringComparison.OrdinalIgnoreCase) >= 0 ||
+                hud.IndexOf("if you would like to continue working on this project", StringComparison.OrdinalIgnoreCase) >= 0)
+            {
+                failure = "HUD contains meta project-assistant phrasing.";
+                return false;
+            }
+
+            if (hud.IndexOf("code snippet you provided", StringComparison.OrdinalIgnoreCase) >= 0 ||
+                hud.IndexOf("the code snippet you provided", StringComparison.OrdinalIgnoreCase) >= 0)
+            {
+                failure = "HUD references supplied code snippets (non-diegetic).";
+                return false;
+            }
+
+            if (hud.IndexOf("your main objective in this game", StringComparison.OrdinalIgnoreCase) >= 0 ||
+                hud.IndexOf("quest walkthrough", StringComparison.OrdinalIgnoreCase) >= 0)
+            {
+                failure = "HUD reads like a player-facing walkthrough or objective primer.";
+                return false;
+            }
+
+            if (hud.IndexOf("unlock the ability to", StringComparison.OrdinalIgnoreCase) >= 0 ||
+                hud.IndexOf("press the button to", StringComparison.OrdinalIgnoreCase) >= 0)
+            {
+                failure = "HUD reads like UI or progression tutorial copy.";
+                return false;
+            }
+
+            if (hud.IndexOf("as an npc in this game", StringComparison.OrdinalIgnoreCase) >= 0 ||
+                hud.IndexOf("step-by-step guide to", StringComparison.OrdinalIgnoreCase) >= 0)
+            {
+                failure = "HUD uses manual/tutorial framing instead of in-world speech.";
+                return false;
+            }
+
             if (hud.IndexOf("please create response", StringComparison.OrdinalIgnoreCase) >= 0 ||
                 hud.IndexOf("(remember:", StringComparison.OrdinalIgnoreCase) >= 0)
             {

@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "No, not me. I'm Bram Kettle, quartermaster here in Stonewake. Don't mind that sort of talk. How's the road ahead lookin' for you?",
-    "sanitized": "No, not me. I'm Bram Kettle, quartermaster here in Stonewake. Don't mind that sort of talk. How's the road ahead lookin' for you?",
-    "cleanBeforeCommands": "No, not me. I'm Bram Kettle, quartermaster here in Stonewake. Don't mind that sort of talk. How's the road ahead lookin' for you?",
-    "shapedHud": "No, not me. I'm Bram Kettle, quartermaster here in Stonewake. Don't mind that sort of talk. How's the road ahead lookin' for you?",
+    "rawAssistant": "I'm Bram Kettle, Quartermaster of Stonewake. I've been watching you travel these roads for a while now. You're preparing well enough; that cloak of yours has seen its fair share of rainstorms. What brings you to our side road today?",
+    "sanitized": "I'm Bram Kettle, Quartermaster of Stonewake. I've been watching you travel these roads for a while now. You're preparing well enough; that cloak of yours has seen its fair share of rainstorms. What brings you to our side road today?",
+    "cleanBeforeCommands": "I'm Bram Kettle, Quartermaster of Stonewake. I've been watching you travel these roads for a while now. You're preparing well enough; that cloak of yours has seen its fair share of rainstorms. What brings you to our side road today?",
+    "shapedHud": "I'm Bram Kettle, Quartermaster of Stonewake. I've been watching you travel these roads for a while now. You're preparing well enough; that cloak of yours has seen its fair share of rainstorms. What brings you to our side road today?",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

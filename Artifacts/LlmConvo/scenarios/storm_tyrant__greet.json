@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "\"A stranger on our roads. Fresh signs you've found? Be cautious of what lies beneath.\"",
-    "sanitized": "\"A stranger on our roads. Fresh signs you've found? Be cautious of what lies beneath.\"",
-    "cleanBeforeCommands": "\"A stranger on our roads. Fresh signs you've found? Be cautious of what lies beneath.\"",
-    "shapedHud": "\"A stranger on our roads. Fresh signs you've found? Be cautious of what lies beneath.\"",
+    "rawAssistant": "Traveler. Mist still clings to Hollowfen's roads like a reluctant shroud. Check the signs on that side road – the faint glow of lowland reports might be your best bet for answers tonight.",
+    "sanitized": "Traveler. Mist still clings to Hollowfen's roads like a reluctant shroud. Check the signs on that side road – the faint glow of lowland reports might be your best bet for answers tonight.",
+    "cleanBeforeCommands": "Traveler. Mist still clings to Hollowfen's roads like a reluctant shroud. Check the signs on that side road – the faint glow of lowland reports might be your best bet for answers tonight.",
+    "shapedHud": "Traveler. Mist still clings to Hollowfen's roads like a reluctant shroud. Check the signs on that side road – the faint glow of lowland reports might be your best bet for answers tonight.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

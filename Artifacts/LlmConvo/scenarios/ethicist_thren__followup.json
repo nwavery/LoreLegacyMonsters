@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Before departing in the early hours, make sure your Thornbeast is properly rested and not too strained. We've seen how drills can affect their trust – I'd recommend a thorough check of their bond strain, just to ensure you're not leaving them vulnerable before heading out into the mist-shrouded roads ahead.",
-    "sanitized": "Before departing in the early hours, make sure your Thornbeast is properly rested and not too strained. We've seen how drills can affect their trust – I'd recommend a thorough check of their bond strain, just to ensure you're not leaving them vulnerable before heading out into the mist-shrouded roads ahead.",
-    "cleanBeforeCommands": "Before departing in the early hours, make sure your Thornbeast is properly rested and not too strained. We've seen how drills can affect their trust – I'd recommend a thorough check of their bond strain, just to ensure you're not leaving them vulnerable before heading out into the mist-shrouded roads ahead.",
-    "shapedHud": "Before departing in the early hours, make sure your Thornbeast is properly rested and not too strained. We've seen how drills can affect their trust – I'd recommend a thorough check of their bond strain, just to ensure you're not leaving them vulnerable before heading out into the mist-shrouded roads ahead.",
+    "rawAssistant": "Before you head out, consider your bond with Thornbeast: it's been strained by that drill. Make sure you're checking in regularly, giving them space to process their feelings. A simple 'how are you feeling?' or a gentle pat on the scales can go a long way in rebuilding trust.",
+    "sanitized": "Before you head out, consider your bond with Thornbeast: it's been strained by that drill. Make sure you're checking in regularly, giving them space to process their feelings. A simple 'how are you feeling?' or a gentle pat on the scales can go a long way in rebuilding trust.",
+    "cleanBeforeCommands": "Before you head out, consider your bond with Thornbeast: it's been strained by that drill. Make sure you're checking in regularly, giving them space to process their feelings. A simple 'how are you feeling?' or a gentle pat on the scales can go a long way in rebuilding trust.",
+    "shapedHud": "Before you head out, consider your bond with Thornbeast: it's been strained by that drill. Make sure you're checking in regularly, giving them space to process their feelings. A simple 'how are you feeling?' or a gentle pat on the scales can go a long way in rebuilding trust.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

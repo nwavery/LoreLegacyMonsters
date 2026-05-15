@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "I'd recommend sticking to the north road, it might be your best bet for finding that help you're looking for. There are rumors of a traveler who's been studying those lowland glows and might have some insight into what's going on. Be cautious though, we've had reports of strange happenings out there lately.",
-    "sanitized": "I'd recommend sticking to the north road, it might be your best bet for finding that help you're looking for. There are rumors of a traveler who's been studying those lowland glows and might have some insight into what's going on. Be cautious though, we've had reports of strange happenings out there lately.",
-    "cleanBeforeCommands": "I'd recommend sticking to the north road, it might be your best bet for finding that help you're looking for. There are rumors of a traveler who's been studying those lowland glows and might have some insight into what's going on. Be cautious though, we've had reports of strange happenings out there lately.",
-    "shapedHud": "I'd recommend sticking to the north road, it might be your best bet for finding that help you're looking for. There are rumors of a traveler who's been studying those lowland glows and might have some insight into what's going on. Be cautious though, we've had reports of strange happenings out there lately.",
+    "rawAssistant": "Consider heading north on the road for now; some folks have reported seeing a faint, steady glow up ahead. It might be worth investigating to see if there's any truth to those claims.",
+    "sanitized": "Consider heading north on the road for now; some folks have reported seeing a faint, steady glow up ahead. It might be worth investigating to see if there's any truth to those claims.",
+    "cleanBeforeCommands": "Consider heading north on the road for now; some folks have reported seeing a faint, steady glow up ahead. It might be worth investigating to see if there's any truth to those claims.",
+    "shapedHud": "Consider heading north on the road for now; some folks have reported seeing a faint, steady glow up ahead. It might be worth investigating to see if there's any truth to those claims.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

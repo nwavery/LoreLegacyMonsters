@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Looking to buy something that might help with those glow reports, I reckon? Or perhaps some local gossip on what's been spotted in these parts?",
-    "sanitized": "Looking to buy something that might help with those glow reports, I reckon? Or perhaps some local gossip on what's been spotted in these parts?",
-    "cleanBeforeCommands": "Looking to buy something that might help with those glow reports, I reckon? Or perhaps some local gossip on what's been spotted in these parts?",
-    "shapedHud": "Looking to buy something that might help with those glow reports, I reckon? Or perhaps some local gossip on what's been spotted in these parts?",
+    "rawAssistant": "A fresh set of tracks on an old road, and a mist that lifts like secrets. This side road has been quiet, but I think there might be more to it than meets the eye. What do you make of it, Lead? Do you want to take a closer look?",
+    "sanitized": "A fresh set of tracks on an old road, and a mist that lifts like secrets. This side road has been quiet, but I think there might be more to it than meets the eye. What do you make of it, Lead? Do you want to take a closer look?",
+    "cleanBeforeCommands": "A fresh set of tracks on an old road, and a mist that lifts like secrets. This side road has been quiet, but I think there might be more to it than meets the eye. What do you make of it, Lead? Do you want to take a closer look?",
+    "shapedHud": "A fresh set of tracks on an old road, and a mist that lifts like secrets. This side road has been quiet, but I think there might be more to it than meets the eye. What do you make of it, Lead? Do you want to take a closer look?",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

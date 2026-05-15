@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "You're heading into marsh territory, eh? With Emberfox poisoned, you'll want to get her some Antidote and a Cold Salve for those burn marks. I've got just what you need - my Antidote potion is top-notch, made from the finest swamp herbs. And my Cold Salve will help ease the pain before it sets in. Might I interest you in a few road kits to boot?",
-    "sanitized": "You're heading into marsh territory, eh? With Emberfox poisoned, you'll want to get her some Antidote and a Cold Salve for those burn marks. I've got just what you need - my Antidote potion is top-notch, made from the finest swamp herbs. And my Cold Salve will help ease the pain before it sets in. Might I interest you in a few road kits to boot?",
-    "cleanBeforeCommands": "You're heading into marsh territory, eh? With Emberfox poisoned, you'll want to get her some Antidote and a Cold Salve for those burn marks. I've got just what you need - my Antidote potion is top-notch, made from the finest swamp herbs. And my Cold Salve will help ease the pain before it sets in. Might I interest you in a few road kits to boot?",
-    "shapedHud": "You're heading into marsh territory, eh? With Emberfox poisoned, you'll want to get her some Antidote and a Cold Salve for those burn marks. I've got just what you need - my Antidote potion is top-notch, made from the finest swamp herbs. And my Cold Salve will help ease the pain before it sets in. Might I interest you in a few road kits to boot?",
+    "rawAssistant": "Antidote, and a Cold Salve wouldn't go amiss either - just in case those bad weather effects catch up to you. And if I might say so, a good supply of ration tins would be wise when venturing into the marsh.",
+    "sanitized": "Antidote, and a Cold Salve wouldn't go amiss either - just in case those bad weather effects catch up to you. And if I might say so, a good supply of ration tins would be wise when venturing into the marsh.",
+    "cleanBeforeCommands": "Antidote, and a Cold Salve wouldn't go amiss either - just in case those bad weather effects catch up to you. And if I might say so, a good supply of ration tins would be wise when venturing into the marsh.",
+    "shapedHud": "Antidote, and a Cold Salve wouldn't go amiss either - just in case those bad weather effects catch up to you. And if I might say so, a good supply of ration tins would be wise when venturing into the marsh.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

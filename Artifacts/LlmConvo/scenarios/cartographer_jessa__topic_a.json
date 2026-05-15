@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Let me take a closer look at this road and see if there are any signs that might interest you. The wear on the stones is unusual, almost... deliberate. It looks like someone - or something - tried to hide a message. If you follow the road eastward for about half a mile, you'll notice a small bend in the path. That's where I'd recommend taking a closer look.",
-    "sanitized": "Let me take a closer look at this road and see if there are any signs that might interest you. The wear on the stones is unusual, almost... deliberate. It looks like someone - or something - tried to hide a message. If you follow the road eastward for about half a mile, you'll notice a small bend in the path. That's where I'd recommend taking a closer look.",
-    "cleanBeforeCommands": "Let me take a closer look at this road and see if there are any signs that might interest you. The wear on the stones is unusual, almost... deliberate. It looks like someone - or something - tried to hide a message. If you follow the road eastward for about half a mile, you'll notice a small bend in the path. That's where I'd recommend taking a closer look.",
-    "shapedHud": "Let me take a closer look at this road and see if there are any signs that might interest you. The wear on the stones is unusual, almost... deliberate. It looks like someone - or something - tried to hide a message. If you follow the road eastward for about half a mile, you'll notice a small bend in the path. That's where I'd recommend taking a closer look.",
+    "rawAssistant": "Head north on the main road for a bit, until you see the bend where the trees part to reveal a clearing – that's as far as I'd trust your compass yet; don't want you taking a wrong turn and ending up with soot all over your cloak.",
+    "sanitized": "Head north on the main road for a bit, until you see the bend where the trees part to reveal a clearing – that's as far as I'd trust your compass yet; don't want you taking a wrong turn and ending up with soot all over your cloak.",
+    "cleanBeforeCommands": "Head north on the main road for a bit, until you see the bend where the trees part to reveal a clearing – that's as far as I'd trust your compass yet; don't want you taking a wrong turn and ending up with soot all over your cloak.",
+    "shapedHud": "Head north on the main road for a bit, until you see the bend where the trees part to reveal a clearing – that's as far as I'd trust your compass yet; don't want you taking a wrong turn and ending up with soot all over your cloak.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

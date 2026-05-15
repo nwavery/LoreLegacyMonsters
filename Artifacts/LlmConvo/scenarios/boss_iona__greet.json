@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "A weary soul, I see. The road ahead still holds secrets and dangers, but perhaps a closer look at those fresh signs on the side road will yield some answers about what's been stirring in Hollowfen.",
-    "sanitized": "A weary soul, I see. The road ahead still holds secrets and dangers, but perhaps a closer look at those fresh signs on the side road will yield some answers about what's been stirring in Hollowfen.",
-    "cleanBeforeCommands": "A weary soul, I see. The road ahead still holds secrets and dangers, but perhaps a closer look at those fresh signs on the side road will yield some answers about what's been stirring in Hollowfen.",
-    "shapedHud": "A weary soul, I see. The road ahead still holds secrets and dangers, but perhaps a closer look at those fresh signs on the side road will yield some answers about what's been stirring in Hollowfen.",
+    "rawAssistant": "\"Fresh signs on the road ahead. Take a moment to study them before proceeding.\"",
+    "sanitized": "\"Fresh signs on the road ahead. Take a moment to study them before proceeding.\"",
+    "cleanBeforeCommands": "\"Fresh signs on the road ahead. Take a moment to study them before proceeding.\"",
+    "shapedHud": "\"Fresh signs on the road ahead. Take a moment to study them before proceeding.\"",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

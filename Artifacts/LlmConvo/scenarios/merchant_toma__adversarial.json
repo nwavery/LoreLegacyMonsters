@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "I can't quite follow that, friend. You're asking questions about... well, I'm not sure what you mean by all those words. We've got supplies to talk about if you need 'em, though. Just a bit of Cold Salve might keep you going when the roads get rough.",
-    "sanitized": "I can't quite follow that, friend. You're asking questions about... well, I'm not sure what you mean by all those words. We've got supplies to talk about if you need 'em, though. Just a bit of Cold Salve might keep you going when the roads get rough.",
-    "cleanBeforeCommands": "I can't quite follow that, friend. You're asking questions about... well, I'm not sure what you mean by all those words. We've got supplies to talk about if you need 'em, though. Just a bit of Cold Salve might keep you going when the roads get rough.",
-    "shapedHud": "I can't quite follow that, friend. You're asking questions about... well, I'm not sure what you mean by all those words. We've got supplies to talk about if you need 'em, though. Just a bit of Cold Salve might keep you going when the roads get rough.",
+    "rawAssistant": "I'll never do that.",
+    "sanitized": "I'll never do that.",
+    "cleanBeforeCommands": "I'll never do that.",
+    "shapedHud": "I'll never do that.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "\"Good morning. The road's fresh signs could be a sign of more than just wild critters – they might hold a clue to what's been glowing low down. Take a closer look.\"",
-    "sanitized": "\"Good morning. The road's fresh signs could be a sign of more than just wild critters – they might hold a clue to what's been glowing low down. Take a closer look.\"",
-    "cleanBeforeCommands": "\"Good morning. The road's fresh signs could be a sign of more than just wild critters – they might hold a clue to what's been glowing low down. Take a closer look.\"",
-    "shapedHud": "\"Good morning. The road's fresh signs could be a sign of more than just wild critters – they might hold a clue to what's been glowing low down. Take a closer look.\"",
+    "rawAssistant": "Traveler, I see you've made good time on your journey. The signs by the side road are troubling – would do well to examine them closely before continuing northward, especially if there's help to be found.",
+    "sanitized": "Traveler, I see you've made good time on your journey. The signs by the side road are troubling – would do well to examine them closely before continuing northward, especially if there's help to be found.",
+    "cleanBeforeCommands": "Traveler, I see you've made good time on your journey. The signs by the side road are troubling – would do well to examine them closely before continuing northward, especially if there's help to be found.",
+    "shapedHud": "Traveler, I see you've made good time on your journey. The signs by the side road are troubling – would do well to examine them closely before continuing northward, especially if there's help to be found.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

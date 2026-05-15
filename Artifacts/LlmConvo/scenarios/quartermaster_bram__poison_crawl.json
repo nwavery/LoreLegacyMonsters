@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "I can see you're heading into marsh country, and with that lead beast of yours poisoning, I'd recommend grabbing an Antidote right away. That's a non-negotiable. Don't bother with just any Antidote, either - make sure it's the one specifically designed for poison afflictions. You'll also want to stock up on some Cold Salve and Shock Tonic, just in case things get hairy.",
-    "sanitized": "I can see you're heading into marsh country, and with that lead beast of yours poisoning, I'd recommend grabbing an Antidote right away. That's a non-negotiable. Don't bother with just any Antidote, either - make sure it's the one specifically designed for poison afflictions. You'll also want to stock up on some Cold Salve and Shock Tonic, just in case things get hairy.",
-    "cleanBeforeCommands": "I can see you're heading into marsh country, and with that lead beast of yours poisoning, I'd recommend grabbing an Antidote right away. That's a non-negotiable. Don't bother with just any Antidote, either - make sure it's the one specifically designed for poison afflictions. You'll also want to stock up on some Cold Salve and Shock Tonic, just in case things get hairy.",
-    "shapedHud": "I can see you're heading into marsh country, and with that lead beast of yours poisoning, I'd recommend grabbing an Antidote right away. That's a non-negotiable. Don't bother with just any Antidote, either - make sure it's the one specifically designed for poison afflictions. You'll also want to stock up on some Cold Salve and Shock Tonic, just in case things get hairy.",
+    "rawAssistant": "Antidote, Cold Salve, and Shock Tonic will be essential on that road. I'll throw in some extra ration tins to ensure you've got enough sustenance for the journey. We can't afford any more delays than necessary.",
+    "sanitized": "Antidote, Cold Salve, and Shock Tonic will be essential on that road. I'll throw in some extra ration tins to ensure you've got enough sustenance for the journey. We can't afford any more delays than necessary.",
+    "cleanBeforeCommands": "Antidote, Cold Salve, and Shock Tonic will be essential on that road. I'll throw in some extra ration tins to ensure you've got enough sustenance for the journey. We can't afford any more delays than necessary.",
+    "shapedHud": "Antidote, Cold Salve, and Shock Tonic will be essential on that road. I'll throw in some extra ration tins to ensure you've got enough sustenance for the journey. We can't afford any more delays than necessary.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

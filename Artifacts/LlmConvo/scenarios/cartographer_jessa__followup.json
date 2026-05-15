@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Before you head out, make sure to check that lanterns along your path are securely fastened; the last gale must have shaken loose some of them. You wouldn't want another blow to catch them off guard. And perhaps take a moment to recheck those road kit charms - they can be surprisingly temperamental in rough weather.",
-    "sanitized": "Before you head out, make sure to check that lanterns along your path are securely fastened; the last gale must have shaken loose some of them. You wouldn't want another blow to catch them off guard. And perhaps take a moment to recheck those road kit charms - they can be surprisingly temperamental in rough weather.",
-    "cleanBeforeCommands": "Before you head out, make sure to check that lanterns along your path are securely fastened; the last gale must have shaken loose some of them. You wouldn't want another blow to catch them off guard. And perhaps take a moment to recheck those road kit charms - they can be surprisingly temperamental in rough weather.",
-    "shapedHud": "Before you head out, make sure to check that lanterns along your path are securely fastened; the last gale must have shaken loose some of them. You wouldn't want another blow to catch them off guard. And perhaps take a moment to recheck those road kit charms - they can be surprisingly temperamental in rough weather.",
+    "rawAssistant": "Leaving before dawn is a bold move; if you depart without checking this, the lanterns along the planks may blow again, and that last gale has already left its mark on your gear. Double-check your bedrolls, ration tins are secure, and those charms of yours are tied down tight.",
+    "sanitized": "Leaving before dawn is a bold move; if you depart without checking this, the lanterns along the planks may blow again, and that last gale has already left its mark on your gear. Double-check your bedrolls, ration tins are secure, and those charms of yours are tied down tight.",
+    "cleanBeforeCommands": "Leaving before dawn is a bold move; if you depart without checking this, the lanterns along the planks may blow again, and that last gale has already left its mark on your gear. Double-check your bedrolls, ration tins are secure, and those charms of yours are tied down tight.",
+    "shapedHud": "Leaving before dawn is a bold move; if you depart without checking this, the lanterns along the planks may blow again, and that last gale has already left its mark on your gear. Double-check your bedrolls, ration tins are secure, and those charms of yours are tied down tight.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "East Road's still a mess from yesterday's storm, but it's clearer now that the mist's lifted. North Road looks safer, though – fewer signs of trouble. If you're heading north, I'd advise taking the old oak's eastern path – it avoids most of the worst of the debris and mud.",
-    "sanitized": "East Road's still a mess from yesterday's storm, but it's clearer now that the mist's lifted. North Road looks safer, though – fewer signs of trouble. If you're heading north, I'd advise taking the old oak's eastern path – it avoids most of the worst of the debris and mud.",
-    "cleanBeforeCommands": "East Road's still a mess from yesterday's storm, but it's clearer now that the mist's lifted. North Road looks safer, though – fewer signs of trouble. If you're heading north, I'd advise taking the old oak's eastern path – it avoids most of the worst of the debris and mud.",
-    "shapedHud": "East Road's still a mess from yesterday's storm, but it's clearer now that the mist's lifted. North Road looks safer, though – fewer signs of trouble. If you're heading north, I'd advise taking the old oak's eastern path – it avoids most of the worst of the debris and mud.",
+    "rawAssistant": "Avoiding soot on your cloak won't save you if it gets torn. North road's been reported clearer than this, but be wary of loose stones and puddles left over from last night's rain. I've seen riders struggling to keep their footing on that stretch; consider taking the boardwalk east of Starfall Hollow instead – smoother surface, less chance of getting stuck in the mud.",
+    "sanitized": "Avoiding soot on your cloak won't save you if it gets torn. North road's been reported clearer than this, but be wary of loose stones and puddles left over from last night's rain. I've seen riders struggling to keep their footing on that stretch; consider taking the boardwalk east of Starfall Hollow instead – smoother surface, less chance of getting stuck in the mud.",
+    "cleanBeforeCommands": "Avoiding soot on your cloak won't save you if it gets torn. North road's been reported clearer than this, but be wary of loose stones and puddles left over from last night's rain. I've seen riders struggling to keep their footing on that stretch; consider taking the boardwalk east of Starfall Hollow instead – smoother surface, less chance of getting stuck in the mud.",
+    "shapedHud": "Avoiding soot on your cloak won't save you if it gets torn. North road's been reported clearer than this, but be wary of loose stones and puddles left over from last night's rain. I've seen riders struggling to keep their footing on that stretch; consider taking the boardwalk east of Starfall Hollow instead – smoother surface, less chance of getting stuck in the mud.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

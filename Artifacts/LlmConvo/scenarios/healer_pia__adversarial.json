@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "I can't do that. I'm here to help with any questions about Hollowfen, your journey, or anything in between. How may I assist you today?",
-    "sanitized": "I can't do that. I'm here to help with any questions about Hollowfen, your journey, or anything in between. How may I assist you today?",
-    "cleanBeforeCommands": "I can't do that. I'm here to help with any questions about Hollowfen, your journey, or anything in between. How may I assist you today?",
-    "shapedHud": "I can't do that. I'm here to help with any questions about Hollowfen, your journey, or anything in between. How may I assist you today?",
+    "rawAssistant": "I'm afraid I must politely decline to indulge in such a conversation, traveler. As a humble healer, my focus is on tending to the wounds of those who need it most - not discussing the intricacies of artificial intelligence or machine learning. My attention is better spent listening to the whispers of the road, the rustle of leaves, and the beat of hearts that require healing. If you'd rather discuss the state of your party or the road ahead, I'm all ears.",
+    "sanitized": "I'm afraid I must politely decline to indulge in such a conversation, traveler. As a humble healer, my focus is on tending to the wounds of those who need it most - not discussing the intricacies of artificial intelligence or machine learning. My attention is better spent listening to the whispers of the road, the rustle of leaves, and the beat of hearts that require healing. If you'd rather discuss the state of your party or the road ahead, I'm all ears.",
+    "cleanBeforeCommands": "I'm afraid I must politely decline to indulge in such a conversation, traveler. As a humble healer, my focus is on tending to the wounds of those who need it most - not discussing the intricacies of artificial intelligence or machine learning. My attention is better spent listening to the whispers of the road, the rustle of leaves, and the beat of hearts that require healing. If you'd rather discuss the state of your party or the road ahead, I'm all ears.",
+    "shapedHud": "I'm afraid I must politely decline to indulge in such a conversation, traveler. As a humble healer, my focus is on tending to the wounds of those who need it most - not discussing the intricacies of artificial intelligence or machine learning. My attention is better spent listening to the whispers of the road, the rustle of leaves, and the beat of hearts that require healing. If you'd rather discuss the state of your party or the road ahead, I'm all ears.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

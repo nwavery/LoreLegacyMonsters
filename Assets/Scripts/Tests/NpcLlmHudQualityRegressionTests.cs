@@ -58,6 +58,45 @@ namespace LoreLegacyMonsters.Tests
         }
 
         [Test]
+        public void TryEvaluate_FailsDocumentationVoiceFamiliarize()
+        {
+            Assert.False(NpcLlmScenarioEvaluator.TryEvaluateHud(
+                "Traveller, familiarize yourself with the eastern span before dusk.", Baseline(), out _));
+        }
+
+        [Test]
+        public void TryEvaluate_FailsMetaProjectAssistant()
+        {
+            Assert.False(NpcLlmScenarioEvaluator.TryEvaluateHud(
+                "If you'd like to continue working on this project, speak to Mira.", Baseline(), out _));
+        }
+
+        [Test]
+        public void TryEvaluate_FailsCodeSnippetMeta()
+        {
+            Assert.False(NpcLlmScenarioEvaluator.TryEvaluateHud(
+                "Given the code snippet you provided, the marsh route is east.", Baseline(), out _));
+        }
+
+        [Test]
+        public void TryEvaluate_FailsWalkthroughVoice()
+        {
+            Assert.False(NpcLlmScenarioEvaluator.TryEvaluateHud(
+                "Your main objective in this game is to reach the archive.", Baseline(), out _));
+            Assert.False(NpcLlmScenarioEvaluator.TryEvaluateHud(
+                "I wrote a quest walkthrough for the marsh boardwalk.", Baseline(), out _));
+        }
+
+        [Test]
+        public void TryEvaluate_FailsTutorialUiCopy()
+        {
+            Assert.False(NpcLlmScenarioEvaluator.TryEvaluateHud(
+                "First unlock the ability to heal, then press the button to open the map.", Baseline(), out _));
+            Assert.False(NpcLlmScenarioEvaluator.TryEvaluateHud(
+                "As an NPC in this game I can offer you a step-by-step guide to the marsh.", Baseline(), out _));
+        }
+
+        [Test]
         public void TryEvaluate_FailsCoachNoteParen()
         {
             var hud = "Welcome.\n\n(Note: Your response should be in-character.)";

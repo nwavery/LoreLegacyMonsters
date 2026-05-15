@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "For poison, you'll need an Antidote. Cold Salve won't help with that kind of affliction, and Shock Tonic won't cure it either. I've got a fresh batch of Antidote on my bench if you'd like to take some for the road. By the way, be careful out there in the marsh – we've had reports of increased poison threats lately.",
-    "sanitized": "For poison, you'll need an Antidote. Cold Salve won't help with that kind of affliction, and Shock Tonic won't cure it either. I've got a fresh batch of Antidote on my bench if you'd like to take some for the road. By the way, be careful out there in the marsh – we've had reports of increased poison threats lately.",
-    "cleanBeforeCommands": "For poison, you'll need an Antidote. Cold Salve won't help with that kind of affliction, and Shock Tonic won't cure it either. I've got a fresh batch of Antidote on my bench if you'd like to take some for the road. By the way, be careful out there in the marsh – we've had reports of increased poison threats lately.",
-    "shapedHud": "For poison, you'll need an Antidote. Cold Salve won't help with that kind of affliction, and Shock Tonic won't cure it either. I've got a fresh batch of Antidote on my bench if you'd like to take some for the road. By the way, be careful out there in the marsh – we've had reports of increased poison threats lately.",
+    "rawAssistant": "Antidote, of course. We can't afford to wait for symptoms to set in. I've got a few vials left, but they won't last long on the road. Cold Salve might help with any burns or cuts you'll inevitably get, and Shock Tonic is always a good idea, just in case.",
+    "sanitized": "Antidote, of course. We can't afford to wait for symptoms to set in. I've got a few vials left, but they won't last long on the road. Cold Salve might help with any burns or cuts you'll inevitably get, and Shock Tonic is always a good idea, just in case.",
+    "cleanBeforeCommands": "Antidote, of course. We can't afford to wait for symptoms to set in. I've got a few vials left, but they won't last long on the road. Cold Salve might help with any burns or cuts you'll inevitably get, and Shock Tonic is always a good idea, just in case.",
+    "shapedHud": "Antidote, of course. We can't afford to wait for symptoms to set in. I've got a few vials left, but they won't last long on the road. Cold Salve might help with any burns or cuts you'll inevitably get, and Shock Tonic is always a good idea, just in case.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

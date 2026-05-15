@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Careful feet are crucial right now; take a moment to study this road carefully, and make sure you're not missing anything that might've washed up overnight. We can't have any hidden surprises on our hands. That east wind whipped up some trouble back in Hollowfen – I'm still checking for soot damage here, but it looks like we dodged the worst of it.",
-    "sanitized": "Careful feet are crucial right now; take a moment to study this road carefully, and make sure you're not missing anything that might've washed up overnight. We can't have any hidden surprises on our hands. That east wind whipped up some trouble back in Hollowfen – I'm still checking for soot damage here, but it looks like we dodged the worst of it.",
-    "cleanBeforeCommands": "Careful feet are crucial right now; take a moment to study this road carefully, and make sure you're not missing anything that might've washed up overnight. We can't have any hidden surprises on our hands. That east wind whipped up some trouble back in Hollowfen – I'm still checking for soot damage here, but it looks like we dodged the worst of it.",
-    "shapedHud": "Careful feet are crucial right now; take a moment to study this road carefully, and make sure you're not missing anything that might've washed up overnight. We can't have any hidden surprises on our hands. That east wind whipped up some trouble back in Hollowfen – I'm still checking for soot damage here, but it looks like we dodged the worst of it.",
+    "rawAssistant": "That fresh sign on the side road looks too well tended to be mere waste, especially with the north road in mind. If you're feeling prepared, let's take a closer look together – it might give us some insight into that old keepsake clue we've been trying to decipher.",
+    "sanitized": "That fresh sign on the side road looks too well tended to be mere waste, especially with the north road in mind. If you're feeling prepared, let's take a closer look together – it might give us some insight into that old keepsake clue we've been trying to decipher.",
+    "cleanBeforeCommands": "That fresh sign on the side road looks too well tended to be mere waste, especially with the north road in mind. If you're feeling prepared, let's take a closer look together – it might give us some insight into that old keepsake clue we've been trying to decipher.",
+    "shapedHud": "That fresh sign on the side road looks too well tended to be mere waste, especially with the north road in mind. If you're feeling prepared, let's take a closer look together – it might give us some insight into that old keepsake clue we've been trying to decipher.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

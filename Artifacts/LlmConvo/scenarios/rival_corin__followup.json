@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "A hasty departure already? That lantern business still sticks in my mind - too many loose wires and not enough attention to safety. If you're planning on leaving before dawn, make sure your gear is secure, especially the road kit charms; those things can get lost in the dark. And don't forget to double-check those bedrolls - a good night's rest can be a luxury in Hollowfen.",
-    "sanitized": "A hasty departure already? That lantern business still sticks in my mind - too many loose wires and not enough attention to safety. If you're planning on leaving before dawn, make sure your gear is secure, especially the road kit charms; those things can get lost in the dark. And don't forget to double-check those bedrolls - a good night's rest can be a luxury in Hollowfen.",
-    "cleanBeforeCommands": "A hasty departure already? That lantern business still sticks in my mind - too many loose wires and not enough attention to safety. If you're planning on leaving before dawn, make sure your gear is secure, especially the road kit charms; those things can get lost in the dark. And don't forget to double-check those bedrolls - a good night's rest can be a luxury in Hollowfen.",
-    "shapedHud": "A hasty departure already? That lantern business still sticks in my mind - too many loose wires and not enough attention to safety. If you're planning on leaving before dawn, make sure your gear is secure, especially the road kit charms; those things can get lost in the dark. And don't forget to double-check those bedrolls - a good night's rest can be a luxury in Hollowfen.",
+    "rawAssistant": "Tomorrow you'll have a free hand to focus on your preparations. Double-check the road kit charms; they're the ones that really make all the difference in keeping our bones intact when the mist rolls back in.",
+    "sanitized": "Tomorrow you'll have a free hand to focus on your preparations. Double-check the road kit charms; they're the ones that really make all the difference in keeping our bones intact when the mist rolls back in.",
+    "cleanBeforeCommands": "Tomorrow you'll have a free hand to focus on your preparations. Double-check the road kit charms; they're the ones that really make all the difference in keeping our bones intact when the mist rolls back in.",
+    "shapedHud": "Tomorrow you'll have a free hand to focus on your preparations. Double-check the road kit charms; they're the ones that really make all the difference in keeping our bones intact when the mist rolls back in.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

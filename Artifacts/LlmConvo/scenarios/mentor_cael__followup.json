@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Tomorrow's repair will have to wait; you're getting close to Stormbreak Ridge. Before dawn, make sure your gear's still sealed and your bedrolls are tied down tight - if the road gets rough, you won't want any surprises in the morning.",
-    "sanitized": "Tomorrow's repair will have to wait; you're getting close to Stormbreak Ridge. Before dawn, make sure your gear's still sealed and your bedrolls are tied down tight - if the road gets rough, you won't want any surprises in the morning.",
-    "cleanBeforeCommands": "Tomorrow's repair will have to wait; you're getting close to Stormbreak Ridge. Before dawn, make sure your gear's still sealed and your bedrolls are tied down tight - if the road gets rough, you won't want any surprises in the morning.",
-    "shapedHud": "Tomorrow's repair will have to wait; you're getting close to Stormbreak Ridge. Before dawn, make sure your gear's still sealed and your bedrolls are tied down tight - if the road gets rough, you won't want any surprises in the morning.",
+    "rawAssistant": "Tomorrow's tasks are many, but for a road tightener, there's one thing that can't be rushed: attention to detail. Double-check the lanterns along the planks you mentioned earlier, and make sure they're secure against any wind or debris that might have accumulated during the storm. A loose runner could spell trouble on the road ahead.",
+    "sanitized": "Tomorrow's tasks are many, but for a road tightener, there's one thing that can't be rushed: attention to detail. Double-check the lanterns along the planks you mentioned earlier, and make sure they're secure against any wind or debris that might have accumulated during the storm. A loose runner could spell trouble on the road ahead.",
+    "cleanBeforeCommands": "Tomorrow's tasks are many, but for a road tightener, there's one thing that can't be rushed: attention to detail. Double-check the lanterns along the planks you mentioned earlier, and make sure they're secure against any wind or debris that might have accumulated during the storm. A loose runner could spell trouble on the road ahead.",
+    "shapedHud": "Tomorrow's tasks are many, but for a road tightener, there's one thing that can't be rushed: attention to detail. Double-check the lanterns along the planks you mentioned earlier, and make sure they're secure against any wind or debris that might have accumulated during the storm. A loose runner could spell trouble on the road ahead.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

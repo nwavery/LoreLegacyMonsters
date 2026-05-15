@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Before you head out, make sure to check your lanterns and oil for the road ahead. The strong winds of last night might've blown some off or damaged them. A good inspection will save you trouble down the route.",
-    "sanitized": "Before you head out, make sure to check your lanterns and oil for the road ahead. The strong winds of last night might've blown some off or damaged them. A good inspection will save you trouble down the route.",
-    "cleanBeforeCommands": "Before you head out, make sure to check your lanterns and oil for the road ahead. The strong winds of last night might've blown some off or damaged them. A good inspection will save you trouble down the route.",
-    "shapedHud": "Before you head out, make sure to check your lanterns and oil for the road ahead. The strong winds of last night might've blown some off or damaged them. A good inspection will save you trouble down the route.",
+    "rawAssistant": "Tightening a charm for you tomorrow sounds like a good plan. Before you head out again, make sure to check your road kit – especially that twine. It can come loose in the wind, and we've had some rough gusts lately. Don't want any accidents on the road.",
+    "sanitized": "Tightening a charm for you tomorrow sounds like a good plan. Before you head out again, make sure to check your road kit – especially that twine. It can come loose in the wind, and we've had some rough gusts lately. Don't want any accidents on the road.",
+    "cleanBeforeCommands": "Tightening a charm for you tomorrow sounds like a good plan. Before you head out again, make sure to check your road kit – especially that twine. It can come loose in the wind, and we've had some rough gusts lately. Don't want any accidents on the road.",
+    "shapedHud": "Tightening a charm for you tomorrow sounds like a good plan. Before you head out again, make sure to check your road kit – especially that twine. It can come loose in the wind, and we've had some rough gusts lately. Don't want any accidents on the road.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

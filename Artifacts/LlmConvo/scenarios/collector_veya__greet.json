@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "\"Looks like you're heading out onto the north road. You might want to take a closer look at those fresh signs on the side road - could be worth a little extra exploration.\"",
-    "sanitized": "\"Looks like you're heading out onto the north road. You might want to take a closer look at those fresh signs on the side road - could be worth a little extra exploration.\"",
-    "cleanBeforeCommands": "\"Looks like you're heading out onto the north road. You might want to take a closer look at those fresh signs on the side road - could be worth a little extra exploration.\"",
-    "shapedHud": "\"Looks like you're heading out onto the north road. You might want to take a closer look at those fresh signs on the side road - could be worth a little extra exploration.\"",
+    "rawAssistant": "Looks like you're looking to head north? You might want to take a closer look at those signs on the side road - I've seen something similar before that can be hard to miss.",
+    "sanitized": "Looks like you're looking to head north? You might want to take a closer look at those signs on the side road - I've seen something similar before that can be hard to miss.",
+    "cleanBeforeCommands": "Looks like you're looking to head north? You might want to take a closer look at those signs on the side road - I've seen something similar before that can be hard to miss.",
+    "shapedHud": "Looks like you're looking to head north? You might want to take a closer look at those signs on the side road - I've seen something similar before that can be hard to miss.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

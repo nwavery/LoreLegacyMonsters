@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Welcome to Hollowfen! A bit of a tricky night we had, with that rain lifting and mist rolling back in. You might want to take a closer look at that road on your northward journey – there are some interesting signs showing up now that could use careful attention.",
-    "sanitized": "Welcome to Hollowfen! A bit of a tricky night we had, with that rain lifting and mist rolling back in. You might want to take a closer look at that road on your northward journey – there are some interesting signs showing up now that could use careful attention.",
-    "cleanBeforeCommands": "Welcome to Hollowfen! A bit of a tricky night we had, with that rain lifting and mist rolling back in. You might want to take a closer look at that road on your northward journey – there are some interesting signs showing up now that could use careful attention.",
-    "shapedHud": "Welcome to Hollowfen! A bit of a tricky night we had, with that rain lifting and mist rolling back in. You might want to take a closer look at that road on your northward journey – there are some interesting signs showing up now that could use careful attention.",
+    "rawAssistant": "Good morrow, traveler. Mist's clearing now, and I see you're prepared for a journey ahead. Take note of that fresh sign on the road over yonder - it might be worth investigating, though the north road is still shrouded in mist. Would you like to restock your supplies before heading out?",
+    "sanitized": "Good morrow, traveler. Mist's clearing now, and I see you're prepared for a journey ahead. Take note of that fresh sign on the road over yonder - it might be worth investigating, though the north road is still shrouded in mist. Would you like to restock your supplies before heading out?",
+    "cleanBeforeCommands": "Good morrow, traveler. Mist's clearing now, and I see you're prepared for a journey ahead. Take note of that fresh sign on the road over yonder - it might be worth investigating, though the north road is still shrouded in mist. Would you like to restock your supplies before heading out?",
+    "shapedHud": "Good morrow, traveler. Mist's clearing now, and I see you're prepared for a journey ahead. Take note of that fresh sign on the road over yonder - it might be worth investigating, though the north road is still shrouded in mist. Would you like to restock your supplies before heading out?",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

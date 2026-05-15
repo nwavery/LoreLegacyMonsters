@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "A faint glow lingers on the ground where north road gives way to overgrown brambles, whispers of an ancient path that hasn't been used in years. The signs are unclear, but this could be more than just a forgotten trail – it might hold the key to understanding those lowland glows you're searching for.",
-    "sanitized": "A faint glow lingers on the ground where north road gives way to overgrown brambles, whispers of an ancient path that hasn't been used in years. The signs are unclear, but this could be more than just a forgotten trail – it might hold the key to understanding those lowland glows you're searching for.",
-    "cleanBeforeCommands": "A faint glow lingers on the ground where north road gives way to overgrown brambles, whispers of an ancient path that hasn't been used in years. The signs are unclear, but this could be more than just a forgotten trail – it might hold the key to understanding those lowland glows you're searching for.",
-    "shapedHud": "A faint glow lingers on the ground where north road gives way to overgrown brambles, whispers of an ancient path that hasn't been used in years. The signs are unclear, but this could be more than just a forgotten trail – it might hold the key to understanding those lowland glows you're searching for.",
+    "rawAssistant": "Fresh signs on the north road reveal a faint trail of charred leaves and snapped twigs, as if something had been recently passing through the area. The air is heavy with the scent of smoke and damp earth. It's not clear what might have caused this disturbance, but it seems worth investigating further.",
+    "sanitized": "Fresh signs on the north road reveal a faint trail of charred leaves and snapped twigs, as if something had been recently passing through the area. The air is heavy with the scent of smoke and damp earth. It's not clear what might have caused this disturbance, but it seems worth investigating further.",
+    "cleanBeforeCommands": "Fresh signs on the north road reveal a faint trail of charred leaves and snapped twigs, as if something had been recently passing through the area. The air is heavy with the scent of smoke and damp earth. It's not clear what might have caused this disturbance, but it seems worth investigating further.",
+    "shapedHud": "Fresh signs on the north road reveal a faint trail of charred leaves and snapped twigs, as if something had been recently passing through the area. The air is heavy with the scent of smoke and damp earth. It's not clear what might have caused this disturbance, but it seems worth investigating further.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

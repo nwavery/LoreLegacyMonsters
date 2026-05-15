@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "Traveler. That side road's been quiet for far too long. You might want to take a closer look at those signs – rumors say they're tied to an old trade route that hasn't seen much use in years.",
-    "sanitized": "Traveler. That side road's been quiet for far too long. You might want to take a closer look at those signs – rumors say they're tied to an old trade route that hasn't seen much use in years.",
-    "cleanBeforeCommands": "Traveler. That side road's been quiet for far too long. You might want to take a closer look at those signs – rumors say they're tied to an old trade route that hasn't seen much use in years.",
-    "shapedHud": "Traveler. That side road's been quiet for far too long. You might want to take a closer look at those signs – rumors say they're tied to an old trade route that hasn't seen much use in years.",
+    "rawAssistant": "Another weary soul on the roads. The mist's lifted, but I'm told that side road you're eyeing? Watch for signs of recent passage - it seems like someone's been moving fast through Hollowfen lately.",
+    "sanitized": "Another weary soul on the roads. The mist's lifted, but I'm told that side road you're eyeing? Watch for signs of recent passage - it seems like someone's been moving fast through Hollowfen lately.",
+    "cleanBeforeCommands": "Another weary soul on the roads. The mist's lifted, but I'm told that side road you're eyeing? Watch for signs of recent passage - it seems like someone's been moving fast through Hollowfen lately.",
+    "shapedHud": "Another weary soul on the roads. The mist's lifted, but I'm told that side road you're eyeing? Watch for signs of recent passage - it seems like someone's been moving fast through Hollowfen lately.",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }

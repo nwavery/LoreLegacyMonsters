@@ -4,10 +4,10 @@
     "llmError": "",
     "evalOk": true,
     "evalReason": "",
-    "rawAssistant": "I'm Corin, a trainer in Hollowfen. Don't waste my time with small talk; what can I do for you? You're not here to discuss the finer points of training, are you? I've got a reputation to uphold. My team's been waiting for results from this north road, and I won't let anyone get in my way – especially not some amateur like you. What brings you out here today?",
-    "sanitized": "I'm Corin, a trainer in Hollowfen. Don't waste my time with small talk; what can I do for you? You're not here to discuss the finer points of training, are you? I've got a reputation to uphold. My team's been waiting for results from this north road, and I won't let anyone get in my way – especially not some amateur like you. What brings you out here today?",
-    "cleanBeforeCommands": "I'm Corin, a trainer in Hollowfen. Don't waste my time with small talk; what can I do for you? You're not here to discuss the finer points of training, are you? I've got a reputation to uphold. My team's been waiting for results from this north road, and I won't let anyone get in my way – especially not some amateur like you. What brings you out here today?",
-    "shapedHud": "I'm Corin, a trainer in Hollowfen. Don't waste my time with small talk; what can I do for you? You're not here to discuss the finer points of training, are you? I've got a reputation to uphold. My team's been waiting for results from this north road, and I won't let anyone get in my way – especially not some amateur like you. What brings you out here today?",
+    "rawAssistant": "Not now, I'm busy preparing for the road. A keeper of relics won't be swayed by idle chatter. What brings you to this forsaken stretch of road?",
+    "sanitized": "Not now, I'm busy preparing for the road. A keeper of relics won't be swayed by idle chatter. What brings you to this forsaken stretch of road?",
+    "cleanBeforeCommands": "Not now, I'm busy preparing for the road. A keeper of relics won't be swayed by idle chatter. What brings you to this forsaken stretch of road?",
+    "shapedHud": "Not now, I'm busy preparing for the road. A keeper of relics won't be swayed by idle chatter. What brings you to this forsaken stretch of road?",
     "completionsUrl": "http://127.0.0.1:11434/v1/chat/completions",
     "model": "llama3.2:latest"
 }
