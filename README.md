@@ -149,27 +149,110 @@ Or run the bundled script (pull + smoke test against `127.0.0.1:11434`):
 
 Override the model with `$env:OLLAMA_GAME_MODEL = 'mistral'` before running the script if needed.
 
-#### NPC LLM scenario suite (batch evaluation, no CI by default)
+#### NPC LLM quality loop (scenario suite + improvements)
 
-Use this when you want to **improve NPC LLM quality in a repeatable loop**: same prompt stack as shipped dialog (`NpcLlmPromptBuilder` → completions → **`NpcLlmDisplayPipeline.ShapeForHud`** = sanitize → `NpcLlmResponseFilter.Clean` → command strip/parse), then **cheap automated gates** plus a short manual rubric.
+Use this when you want **repeatable NPC dialog quality**: same prompt stack as shipped play (`NpcLlmPromptBuilder` → completions → **`NpcLlmDisplayPipeline.ShapeForHud`** → `NpcLlmResponseFilter.Clean` → command strip/parse), then **automated HUD gates** and optional manual review against **`docs/story_bible.md`**.
+
+**Two different activities:**
+
+| Activity | What changes | Typical scripts |
+| --- | --- | --- |
+| **Validate** | Nothing in C# by itself—re-runs tests + live LLM scenarios (and optional Steam build) | `Start-Improvements.ps1`, `Run-ImprovementsWatchdog.ps1` |
+| **Improve (subjective)** | Prompts, global rules, evaluator gates, manifest forbids, regression tests | Edit **`NpcContentRegistry`**, **`NpcLlmPromptRules`**, **`NpcLlmScenarioEvaluator`**, **`NpcLlmHudQualityRegressionTests`**; then **`Start-Improvements.ps1`** to confirm green |
+
+Long **watchdog** soaks only **validate** stability; they do **not** rewrite game code. **`Run-SubjectiveWritingAgentLoop.ps1`** asks Ollama for **JSON proposals** under `Artifacts/LlmConvo/writing_agent/`—a human or Cursor agent must **merge** those into the C# sources above, then validate.
+
+##### Scenario suite (single run)
 
 | What | Where |
 | --- | --- |
 | **Scenario manifest** (JSONL; regenerated from **`NpcContentRegistry`**) | `tools/convo/scenarios/manifest.jsonl` |
-| **Regenerate manifest** (overwrite) | Unity menu **Tools → Lore Legacy → NPC LLM → Overwrite scenario manifest**, or batch: `-executeMethod LoreLegacyMonsters.Editor.NpcLlmScenarioManifestGenerator.ExportManifestToDefaultPath` |
-| **Run all scenarios against a live endpoint** | `.\scripts\Invoke-NpcLlmScenarioSuite.ps1` (defaults match **`Invoke-UnityBatchTask`** Unity path); optional `-ManifestPath` for a custom JSONL |
-| **Unattended / agent loop (“Start Improvements”)** | `.\scripts\Start-Improvements.ps1` — edit-tests → manifest export → LLM suite (with retries) → optional steam-build; writes `Artifacts/LlmConvo/improvement_runs/`. Use `-SkipSteamBuild` while iterating. |
-| **Batch entry only** (after setting env vars) | `-executeMethod LoreLegacyMonsters.Editor.NpcLlmScenarioBatch.RunScenarioSuiteBatch`; requires **`-batchmode`** and **`RUN_NPC_LLM_SCENARIO_SUITE=1`** |
+| **Regenerate manifest** | Unity menu **Tools → Lore Legacy → NPC LLM → Overwrite scenario manifest**, or batch: `-executeMethod LoreLegacyMonsters.Editor.NpcLlmScenarioManifestGenerator.ExportManifestToDefaultPath` |
+| **Run all scenarios against a live endpoint** | `.\scripts\Invoke-NpcLlmScenarioSuite.ps1` (optional `-ManifestPath`) |
 | **Per-scenario + rollup artifacts** | `Artifacts/LlmConvo/scenarios/<id>.json`, `run_summary.json` |
-| **Overnight / many full passes** | `.\scripts\Invoke-NpcLlmScenarioSuiteMany.ps1 -Iterations 120 -CooldownSecondsBetweenRuns 90` → line log `Artifacts/LlmConvo/nightly-rollups/nightly-batch-line.log`, per-iter `run_summary_*.json`. First iteration exports manifest; later ones use **`-SkipManifestExport`** on the single-run script (omit with **`-ExportManifestEveryRun`**). Detach: `Start-Process powershell.exe … -File …\Invoke-NpcLlmScenarioSuiteMany.ps1 …` |
+| **Batch entry only** | `-executeMethod LoreLegacyMonsters.Editor.NpcLlmScenarioBatch.RunScenarioSuiteBatch` with **`-batchmode`** and **`RUN_NPC_LLM_SCENARIO_SUITE=1`** |
+| **Many iterations (older nightly helper)** | `.\scripts\Invoke-NpcLlmScenarioSuiteMany.ps1` → `Artifacts/LlmConvo/nightly-rollups/` |
 
-**Environment**: endpoint resolution follows **`NpcLlmDevEndpointResolver`** (same family as CLI/dev tests—e.g. **`OLLAMA_HOST`**, **`NPC_LLM_TEST_*`** overrides). Optionally set **`NPC_LLM_SCENARIO_MANIFEST`** to a full path if you do not use the default manifest location.
+**Environment**: **`NpcLlmDevEndpointResolver`** (`OLLAMA_HOST`, **`NPC_LLM_TEST_*`**, default **`http://127.0.0.1:11434/v1/chat/completions`**). Optional **`NPC_LLM_SCENARIO_MANIFEST`** for a non-default manifest path. Start Ollama (`ollama serve` or tray app) before any live suite.
 
-Keep this suite **local or nightly**: live LLM batches are slow and flaky, so **`RUN_NPC_LLM_SCENARIO_SUITE` is intentionally off unless you opt in.**
+Keep live LLM batches **local or overnight**—**`RUN_NPC_LLM_SCENARIO_SUITE` is off unless you opt in.**
 
-**Automated gates** (scenario JSON): coach-scaffolding leaks; unparsed **`[[command:…]]`** markers left in HUD text (unless **`allowRawCommandsHud`**); `forbidSubstringsPipe` / `forbidRegexPipe`; loose **`maxParagraphs`**. Offline unit coverage includes **`NpcLlmDisplayPipeline`**, **`NpcLlmScenarioEvaluator`**, and **`NpcLlmCoachHudLeakTests`** (Edit Mode suite; **no network**).
+**Automated gates**: per-scenario `forbidSubstringsPipe` / `forbidRegexPipe` / `maxParagraphs`; global policy in **`NpcLlmScenarioEvaluator`** (wiki voice, exam UI, meta-AI, walkthrough/tutorial copy, coach leaks, etc.). Offline tests: **`NpcLlmDisplayPipeline`**, **`NpcLlmScenarioEvaluator`**, **`NpcLlmHudQualityRegressionTests`**, **`NpcLlmCoachHudLeakTests`** (Edit Mode; no network).
 
-**Implementation note**: the suite runner performs HTTP completions **on the Unity main thread synchronously** (not `EditorApplication.update`) so **`RunScenarioSuiteBatch` completes before `-quit`** and artifacts are written. **Up to ten completion passes per scenario** (**`elder_mira__greet`** and **`rival_corin__topic_b`** get up to **fourteen**—first-row Ollama warmup and empty-completion hotspot—with extra temperature nudge and backoff on late passes). Each pass raises **`temperature`**, **`max_tokens`**, and spacing between tries so local runners (especially Ollama) are less likely to return burst empty **`content: ""`**. Retries continue until the HUD parses, passes automated checks, and is long enough to show. **`Invoke-NpcLlmScenarioSuite.ps1 -ContinueOnFailure`** exits with Unity’s code without throwing (used by **`Start-Improvements.ps1`**). Unity exits with **`0`** only when **every scenario passes**.
+**Suite runner notes**: HTTP on the Unity main thread so batch **`-quit`** writes artifacts; multiple completion passes per scenario with temperature/token backoff for Ollama empty replies. Unity exits **`0`** only when every scenario passes.
+
+##### `Start-Improvements.ps1` (one full pipeline pass)
+
+From repo root:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\Start-Improvements.ps1
+```
+
+Steps: **Edit Mode tests** → **manifest export** → **LLM scenario suite** (retries) → optional **steam-build** → `Artifacts/LlmConvo/improvement_runs/report_<stamp>.md` and **`latest.json`**. A **cross-process mutex** avoids colliding with scheduled tasks or watchdog runs.
+
+| Exit code | Meaning |
+| --- | --- |
+| **0** | All phases green |
+| **1** | Edit Mode tests or manifest export failed |
+| **2** | LLM suite failed (`llmFailures` / `evalFailures` in `run_summary.json`) |
+| **3** | Steam build failed |
+| **4** | LLM suite skipped (no Ollama listener) |
+| **5** | Mutex wait timeout |
+
+Useful flags:
+
+- **`-SkipSteamBuild`** — faster iteration while tuning prompts (default for long soaks).
+- **`-SkipLlmSuite`** — tests + manifest only.
+- **`-SteamDespiteLlmSuiteFailure`** — run Steam when tests + manifest passed but suite failed or was skipped (exit **2** or **4**).
+- **`-MaxUnityLockWaitMinutes`** (default **30**) — wait for other Unity processes before batch.
+- **`-SkipUnityProcessIdleWait`** — do not wait for all `Unity.exe` to exit (risky if the **same project** is open in the Editor).
+- **`-DisableImprovementMutex`** — only when you know no other improvement job is running.
+
+Close the **Unity Editor** on this project if batch reports a project lock or lock-wait timeout.
+
+##### `Run-ImprovementsWatchdog.ps1` (wall-clock soak)
+
+Repeats **`Start-Improvements.ps1`** until **`DurationMinutes`** elapses. Appends one JSON line per iteration to **`Artifacts/LlmConvo/improvement_runs/watchdog_<stamp>.ndjson`**.
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\Run-ImprovementsWatchdog.ps1 `
+    -DurationMinutes 600 -SkipSteamBuild -ContinueOnFailure
+```
+
+- **`-ContinueOnFailure`** — keep soaking after a non-zero iteration (typical for overnight runs).
+- **`-SkipSteamBuild`** — recommended for multi-hour loops.
+
+##### `Run-SubjectiveWritingAgentLoop.ps1` (Ollama proposals only)
+
+Posts capped excerpts (story bible + prompt/evaluator/registry snippets) to Ollama on a timer; saves **`Artifacts/LlmConvo/writing_agent/proposal_*_iterN.md`** and **`writing_agent_<stamp>.ndjson`**. Expects **JSON-only** model replies (`branch`: GLOBAL \| NPC \| EVAL \| NO_EDIT). **Does not edit the repo**—merge proposals manually, then run **`Start-Improvements.ps1`**.
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\Run-SubjectiveWritingAgentLoop.ps1 `
+    -DurationMinutes 240 -CycleSeconds 720
+```
+
+##### Windows scheduled task (optional)
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\Register-LoreImprovementsScheduledTask.ps1 -IntervalMinutes 20
+```
+
+Registers **`LoreLegacyMonsters_NPC_Improvements`** to run **`Start-Improvements.ps1`** on an interval (Steam skipped by default). **`-Unregister`** removes it.
+
+##### Subjective tuning checklist (what to edit)
+
+After reading failing **`Artifacts/LlmConvo/scenarios/<id>.json`** or playing a scene:
+
+1. **`Assets/Scripts/World/NpcContentRegistry.cs`** — per-NPC `LlmPrompt` / `IdentitySummary` (voice, anti-briefing, role POV).
+2. **`Assets/Scripts/Dialog/Llm/NpcLlmPromptRules.cs`** — global safety + tone (no wiki, exam UI, meta-AI, walkthrough voice).
+3. **`Assets/Editor/NpcLlmScenarioManifestGenerator.cs`** — scenario flows, `forbidSubstringsPipe` / `forbidRegexPipe` when a pattern is NPC-specific.
+4. **`Assets/Scripts/Dialog/Llm/NpcLlmScenarioEvaluator.cs`** — global HUD rejects for new failure modes.
+5. **`Assets/Scripts/Tests/NpcLlmHudQualityRegressionTests.cs`** — lock new evaluator rules without a live LLM.
+6. **`docs/story_bible.md`** — cast intent and themes (avoid spoiling twist architecture as player-facing fact).
+7. Regenerate **`tools/convo/scenarios/manifest.jsonl`**, then **`Start-Improvements.ps1`** until **`latest.json`** shows **`exitCode: 0`** and **`run_summary.json`** has **`llmFailures: 0`**, **`evalFailures: 0`**.
+
+Cursor agents: say **Start Improvements** to run the pipeline (see **`.cursor/rules/start-improvements.mdc`**).
 
 ## Architecture Overview
 
